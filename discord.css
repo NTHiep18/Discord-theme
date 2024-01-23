@@ -1,0 +1,633 @@
+/**
+ * @name ClearVision
+ * @author ClearVision Team
+ * @version 6.1.0
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.gitlab.io
+ * @invite dHaSxn3
+ */
+
+/* Credits to Zerthox for making the original theme. */
+
+/* IMPORT CSS */
+@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+
+@keyframes appear {
+	from {transform: scaleX(0%);}
+	to {transform: scaleX(100%);}
+}
+
+/* SETTINGS */
+:root {
+	/* ACCENT COLORS */
+	--main-color: #2608d1; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+	--main-rgb: 38, 8, 209;
+	--second-color: 3, 2, 51;
+	--hover-color: #0a2af7; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+	--success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+	--danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+	
+	/* Customization Patch */
+	--channel-unread: #ffffff; /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+	--channel-color:  rgba(255,255,255,0.4); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+	--channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
+	--muted-color: rgba(255,255,255,0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+	--url-color: rgb(30, 144, 255); /*The color of url links [default: var(--main-color)]*/     
+
+	/* STATUS COLORS */
+	--online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
+	--idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+	--dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+	--streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
+	--offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+
+	/* GENERAL */
+	--main-font: 'Borda 3'; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
+	--code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
+	--text-normal: rgb(220, 221, 222); /* color of default discord text */
+	--text-muted:  rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
+	--channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
+	--members-width: 240px; /* member list width [default: 240px] */
+
+	/* APP BACKGROUND */
+	--background-shading: 120%; /* app background shading (0 for complete smoothness) [default: 100%] */
+	--background-overlay: rgba(0, 0, 0, 0.0); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
+	--background-image: linear-gradient(135deg,  #000428, #005baa, #000428); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+	--background-position: center; /* app background position [default: center] */
+	--background-size: cover; /* app background size [default: cover] */
+	--background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
+	--background-attachment: fixed; /* app background attachment [default: fixed] */
+	--background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
+	--background-contrast: 100%; /* app background contrast [default: 100%] */
+	--background-saturation: 100%; /* app background saturation [default: 100%] */
+	--background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
+	--background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
+	--background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
+	--background-blur: 0px; /* app background blur [default: 0px] */
+	
+	/* HOME BUTTON ICON */
+	--home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
+	--home-position: center; /* home button icon position [default: center] */
+	--home-size: 40px; /* home button icon size [default: 40px] */
+	
+	/* MODAL BACKDROP */
+	--backdrop-overlay: rgba(0, 0, 0, 0.6); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
+	--backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(---background-image)] */
+	--backdrop-position: var(--background-position); /* modal backdrop position [default: var(---background-position)] */
+	--backdrop-size: var(--background-size); /* modal backdrop size [default: var(---background-size)] */
+	--backdrop-repeat: var(--background-repeat); /* modal backdrop repeat [default: var(---background-repeat)] */
+	--backdrop-attachment: var(--background-attachment); /* modal backdrop attachment [default: var(--background-attachment)] */
+	--backdrop-brightness: var(--background-brightness); /* modal backdrop brightness (< 100% for darken, > 100% for lighten) [default: var(---background-brightness)] */
+	--backdrop-contrast: var(--background-contrast); /* modal backdrop contrast [default: var(---background-contrast)] */
+	--backdrop-saturation: var(--background-saturation); /* modal backdrop saturation [default: var(---background-saturation)] */
+	--backdrop-invert: var(--background-invert); /* modal backdrop invert (0 - 100%)  [default: var(---background-invert)] */
+	--backdrop-grayscale: var(--background-grayscale); /* modal backdrop grayscale ( 0 - 100%) [default: var(---background-grayscale)] */
+	--backdrop-sepia: var(--background-sepia); /* modal backdrop sepia (0 - 100%) [default: var(---background-sepia)] */
+	--backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
+	
+	/* USER POPOUT BACKGROUND */
+	--user-popout-overlay: rgba(0,0,0, .0);
+	--user-popout-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(---background-image)] */
+	--user-popout-position: var(--background-position); /* user popout background position [default: var(---background-position)] */
+	--user-popout-size: var(--background-size); /* user popout background size [default: var(---background-size)] */
+	--user-popout-repeat: var(--background-repeat); /* user popout background repeat [default: var(---background-repeat)] */
+	--user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
+	--user-popout-brightness: var(--background-brightness); /* user popout background brightness (< 100% for darken, > 100% for lighten) [default: var(---background-brightness)] */
+	--user-popout-contrast: var(--background-contrast); /* user popout background contrast [default: var(---background-contrast)] */
+	--user-popout-saturation: var(--background-saturation); /* user popout background saturation [default: var(---background-saturation)] */
+	--user-popout-invert: var(--background-invert); /* user popout background invert (0 - 100%) [default: var(---background-invert)] */
+	--user-popout-grayscale: var(--background-grayscale); /* user popout background grayscale (0 - 100%) [default: var(---background-grayscale)] */
+	--user-popout-sepia: var(--background-sepia); /* user popout background sepia (0 - 100%) [default: var(---background-sepia)] */
+	--user-popout-blur: (--background-blur); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
+	
+	/* USER MODAL BACKGROUND */
+	--user-modal-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(---background-image)] */
+	--user-modal-position: var(--background-position); /* user modal background position [default: var(---background-position)] */
+	--user-modal-size: var(--background-size); /* user modal background size [default: var(---background-size)] */
+	--user-modal-repeat: var(--background-repeat); /* user modal background repeat [default: var(---background-repeat)] */
+	--user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
+	--user-modal-brightness: var(--background-brightness); /* user modal background brightness (< 100% for darken, > 100% for lighten) [default: var(---background-brightness)] */
+	--user-modal-contrast: var(--background-contrast); /* user modal background contrast [default: var(---background-contrast)] */
+	--user-modal-saturation: var(--background-saturation); /* user modal background saturation [default: var(---background-saturation)] */
+	--user-modal-invert: var(--background-invert); /* user modal background invert (0 - 100%) [default: var(---background-invert)] */
+	--user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(---background-grayscale)] */
+	--user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(---background-sepia)] */
+	--user-modal-blur: (--background-blur); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
+	
+	/* THEME BD COLORS */
+	--bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
+	--bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
+	--bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+}
+
+.appMount_fae9dd .layers__1c917 {
+	background: linear-gradient(90deg, rgba(0, 0 ,0, 0.6), rgba(0, 0, 0, 0) 50%);
+}
+
+/* main chat */
+.chatContent__5dca8, .theme-dark .container_b181b6 {
+	background: transparent;
+}
+.group-spacing-16 .groupStart__56db5 {
+    margin-top: 0;
+	padding-top: 4px;
+}
+.cozy_f5c119.wrapper__09ecc {
+	margin-right: 8px;
+    margin-left: 72px;
+	padding-left: 0;
+	padding-bottom: 4px;
+}
+.avatar__08316 {
+	left: -56px;
+	margin-top: 0px;
+}
+.cozy_f5c119 .timestamp_cdbd93 {
+	left: -64px;
+}
+.newMessagesBar__8b6d7 {
+	background: var(--main-color);
+}
+.jumpToPresentBar__0ff7f {
+	background-color: var(--main-color);
+}
+.repliedMessage_e2bf4a:before {
+	margin-right: 0px;
+}
+.repliedMessage_e2bf4a {
+	padding-left: 8px;
+}
+.container__8ee50 {
+	background: rgba(0, 0, 0, 0.95);
+	box-shadow: none;
+}
+.scroller__1f96e::-webkit-scrollbar-thumb {
+	background: red;
+}
+
+/* hover message */
+.wrapper_c727b6 {
+    border-radius: 4px;
+    background: rgba(var(--second-color), 0.8);
+	outline: 1px solid var(--main-color);
+	margin-top: 8px;
+}
+.mouse-mode.full-motion .message__80c10 {
+	transition: 400ms;
+}
+.message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+	background: rgba(var(--second-color), 0.4);
+	backdrop-filter: blur(15px);
+}
+
+/* code block and attached files*/
+.theme-dark .attachment_f3cf2c,
+pre {
+	background: rgba(var(--second-color), 0.4);
+	border-color: var(--main-color);
+	backdrop-filter: blur(10px);
+}
+.footer__06f4b {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+/*avatar deco */
+.avatarDecoration__14b3c {
+	left: -60px;
+}
+
+/* message timer */
+.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
+	left: -72px;
+}
+
+/* external link thumbnail */
+.embedFull__8dc21 {
+    border-left: 4px solid var(--main-color) !important;
+    background: rgba(0,0,0,0.8);
+}
+
+/* thread start */
+.cozy_f5c119.hasThread__58ee2:after {
+	left: -36px !important;
+}
+
+/* server list */
+.layer__2efaa  .wrapper_a7e7a8 {
+	background-color: transparent;
+	width: 80px;
+	box-shadow: none;
+}
+.expandedFolderBackground__1bec6 {
+	background:rgba(255,255,255,0.15);
+}
+
+
+/* text input area */
+.divider_b9338f {
+	border-top: none;
+}
+.scrollerSpacer__9cd32 {
+    height: 12px;
+}
+.channelTextArea__56a36,
+.channelTextArea__56a36 .scrollableContainer__33e06 {
+    background: transparent;
+}
+.channelTextArea__56a36 .scrollableContainer__33e06 {
+	overflow-y: hidden;
+	padding: 0;
+}
+.placeholder__4bea5, .slateTextArea__0661c {
+    padding-left: 12px;
+	padding-top: 8px;
+}
+.cozy-3raOZG .header-23xsNx:after {
+    display: none;
+}
+.form__13a2c {
+	padding: 0 16px 0 8px;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+}
+.typing__6fd1d {
+	margin:0 0 2px 19.5px;
+}
+.markup_a7e664 {
+    color: rgb(255,255,255);
+    line-height: 1.25rem;
+}
+.channelTextArea__2e60f {
+    margin-bottom: 32px;
+	border: 2px var(--main-color) solid;
+	background: rgba(0, 0, 0, .2);
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
+}
+.attachButton_b1db83 {
+	height: 36px;
+}
+.attachWrapper__6354f {
+	margin-left: 15px;
+}
+.webkit__8d35a .buttons_ce5b56 {
+	margin-right: 0;
+	height: 36px;
+}
+.upload_c98ecb {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-right: 20px;
+}
+.channelAttachmentArea__740bf {
+	background: transparent;
+}
+.sansAttachButton__996a4 {
+	padding-left: 0px;
+}
+.channelTextArea__56a36 .textArea__74543.textAreaSlate_e0e383 {
+	height: 36px !important;
+	margin-left: 3px;
+	min-height: 0;
+}
+.textArea__74543 {
+	line-height: 1.25rem;
+}
+/* autocomplete emote pick */
+.chat__52833 .autocomplete_df266d {
+	border-radius: 8px;
+	bottom: calc(100% + 2px);
+	border: 2px rgba(var(--second-color)) solid;
+}
+.autocomplete_df266d .autocompleteInner_a0e6a1 {
+	backdrop-filter: blur(4px);
+}
+
+/* channel list */
+.sidebar_ded4b5 {
+	background-color: transparent;
+}
+.name__8d1ec {
+	opacity: 0.85;
+}
+.wrapper__7bcde.modeUnreadImportant_efb53e .link__95dc0 .linkTop_eaa673 .name__8d1ec {
+	text-shadow: none;
+}
+.wrapper__7bcde:hover .link__95dc0 {
+	background: rgb(var(--second-color), 0.4) !important;
+	border-left: 4px var(--main-color) solid;
+	border-radius: 4px;
+}
+.wrapper__7bcde:active {
+	transition: none;
+}
+.wrapper__7bcde {
+	padding: 0px 12px 0px 8px;
+}
+.wrapper__7bcde:before {
+	margin-right: 8px;
+}
+.link__95dc0::before, .link__95dc0::after {
+	border-radius: 0 4px 4px 0;
+}
+.modeSelected__487d6:not(:hover) .link__95dc0::before, .modeSelected__487d6:not(:hover) .link__95dc0::after {
+	border-radius: 4px;
+}
+.wrapper__7bcde:hover .link__95dc0::before, .wrapper__7bcde:hover .link__95dc0::after
+.wrapper__7bcde.modeMuted__0aeea:hover .wrapper__7bcde .mainContent-20q_Hp:before {
+	background: transparent;
+}
+.wrapper__7bcde.modeSelected__487d6 .wrapper__7bcde:after {
+	background: transparent;
+}
+.wrapper__7bcde.modeUnread_f74c03 .link__95dc0 .linkTop_eaa673 .name__8d1ec {
+	text-shadow: none;
+}
+/* member list */
+.membersWrap__90226 {
+	background: transparent;
+	backdrop-filter: blur(10px);
+}
+.members__9f47b {
+	background: transparent;
+}
+
+/* divider */
+.divider__8cf56 {
+	margin-right: 8px;
+}
+/* pins */
+.header_f5cc88, .messageGroupWrapper_f8c6e9 {
+	background-color: transparent;
+	border: none;
+}
+
+/* top bar */
+.base__3e6af .container__11d72 {
+	border-bottom: 1px var(--main-color) solid;
+	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.9));
+}
+
+/* search box */
+.theme-dark .container_d6dad3 {
+	background: rgba(0, 0, 0, 0.9);
+}
+.theme-dark .option-2KkUJO:after {
+	background: transparent;
+}
+.search-1FM8Qc .searchBar-zdmu7v {
+	background: transparent;
+	outline: 1px solid var(--main-color);
+}
+/* mentions */
+.mention,
+.theme-dark .wrapper_f46140 {
+    border: 1px var(--main-color) solid;
+    border-radius: 4px !important;
+	background: rgb(var(--second-color), 0.6) !important;
+	padding: 0px 2px;
+}
+.mentioned__58017 {
+	background: rgb(var(--second-color), 0.2) !important;
+}
+.mentioned__58017 > .contents_f41bb2,
+.mentioned__58017 > .container_dbadf5 {
+	padding-left: 8px;
+}
+.theme-dark .mention {
+	background-color: rgba(var(--second-color), 0.6);
+	color: var(--text-normal) !important;
+}
+
+/* server hover */
+.theme-dark .tooltip__01384.tooltipPrimary_e5c00d>.tooltipPointer_a79354 {
+    border-top-color: var(--main-color);
+	border-width: 6px;
+}
+/*and reaction hover */
+.theme-dark .tooltip__01384,
+.reactionTooltip__9384a {
+	border: 2px var(--main-color) solid;
+	border-radius: 8px;
+	background:rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(5px);
+	animation: appear 0.25s linear 0s 1 normal !important;
+}
+
+/* reaction */
+.reaction_fef95b {
+	background: rgba(255, 255, 255, .1);
+    border-radius: 4px;
+	border: none;
+	height: 24px !important;
+	width: 48px !important;
+	display: flex;
+	justify-content: center;
+}
+.reaction_fef95b.reactionMe__98f57 {
+	background: rgb(var(--second-color));
+	border: 2px var(--main-color) solid;
+	box-sizing: border-box;
+}
+.reaction_fef95b.reactionMe__98f5 .reactionCount_b49901 {
+	color: rgba(255, 255, 255, 0.8);
+}
+.reactions_fba1d8 {
+	padding-left: 6px;
+}
+
+/* right click menu */
+:not(.userPopoutOverlayBackground_d8afa4) > .menu_dc52c6 {
+	background-color: rgba(var(--second-color), 0.8);
+}
+:not(.userPopoutOverlayBackground_d8afa4) > .menu_dc52c6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  backdrop-filter: blur(10px);
+}
+.isBurstReactionPicker__428c0 {
+	box-shadow: none;
+}
+
+/* user popout */
+.userPopoutOverlayBackground_d8afa4, 
+.userProfileInner__8065b:before {
+	background-color: transparent !important;
+}
+.input__95bc4 {
+	box-shadow: none;
+	background: transparent;
+}
+.connectedAccountContainer-SlCC-S {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.input_d266e7 {
+	background: transparent;
+}
+.tabBarContainer-sCZC4w {
+	padding: 0;
+}
+.tabBar-2hXqzU {
+	gap: 2px;
+}
+.tabBarItem_b56b35 {
+	height: 35px;
+	line-height: 35px;
+}
+.tabBar-2hXqzU .item__48dda:after {
+	background: rgba(0, 0, 0, 0.5);
+}
+.popoutBanner__9f5b9, .profileBannerPremium__9ca8f {
+	display: none;
+}
+.roleCircle_bae511:before {
+	opacity: 0.5 !important;
+	z-index: -1;
+}
+.userProfileModalOuter__3fe6b.userProfileOuterUnthemed__48723 .userProfileModalInner__7c87d,
+.userProfileInnerThemedWithBanner_d5f991 {
+	background: var(--background-image);
+}
+.profileBanner__8414b, .popoutBannerPremium__942db {
+	background: transparent !important;
+	-webkit-mask: none;
+}
+.avatarPositionNormal__1797c, .avatarPositionPremiumBanner__1e83d {
+	top: 28px;
+}
+.bannerSVGWrapper__3e7b0 {
+	min-height: 60px !important;
+	height: 60px;
+}
+.role__631a3 {
+	z-index: 2;
+}
+
+/* channel thread list */
+.popout__24e32 {
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px var(--main-color) solid;
+	border-radius: 4px;
+}
+
+/* spoilers */
+.spoilerMarkdownContent__2b8f8 {
+    border: 1px var(--main-color) solid;
+    border-radius: 4px;
+	padding: 1px 4px;
+	background-color: rgb(var(--second-color));
+}
+
+/* new pill */
+.unreadPill__715fc {
+	padding-top: 2px;
+	top: -7px;
+}
+.theme-light {
+	--text-normal: rgb(220, 221, 222);
+	--header-primary: var(--text-normal);
+}
+.divider_b9338f.isUnread__6f880, .divider_b9338f:has(.content_d67847) {
+	background: transparent;
+	border-top: 1px var(--main-color) solid;
+	margin: 0 0 4px 72px;
+	top: 0 !important;
+	right: 4px;
+}
+
+/* window bar */
+.typeWindows__5fa63 {
+	box-shadow: none;
+	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.9));
+
+}
+
+/* why tf is the editor behind the window bar whose z-index is set to 3001*/
+#floating-editor-window {
+	z-index: 3002;
+	max-width: 800px;
+	width: 100%;
+}
+#bd-editor-controls {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+/* day change notif */
+.content_d67847 {
+	border-radius: 4px;
+	color: var(--text-normal);
+	border: 2px solid var(--main-color);
+	background: rgb(var(--second-color)) !important;
+	line-height: 12px;
+	margin-bottom: 8px;
+}
+.content_d67847::before {
+	display: none;
+}
+.content_d67847::after {
+	display: none;
+}
+
+/* top search bar  and its nearby buttons */
+.toolbar__88c63 > * {
+	outline: 1px solid rgba(var(--main-rgb), 0.7);
+	margin:0 4px;
+	background: transparent;
+	border-radius: 4px;
+}
+.search_ac353c .searchBar_e0c60b {
+	background: transparent;
+}
+.focused_ddee54 .searchBar_e0c60b,
+.open_d3ab4e .searchBar_e0c60b,
+.toolbar__88c63 .iconWrapper_af9215.selected_be2668,
+.toolbar__88c63 .iconWrapper_af9215.icon__4cb88.popout-open {
+	background: rgba(var(--second-color), 0.7);
+}
+
+/* auto hidden member list */
+.container_b2ce9c, .membersWrap__90226:not(.container_b2ce9c > .membersWrap__90226) {
+	transition: 0.1s linear;
+	margin-right: -180px;
+}
+.container_b2ce9c:hover, .membersWrap__90226:not(.container_b2ce9c > .membersWrap__90226):hover {
+	margin-right: 0;
+}
+
+/* setting menu */
+.sidebar__9e3e2 .side_b4b3f6 {
+	background: rgba(var(--second-color), 0.8);
+	backdrop-filter: blur(10px);
+	padding: 0px 8px;
+}
+.contentColumnDefault_c66386, .contentColumnWide_f71d35 {
+	background-color: rgba(var(--second-color), 0.8);
+	margin: 40px 0;
+	padding: 40px;
+	backdrop-filter: blur(10px);
+	max-width: calc(100% - 200px);
+	border-radius: 8px;
+}
+.contentRegionScroller__86c79 .toolsContainer_f5d55d {
+	margin-left: 10px;
+	padding-top: 40px;
+	border-radius: 4px;
+}
+.contentRegionScroller__86c79 .tools_c0ff70 {
+	padding: 8px;
+	border-radius: 4px;
+	background: rgba(var(--second-color), 0.8);
+	backdrop-filter: blur(10px);
+}
+.peopleColumn__51df3, .nowPlayingColumn_f5023f {
+	background: transparent;
+}
+
+/* bot left corner */
+.panels__58331>:first-child {
+	box-shadow: none;
+}
