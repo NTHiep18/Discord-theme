@@ -240,8 +240,9 @@ pre {
 	padding: 0;
 }
 .placeholder__4bea5, .slateTextArea__0661c {
-    padding-left: 12px;
+    	padding-left: 12px;
 	padding-top: 8px;
+	padding-bottom: 8px;
 }
 .cozy-3raOZG .header-23xsNx:after {
     display: none;
@@ -285,6 +286,7 @@ pre {
 	padding-left: 0px;
 }
 .channelTextArea__56a36 .textArea__74543.textAreaSlate_e0e383 {
+	height: auto !important;
 	margin-left: 3px;
 	min-height: 36px !important;
 }
