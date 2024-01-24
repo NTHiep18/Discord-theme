@@ -253,7 +253,10 @@ pre {
 	backdrop-filter: blur(10px);
 }
 .typing__6fd1d {
-	margin:0 6px 2px 13.5px;
+	margin:0 0 2px 13.5px;
+}
+.base__512ed .ellipsis__00ccd {
+	margin: 0 6px 0 0;
 }
 .markup_a7e664 {
     color: rgb(255,255,255);
