@@ -285,9 +285,8 @@ pre {
 	padding-left: 0px;
 }
 .channelTextArea__56a36 .textArea__74543.textAreaSlate_e0e383 {
-	height: 36px !important;
 	margin-left: 3px;
-	min-height: 0;
+	min-height: 36px !important;
 }
 .textArea__74543 {
 	line-height: 1.25rem;
