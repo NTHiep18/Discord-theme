@@ -72,7 +72,7 @@
 	--home-size: 40px; /* home button icon size [default: 40px] */
 	
 	/* MODAL BACKDROP */
-	--backdrop-overlay: rgba(0, 0, 0, 0.6); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
+	--backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
 	--backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(---background-image)] */
 	--backdrop-position: var(--background-position); /* modal backdrop position [default: var(---background-position)] */
 	--backdrop-size: var(--background-size); /* modal backdrop size [default: var(---background-size)] */
@@ -84,7 +84,7 @@
 	--backdrop-invert: var(--background-invert); /* modal backdrop invert (0 - 100%)  [default: var(---background-invert)] */
 	--backdrop-grayscale: var(--background-grayscale); /* modal backdrop grayscale ( 0 - 100%) [default: var(---background-grayscale)] */
 	--backdrop-sepia: var(--background-sepia); /* modal backdrop sepia (0 - 100%) [default: var(---background-sepia)] */
-	--backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
+	--backdrop-blur: 5px; /* modal backdrop blur [default: var(--background-blur)] */
 	
 	/* USER POPOUT BACKGROUND */
 	--user-popout-overlay: rgba(0,0,0, .0);
