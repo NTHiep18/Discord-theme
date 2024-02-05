@@ -492,9 +492,8 @@ pre {
 	opacity: 0.5 !important;
 	z-index: -1;
 }
-.userProfileModalOuter__3fe6b.userProfileOuterUnthemed__48723 .userProfileModalInner__7c87d,
-.userProfileInnerThemedWithBanner_d5f991 {
-	background: var(--background-image);
+.userPopoutInner_f545a3 {
+	background: var(--background-image) !important;
 }
 .profileBanner__8414b, .popoutBannerPremium__942db {
 	background: transparent !important;
