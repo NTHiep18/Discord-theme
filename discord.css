@@ -232,14 +232,14 @@ pre {
     height: 12px;
 }
 .channelTextArea__56a36 .scrollableContainer__33e06 {
-    border: 2px var(--main-color) solid;
-    background: rgba(0, 0, 0, .2);
-    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
-    overflow-y: hidden;
-    padding: 0;
+    background: transparent;
+}
+.channelTextArea__56a36 .scrollableContainer__33e06 {
+	overflow-y: hidden;
+	padding: 0;
 }
 .placeholder__4bea5, .slateTextArea__0661c {
-    padding-left: 12px;
+    	padding-left: 12px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
