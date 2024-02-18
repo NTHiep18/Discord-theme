@@ -468,7 +468,8 @@ pre {
 }
 
 /* user popout */
-.userPopoutOverlayBackground_d8afa4, 
+.userPopoutOverlayBackground_d8afa4,
+.userProfileModalOuter__3fe6b.userProfileOuterUnthemed__48723 .userProfileModalInner__7c87d, 
 .userProfileInner__8065b:before {
 	background-color: transparent !important;
 }
@@ -504,6 +505,9 @@ pre {
 }
 .userPopoutInner_f545a3 {
 	background: var(--background-image) !important;
+}
+.topSection_dfb73b {
+	margin-top: 24px;
 }
 .profileBanner__8414b, .popoutBannerPremium__942db {
 	background: transparent !important;
