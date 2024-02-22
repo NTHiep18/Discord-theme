@@ -496,6 +496,11 @@ pre {
 .tabBar-2hXqzU .item__48dda:after {
 	background: rgba(0, 0, 0, 0.5);
 }
+.top__592a7 .item__48dda {
+	flex-grow: 1;
+	flex-basis: 0;
+	text-align: center;
+}
 .popoutBanner__9f5b9, .profileBannerPremium__9ca8f, .banner__6d414 {
 	display: none;
 }
