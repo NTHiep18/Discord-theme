@@ -433,7 +433,6 @@ pre {
     border-radius: 4px;
 	border: none;
 	height: 24px !important;
-	width: 48px !important;
 	display: flex;
 	justify-content: center;
 }
@@ -445,6 +444,10 @@ pre {
 .reaction_fef95b.reactionMe__98f5 .reactionCount_b49901 {
 	color: rgba(255, 255, 255, 0.8);
 }
+.reactionCount_b49901 {
+	min-width: unset !important;
+}
+
 .reactions_fba1d8 {
 	padding-left: 6px;
 }
