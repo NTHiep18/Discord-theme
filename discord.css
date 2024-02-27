@@ -476,6 +476,9 @@ pre {
 .userProfileInner__8065b:before {
 	background-color: transparent !important;
 }
+.userProfileOuterThemed__6eb84 {
+	background-image: var(--background-image);
+}
 .input__95bc4 {
 	box-shadow: none;
 	background: transparent;
