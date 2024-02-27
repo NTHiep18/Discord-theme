@@ -475,7 +475,7 @@ pre {
 .userProfileInnerThemedWithBanner_d5f991,
 .userProfileModalOuter__3fe6b.userProfileOuterUnthemed__48723 .userProfileModalInner__7c87d, 
 .userProfileInner__8065b:before {
-	background-color: transparent !important;
+	background: transparent !important;
 }
 .userProfileOuterThemed__6eb84 {
 	background-image: var(--background-image);
