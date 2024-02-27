@@ -162,6 +162,10 @@
 	background: rgba(0, 0, 0, 0.95);
 	box-shadow: none;
 }
+/* main chat scrollbar */
+.scroller__1f96e::-webkit-scrollbar {
+    width: 12px;
+}
 
 /* hover message */
 .wrapper_c727b6 {
