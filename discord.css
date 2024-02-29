@@ -478,7 +478,7 @@ pre {
     background: transparent !important;
 }
 .overlayBackground__86b78 {
-background-color: rgba(var(--second-color), 0.6);
+background-color: rgba(var(--second-color), 0.6) !important;
 }
 .input__95bc4 {
 	box-shadow: none;
