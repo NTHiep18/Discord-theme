@@ -471,10 +471,10 @@ pre {
 }
 
 /* user popout */
-.userProfileModalOuter__3fe6b {
+.userProfileOuter__46bb7 {
     background: var(--background-image) !important
 }
-.userProfileModalInner__7c87d, .userProfileModalInner__7c87d:before {
+.userProfileInner__8065b, .userProfileInner__8065b:before {
     background: transparent !important;
 }
 .input__95bc4 {
