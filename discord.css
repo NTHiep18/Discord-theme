@@ -477,6 +477,9 @@ pre {
 .userProfileInner__8065b, .userProfileInner__8065b:before {
     background: transparent !important;
 }
+.overlayBackground__86b78 {
+background-color: rgba(0, 0, 0, 0.5);
+}
 .input__95bc4 {
 	box-shadow: none;
 	background: transparent;
