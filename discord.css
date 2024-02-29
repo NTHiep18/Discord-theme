@@ -471,14 +471,11 @@ pre {
 }
 
 /* user popout */
-.userPopoutOverlayBackground_d8afa4,
-.userProfileInnerThemedWithBanner_d5f991,
-.userProfileModalOuter__3fe6b.userProfileOuterUnthemed__48723 .userProfileModalInner__7c87d, 
-.userProfileInner__8065b:before {
-	background: transparent !important;
+.userProfileModalOuter__3fe6b {
+    background: var(--background-image) !important
 }
-.userProfileOuterThemed__6eb84 {
-	background-image: var(--background-image);
+.userProfileModalInner__7c87d, .userProfileModalInner__7c87d:before {
+    background: transparent !important;
 }
 .input__95bc4 {
 	box-shadow: none;
