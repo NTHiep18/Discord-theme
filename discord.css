@@ -213,6 +213,9 @@ pre {
 .cozy_f5c119.hasThread__58ee2:after {
 	left: -36px !important;
 }
+.theme-dark .container__590e2 .spineBorder_bdec8b {
+	left: 28px;
+}
 .spine__88e6d path {
     fill: none;
 }
@@ -225,6 +228,10 @@ pre {
     left: 28px;
     top: 0;
 }
+.containerDefault__3187b > .spine__88e6d:nth-child(2) {
+	display: none;
+}
+	
 
 /* server list */
 .layer__2efaa  .wrapper_a7e7a8 {
