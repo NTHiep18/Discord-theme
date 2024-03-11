@@ -344,11 +344,11 @@ pre {
 }
 .wrapper__7bcde:hover .link__95dc0 {
 	background: rgb(var(--second-color), 0.8) !important;
-	border-left: 2px var(--main-color) solid;
+	border: 2px var(--main-color) solid;
 }
 modeSelected__487d6 .link__95dc0 {
-	border-radius: 2px var(--main-color) solid;
 	background: rgb(var(--second-color), 0.4) !important;
+	border: 2px var(--main-color) solid;
 }
 .wrapper__7bcde {
 	padding: 0px 12px 0px 8px;
