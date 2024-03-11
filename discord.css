@@ -343,12 +343,15 @@ pre {
 	border-radius: 4px;
 }
 .wrapper__7bcde:hover .link__95dc0 {
-	background: rgb(var(--second-color), 0.8) !important;
+	background: rgb(var(--second-color), 0.4);
 	border: 2px var(--main-color) solid;
 }
-modeSelected__487d6 .link__95dc0 {
-	background: rgb(var(--second-color), 0.4) !important;
+.modeSelected__487d6 .link__95dc0 {
+	background: rgb(var(--second-color), 0.4);
 	border: 2px var(--main-color) solid;
+}
+.modeSelected__487d6.wrapper__7bcde:hover .link__95dc0 {
+	background: rgb(var(--second-color), 0.8);
 }
 .wrapper__7bcde {
 	padding: 0px 12px 0px 8px;
