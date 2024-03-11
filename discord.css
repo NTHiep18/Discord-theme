@@ -340,11 +340,15 @@ pre {
 .link__95dc0 {
 	padding: 4px 6px;
 	border: 2px transparent solid;
+	border-radius: 4px;
 }
 .wrapper__7bcde:hover .link__95dc0 {
-	background: rgb(var(--second-color), 0.4) !important;
+	background: rgb(var(--second-color), 0.8) !important;
 	border-left: 2px var(--main-color) solid;
-	border-radius: 4px;
+}
+modeSelected__487d6 .link__95dc0 {
+	border-radius: 2px var(--main-color) solid;
+	background: rgb(var(--second-color), 0.4) !important;
 }
 .wrapper__7bcde {
 	padding: 0px 12px 0px 8px;
@@ -365,8 +369,9 @@ pre {
 .wrapper__7bcde.modeMuted__0aeea:hover .wrapper__7bcde .mainContent-20q_Hp:before {
 	background: transparent;
 }
-.wrapper__7bcde.modeSelected__487d6 .wrapper__7bcde:after {
+.wrapper__7bcde.modeSelected__487d6 .link__95dc0:after {
 	background: transparent;
+	animation: none;
 }
 .wrapper__7bcde.modeUnread_f74c03 .link__95dc0 .linkTop_eaa673 .name__8d1ec {
 	text-shadow: none;
