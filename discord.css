@@ -343,11 +343,11 @@ pre {
 	border-radius: 4px;
 }
 .wrapper__7bcde:hover .link__95dc0 {
-	background: rgb(var(--second-color), 0.4);
+	background: rgb(var(--second-color), 0.4) !important;
 	border: 2px var(--main-color) solid;
 }
 .modeSelected__487d6 .link__95dc0 {
-	background: rgb(var(--second-color), 0.4);
+	background: rgb(var(--second-color), 0.4) !important;
 	border: 2px var(--main-color) solid;
 }
 .modeSelected__487d6.wrapper__7bcde:hover .link__95dc0 {
@@ -361,9 +361,6 @@ pre {
 }
 .wrapper__7bcde:before {
 	margin-right: 8px;
-}
-.link__95dc0::before, .link__95dc0::after {
-	border-radius: 0 4px 4px 0;
 }
 .modeSelected__487d6:not(:hover) .link__95dc0::before, .modeSelected__487d6:not(:hover) .link__95dc0::after {
 	border-radius: 4px;
