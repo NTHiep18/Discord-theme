@@ -343,7 +343,7 @@ pre {
 	border-radius: 4px;
 }
 .wrapper__7bcde:hover .link__95dc0 {
-	background: linear-gradient(90deg, rgba(var(--main-rgb), 0.6), rgba(var(--second-color), 0.6)) !important;
+	background: linear-gradient(135deg, rgba(var(--main-rgb), 0.6), rgba(var(--second-color), 0.6)) !important;
 	border: 2px rgba(var(--main-rgb), 0.6) solid;
 }
 .modeSelected__487d6 .link__95dc0 {
