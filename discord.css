@@ -347,7 +347,7 @@ pre {
 	border: 2px rgba(var(--main-rgb), 0.6) solid;
 }
 .modeSelected__487d6 .link__95dc0 {
-	background: linear-gradient(90deg, var(--main-color), rgb(var(--second-color))) !important;
+	background: linear-gradient(135deg, var(--main-color), rgb(var(--second-color))) !important;
 	border: 2px var(--main-color) solid;
 }
 .wrapper__7bcde {
