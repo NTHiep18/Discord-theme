@@ -320,11 +320,12 @@ pre {
 /* autocomplete emote pick */
 .chat__52833 .autocomplete_df266d {
 	border-radius: 8px;
-	bottom: calc(100% + 2px);
-	border: 2px rgba(var(--second-color)) solid;
+	border: 2px var(--main-color) solid;
 }
-.autocomplete_df266d .autocompleteInner_a0e6a1 {
-	backdrop-filter: blur(4px);
+.autocomplete_df266d [aria-selected=true].clickable_f8437d .base__76a71, .autocomplete_df266d [aria-disabled=false].clickable_f8437d .base__76a71:hover {
+    background: linear-gradient(90deg, var(--main-color), rgb(var(--second-color)));
+    padding: 2px 6px;
+    border: 2px var(--main-color) solid;
 }
 
 /* channel list */
