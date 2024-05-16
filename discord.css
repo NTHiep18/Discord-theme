@@ -521,12 +521,12 @@ background-color: transparent !important;
 	flex-grow: 1;
 	flex-basis: 0;
 	text-align: center;
-	border-color: var(--text-muted);
-	color: var(--text-muted);
+	border-color: var(--text-muted) !important;
+	color: var(--text-muted) !important;
 }
 .selected_a523ff .item__48dda {
-	border-color: var(--text-normal);
-	color: var(--text-normal);
+	border-color: var(--text-normal) !important;
+	color: var(--text-normal) !important;
 }
 .note__7a4f4 {
 	margin: 0;
