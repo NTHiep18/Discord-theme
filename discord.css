@@ -524,7 +524,7 @@ background-color: transparent !important;
 	border-color: var(--text-muted) !important;
 	color: var(--text-muted) !important;
 }
-.selected_a523ff .top_fae1fa .item__48dda {
+.top_fae1fa .selected_a523ff.item__48dda {
 	border-color: var(--text-normal) !important;
 	color: var(--text-normal) !important;
 }
