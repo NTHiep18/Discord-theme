@@ -517,16 +517,17 @@ background-color: transparent !important;
 	height: 35px;
 	line-height: 35px;
 }
-.top_fae1fa .item__48dda {
+.overlayBackground__345c9 .top_fae1fa .item__48dda {
 	flex-grow: 1;
 	flex-basis: 0;
 	text-align: center;
-	border-color: var(--text-muted) !important;
+	border-color: transparent !important;
 	color: var(--text-muted) !important;
 }
-.top_fae1fa .selected_a523ff.item__48dda {
+.overlayBackground__345c9 .top_fae1fa .selected_a523ff.item__48dda {
 	border-color: var(--text-normal) !important;
 	color: var(--text-normal) !important;
+	background-color: rgba(var(--second-color), 0.6) !important;
 }
 .note__7a4f4 {
 	margin: 0;
