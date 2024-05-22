@@ -634,6 +634,10 @@ background-color: transparent !important;
 }
 .search_ac353c .searchBar__5a20a {
 	background: transparent;
+	box-shadow: none;
+}
+.search_ac353c .DraftEditor-root {
+	padding: 3px 0;
 }
 .focused__037a4 .searchBar__5a20a,
 .open_d3ab4e .searchBar__5a20a,
