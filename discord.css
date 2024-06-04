@@ -122,6 +122,7 @@
 	
 	/* fuck it */
 	--interactive-normal: var(--text-normal); /* why does discord force this shitty color on modal pop out */
+	--text-muted: var(--channel-color);
 }
 
 .appMount_c99875 .layers__1c917 {
