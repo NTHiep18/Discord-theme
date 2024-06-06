@@ -45,8 +45,9 @@
 	/* GENERAL */
 	--main-font: 'Borda 3'; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
 	--code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-	--text-normal: rgb(220, 221, 222) !important; /* color of default discord text */
-	--text-muted:  rgb(114, 118, 125) !important; /* color of default discord muted text (e.g.text found in input fields before typing).*/
+	--text-normal: rgb(220, 221, 222); /* color of default discord text */
+	--text-muted:  rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
+	--text-faded: rgb(114, 118, 125);
 	--channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
 	--members-width: 240px; /* member list width [default: 240px] */
 
@@ -519,7 +520,7 @@ background-color: transparent !important;
 	flex-basis: 0;
 	text-align: center;
 	border-color: transparent !important;
-	color: var(--text-muted);
+	color: var(--text-faded);
 }
 .overlayBackground__345c9 .top_fae1fa .selected_a523ff.item__48dda {
 	border-color: var(--text-normal) !important;
