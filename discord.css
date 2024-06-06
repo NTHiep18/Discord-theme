@@ -426,6 +426,9 @@ pre {
 	background-color: rgba(var(--second-color), 0.6);
 	color: var(--text-normal) !important;
 }
+.discriminator__9d9f2 {
+	color: var(--text-faded);
+}
 
 /* server hover */
 .theme-dark .tooltip__7b090.tooltipPrimary__51b23>.tooltipPointer_f7411c {
