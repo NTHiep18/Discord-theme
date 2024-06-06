@@ -426,7 +426,7 @@ pre {
 	background-color: rgba(var(--second-color), 0.6);
 	color: var(--text-normal) !important;
 }
-.discriminator__9d9f2 {
+.discriminator__9d9f2, .guildNick_d76c11 {
 	color: var(--text-faded);
 }
 
