@@ -537,8 +537,14 @@ background-color: transparent !important;
 	display: none;
 }
 .roleCircle__61ad8:before {
-	opacity: 0.5 !important;
+	opacity: 0.7 !important;
 	z-index: -1;
+}
+.roleRemoveButton__20c70 {
+	width: 4px;
+}
+.roleRemoveButtonCanRemove__3d3fa .roleRemoveButton__20c70 {
+	width: 12px;
 }
 .userPopoutInner_ac0960 {
 	background: var(--background-image) !important;
