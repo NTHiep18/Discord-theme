@@ -540,6 +540,12 @@ background-color: transparent !important;
 	opacity: 0.5 !important;
 	z-index: -1;
 }
+.roleNameOverflow__27401 {
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.roleIcon_aa2eb3 {
+	margin: 0 0 0 4px;
+}
 .userPopoutInner_ac0960 {
 	background: var(--background-image) !important;
 }
@@ -560,6 +566,7 @@ background-color: transparent !important;
 .role_d81130 {
 	z-index: 2;
 }
+\\
 
 /* channel thread list */
 .popout__24e32 {
