@@ -563,15 +563,19 @@ background-color: transparent !important;
 .role_f9575e {
 	z-index: 2;
 	position: relative;
+	background: none;
+	border: none;
 }
 .role_f9575e>:first-child {
 	margin: 0px;
+	width: 100%;
+	height: 100%;
 }
 .roleRemoveButton_f9575e {
 	z-index: -1;
 	width: 100%;
 	height: 100%;
-	right: 0;
+	left: -4px;
 	position: absolute;
 }
 .roleCircle_f9575e {
