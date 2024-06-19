@@ -541,6 +541,13 @@ background-color: transparent !important;
 	z-index: -1;
 }
 .roleRemoveButton_e4010c {
+.roleNameOverflow__27401 {
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.roleIcon_aa2eb3 {
+	margin: 0 0 0 4px;
+}
+.roleRemoveButton__20c70 {
 	width: 4px;
 }
 .roleRemoveButtonCanRemove_e4010c .roleRemoveButton_e4010c {
@@ -566,6 +573,7 @@ background-color: transparent !important;
 .role_f9575e {
 	z-index: 2;
 }
+\\
 
 /* channel thread list */
 .popout_c5b389 {
