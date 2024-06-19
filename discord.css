@@ -540,17 +540,8 @@ background-color: transparent !important;
 	opacity: 0.7 !important;
 	z-index: -1;
 }
-.roleRemoveButton_f9575e {
-	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-}
 .roleIcon_e4010c {
 	margin: 0 0 0 4px;
-}
-.roleRemoveButton_f9575e {
-	width: 4px;
-}
-.roleRemoveButtonCanRemove_e4010c .roleRemoveButton_f9575e {
-	width: 12px;
 }
 .userPopoutInner_c69a7b {
 	background: var(--background-image) !important;
@@ -571,8 +562,26 @@ background-color: transparent !important;
 }
 .role_f9575e {
 	z-index: 2;
+	position: relative;
 }
-\\
+.role_f9575e>:first-child {
+	margin: 05px;
+}
+.roleRemoveButton_f9575e {
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	right: 0;
+	position: absolute;
+}
+.roleCircle_f9575e {
+	width: 100%;
+	height: 100%;
+	border-radius: 0;
+}
+.roleName_f9575e {
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
 
 /* channel thread list */
 .popout_c5b389 {
