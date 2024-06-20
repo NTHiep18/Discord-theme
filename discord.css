@@ -585,7 +585,8 @@ background-color: transparent !important;
 }
 .roleName_f9575e {
 	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
-	padding: 2px;
+	padding: 6px;
+	margin-right: 0;
 }
 
 /* channel thread list */
