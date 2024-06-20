@@ -408,12 +408,12 @@ pre {
 	outline: 1px solid var(--main-color);
 }
 /* mentions */
-.mention,
-.theme-dark .wrapper_a7c28c {
+.wrapper_bf1b19 {
     border: 1px var(--main-color) solid;
     border-radius: 4px !important;
 	background: rgb(var(--second-color), 0.6) !important;
 	padding: 0px 2px;
+	color: var(--text-normal) !important;
 }
 .mentioned_d5deea {
 	background: rgb(var(--second-color), 0.2) !important;
@@ -421,10 +421,6 @@ pre {
 .mentioned_d5deea > .contents_ec86aa,
 .mentioned_d5deea > .container_b558d0 {
 	padding-left: 8px;
-}
-.theme-dark .mention {
-	background-color: rgba(var(--second-color), 0.6);
-	color: var(--text-normal) !important;
 }
 .discriminator_afed89, .guildNick_b26403 {
 	color: var(--text-faded);
@@ -589,6 +585,14 @@ text_dc9488 {
 	width: 100%;
 	height: 100%;
 	border-radius: 2px;
+}
+.roleCircle_f9575e:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 roleName_f9575e {
 	overflow: visible;
