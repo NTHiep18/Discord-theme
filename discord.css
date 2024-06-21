@@ -531,7 +531,7 @@ background-color: transparent !important;
 }
 .visibleContainer_d0a252.biteSize_d0a252,
 .invisibleContainer_d0a252.biteSize_d0a252{ 
-    opacity: 1;
+    opacity: 0;
     transition: 0.3s linear;
 }
 .clickable_cc54d6:hover + div .visibleContainer_d0a252.biteSize_d0a252,
