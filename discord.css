@@ -663,15 +663,16 @@ roleName_f9575e {
 }
 
 /* new pill */
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
 	padding-top: 2px;
 	top: -7px;
+    background-color: var(--main-color);
 }
-.theme-light {
-	--text-normal: rgb(220, 221, 222);
-	--header-primary: var(--text-normal);
+.unreadPillCapStroke_c2654d {
+    color: var(--main-color);
+    fill: var(--main-color);
 }
-.divider_fc5f50.isUnread_fc5f50, .divider_fc5f50:has(.content_fc5f50) {
+.divider_c2654d.isUnread_c2654d {
 	background: transparent;
 	border-top: 1px var(--main-color) solid;
 	margin: 0 0 4px 72px;
@@ -697,7 +698,7 @@ roleName_f9575e {
 }
 
 /* day change notif */
-.content_fc5f50 {
+.content_c2654d {
 	border-radius: 4px;
 	color: var(--text-normal);
 	border: 2px solid var(--main-color);
@@ -705,10 +706,10 @@ roleName_f9575e {
 	line-height: 12px;
 	margin-bottom: 8px;
 }
-.content_fc5f50::before {
+.content_c2654d::before {
 	display: none;
 }
-.content_fc5f50::after {
+.content_c2654d::after {
 	display: none;
 }
 
@@ -774,4 +775,7 @@ roleName_f9575e {
 /* bot left corner */
 .panels_a4d4d9>:first-child {
 	box-shadow: none;
+}
+.avatarWrapper_b2ca13 {
+    width: 100%;
 }
