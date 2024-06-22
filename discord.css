@@ -663,16 +663,16 @@ roleName_f9575e {
 }
 
 /* new pill */
-.unreadPill_c2654d {
+.unreadPill_fc5f50 {
 	padding-top: 2px;
 	top: -7px;
     background-color: var(--main-color);
 }
-.unreadPillCapStroke_c2654d {
+.unreadPillCapStroke_fc5f50 {
     color: var(--main-color);
     fill: var(--main-color);
 }
-.divider_c2654d.isUnread_c2654d {
+.divider_fc5f50.isUnread_fc5f50, .divider_fc5f50:has(.content_fc5f50) {
 	background: transparent;
 	border-top: 1px var(--main-color) solid;
 	margin: 0 0 4px 72px;
@@ -698,7 +698,7 @@ roleName_f9575e {
 }
 
 /* day change notif */
-.content_c2654d {
+.content_fc5f50 {
 	border-radius: 4px;
 	color: var(--text-normal);
 	border: 2px solid var(--main-color);
@@ -706,10 +706,10 @@ roleName_f9575e {
 	line-height: 12px;
 	margin-bottom: 8px;
 }
-.content_c2654d::before {
+.content_fc5f50:before {
 	display: none;
 }
-.content_c2654d::after {
+.content_fc5f50:after {
 	display: none;
 }
 
