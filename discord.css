@@ -470,15 +470,15 @@ pre {
 :not(.userPopoutOverlayBackground_c69a7b) > .menu_d90b3d, .container_ac201b {
 	background-color: rgba(var(--second-color), 0.8);
 }
-:not(.userPopoutOverlayBackground_c69a7b) > .menu_d90b3d::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  backdrop-filter: blur(10px);
+:not(.menus_d4e7c2) > .menu_d90b3d::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	backdrop-filter: blur(10px);
 }
 .isBurstReactionPicker__428c0 {
 	box-shadow: none;
