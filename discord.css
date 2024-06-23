@@ -626,7 +626,7 @@ background-color: transparent !important;
     background: rgba(0, 0, 0, 0.07);
     z-index: 1;
 }
-roleName_f9575e {
+.roleName_f9575e {
 	overflow: visible;
 }
 .roleNameOverflow_f9575e {
@@ -645,6 +645,12 @@ roleName_f9575e {
 }
 .defaultColor_a595eb {
 	color: #ffffff;
+}
+.avatar_bc9cc2 {
+	top: -36px;
+}
+.headerInner_bc9cc2 {
+	padding: 48px 16px 0;
 }
 
 /* channel thread list */
