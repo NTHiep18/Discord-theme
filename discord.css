@@ -658,6 +658,12 @@ background-color: transparent !important;
 .userTagUsername_c32acf,
 .text-xs\/semibold_dc00ef {
 	color: var(--text-default) !important;
+}
+.container_e5a42d {
+	background: linear-gradient(90deg, var(--main-color), rgb(var(--second-color))) !important;
+	outline: 2px solid var(--main-color);
+	border: none;
+}
 
 /* channel thread list */
 .popout_c5b389 {
