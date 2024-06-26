@@ -609,7 +609,7 @@ background-color: transparent !important;
 	position: absolute;
 }
 .roleRemoveButton_f9575e {
-	z-index: -1;
+	z-index: 1;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -629,6 +629,7 @@ background-color: transparent !important;
 }
 .roleName_f9575e {
 	overflow: visible;
+	z-index: 2;
 }
 .roleNameOverflow_f9575e {
 	text-shadow: 0 0 4px rgb(0, 0, 0);
