@@ -644,6 +644,8 @@ background-color: transparent !important;
 }
 .roleIcon_f9575e {
     margin: 0 0 0 6px;
+	position: relative;
+	z-index: 2;
 }
 .defaultColor_a595eb {
 	color: #ffffff;
