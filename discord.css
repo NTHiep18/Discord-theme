@@ -555,7 +555,7 @@ background-color: transparent !important;
     border-top-right-radius: 4px;
 }
 .text_dc9488 {
-	color: var(--text-normal) !important;
+	color: var(--text-default) !important;
 }
 .overlayBackground_c69a7b .top_a0 .item_a0 {
 	flex-grow: 1;
@@ -565,8 +565,8 @@ background-color: transparent !important;
 	color: var(--text-faded);
 }
 .overlayBackground_c69a7b .top_a0 .selected_a0.item_a0 {
-	border-color: var(--text-normal) !important;
-	color: var(--text-normal) !important;
+	border-color: var(--text-default) !important;
+	color: var(--text-default) !important;
 	background-color: rgba(var(--second-color), 0.6) !important;
 }
 .note_a24910 {
