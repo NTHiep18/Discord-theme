@@ -631,6 +631,7 @@ background-color: transparent !important;
 .roleName_f9575e {
 	overflow: visible;
 	z-index: 2;
+	margin: 0 2px 0 0 !important;
 }
 .roleNameOverflow_f9575e {
 	text-shadow: 0 0 4px rgb(0, 0, 0);
