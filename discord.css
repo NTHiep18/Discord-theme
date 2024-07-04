@@ -322,7 +322,7 @@ pre {
 	border: 2px var(--main-color) solid;
 }
 .autocomplete_f23da8 [aria-selected=true].clickable_f23da8 .base_f23da8, .autocomplete_f23da8 [aria-disabled=false].clickable_f23da8 .base_f23da8:hover {
-    background: linear-gradient(90deg, var(--main-color), rgb(var(--second-color)));
+    background: linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color)));
     padding: 2px 6px;
     border: 2px var(--main-color) solid;
 }
@@ -341,10 +341,10 @@ pre {
 	border-radius: 4px;
 }
 .wrapper_d8bfb3:hover .link_d8bfb3 {
-	background: linear-gradient(135deg, rgba(var(--main-rgb), 0.6), rgba(var(--second-color), 0.6)) !important;
+	background: linear-gradient(135deg, rgba(var(--main-rgb), 0.6) 30%, rgba(var(--second-color), 0.6)) !important;
 }
 .modeSelected_d8bfb3 .link_d8bfb3, .wrapper_d8bfb3:hover.modeSelected_d8bfb3 .link_d8bfb3 {
-	background: linear-gradient(135deg, var(--main-color), rgb(var(--second-color))) !important;
+	background: linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color))) !important;
 	outline: 2px var(--main-color) solid;
 }
 .wrapper_d8bfb3 {
@@ -662,9 +662,14 @@ background-color: transparent !important;
 	color: var(--text-default) !important;
 }
 .container_e5a42d {
-	background: linear-gradient(90deg, var(--main-color), rgb(var(--second-color))) !important;
+	background: linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color))) !important;
 	outline: 2px solid var(--main-color);
 	border: none;
+}
+.connectedAccounts_f3eb60 .connectedAccountContainer_f3eb60 {
+	background:linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color)));
+	border: 2px solid var(--main-color) !important;
+	border-radius: 6px;
 }
 
 /* channel thread list */
