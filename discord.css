@@ -47,8 +47,8 @@
 	--code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
 	--text-normal: rgb(220, 221, 222); /* color of default discord text */
 	--text-default: rgb(220, 221, 222);
-	--text-muted:  rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
-	--text-faded: rgb(114, 118, 125);
+	--text-muted:  rgb(128, 149, 186); /* color of default discord muted text (e.g.text found in input fields before typing).*/
+	--text-faded: rgb(128, 149, 186);
 	--channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
 	--members-width: 240px; /* member list width [default: 240px] */
 
