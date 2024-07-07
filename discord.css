@@ -575,9 +575,6 @@ background-color: transparent !important;
 .popoutBanner_c3e427, .profileBannerPremium__6fb42, .banner_c3e427 {
 	display: none;
 }
-.roleIcon_e4010c {
-	margin: 0 0 0 4px;
-}
 .userPopoutInner_c69a7b {
 	background: var(--background-image) !important;
 }
@@ -642,7 +639,7 @@ background-color: transparent !important;
     left: 10px;
 }
 .roleIcon_f9575e {
-    margin: 0 0 0 6px;
+    margin: 0 6px 0 0;
 	position: relative;
 	z-index: 2;
 }
