@@ -160,7 +160,7 @@
 .repliedMessage_ec86aa {
 	padding-left: 8px;
 }
-.container_b385c8 {
+.base_a4d4d9 .container_fc4f04 {
 	background: rgba(0, 0, 0, 0.95);
 	box-shadow: none;
 }
@@ -392,7 +392,7 @@ pre {
 }
 
 /* top bar */
-.base_a4d4d9 .container_e44302 {
+.base_a4d4d9 .container_fc4f04 {
 	border-bottom: 1px var(--main-color) solid;
 	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.9));
 }
@@ -737,7 +737,7 @@ background-color: transparent !important;
 }
 
 /* top search bar  and its nearby buttons */
-.toolbar_e44302 > * {
+.toolbar_fc4f04 > * {
 	outline: 1px solid rgba(var(--main-rgb), 0.7);
 	margin:0 4px;
 	background: transparent;
@@ -752,8 +752,8 @@ background-color: transparent !important;
 }
 .focused_a46bef .searchBar_a46bef,
 .open_a46bef .searchBar_a46bef,
-.toolbar_e44302 .iconWrapper_e44302.selected_e44302,
-.toolbar_e44302 .iconWrapper_e44302.icon_e44302.popout-open {
+.toolbar_fc4f04 .iconWrapper_fc4f04.selected_fc4f04,
+.toolbar_fc4f04 .iconWrapper_fc4f04.icon_fc4f04.popout-open {
 	background: rgba(var(--second-color), 0.7);
 }
 
