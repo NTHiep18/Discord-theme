@@ -525,9 +525,9 @@ background-color: transparent !important;
 }
 .header_b07019 {
     height: 96px;
-    min-height: 96px;
+    min-height: 96px !important;
 }
-.clickable_cc54d6 {
+.avatar_f94206.biteSize_f94206 {
     top: 12px;
 }
 .visibleContainer_d0a252.biteSize_d0a252,
@@ -535,8 +535,8 @@ background-color: transparent !important;
     opacity: 0;
     transition: 0.3s linear;
 }
-.clickable_cc54d6:hover + div .visibleContainer_d0a252.biteSize_d0a252,
-.clickable_cc54d6:hover + div .invisibleContainer_d0a252.biteSize_d0a252 {
+.clickable_f94206:hover + div .visibleContainer_d0a252.biteSize_d0a252,
+.clickable_f94206:hover + div .invisibleContainer_d0a252.biteSize_d0a252 {
     opacity: 1;
 }
 .theme-dark .statusBubbleOuter_d0a252,
@@ -646,7 +646,7 @@ background-color: transparent !important;
 .defaultColor_a595eb {
 	color: #ffffff;
 }
-.avatar_bc9cc2 {
+.avatar_f94206.fullSize_f94206 {
 	top: -44px;
 }
 .headerInner_bc9cc2 {
