@@ -316,6 +316,10 @@ pre {
 .textArea_d0696b {
 	line-height: 1.25rem;
 }
+.channelAppLauncher_df39bd {
+	display: none;
+}
+
 /* autocomplete emote pick */
 .chat_a7d72e .autocomplete_f23da8 {
 	border-radius: 8px;
