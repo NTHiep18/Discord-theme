@@ -170,11 +170,12 @@
 }
 
 /* hover message */
-.wrapper_ef319f {
+.container_a3b500 {
     border-radius: 4px;
     background: rgba(var(--second-color), 0.8);
 	outline: 1px solid var(--main-color);
-	margin-top: 8px;
+	padding: 0;
+	right: 8px;
 }
 .mouse-mode.full-motion .message_d5deea {
 	transition: 400ms;
