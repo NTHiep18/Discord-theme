@@ -283,7 +283,7 @@ pre {
 }
 .channelTextArea_d0696b {
 	border: 2px var(--main-color) solid;
-	background: rgba(var(--second-color), .4);
+	background: rgba(var(--second-color), .7);
 	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
 }
 .channelTextArea_a7d72e {
