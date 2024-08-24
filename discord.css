@@ -668,8 +668,10 @@ background-color: transparent !important;
 .connectedAccountNameText_f3eb60,
 .pronouns_c32acf,
 .userTagUsername_c32acf,
-.text-xs\/semibold_dc00ef, .text-sm\/normal_dc00ef, .text-sm\/medium_dc00ef,
-heading-lg/bold_dc00ef {
+.text-xs\/semibold_dc00ef,
+.text-sm\/normal_dc00ef,
+.text-sm\/medium_dc00ef,
+.heading-lg/bold_dc00ef {
 	color: var(--text-default) !important;
 }
 .container_e5a42d {
