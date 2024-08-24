@@ -555,6 +555,7 @@ background-color: transparent !important;
 .theme-dark .statusBubbleOuter_d0a252:before,
 .theme-dark .statusBubbleOuter_d0a252:after {
     border: 2px solid var(--main-color);
+	border-bottom: none;
     background-color: rgb(var(--second-color));
 }
 .statusBubble_d0a252 {
