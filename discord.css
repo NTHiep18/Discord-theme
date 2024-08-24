@@ -389,6 +389,7 @@ pre {
 /* divider */
 .divider_d5deea {
 	margin-right: 8px;
+	top: 0 !important;
 }
 /* pins */
 .header_ac90a2, .messageGroupWrapper_ac90a2 {
@@ -544,6 +545,7 @@ background-color: transparent !important;
 .clickable_f94206:hover + div .visibleContainer_d0a252.biteSize_d0a252,
 .clickable_f94206:hover + div .invisibleContainer_d0a252.biteSize_d0a252 {
     display: block;
+}
 .mask_c3e427 {
 	min-height: 0 !important;
 	height: 60px;
