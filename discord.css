@@ -537,14 +537,13 @@ background-color: transparent !important;
 }
 .visibleContainer_d0a252.biteSize_d0a252,
 .invisibleContainer_d0a252.biteSize_d0a252 { 
-    opacity: ;
+    display: none;
     transition: 0.3s linear;
 	top: 60px;
 }
 .clickable_f94206:hover + div .visibleContainer_d0a252.biteSize_d0a252,
 .clickable_f94206:hover + div .invisibleContainer_d0a252.biteSize_d0a252 {
-    opacity: 1;
-}
+    display: block;
 .mask_c3e427 {
 	min-height: 0 !important;
 	height: 60px;
