@@ -613,6 +613,7 @@ background-color: transparent !important;
 	background: none !important;
 	border: none;
 	padding: 0;
+	height: 22px;
 }
 .role_f9575e>:first-child {
 	margin: 0px;
@@ -638,9 +639,9 @@ background-color: transparent !important;
 	opacity: 0.9 !important;
 }
 .roleName_f9575e {
-	overflow: visible;
+	overflow: hidden;
 	z-index: 2;
-	margin: 0 2px 0 0 !important;
+	margin: 0 4px 0 4px;
 }
 .roleNameOverflow_f9575e {
 	text-shadow: 0 0 4px rgb(0, 0, 0);
@@ -651,10 +652,11 @@ background-color: transparent !important;
     margin-left: 14px;
 }
 .roleRemoveIcon_f9575e {
-    left: 10px;
+    left: 2px;
+	top: calc(50% - 5px);
 }
 .roleIcon_f9575e {
-    margin: 0 6px 0 0;
+    margin: 0 4px 0 0;
 	position: relative;
 	z-index: 2;
 }
