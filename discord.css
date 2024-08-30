@@ -344,6 +344,7 @@ pre {
 }
 .link_d8bfb3 {
 	border-radius: 4px;
+	padding: 0px 8px;
 }
 .wrapper_d8bfb3:hover .link_d8bfb3 {
 	background: linear-gradient(135deg, rgba(var(--main-rgb), 0.6) 30%, rgba(var(--second-color), 0.6)) !important;
