@@ -345,6 +345,7 @@ pre {
 .link_d8bfb3 {
 	border-radius: 4px;
 	padding: 0px 8px;
+	border: 2px transparent;
 }
 .wrapper_d8bfb3:hover .link_d8bfb3 {
 	background: linear-gradient(135deg, rgba(var(--main-rgb), 0.6) 30%, rgba(var(--second-color), 0.6)) !important;
@@ -642,11 +643,11 @@ background-color: transparent !important;
 .roleName_f9575e {
 	overflow: hidden;
 	z-index: 2;
-	margin: 0 4px 0 4px !important;
+	margin: 2px !important;
 }
 .overflow_a82120 {
 	text-shadow: 0 0 4px rgb(0, 0, 0);
-	padding: 6px;
+	padding: 4px;
 	margin-right: 0;
 }
 .role_f9575e:hover div[aria-label="Remove Role"] + .roleName_f9575e {
