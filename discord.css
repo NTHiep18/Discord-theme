@@ -534,13 +534,13 @@ background-color: transparent !important;
     min-height: 96px !important;
 }
 .avatar_f94206.biteSize_f94206 {
-    top: 12px;
+    top: 12px !important;
 }
 .visibleContainer_d0a252.biteSize_d0a252,
 .invisibleContainer_d0a252.biteSize_d0a252 { 
     display: none;
     transition: 0.3s linear;
-	top: 60px;
+	top: 60px !important;
 }
 .clickable_f94206:hover + div .visibleContainer_d0a252.biteSize_d0a252,
 .clickable_f94206:hover + div .invisibleContainer_d0a252.biteSize_d0a252 {
@@ -613,7 +613,7 @@ background-color: transparent !important;
 	background: none !important;
 	border: none;
 	padding: 0;
-	height: 22px;
+	height: 20px;
 }
 .role_f9575e>:first-child {
 	margin: 0px;
@@ -641,9 +641,9 @@ background-color: transparent !important;
 .roleName_f9575e {
 	overflow: hidden;
 	z-index: 2;
-	margin: 0 4px 0 4px;
+	margin: 0 4px 0 4px !important;
 }
-.roleNameOverflow_f9575e {
+.overflow_a82120 {
 	text-shadow: 0 0 4px rgb(0, 0, 0);
 	padding: 6px;
 	margin-right: 0;
