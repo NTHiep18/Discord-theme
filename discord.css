@@ -338,6 +338,7 @@ pre {
 }
 .iconContainer_d8bfb3 {
 	margin-right: 0;
+	margin-left: 4px;
 }
 .children_d8bfb3 {
 	margin-right: 5px;
@@ -352,14 +353,16 @@ pre {
 .link_d8bfb3 {
 	border-radius: 4px;
 	padding: 0;
-	border: 2px transparent;
+	border-width: 2px;
+	border-color: transparent;
+	border-style: solid;
 }
 .wrapper_d8bfb3:hover .link_d8bfb3 {
-	background: linear-gradient(135deg, rgba(var(--main-rgb), 0.6) 30%, rgba(var(--second-color), 0.6)) !important;
+	background: linear-gradient(135deg, rgba(var(--main-rgb), 0.6) 30%, rgba(var(--second-color), 0.6)) padding-box !important;
 }
 .modeSelected_d8bfb3 .link_d8bfb3, .wrapper_d8bfb3:hover.modeSelected_d8bfb3 .link_d8bfb3 {
-	background: linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color))) !important;
-	outline: 2px var(--main-color) solid;
+	background: linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color))) padding-box !important;
+	border-color: var(--main-color);
 }
 .wrapper_d8bfb3 {
 	padding: 0px 12px 0px 8px;
