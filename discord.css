@@ -521,9 +521,6 @@ background-color: transparent !important;
 	box-shadow: none;
 	background: transparent;
 }
-.connectedAccountContainer-SlCC-S {
-	background-color: rgba(0, 0, 0, 0.3);
-}
 .input_f8bc55 {
 	background: transparent !important;
 }
@@ -694,7 +691,7 @@ background-color: transparent !important;
 	outline: 2px solid var(--main-color);
 	border: none;
 }
-.connectedAccounts_f3eb60 .connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
 	background:linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color)));
 	border: 2px solid var(--main-color) !important;
 	border-radius: 6px;
