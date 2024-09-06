@@ -468,20 +468,26 @@ pre {
 	height: 24px !important;
 	display: flex;
 	justify-content: center;
+	box-sizing: border-box;
+	width: auto;
+}
+.reaction_ec6b19:hover,
+reactionBtn_ec6b19 :hover {
+	background: rgb(var(--second-color), 0.7);
 }
 .reaction_ec6b19.reactionMe_ec6b19 {
 	background: rgb(var(--second-color));
 	border: 2px var(--main-color) solid;
 	box-sizing: border-box;
 }
-.reaction_ec6b19.reactionMe__98f5 .reactionCount_ec6b19 {
+.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
 	color: rgba(255, 255, 255, 0.8);
 }
 .reactionCount_ec6b19 {
 	min-width: unset !important;
 }
 
-.reactions_f61c73 {
+.reactions_ec6b19 {
 	padding-left: 6px;
 }
 
