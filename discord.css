@@ -180,7 +180,8 @@
 .mouse-mode.full-motion .message_d5deea {
 	transition: 400ms;
 }
-.theme-dark .message_d5deea.selected_d5deea, .theme-dark.mouse-mode.full-motion .message_d5deea:hover {
+.message_d5deea.selected_d5deea,
+.message_d5deea:hover {
 	background: rgba(var(--second-color), 0.4);
 	backdrop-filter: blur(15px);
 }
@@ -735,6 +736,7 @@ background-color: transparent !important;
 	margin: 0 0 4px 72px;
 	top: 0 !important;
 	right: 4px;
+	z-index: 0;
 }
 
 /* window bar */
