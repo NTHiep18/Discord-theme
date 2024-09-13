@@ -543,16 +543,6 @@ background-color: transparent !important;
 .avatar_f94206.biteSize_f94206 {
     top: 12px !important;
 }
-.visibleContainer_d0a252.biteSize_d0a252,
-.invisibleContainer_d0a252.biteSize_d0a252 { 
-    display: none;
-    transition: 0.3s linear;
-	top: 60px !important;
-}
-.clickable_f94206:hover + div .visibleContainer_d0a252.biteSize_d0a252,
-.clickable_f94206:hover + div .invisibleContainer_d0a252.biteSize_d0a252 {
-    display: block;
-}
 .header_b8cc6d {
 	min-height: 96px !important;
 }
@@ -689,7 +679,7 @@ background-color: transparent !important;
 .heading-lg\/bold_dc00ef {
 	color: var(--text-default) !important;
 }
-.container_e5a42d {
+.container_b64375 {
 	background: linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color))) !important;
 	outline: 2px solid var(--main-color);
 	border: none;
