@@ -536,10 +536,6 @@ background-color: transparent !important;
 .scroller_d53fbd {
 	padding: 8px;
 }
-.header_b07019 {
-    height: 96px;
-    min-height: 96px !important;
-}
 .avatar_f94206.biteSize_f94206 {
     top: 12px !important;
 }
@@ -554,7 +550,7 @@ background-color: transparent !important;
     display: block;
 }
 .header_b8cc6d {
-	min-height: 96px !important;
+	height: 96px !important;
 }
 .mask_d5fdb1 {
 	height: 60px !important;
