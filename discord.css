@@ -148,11 +148,11 @@
 .cozy_ec86aa .timestamp_ec86aa {
 	left: -64px;
 }
-.newMessagesBar_cf58b5 {
+.newMessagesBar_cf58b5, .jumpToPresentBar_cf58b5 {
 	background: var(--main-color);
 }
-.jumpToPresentBar_cf58b5 {
-	background-color: var(--main-color);
+.barBase_cf58b5 {
+	right: 24px;
 }
 .repliedMessage_ec86aa:before {
 	margin-right: 0px;
