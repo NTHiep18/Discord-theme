@@ -538,6 +538,7 @@ background-color: transparent !important;
 }
 .avatar_f94206.biteSize_f94206 {
     top: 12px !important;
+	position: absolute !important;
 }
 .visibleContainer_e6ac4a.biteSize_e6ac4a,
 .invisibleContainer_e6ac4a.biteSize_e6ac4a { 
@@ -545,8 +546,8 @@ background-color: transparent !important;
     transition: 0.3s linear;
 	top: 60px !important;
 }
-.clickable_f94206:hover + div .visibleContainer_e6ac4a.biteSize_e6ac4a,
-.clickable_f94206:hover + div .invisibleContainer_e6ac4a.biteSize_e6ac4a {
+avatar_f94206:hover + div .visibleContainer_e6ac4a.biteSize_e6ac4a,
+avatar_f94206:hover + div .invisibleContainer_e6ac4a.biteSize_e6ac4a {
     display: block;
 }
 .header_b8cc6d {
