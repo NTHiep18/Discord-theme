@@ -539,14 +539,14 @@ background-color: transparent !important;
 .avatar_f94206.biteSize_f94206 {
     top: 12px !important;
 }
-.visibleContainer_d0a252.biteSize_d0a252,
-.invisibleContainer_d0a252.biteSize_d0a252 { 
+.visibleContainer_e6ac4a.biteSize_e6ac4a,
+.invisibleContainer_e6ac4a.biteSize_e6ac4a { 
     display: none;
     transition: 0.3s linear;
 	top: 60px !important;
 }
-.clickable_f94206:hover + div .visibleContainer_d0a252.biteSize_d0a252,
-.clickable_f94206:hover + div .invisibleContainer_d0a252.biteSize_d0a252 {
+.clickable_f94206:hover + div .visibleContainer_e6ac4a.biteSize_e6ac4a,
+.clickable_f94206:hover + div .invisibleContainer_e6ac4a.biteSize_e6ac4a {
     display: block;
 }
 .header_b8cc6d {
@@ -565,14 +565,14 @@ background-color: transparent !important;
 .headerInner_b9fccc {
 	padding: 38px 16px 10px;
 }
-.theme-dark .statusBubbleOuter_d0a252,
-.theme-dark .statusBubbleOuter_d0a252:before,
-.theme-dark .statusBubbleOuter_d0a252:after {
+.theme-dark .statusBubbleOuter_e6ac4a,
+.theme-dark .statusBubbleOuter_e6ac4a:before,
+.theme-dark .statusBubbleOuter_e6ac4a:after {
     border: 2px solid var(--main-color);
 	border-bottom: none;
     background-color: rgb(var(--second-color));
 }
-.statusBubble_d0a252 {
+.statusBubble_e6ac4a {
     background: rgb(var(--second-color))
 }
 .tabBarItem_ecc04c {
