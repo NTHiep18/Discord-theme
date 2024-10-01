@@ -536,19 +536,10 @@ background-color: transparent !important;
 .scroller_d53fbd {
 	padding: 8px;
 }
-.avatar_f94206.biteSize_f94206 {
+.avatar_f94206.biteSize_f94206.clickable_f94206 {
     top: 12px !important;
 	position: absolute !important;
-}
-.visibleContainer_e6ac4a.biteSize_e6ac4a,
-.invisibleContainer_e6ac4a.biteSize_e6ac4a { 
-    display: none;
-    transition: 0.3s linear;
-	top: 60px !important;
-}
-avatar_f94206:hover + div .visibleContainer_e6ac4a.biteSize_e6ac4a,
-avatar_f94206:hover + div .invisibleContainer_e6ac4a.biteSize_e6ac4a {
-    display: block;
+	left: 12px;
 }
 .header_b8cc6d {
 	height: 96px !important;
