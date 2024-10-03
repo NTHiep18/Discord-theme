@@ -540,13 +540,13 @@ background-color: transparent !important;
 	padding: 8px;
 }
 .avatar_f94206.biteSize_f94206 {
-	top: 0;
-	left: 0;
+	top: 0 !important;
+	left: 0 !important;
 }
 .avatar_f94206.biteSize_f94206.clickable_f94206 {
     top: 12px !important;
 	position: absolute !important;
-	left: 12px;
+	left: 12px !important;
 }
 .header_b8cc6d {
 	height: 96px !important;
