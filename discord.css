@@ -559,7 +559,7 @@ background-color: transparent !important;
 	background: transparent !important;
 }
 .button_f9d37d {
-	background-color: rgb(var(--second-color), 0.7) !important;
+	background-color: rgb(var(--second-color), 0.8) !important;
 }
 .headerInner_b9fccc {
 	padding: 38px 16px 10px;
@@ -575,6 +575,10 @@ background-color: transparent !important;
 }
 .statusBubble_e6ac4a {
     background: rgb(var(--second-color))
+}
+.popover_a64b81 {
+	left: 20px;
+	top: 92px;
 }
 .tabBarItem_ecc04c {
     height: 36px;
