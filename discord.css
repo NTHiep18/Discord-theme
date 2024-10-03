@@ -570,7 +570,7 @@ background-color: transparent !important;
 .theme-dark .statusBubbleOuter_e6ac4a,
 .theme-dark .statusBubbleOuter_e6ac4a:before,
 .theme-dark .statusBubbleOuter_e6ac4a:after {
-    border: 2px solid var(--main-color);
+    border: 2px solid var(--main-color) !important;
     background-color: rgb(var(--second-color));
 }
 .statusBubble_e6ac4a {
@@ -578,7 +578,10 @@ background-color: transparent !important;
 }
 .popover_a64b81 {
 	left: 20px;
-	top: 92px;
+	top: 92px !important;
+}
+.wrapper_f7e168 .button_f7e168:hover, .wrapper_f7e168 .button_f7e168.selected_f7e168 {
+	background-color: rgb(var(--second-color), 0.8);
 }
 .tabBarItem_ecc04c {
     height: 36px;
