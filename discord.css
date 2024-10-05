@@ -550,6 +550,7 @@ background-color: transparent !important;
 }
 .header_b8cc6d {
 	height: 96px !important;
+	min-height: 0 !important
 }
 .mask_d5fdb1 {
 	height: 60px !important;
@@ -577,7 +578,7 @@ background-color: transparent !important;
     background: rgb(var(--second-color))
 }
 .popover_a64b81 {
-	left: 20px;
+	left: 24px;
 	top: 92px !important;
 }
 .wrapper_f7e168 .button_f7e168:hover, .wrapper_f7e168 .button_f7e168.selected_f7e168 {
