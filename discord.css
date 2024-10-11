@@ -172,8 +172,8 @@
 /* hover message */
 .container_a3b500 {
     border-radius: 4px;
-    background: rgba(var(--second-color), 0.8);
-	outline: 1px solid var(--main-color);
+    background: rgb(var(--second-color));
+	outline: 2px solid var(--main-color);
 	padding: 0;
 	right: 8px;
 }
