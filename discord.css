@@ -688,11 +688,13 @@ background-color: transparent !important;
 .connectedAccountNameText_f3eb60,
 .pronouns_c32acf,
 .userTagUsername_c32acf,
-.text-xs\/semibold_dc00ef,
-.text-sm\/normal_dc00ef,
-.text-sm\/medium_dc00ef,
+.text-xs\/semibold_dc00ef, .text-xs\/medium_dc00ef, .text-xs\/normal_dc00ef,
+.text-sm\/normal_dc00ef, .text-sm\/medium_dc00ef,
 .heading-lg\/bold_dc00ef {
 	color: var(--text-default) !important;
+}
+.activity_b8cc6d path {
+	fill: var(--text-default) !important;
 }
 .container_b64375 {
 	background: linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color))) !important;
