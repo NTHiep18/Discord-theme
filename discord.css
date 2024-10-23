@@ -566,7 +566,12 @@ background-color: transparent !important;
 	padding: 38px 16px 10px;
 }
 .visibleContainer_d22603.biteSize_d22603 {
-	top: 56px;
+	top: 60px;
+	left: 100px;
+}
+.visibleContainer_d22603.fullSize_d22603 {
+	top: 60px;
+	left: 152px;
 }
 .theme-dark .statusBubbleOuter_d22603,
 .theme-dark .statusBubbleOuter_d22603:before,
