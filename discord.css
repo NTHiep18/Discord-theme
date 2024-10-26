@@ -255,7 +255,7 @@ pre {
 .scrollerSpacer_e2e187 {
     height: 12px;
 }
-.channelTextArea_d0696b .scrollableContainer_d0696b {
+.channelTextArea_bdf0de .scrollableContainer_bdf0de {
 	overflow-y: hidden;
 	padding: 0;
 }
@@ -282,7 +282,7 @@ pre {
     color: rgb(255,255,255);
     line-height: 1.25rem;
 }
-.channelTextArea_d0696b {
+.channelTextArea_bdf0de {
 	border: 2px var(--main-color) solid;
 	background: rgba(var(--second-color), .7);
 	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
@@ -296,7 +296,7 @@ pre {
 .attachWrapper_f298d4 {
 	margin-left: 15px;
 }
-.has-webkit-scrollbar .buttons_d0696b {
+.has-webkit-scrollbar .buttons_bdf0de {
 	margin-right: 0;
 	height: 36px;
 }
@@ -307,15 +307,15 @@ pre {
 .channelAttachmentArea_e8c527 {
 	background: transparent;
 }
-.sansAttachButton_d0696b {
+.sansAttachButton_bdf0de {
 	padding-left: 0px;
 }
-.channelTextArea_d0696b .textArea_d0696b.textAreaSlate_d0696b {
+.channelTextArea_bdf0de .textArea_bdf0de.textAreaSlate_bdf0de {
 	height: auto !important;
 	margin-left: 3px;
 	min-height: 36px !important;
 }
-.textArea_d0696b {
+.textArea_bdf0de {
 	line-height: 1.25rem;
 }
 .channelAppLauncher_df39bd {
