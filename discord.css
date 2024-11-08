@@ -388,6 +388,7 @@ pre {
 .wrapper_d8bfb3.modeUnreadImportant_d8bfb3 .link_d8bfb3 .linkTop_d8bfb3 .name_d8bfb3 {
 	text-shadow: none;
 }
+
 /* member list */
 .membersWrap_cbd271 {
 	background: transparent;
@@ -515,11 +516,12 @@ reactionBtn_ec6b19 :hover {
 }
 
 /* user popout */
-.userProfileOuter_c69a7b {
+.inner_c69a7b.biteSize_c69a7b {
     background: var(--background-image) !important
 }
-.userProfileInner_c69a7b, .userProfileInner_c69a7b:before {
+.outer_c69a7b {
     background: transparent !important;
+	border: none !important;
 }
 .overlayBackground_c69a7b {
 background-color: transparent !important;
