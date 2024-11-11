@@ -545,7 +545,7 @@ reactionBtn_ec6b19 :hover {
     background: transparent !important;
 	border: none !important;
 }
-.overlayBackground_c69a7b {
+.overlay_c69a7b {
 background-color: transparent !important;
 }
 .input_df4dd0 {
@@ -621,14 +621,14 @@ background-color: transparent !important;
 .text_dc9488 {
 	color: var(--text-default) !important;
 }
-.overlayBackground_c69a7b .top_a0 .item_a0 {
+.overlay_c69a7b .top_a0 .item_a0 {
 	flex-grow: 1;
 	flex-basis: 0;
 	text-align: center;
 	border-color: transparent !important;
 	color: var(--text-faded);
 }
-.overlayBackground_c69a7b .top_a0 .selected_a0.item_a0 {
+.overlay_c69a7b .top_a0 .selected_a0.item_a0 {
 	border-color: var(--text-default) !important;
 	color: var(--text-default) !important;
 	background-color: rgba(var(--second-color), 0.8) !important;
