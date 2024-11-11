@@ -538,7 +538,7 @@ reactionBtn_ec6b19 :hover {
 }
 
 /* user popout */
-.inner_c69a7b.biteSize_c69a7b {
+.inner_c69a7b {
     background: var(--background-image) !important
 }
 .outer_c69a7b {
@@ -614,7 +614,7 @@ background-color: transparent !important;
 	background-color: rgb(var(--second-color), 0.8);
 }
 .tabBarItem_ecc04c {
-    height: 36px;
+    height: 28px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -707,6 +707,7 @@ background-color: transparent !important;
 }
 .defaultColor_a595eb {
 	color: #ffffff;
+	line-height: 28px;
 }
 .avatar_f94206.fullSize_f94206 {
 	top: -44px;
