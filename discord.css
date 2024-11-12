@@ -124,6 +124,7 @@
 }
 .typeWindows_a934d8 {
     background: transparent;
+	box-shadow: none;
 }
 .bg_d4b6c5 {
     background: transparent;
@@ -770,13 +771,6 @@ background-color: transparent !important;
 	top: 0 !important;
 	right: 4px;
 	z-index: 1;
-}
-
-/* window bar */
-.typeWindows_a934d8 {
-	box-shadow: none;
-	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.9));
-
 }
 
 /* why tf is the editor behind the window bar whose z-index is set to 3001*/
