@@ -136,6 +136,10 @@
     background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.4));
 }
 
+/* friend search */
+.container_c18ec9 {
+	margin: 2px 28px 2px 30px;
+}
 /* main chat */
 .chatContent_a7d72e, .theme-dark .container_a6d69a {
 	background: transparent;
@@ -173,7 +177,7 @@
     border: 2px var(--main-color) solid;
     border-radius: 8px;
     background: rgb(var(--second-color), 0.95);
-    margin: 0 20px;
+    margin: 0 20px 0 6px;
     width: auto;
     height: 40px;
     min-height: 40px;
