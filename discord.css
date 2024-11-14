@@ -173,16 +173,7 @@
 .repliedMessage_ec86aa {
 	padding-left: 8px;
 }
-.base_a4d4d9 .container_fc4f04 {
-    border: 2px var(--main-color) solid;
-    border-radius: 8px;
-    background: rgb(var(--second-color), 0.95);
-    margin: 0 20px 0 6px;
-    width: auto;
-    height: 40px;
-    min-height: 40px;
-	box-shadow: none;
-}
+
 /* main chat scrollbar */
 .scroller_e2e187::-webkit-scrollbar {
     width: 12px;
@@ -432,8 +423,14 @@ pre {
 
 /* top bar */
 .base_a4d4d9 .container_fc4f04 {
-	border-bottom: 1px var(--main-color) solid;
-	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.9));
+    border: 2px var(--main-color) solid;
+    border-radius: 8px;
+    background: rgb(var(--second-color), 0.95);
+    margin: 0 20px 0 6px;
+    width: auto;
+    height: 40px;
+    min-height: 40px;
+	box-shadow: none;
 }
 .container_b385c8 {
     margin: 0 64px;
