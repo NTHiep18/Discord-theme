@@ -136,10 +136,6 @@
     background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.4));
 }
 
-/* friend search */
-.container_c18ec9 {
-	margin: 24px 28px 2px 30px;
-}
 /* main chat */
 .chatContent_a7d72e, .theme-dark .container_a6d69a {
 	background: transparent;
@@ -853,8 +849,16 @@ background-color: transparent !important;
 	background: rgba(var(--second-color), 0.8);
 	backdrop-filter: blur(10px);
 }
+
+/* friend list */
 .peopleColumn_c2739c, .nowPlayingColumn_c2739c {
 	background: transparent;
+}
+.peopleColumn_c2739c {
+	margin: 24px 28px 2px 30px;
+}
+.peopleListItem_d51464 {
+	margin-left: 16px;
 }
 
 /* bot left corner */
