@@ -135,6 +135,9 @@
 .appMount_ea7e65 {
     background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.4));
 }
+a {
+	color: var(--url-color) !important;
+}
 
 /* main chat */
 .chatContent_a7d72e, .theme-dark .container_a6d69a {
@@ -430,9 +433,6 @@ pre {
 }
 .container_fc4f04 .topic_bf3bbb {
 	color: var(--text-default);
-}
-a {
-	color: var(--url-color);
 }
 
 /* search box */
