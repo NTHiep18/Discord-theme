@@ -179,7 +179,7 @@ a {
 }
 
 /* hover message */
-.container_a3b500 {
+.wrapper_f7e168 {
     border-radius: 4px;
     background: rgb(var(--second-color));
 	outline: 2px solid var(--main-color);
@@ -728,7 +728,7 @@ background-color: transparent !important;
 	border: none;
 }
 .connectedAccountContainer_ab12c6 {
-	background:linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color)));
+	background:linear-gradient(135deg, var(--main-color) 30%, rgb(var(--second-color))) !important;
 	border: 2px solid var(--main-color) !important;
 	border-radius: 6px;
 	padding: 8px;
