@@ -593,9 +593,9 @@ background-color: transparent !important;
 	top: 60px;
 	left: 152px;
 }
-.theme-dark .statusBubbleOuter_d22603,
-.theme-dark .statusBubbleOuter_d22603:before,
-.theme-dark .statusBubbleOuter_d22603:after {
+.statusBubbleOuter_d22603,
+.statusBubbleOuter_d22603:before,
+.statusBubbleOuter_d22603:after {
     border: 2px solid var(--main-color) !important;
     background-color: rgb(var(--second-color));
 }
