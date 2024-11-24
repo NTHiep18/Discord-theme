@@ -713,9 +713,9 @@ background-color: transparent !important;
 }
 .connectedAccountNameText_f3eb60,
 .pronouns_c32acf,
-.userTagUsername_c32acf,
+.userTagUsername_c32acf, .listRow_d2d6cb *,
 .text-xs\/semibold_dc00ef, .text-xs\/medium_dc00ef, .text-xs\/normal_dc00ef,
-.text-sm\/normal_dc00ef, .text-sm\/medium_dc00ef,
+.text-sm\/normal_dc00ef, .text-sm\/medium_dc00ef, .heading-xl\/bold_dc00ef,
 .heading-lg\/bold_dc00ef {
 	color: var(--text-default) !important;
 }
