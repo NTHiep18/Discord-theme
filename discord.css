@@ -593,15 +593,13 @@ background-color: transparent !important;
 	top: 60px;
 	left: 152px;
 }
-.statusBubbleOuter_d22603,
-.statusBubbleOuter_d22603:before,
-.statusBubbleOuter_d22603:after {
+.statusBubble_a82ccc,
+.statusBubble_a82ccc:before,
+.statusBubble_a82ccc:after {
     border: 2px solid var(--main-color) !important;
     background-color: rgb(var(--second-color));
 }
-.statusBubble_d22603 {
-    background: rgb(var(--second-color))
-}
+ 
 .popover_a64b81 {
 	left: 24px;
 	top: 92px !important;
