@@ -589,9 +589,9 @@ background-color: transparent !important;
 	top: 60px;
 	left: 100px;
 }
-.visibleContainer_a82ccc.biteSize_a82ccc {
-	top: 72px;
-	left: 152px;
+.visibleContainer_a82ccc.fullSize_a82ccc {
+    top: 56px;
+    left: 152px;
 }
 .statusBubble_a82ccc {
 	background: rgb(var(--second-color))
