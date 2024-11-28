@@ -585,13 +585,16 @@ background-color: transparent !important;
 .headerInner_b9fccc {
 	padding: 38px 16px 10px;
 }
-.invisibleContainer_a82ccc.biteSize_a82ccc {
+.visibleContainer_a82ccc.biteSize_a82ccc {
 	top: 60px;
 	left: 100px;
 }
-.visibleContainer_d22603.fullSize_d22603 {
+.visibleContainer_a82ccc.biteSize_a82ccc {
 	top: 72px;
 	left: 152px;
+}
+.statusBubble_a82ccc {
+	background: rgb(var(--second-color))
 }
 .statusBubbleOuter_a82ccc,
 .statusBubbleOuter_a82ccc:before,
