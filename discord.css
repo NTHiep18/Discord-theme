@@ -291,10 +291,16 @@ pre {
     color: rgb(255,255,255);
     line-height: 1.25rem;
 }
+.channelTextArea_bdf0de .scrollableContainer_bdf0de {
+	border: none;
+}
 .channelTextArea_bdf0de {
-	border: 2px var(--main-color) solid;
-	background: rgba(var(--second-color), .7);
-	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
+	background: rgba(255, 255, 255, .1);
+	transition: 300ms linear;
+}
+.channelTextArea_bdf0de:focus-within {
+	background: rgb(var(--second-color), .7);
+	outline: 2px solid var(--main-color);
 }
 .channelTextArea_a7d72e {
 	margin-bottom: 32px;
