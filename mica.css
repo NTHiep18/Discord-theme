@@ -21,8 +21,8 @@
 /* SETTINGS */
 :root {
 	/* Mica effect */
-	--mica-bg: rgb(0, 0, 0, 0.4);
-	--mica-filter: blur(10px);
+	--mica-bg: rgb(0, 20, 30, 0.5);
+	--mica-filter: blur(15px);
 	/* ACCENT COLORS */
 	--main-color: #2608d1; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
 	--hover-color: #0a2af7; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
