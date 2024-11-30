@@ -21,7 +21,7 @@
 /* SETTINGS */
 :root {
 	/* Mica effect */
-	--mica-bg: rgb(255, 255, 255, 0.4);
+	--mica-bg: rgb(0, 0, 0, 0.4);
 	--mica-filter: blur(10px);
 	/* ACCENT COLORS */
 	--main-color: #2608d1; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
@@ -56,7 +56,7 @@
 	/* APP BACKGROUND */
 	--background-shading: 120%; /* app background shading (0 for complete smoothness) [default: 100%] */
 	--background-overlay: rgba(0, 0, 0, 0.0); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-	--background-image: url(https://i.imgur.com/62l2D82.jpeg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+	--background-image: url(https://i.imgur.com/Wv1Y9xe.jpeg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
 	--background-position: center; /* app background position [default: center] */
 	--background-size: cover; /* app background size [default: cover] */
 	--background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -134,9 +134,6 @@
 .bd-transparency {
     background: var(--background-image) center / cover no-repeat fixed !important;
 }
-.appMount_ea7e65 {
-    background: linear-gradient(90deg, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.4));
-}
 a {
 	color: var(--url-color) !important;
 }
@@ -147,6 +144,7 @@ a {
 .container_ee69e0,
 .panels_a4d4d9,
 .members_cbd271,
+.scroller_e2e187,
 .channelTextArea_bdf0de:focus-within,
 .base_a4d4d9 .container_fc4f04 {
 	background: var(--mica-bg) !important;
@@ -180,7 +178,7 @@ a {
 	padding: 0;
 }
 .placeholder__443e5, .slateTextArea_e52116 {
-    	padding-left: 12px;
+    padding-left: 12px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
@@ -188,9 +186,8 @@ a {
     display: none;
 }
 .form_a7d72e {
-	padding: 0 16px 0 8px;
+	padding: 0;
 	background-color: transparent;
-	backdrop-filter: blur(10px);
 }
 .typing_d7ebeb {
 	margin:0 0 2px 19.5px;
@@ -203,11 +200,10 @@ a {
     line-height: 1.25rem;
 }
 .channelTextArea_bdf0de {
-	background: rgb(255, 255, 255, 0.1);
-
+	background: rgb(0, 0, 0, 0.2);
 }
 .channelTextArea_a7d72e {
-	margin-bottom: 32px;
+	margin-bottom: 24px;
 }
 .attachButton_f298d4 {
 	height: 36px;
