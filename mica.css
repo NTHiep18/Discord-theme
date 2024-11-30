@@ -186,7 +186,7 @@ a {
     display: none;
 }
 .form_a7d72e {
-	padding: 0;
+	padding: 0 6px;
 	background-color: transparent;
 }
 .typing_d7ebeb {
@@ -195,7 +195,7 @@ a {
 .base_d7ebeb .ellipsis_d7ebeb {
 	margin: 0 6px 0 0;
 }
-.markup_d6076c {
+.markup_f8f345 {
     color: rgb(255,255,255);
     line-height: 1.25rem;
 }
@@ -227,7 +227,7 @@ a {
 	padding-left: 0px;
 }
 .channelTextArea_bdf0de .textArea_bdf0de.textAreaSlate_bdf0de {
-	height: auto !important;
+	height: 36px !important;
 	margin-left: 3px;
 	min-height: 36px !important;
 }
