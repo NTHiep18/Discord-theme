@@ -155,10 +155,10 @@ a {
 }
 .container_ee69e0,
 .panels_a4d4d9 {
-	margin: 0 6px 12px 0;
+	margin: 0 6px 24px 0;
 }
 .members_cbd271 {
-	margin: 6px 12px 12px 6px;
+	margin: 6px 12px 24px 6px;
 }
 .scroller_e2e187 {
 	margin: 6px;
@@ -249,6 +249,10 @@ a {
 	color: var(--text-default);
 }
 
+/* user info area */
+.container_b2ca13 {
+	height: 40px;
+}
 /* channel list */
 .iconContainer_d8bfb3 {
 	margin-right: 0;
