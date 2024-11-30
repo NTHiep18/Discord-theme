@@ -21,7 +21,7 @@
 /* SETTINGS */
 :root {
 	/* Mica effect */
-	--mica-bg: rgb(0, 20, 30, 0.5);
+	--mica-bg: rgb(0, 20, 30, 0.7);
 	--mica-filter: blur(15px);
 	/* ACCENT COLORS */
 	--main-color: #424fdb; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
