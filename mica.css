@@ -321,7 +321,7 @@ a {
 	background-color: rgba(var(--second-color), 0.8);
 	margin: 40px 0;
 	padding: 40px;
-	backdrop-filter: blur(10px);
+	backdrop-filter: var(--mica-filter);
 	max-width: calc(100% - 200px);
 	border-radius: 8px;
 }
@@ -334,7 +334,7 @@ a {
 	padding: 8px;
 	border-radius: 4px;
 	background: rgba(var(--second-color), 0.8);
-	backdrop-filter: blur(10px);
+	backdrop-filter: var(--mica-filter);
 }
 
 /* friend list */
