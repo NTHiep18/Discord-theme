@@ -281,7 +281,7 @@ a {
 	background: rgb(var(--main-rgb), .2) !important;
 }
 .modeSelected_d8bfb3 .link_d8bfb3, .wrapper_d8bfb3:hover.modeSelected_d8bfb3 .link_d8bfb3 {
-	background: rgb(var(--main-rgb(, .6) !important;
+	background: rgb(var(--main-rgb), .6) !important;
 }
 .wrapper_d8bfb3.modeSelected_d8bfb3 .link_d8bfb3:before {background: transparent;}
 .wrapper_d8bfb3 {
