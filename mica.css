@@ -380,7 +380,7 @@ a {
     background: var(--mica-bg) !important;
 	backdrop-filter: var(--mica-filter);
 }
-.inner_c69a7b {
+.inner_c69a7b:before {
 	display: none;
 }
 .overlay_c69a7b {
