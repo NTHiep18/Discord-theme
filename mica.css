@@ -346,6 +346,9 @@ a {
 .wrapper_a08117.muted_a08117, .wrapper_a08117.muted_a08117 .name_a08117 {
 	color: var(--muted-color);
 }
+.scrollerBase_eed6a8 {
+	scrollbar-width: none;
+}
 /* user popout */
 .outer_c69a7b {
 	background: var(--background-image) no-repeat center / cover !important;
