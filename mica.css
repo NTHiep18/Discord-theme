@@ -1,3 +1,6 @@
+:root {
+	--text-link: var(--url-color) !important;
+}
 @keyframes appear {
 	from {transform: scaleX(0%);}
 	to {transform: scaleX(100%);}
@@ -17,9 +20,7 @@
 body {
     background: var(--background-image) center / cover no-repeat fixed !important;
 }
-a {
-	color: var(--url-color) !important;
-}
+
 
 .chatContent_a7d72e, .resizeHandle_d1c246 {background: transparent;}
 
@@ -38,7 +39,8 @@ a {
 .privateChannels_f0963d,
 .peopleColumn_c2739c,
 .nowPlayingColumn_c2739c,
-.input_f8bc55:focus-within {
+.input_f8bc55:focus-within,
+.mainCard_a6d69a, .tag_a6d69a, .sortDropdown_a6d69a, .tagsButton_a6d69a {
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
@@ -56,6 +58,9 @@ a {
 .scroller_e2e187 {
 	margin: 6px 6px 12px;
 }
+.list_a6d69a, .grid_a6d69a {
+	margin: 6px 6px 24px 6px;
+}\
 .base_a4d4d9 .container_fc4f04 {
 	margin: 0 12px 6px 6px;
 }
@@ -347,7 +352,9 @@ a {
 .modeSelected_d8bfb3:hover .icon_d8bfb3 {
 	color: var(--channel-unread);
 }
-.wrapperCommon_a08117, .container_a5ad5c {color: var(--channel-color);}
+.wrapperCommon_a08117, .container_a5ad5c {
+	color: var(--main-color);
+	}
 .wrapper_a08117.muted_a08117, .wrapper_a08117.muted_a08117 .name_a08117 {
 	color: var(--muted-color);
 }
@@ -780,6 +787,19 @@ reactionBtn_ec6b19 :hover {
 }
 
 /* homepage */
+.channel_c91bad {
+margin: 8px;
+}
+.peopleListItem_d51464 {
+	border-top: 1px solid var(--text-faded) !important;
+	margin: 0 20px 0 30px !important;
+	padding: 0 10px;
+}
+.peopleListItem_d51464:hover, .peopleListItem_d51464.active_d51464 {
+	background: rgb(from var(--main-color) r g b / .2);
+	padding: 0 15px;
+	
+}
 .actionButton_e01b91,
 .emptyCard_f02fcf {
 	background: rgb(var(--mica-color), var(--mica-opacity));
@@ -881,13 +901,29 @@ reactionBtn_ec6b19 :hover {
 }
 
 /* channel thread list */
+.list_a6d69a>div:first-child {
+	padding: auto 0;
+}
+.collapsed_c1668f .title_c1668f {
+	height: 36px;
+	margin: 0;
+	line-height: 36p;
+	padding-right: 0;
+	margin-right: 8px;
+}
+.list_a6d69a .header_a6d69a {
+	margin-top: 0;
+}
 .spine_e1e976 {
 	width: 16px !important;
     height: 16px !important;
 	top: 0;
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
-    border-bottom-left-radius: 8px;
+    border-radius: 0;
+}
+.spine_e1e976 + .spine_e1e976 {
+	top: 7px;
 }
 .spine_e1e976 path  {display: none;}
 .popout_c5b389 {
