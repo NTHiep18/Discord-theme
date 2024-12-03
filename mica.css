@@ -695,8 +695,14 @@ background-color: transparent !important;
 .expandedFolderBackground_bc7085 {
 	left: 8px;
 	padding: 4px;
+	top: -4px;
+	bottom: 4px;
 	background: rgb(var(--mica-color), var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
+}
+.wrapper_c5f96a {
+	border-radius: 24px;
+	overflow: hidden;
 }
 .circleIconButton_db6521 {
 	background: rgb(from var(--main-color) r g b / .6);
