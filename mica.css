@@ -653,7 +653,7 @@ background-color: transparent !important;
 	color: var(--text-normal) !important;
 }
 .mentioned_d5deea {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 }
 .mentioned_d5deea:before {
 	background: var(--main-color);
