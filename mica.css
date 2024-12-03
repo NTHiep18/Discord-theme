@@ -58,9 +58,6 @@ body {
 .scroller_e2e187 {
 	margin: 6px 6px 12px;
 }
-.list_a6d69a, .grid_a6d69a {
-	margin: 6px 6px 24px 6px;
-}\
 .base_a4d4d9 .container_fc4f04 {
 	margin: 0 12px 6px 6px;
 }
@@ -70,6 +67,12 @@ body {
 .peopleColumn_c2739c {
 	height: fit-content;
 	margin: 6px;
+}
+.threadSidebarOpen_a7d72e {
+	margin: 0 6px 24px;
+}
+.subtitleContainer_a7d72e {
+	margin-bottom: 6px;
 }
 .nowPlayingColumn_c2739c {
 	height: fit-content;
@@ -913,6 +916,9 @@ margin: 8px;
 }
 .list_a6d69a .header_a6d69a {
 	margin-top: 0;
+}
+.divider_a6d69a {
+	display: none;
 }
 .spine_e1e976 {
 	width: 16px !important;
