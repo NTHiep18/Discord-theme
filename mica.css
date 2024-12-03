@@ -134,6 +134,22 @@ a {
 
 }
 
+/* code block */
+.newMosaicStyle_d8e2d0 .textContainer_d8e2d0,
+.footer_d8e2d0,
+.markup_f8f345 code {
+	border: none;
+	background: rgb(var(--mica-color), var(--mica-opacity));
+}
+.footer_d8e2d0 {
+	margin-top: 2px;
+	& > * {
+		color: var(--text-default);
+	}
+}
+.hljs {
+	background: transparent;
+}
 /* text input area */
 .divider_c2654d {
 	border-top: none;
@@ -621,7 +637,10 @@ background-color: transparent !important;
 	color: var(--text-normal) !important;
 }
 .mentioned_d5deea {
-	background: rgb(var(--second-color)) !important;
+	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+}
+.mentioned_d5deea:before {
+	background: var(--main-color);
 }
 .mentioned_d5deea > .contents_ec86aa,
 .mentioned_d5deea > .container_b558d0 {
@@ -831,7 +850,9 @@ reactionBtn_ec6b19 :hover {
 	border: 1px var(--main-color) solid;
 	border-radius: 4px;
 }
-
+.repliedMessage_f9f2ca .repliedTextPreview_f9f2ca .repliedTextContent_f9f2ca, .threadMessageAccessory_f9f2ca .threadMessageAccessoryPreview_f9f2ca .threadMessageAccessoryContent_f9f2ca {
+	color: var(--text-default);
+}
 /* fuck server discovery */
 .footer_d71945 {display: none}
 
