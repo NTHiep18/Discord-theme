@@ -705,7 +705,7 @@ background-color: transparent !important;
 	overflow: hidden;
 }
 .circleIconButton_db6521 {
-	background: rgb(from var(--main-color) r g b / .6);
+	background: rgb(from var(--main-color) r g b / .2);
 }
 /* reaction */
 .reaction_ec6b19, .reactionBtn_ec6b19.forceShowLook_ec6b19 {
