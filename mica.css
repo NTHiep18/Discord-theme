@@ -131,10 +131,9 @@ a {
 }
 
 /* main chat scrollbar */
-.scroller_e2e187{
+.scroller_e2e187.scrollerBase_c49869 {
     scrollbar-width: thin;
 	scrollbar-color: var(--main-color) transparent;
-
 }
 
 /* code block */
@@ -566,7 +565,8 @@ background-color: transparent !important;
 }
 
 /* setting menu */
-.layers_d4b6c5>.layer_d4b6c5 .scrollerBase_c49869 {
+.sidebarRegionScroller_c25c6d.scrollerBase_c49869,
+.contentRegionScroller_c25c6d.scrollerBase_c49869 {
 	scrollbar-width: none;
 }
 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d {
