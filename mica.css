@@ -833,7 +833,7 @@ reactionBtn_ec6b19 :hover {
 	border-radius: 4px;
 	color: var(--text-normal);
 	border: 2px solid var(--main-color);
-	background: rgb(var(--second-color);
+	background: rgb(var(--second-color));
 	line-height: 12px;
 	margin-bottom: 8px;
 }
