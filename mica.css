@@ -472,7 +472,7 @@ background-color: transparent !important;
 .overlay_c69a7b .top_a0 .selected_a0.item_a0 {
 	border-color: var(--text-default) !important;
 	color: var(--text-default) !important;
-	background-color: rgba(var(--second-color), 0.8) !important;
+	background-color: rgb(var(--mica-color), var(--mica-opacity)) !important;
 }
 .note_a24910 {
 	margin: 0;
