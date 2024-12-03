@@ -150,6 +150,9 @@ a {
 .hljs {
 	background: transparent;
 }
+.theme-dark .hljs-comment, .theme-dark .hljs-code, .theme-dark .hljs-formula {
+	color: rgb(144, 238, 144);
+}
 /* text input area */
 .divider_c2654d {
 	border-top: none;
@@ -651,6 +654,9 @@ background-color: transparent !important;
 }
 
 /* server column */
+.scroller_fea3ef {
+	padding-top: 0;
+}
 .layer_d4b6c5 .wrapper_fea3ef {
     background: transparent;
     box-shadow: none;
