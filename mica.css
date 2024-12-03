@@ -191,6 +191,9 @@ a {
 .channelTextArea_bdf0de {
 	background: rgb(var(--mica-color), calc(var(--mica-opacity)/2));
 }
+.channelTextArea_bdf0de:focus-within {
+	box-shadow: 0 0 10px 2px var(--main-color);
+}
 .channelTextArea_a7d72e {
 	margin-bottom: 24px;
 }
