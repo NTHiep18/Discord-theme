@@ -666,6 +666,9 @@ background-color: transparent !important;
 }
 .childWrapperNoHoverBg_f90abb {
 	background: rgb(from var(--main-color) r g b / 0.6);
+	& :hover {
+		background: var(--main-color);
+	}
 }
 .guildSeparator_d0c57e {
 	display: none;
