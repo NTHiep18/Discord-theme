@@ -342,7 +342,7 @@ body {
 	text-shadow: none;
 }
 .scroller_c43953 {
-	margin-right: -8px;
+	padding-left: 4px;
 }
 .icon_d8bfb3, .name_d8bfb3 {color: var(--channel-color);}
 .modeMuted_d8bfb3 .icon_d8bfb3, .modeMuted_d8bfb3 .name_d8bfb3 {
