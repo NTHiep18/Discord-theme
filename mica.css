@@ -40,7 +40,7 @@ a {
 .nowPlayingColumn_c2739c,
 .input_f8bc55:focus-within {
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
 }
@@ -206,7 +206,7 @@ a {
 }
 .upload_df1eaf {
 	background-color: rgb(var(--mica-color), var(--mica-opacity));
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 	padding-right: 20px;
 }
 .channelAttachmentArea_e8c527 {
@@ -366,7 +366,7 @@ a {
 }
 .inner_c69a7b {
     background: rgb(var(--mica-color), var(--mica-opacity)) !important;
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 	z-index: 2;
 }
 .inner_c69a7b:before {
@@ -561,7 +561,7 @@ background-color: transparent !important;
 	scrollbar-width: none;
 }
 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d {
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 	max-width: 200px;
 	margin-right: 12px;
 	border-radius: 8px;
@@ -577,7 +577,7 @@ background-color: transparent !important;
 .contentColumnDefault_c25c6d, .contentColumnWide_c25c6d {
 	background-color: rgb(var(--mica-color), var(--mica-opacity));
 	padding: 20px 40px;
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 	max-width: calc(100% - 200px);
 	border-radius: 8px;
 }
@@ -590,7 +590,7 @@ background-color: transparent !important;
 	padding: 8px;
 	border-radius: 8px;
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 }
 .header_a0 {color: var(--main-color);}
 .container_effbe2:focus-within {
@@ -621,7 +621,7 @@ background-color: transparent !important;
 .container_eedf95,
 .searchResult_ddc613 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	margin-top: 12px;
 }
@@ -665,10 +665,10 @@ background-color: transparent !important;
 	padding-top: 0;
 }
 .childWrapperNoHoverBg_f90abb {
-	background: rgb(from var(--main-color) r g b / 0.6);
-	& :hover {
-		background: var(--main-color);
-	}
+	background: rgb(from var(--main-color) r g b / 0.6); 
+}
+.childWrapperNoHoverBg_f90abb:hover {
+	background: var(--main-color);
 }
 .guildSeparator_d0c57e {
 	display: none;
@@ -689,7 +689,15 @@ background-color: transparent !important;
 	border-radius: 8px;
 	margin: 0 40px;
 }
-
+.expandedFolderBackground_bc7085 {
+	left: 8px;
+	padding: 4px;
+	background: rgb(var(--mica-color), var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
+}
+.circleIconButton_db6521 {
+	background: rgb(from var(--main-color) r g b / .6);
+}
 /* reaction */
 .reaction_ec6b19, .reactionBtn_ec6b19.forceShowLook_ec6b19 {
 	background: rgba(255, 255, 255, .1);
@@ -722,7 +730,7 @@ reactionBtn_ec6b19 :hover {
 }
 .container_b385c8 {
 	background-color: rgb(var(--second-color), .7);
-    backdrop-filter: var(--mica-filter);
+    backdrop-filter: blur(var(--mica-filter));
 	margin: 8px 8px 0px 12px;
 	border-radius: 8px;
 }
@@ -730,7 +738,7 @@ reactionBtn_ec6b19 :hover {
 .reactionTooltip_fba897 {
 	border-radius: 8px;
 	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s linear 0s 1 normal !important;
 }
 
@@ -746,7 +754,7 @@ reactionBtn_ec6b19 :hover {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	backdrop-filter: var(--mica-filter);
+	backdrop-filter: blur(var(--mica-filter));
 }
 .isBurstReactionPicker__428c0 {
 	box-shadow: none;
@@ -881,7 +889,7 @@ reactionBtn_ec6b19 :hover {
 /* autocomplete emote pick */
 .autocomplete_bcc24e .autocompleteInner_bcc24e {
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
-	backdrop-filter: var(--mica-filter) !important;
+	backdrop-filter: blur(var(--mica-filter)) !important;
 }
 .autocomplete_bcc24e {
 	backdrop-filter: blur(10px);
