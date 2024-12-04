@@ -765,7 +765,6 @@ reactionBtn_ec6b19 :hover {
 .container_b385c8 {
 	background-color: rgb(var(--second-color), .7);
     backdrop-filter: blur(var(--mica-filter));
-	margin: 8px 8px 0px 12px;
 	border-radius: 8px;
 }
 .theme-dark .tooltip_b6c360,
