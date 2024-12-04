@@ -44,7 +44,7 @@ body {
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
-	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
+	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
 }
 .privateChannels_f0963d, .container_ee69e0 {
 	margin: 0 6px 12px 0;
@@ -53,10 +53,10 @@ body {
 	margin: 0 6px 24px 0;
 }
 .members_cbd271 {
-	margin: 6px 12px 24px 6px;
+    margin: 6px 12px 24px 0px;
 }
 .scroller_e2e187 {
-	margin: 6px 6px 12px;
+	margin: 6px 12px 12px 6px;
 }
 .base_a4d4d9 .container_fc4f04 {
 	margin: 0 12px 6px 6px;
@@ -76,7 +76,7 @@ body {
 	margin: 6px 12px auto 6px;
 }
 .list_a6d69a, .grid_a6d69a {
-	margin: 6px;
+    margin: 6px 12px 6px 6px;
 }
 /* main chat */
 .tabBody_c2739c:before {display: none;}
@@ -252,7 +252,7 @@ body {
     width: auto;
     height: 40px;
     min-height: 40px;
-	box-shadow: none;
+	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
 	padding: 0;
 }
 .container_fc4f04 .topic_bf3bbb {
