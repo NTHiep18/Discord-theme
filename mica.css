@@ -71,14 +71,13 @@ body {
 .threadSidebarOpen_a7d72e {
 	margin: 0 6px 24px;
 }
-.subtitleContainer_a7d72e {
-	margin-bottom: 6px;
-}
 .nowPlayingColumn_c2739c {
 	height: fit-content;
 	margin: 6px 12px auto 6px;
 }
-
+.content_a7d72e {
+	margin: 0 6px 24px;
+}
 /* main chat */
 .tabBody_c2739c:before {display: none;}
 .chatContent_a7d72e, .theme-dark .container_a6d69a {
@@ -87,7 +86,7 @@ body {
 .group-spacing-16 .groupStart_d5deea {
     margin-top: 0;
 	padding-top: 4px;
-}
+	} {
 .cozy_ec86aa.wrapper_ec86aa {
 	margin-right: 8px;
     margin-left: 72px;
@@ -113,11 +112,8 @@ body {
 .jumpToPresentBar_cf58b5 {
 	right: 16px;
 }
-.repliedMessage_ec86aa:before {
-	margin-right: 0px;
-}
-.repliedMessage_ec86aa {
-	padding-left: 8px;
+.messageSpine_f9f2ca:before, .repliedMessageClickableSpine_f9f2ca {
+	border-color: var(--main-color);
 }
 .cozy_f9f2ca .timestamp_f9f2ca {
 	color: var(--text-default);
@@ -131,11 +127,21 @@ body {
 	background: rgb(var(--mica-color), var(--mica-opacity));
 	border-radius: 4px;
 }
+.buttonInner_b385c8, .addReactButton_b385c8 {
+	background-color: rgb(var(--mica-color), var(--mica-opacity));
+}
+.buttonInner_b385c8:hover, .addReactButton_b385c8:hover {
+	background-color: rgb(var(--main-color), .8);
+	border-color: transparent;
+}
 .container_a3b500 {
 	top: 0;
 }
 .emptyChannelIcon_c2668b {
 	background: transparent;
+}
+.blockquoteDivider_f8f345 {
+	background-color: var(--main-color);
 }
 
 /* main chat scrollbar */
@@ -311,10 +317,10 @@ body {
 	border-style: solid;
 }
 .wrapper_d8bfb3:hover .link_d8bfb3 {
-	background: rgb(from var(--main-color) r g b / .2) !important;
+	background: rgb(from var(--main-color) r g b / .3) !important;
 }
 .modeSelected_d8bfb3 .link_d8bfb3, .wrapper_d8bfb3:hover.modeSelected_d8bfb3 .link_d8bfb3 {
-	background: rgb(from var(--main-color) r g b / .8)  !important;
+	background: (--main-color)  !important;
 }
 .wrapper_d8bfb3.modeSelected_d8bfb3 .link_d8bfb3:before {background: transparent;}
 .wrapper_d8bfb3 {
@@ -636,6 +642,9 @@ background-color: transparent !important;
 }
 .searchBar_a46bef:focus-within {
 	background: rgb(var(--mica-color), var(--mica-opacity));
+}
+.searchAnswer_b0fa94, .searchFilter_b0fa94 {
+	background-color: var(--main-color);
 }
 .container_eedf95,
 .searchResult_ddc613 {
