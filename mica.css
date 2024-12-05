@@ -889,9 +889,22 @@ reactionBtn_ec6b19 :hover {
 .isBurstReactionPicker__428c0 {
 	box-shadow: none;
 }
+.label_d90b3d {
+	color: var(--text-normal);
+}
+.separator_d90b3d {
+	margin: 0;
+	border-bottom-color: var(--text-normal);
+}
 .container_ac201b {
 	position: absolute;
 	z-index: 2;
+}
+.button_a24e84 {
+	background: rgb(var(--mica-color), var(--mica-opacity));
+}
+.button_a24e84:hover {
+	background: var(--main-color);
 }
 
 /* Homepage */
