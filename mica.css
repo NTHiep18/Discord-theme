@@ -155,7 +155,7 @@ body {
 .cozy_f9f2ca .timestamp_f9f2ca {
 	color: var(--text-default);
 }
-.embed_b0068a {
+.embed_Wrapper_b558d0:not(:has(.imageContent_cf58b5)) {
 	border-left: 4px solid var(--main-color) !important;
 	background: rgb(var(--mica-color), calc(var(--mica-opacity) / 2));
 	width: fit-content;
