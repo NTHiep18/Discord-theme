@@ -44,7 +44,7 @@ body {
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6) !important;
 }
 .privateChannels_f0963d, .container_ee69e0 {
 	margin: 0 6px 12px 0;
@@ -911,13 +911,21 @@ margin: 8px;
 	background-color: rgb(var(--mica-color), var(--mica-opacity));
 }
 
-/* channel thread list */
+/* gallery and channel thread list */
 .list_a6d69a>div:first-child {
 	padding: 0;
+	margin-right: 6px;
 }
 .list_a6d69a, .grid_a6d69a {
-	width: calc(100% - 12px);
 	border-radius: 8px;
+    margin: 6px 0px 24px 6px;
+    width: calc(100% - 6px);
+}
+.chat_a7d72e.threadSidebarOpen_a7d72e {
+	margin: 0 0 24px 0;
+}
+.content_a7d72e > .container_a6d69a {
+	margin-right: 6px;
 }
 .grid_a6d69a .card_a6d69a {
 	left: 0 !important;
