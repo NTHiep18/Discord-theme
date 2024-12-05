@@ -1152,10 +1152,10 @@ margin: 8px;
 	border-width: 6px;
 }
 .tooltipRight_b6c360 {
-    border-left: 1px solid var(--main-color);
+    border-left: 2px solid var(--main-color);
 }
 .tooltipTop_b6c360 {
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
 }
 
 /* Fuck server discovery */
