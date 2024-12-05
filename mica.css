@@ -181,6 +181,10 @@ body {
 .blockquoteDivider_f8f345 {
 	background-color: var(--main-color);
 }
+.container_a1531c, .container_e365d2 {
+	background: rgb(var(--mica-color), var(--mica-opacity));
+	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+}
 
 /* Main chat scrollbar */
 .scroller_e2e187.scrollerBase_c49869 {
