@@ -680,6 +680,18 @@ background-color: transparent !important;
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
 	border-radius: 6px;
 	padding: 8px;
+	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+}
+/* profile on DM */
+.content_a7d72e > .outer_c69a7b {
+	margin: 6px 12px 24px 0;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	overflow: hidden;
+	height: fit-content;
+}
+.inner_c69a7b.panel_c69a7b {
+	height: fit-content;
 }
 
 /* Setting menu */
