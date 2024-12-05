@@ -155,7 +155,7 @@ body {
 .cozy_f9f2ca .timestamp_f9f2ca {
 	color: var(--text-default);
 }
-:not(.inlineMediaEmbed_b0068a).embedWrapper_b558d0 {
+.embedFull_b0068a {
 	border-left: 4px solid var(--main-color) !important;
 	background: rgb(var(--mica-color), calc(var(--mica-opacity) / 2));
 	width: fit-content;
@@ -976,6 +976,9 @@ margin: 8px;
 	background: rgb(from var(--main-color) r g b / .2);
 	padding-left: 15px;
 	border-radius: 0;
+}
+.peopleList_e0840f.scrollerBase_c49869 {
+	scrollbar-width: none;
 }
 .actionButton_e01b91,
 .emptyCard_f02fcf {
