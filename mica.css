@@ -158,6 +158,7 @@ body {
 .embed_b0068a {
 	border-left: 4px solid var(--main-color) !important;
 	background: rgb(var(--mica-color), calc(var(--mica-opacity) / 2));
+	width: fit-content;
 }
 .popoverReactionHoverBar_e986d9 {
 	border: none !important;
