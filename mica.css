@@ -503,7 +503,7 @@ background-color: transparent !important;
 	padding: 38px 16px 10px;
 }
 .visibleContainer_a82ccc.biteSize_a82ccc,
-.visibleContainer_a82ccc.biteSize_a82ccc {
+.visibleContainer_af9888.biteSize_af9888 {
 	top: 60px;
 	left: 100px;
 }
@@ -523,7 +523,12 @@ background-color: transparent !important;
     background-color: rgb(var(--mica-color), var(--mica-opacity));
 	border: none !important;
 }
- 
+.statusBubbleOuter_af9888:before, .statusBubbleOuter_a82ccc:before {
+	top: -24px
+}
+.statusBubbleOuter_af9888:after, .statusBubbleOuter_a82ccc:after {
+	top: -36px;
+}
 .popover_a64b81 {
 	left: 24px;
 	top: 92px !important;
@@ -807,10 +812,6 @@ background-color: transparent !important;
 		scrollbar-width: none;
 	}
 }
-.theme-dark .tooltip_b6c360.tooltipPrimary_b6c360>.tooltipPointer_b6c360 {
-    border-top-color: rgb(var(--mica-color), var(--mica-opacity));
-	border-width: 6px;
-}
 .bar_eba0ba {
 	background: var(--main-color);
 	border-radius: 8px;
@@ -869,13 +870,6 @@ reactionBtn_ec6b19 :hover {
     backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	margin: 6px;
-}
-.theme-dark .tooltip_b6c360,
-.reactionTooltip_fba897 {
-	border-radius: 8px;
-	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
-	backdrop-filter: blur(var(--mica-filter));
-	animation: appear 0.25s linear 0s 1 normal !important;
 }
 
 /* Right click menu */
@@ -1087,6 +1081,26 @@ margin: 8px;
 .repliedMessage_f9f2ca .repliedTextPreview_f9f2ca .repliedTextContent_f9f2ca, .threadMessageAccessory_f9f2ca .threadMessageAccessoryPreview_f9f2ca .threadMessageAccessoryContent_f9f2ca {
 	color: var(--text-default);
 }
+
+/* tooltips */
+.theme-dark .tooltip_b6c360,
+.reactionTooltip_fba897 {
+	border-radius: 8px;
+	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
+	backdrop-filter: blur(var(--mica-filter));
+	animation: appear 0.25s linear 0s 1 normal !important;
+}
+.theme-dark .tooltip_b6c360.tooltipPrimary_b6c360>.tooltipPointer_b6c360 {
+    border-top-color: var(--main-color);
+	border-width: 6px;
+}
+.tooltipRight_b6c360 {
+    border-left: 1px solid var(--main-color);
+}
+.tooltipTop_b6c360 {
+    border-bottom: 1px solid var(--main-color);
+}
+
 /* Fuck server discovery */
 .footer_d71945 {display: none}
 
