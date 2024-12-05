@@ -46,6 +46,7 @@
 }
 .bg_d4b6c5, .app_a01fb1, .sidebar_a4d4d9, .container_b2ca13, .chat_a7d72e,
 .themedBackground_bdf0de, .container_cbd271, .member_cbd271, .scroller_c47fa9, .container_c2739c, .container_bf550a, .searchBar_e0840f,
+.statusBubble_a82ccc, .statusBubble_af9888,
 .layer_d4b6c5, .standardSidebarView_c25c6d, .sidebarRegionScroller_c25c6d, .contentRegion_c25c6d, .contentRegionScroller_c25c6d, .container_effbe2,
 .container_d1c246 {
     background: transparent !important;
@@ -158,7 +159,7 @@ body {
 	background: rgb(var(--mica-color), calc(var(--mica-opacity) / 2));
 }
 .popoverReactionHoverBar_e986d9 {
-	border: none;
+	border: none !important;
 	background: rgb(var(--mica-color), var(--mica-opacity));
 	border-radius: 4px;
 }
@@ -270,7 +271,7 @@ body {
 	padding-right: 20px;
 }
 .placeholder_a552a6 {
-	color: var(--text-silent);
+	color: var(--text-faded);
 }
 .channelAttachmentArea_e8c527 {
 	background: transparent;
@@ -333,7 +334,7 @@ body {
 	margin: 4px;
 }
 .menuItemColor_ad5fac {
-	color: var(--text-silent);
+	color: var(--text-faded);
 }
 .avatarWrapper_b2ca13 {
 	width: 132px;
@@ -500,7 +501,7 @@ background-color: transparent !important;
 	border-radius: 8px !important;
 }
 .headerInner_b9fccc {
-	padding: 38px 16px 10px;
+	padding: 38px 0 10px;
 }
 .visibleContainer_a82ccc.biteSize_a82ccc,
 .visibleContainer_af9888.biteSize_af9888 {
@@ -535,6 +536,17 @@ background-color: transparent !important;
 }
 .wrapper_f7e168 .button_f7e168:hover, .wrapper_f7e168 .button_f7e168.selected_f7e168 {
 	background-color: rgb(from var(--main-color) r g b / 0.8);
+}
+.scroller_d53fbd {
+	&::-webkit-scrollbar {
+    width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+    background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    }
 }
 .tabBarItem_ecc04c {
     height: 28px;
@@ -779,7 +791,7 @@ background-color: transparent !important;
 	color: var(--text-normal);
 }
 .option_b0286e.user_b0286e .displayUsername_b0286e {
-	color: var(--text-silent);
+	color: var(--text-faded);
 }
 .button_ddc613 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
