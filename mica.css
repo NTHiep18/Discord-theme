@@ -3,13 +3,13 @@
 /* If you would like to customize, copy paste this to your custom CSS section then adjust the variables */
 :root {
     /* Mica effect */
-    --mica-color: 200, 200, 200; /* Mica color */
+    --mica-color: rgb(200, 200, 200); /* Mica color */
     --mica-opacity: .2; /* Mica transparency */
     --mica-filter: 15px; /* Blur effect */
 
     /* Main and second color */
     --main-color: #5865F1; /* Main color */
-    --second-color: 3, 2, 51; /* Second color to compliment main color */
+    --second-color: rgb(3, 2, 51); /* Second color to compliment main color */
 
     /* App background */
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
@@ -78,7 +78,7 @@ body {
 .mainCard_a6d69a, .tag_a6d69a, .sortDropdown_a6d69a, .tagsButton_a6d69a,
 .resizeHandle_d1c246, .chatHeaderBar_e2f46e,
 .modal_a60b1b, .header_e664f3, .popout_c5b389 {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6) !important;
@@ -162,11 +162,11 @@ body {
 }
 .popoverReactionHoverBar_e986d9 {
 	border: none !important;
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 4px;
 }
 .buttonInner_b385c8, .addReactButton_b385c8 {
-	background-color: rgb(var(--mica-color), var(--mica-opacity));
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .buttonInner_b385c8:hover, .addReactButton_b385c8:hover {
 	background-color: rgb(from var(--main-color) r g b / .8);
@@ -182,7 +182,7 @@ body {
 	background-color: var(--main-color);
 }
 .container_a1531c, .container_e365d2 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
 }
 
@@ -208,7 +208,7 @@ body {
 .footer_d8e2d0,
 .markup_f8f345 code {
 	border: none;
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .footer_d8e2d0 {
 	margin-top: 2px;
@@ -277,7 +277,7 @@ body {
 	height: 36px;
 }
 .upload_df1eaf {
-	background-color: rgb(var(--mica-color), var(--mica-opacity));
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	padding-right: 20px;
 }
@@ -468,7 +468,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	position: absolute;
 }
 .inner_c69a7b {
-    background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+    background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	z-index: 2;
 }
@@ -511,7 +511,7 @@ background-color: transparent !important;
 	background: transparent !important;
 }
 .button_f9d37d {
-	background-color: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 8px !important;
 }
 .headerInner_b9fccc {
@@ -535,7 +535,7 @@ background-color: transparent !important;
 .statusBubbleOuter_a82ccc,
 .statusBubbleOuter_a82ccc:before,
 .statusBubbleOuter_a82ccc:after {
-    background-color: rgb(var(--mica-color), var(--mica-opacity));
+    background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border: none !important;
 }
 .statusBubbleOuter_af9888:before, .statusBubbleOuter_a82ccc:before {
@@ -580,7 +580,7 @@ background-color: transparent !important;
 .overlay_c69a7b .top_a0 .selected_a0.item_a0 {
 	border-color: var(--text-default) !important;
 	color: var(--text-default) !important;
-	background-color: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .note_a24910 {
 	margin: 0;
@@ -673,11 +673,11 @@ background-color: transparent !important;
 	fill: var(--text-default) !important;
 }
 .container_b64375 {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border: none;
 }
 .connectedAccountContainer_ab12c6 {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 6px;
 	padding: 8px;
 	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
@@ -710,14 +710,14 @@ background-color: transparent !important;
 	padding: 0;
 }
 .sidebar_c25c6d .side_a0 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	padding: 20px 8px;
 	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
     margin-right: 6px;
     border-radius: 8px;
 }
 .contentColumnDefault_c25c6d, .contentColumnWide_c25c6d {
-	background-color: rgb(var(--mica-color), var(--mica-opacity));
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	padding: 20px 40px;
 	backdrop-filter: blur(var(--mica-filter));
 	max-width: calc(100% - 200px);
@@ -732,19 +732,19 @@ background-color: transparent !important;
 .contentRegionScroller_c25c6d .tools_c25c6d {
 	padding: 8px;
 	border-radius: 8px;
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
 }
 .header_a0 {color: var(--main-color);}
 .container_effbe2:focus-within {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .barFill_c7a159 {
 	background: var(--main-color);
 }
 .itemFilled_eb92a8 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	color: var(--text-default) !important;
 	border-radius: 8px;
 }
@@ -758,7 +758,7 @@ background-color: transparent !important;
 	top: 58px;
 }
 .accountProfileCard_b69b77 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 4px;
 	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
 }
@@ -766,7 +766,7 @@ background-color: transparent !important;
 	background: transparent;
 }
 .lookFilled_dd4f85.colorPrimary_dd4f85 {
-	background-color: rgb(var(--mica-color), var(--mica-opacity));
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .lookFilled_dd4f85.colorPrimary_dd4f85 {
 	background: var(--main-color);
@@ -776,14 +776,14 @@ background-color: transparent !important;
 	background: transparent;
 }
 .searchBar_a46bef:focus-within {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .searchAnswer_b0fa94, .searchFilter_b0fa94 {
 	background-color: var(--main-color);
 }
 .container_eedf95,
 .searchResult_ddc613 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	margin-top: 12px;
@@ -820,7 +820,7 @@ background-color: transparent !important;
 	color: var(--text-faded);
 }
 .button_ddc613 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 8px;
 	& :hover {
 		background: rgb(var(--main-color));
@@ -830,7 +830,7 @@ background-color: transparent !important;
 .wrapper_bf1b19 {
     border: 1px var(--main-color) solid;
     border-radius: 4px !important;
-	background: rgb(var(--second-color)) !important;
+	background: var(--second-color) !important;
 	padding: 0px 2px;
 	color: var(--text-normal) !important;
 }
@@ -881,7 +881,7 @@ background-color: transparent !important;
 	padding: 4px;
 	top: -4px;
 	bottom: 4px;
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 }
 .wrapper_c5f96a {
@@ -908,10 +908,10 @@ background-color: transparent !important;
 }
 .reaction_ec6b19:hover,
 reactionBtn_ec6b19 :hover {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .reaction_ec6b19.reactionMe_ec6b19 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-color: var(--main-color);
 	box-sizing: border-box;
 }
@@ -922,7 +922,7 @@ reactionBtn_ec6b19 :hover {
 	min-width: unset !important;
 }
 .container_b385c8 {
-	background-color: rgb(var(--second-color), .7);
+	background-color: rgb(from var(--second-color) r g b / .7);
     backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	margin: 6px;
@@ -930,7 +930,7 @@ reactionBtn_ec6b19 :hover {
 
 /* Right click menu */
 :not(.userPopoutOverlayBackground_c69a7b) > .menu_d90b3d, .container_ac201b {
-	background-color: rgb(var(--mica-color), var(--mica-opacity));
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 :not(.menus_d4e7c2) > .menu_d90b3d::before {
 	content: "";
@@ -957,7 +957,7 @@ reactionBtn_ec6b19 :hover {
 	z-index: 2;
 }
 .button_a24e84 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .button_a24e84:hover {
 	background: var(--main-color);
@@ -979,13 +979,13 @@ margin: 8px;
 }
 .actionButton_e01b91,
 .emptyCard_f02fcf {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .actionButton_e01b91:hover {
 	background: var(--main-color) !important;
 }
 .searchBar_e0840f:focus-within {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .item_a0:hover {
 	background: rgb(from var(--main-color) r g b / .8) !important;
@@ -997,7 +997,7 @@ margin: 8px;
 	color: var(--text-default);
 }
 .searchBar_f0963d .searchBarComponent_f0963d {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .selected_f5eb4b {
 	background: var(--main-color);
@@ -1006,7 +1006,7 @@ margin: 8px;
 	}
 }
 .outer_ac5d22 {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .inset_ac5d22 {
 	background :transparent;
@@ -1016,6 +1016,9 @@ margin: 8px;
 }
 .scroller_bf550a {
 	border-left: none;
+}
+.empty_c47fa9 {
+	fill: var(--main-color);
 }
 
 /* Auto hidden member list */
@@ -1032,7 +1035,7 @@ margin: 8px;
 	border-radius: 4px;
 	color: var(--text-normal);
 	border: 2px solid var(--main-color);
-	background: rgb(var(--second-color));
+	background: var(--second-color);
 	line-height: 12px;
 	margin-bottom: 8px;
 }
@@ -1076,7 +1079,7 @@ margin: 8px;
     border: 1px var(--main-color) solid;
     border-radius: 4px;
 	padding: 1px 4px;
-	background-color: rgb(var(--mica-color), var(--mica-opacity));
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 
 /* Gallery and channel thread list */
@@ -1137,10 +1140,10 @@ margin: 8px;
 	background: transparent;
 }
 .searchBox_e664f3:focus-within {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .container_acb8b3 {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .list_c6aa12 {
 	padding: 6px !important;
@@ -1155,7 +1158,7 @@ margin: 8px;
 .theme-dark .tooltip_b6c360,
 .reactionTooltip_fba897 {
 	border-radius: 8px;
-	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity)*1.5));
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s linear 0s 1 normal !important;
 }
@@ -1175,7 +1178,7 @@ margin: 8px;
 
 /* Autocomplete emote pick */
 .autocomplete_bcc24e .autocompleteInner_bcc24e {
-	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter)) !important;
 }
 .autocomplete_bcc24e {
