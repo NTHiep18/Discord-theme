@@ -897,10 +897,6 @@ reactionBtn_ec6b19 :hover {
 .reactionCount_ec6b19 {
 	min-width: unset !important;
 }
-
-.reactions_ec6b19 {
-	padding-left: 6px;
-}
 .container_b385c8 {
 	background-color: rgb(var(--second-color), .7);
     backdrop-filter: blur(var(--mica-filter));
