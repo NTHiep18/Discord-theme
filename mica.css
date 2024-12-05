@@ -24,9 +24,9 @@
     /* Text font and color */
     --main-font: 'Borda 3'; /* Font that applies to everywhere except codeblock */
     --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* Font for code block */
-    --text-normal: rgb(220, 221, 222); /* Color for day change notif and mention */
+    --text-normal: rgb(220, 221, 222); /* Color for UI parts */
     --text-default: rgb(255, 255, 255); /* Color for most texts */
-    --text-faded: rgb(128, 149, 186); /* Muted text */
+    --text-faded: rgb(128, 149, 186); 
 }
 
 /* The main theme */
@@ -270,7 +270,7 @@ body {
 	padding-right: 20px;
 }
 .placeholder_a552a6 {
-	color: var(--text-muted);
+	color: var(--text-silent);
 }
 .channelAttachmentArea_e8c527 {
 	background: transparent;
@@ -333,7 +333,7 @@ body {
 	margin: 4px;
 }
 .menuItemColor_ad5fac {
-	color: var(--text-muted);
+	color: var(--text-silent);
 }
 .avatarWrapper_b2ca13 {
 	width: 132px;
@@ -762,6 +762,24 @@ background-color: transparent !important;
 }
 .scroller_c2b47d {
 	padding: 12px 12px 0 !important;
+	&::-webkit-scrollbar {
+    width: 4px;
+    }
+    &::-webkit-scrollbar-track {
+    background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    }
+}
+.queryContainer_eedf95.focused_eedf95 {
+	background: transparent;
+}
+.option_b0286e .filter_b0286e, .option_b0286e .answer_b0286e, .option_b0286e strong {
+	color: var(--text-normal);
+}
+.option_b0286e.user_b0286e .displayUsername_b0286e {
+	color: var(--text-silent);
 }
 .button_ddc613 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
