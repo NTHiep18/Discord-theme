@@ -181,10 +181,16 @@ body {
 
 /* Main chat scrollbar */
 .scroller_e2e187.scrollerBase_c49869 {
-    scrollbar-width: thin;
-	scrollbar-color: var(--main-color) transparent;
+    &::-webkit-scrollbar {
+    width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+    background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    }
 }
-
 /* Code block */
 .newMosaicStyle_d8e2d0 .textContainer_d8e2d0,
 .footer_d8e2d0,
@@ -713,11 +719,10 @@ background-color: transparent !important;
 }
 .lookFilled_dd4f85.colorPrimary_dd4f85 {
 	background-color: rgb(var(--mica-color), var(--mica-opacity));
-	& :hover {
-		background: var(--main-color);
-	}
 }
-
+.lookFilled_dd4f85.colorPrimary_dd4f85 {
+	background: var(--main-color);
+}
 /* Search box */
 .searchBar_a46bef {
 	background: transparent;
@@ -940,10 +945,6 @@ margin: 8px;
 }
 .section_cd82a7 {
 	background-color: var(--main-color);
-}
-.scrollerBase_c49869 {
-	scrollbar-width: thin;
-	scrollbar-color: var(--main-color) transparent;
 }
 .scroller_bf550a {
 	border-left: none;
