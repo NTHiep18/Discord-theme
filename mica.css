@@ -519,7 +519,7 @@ background-color: transparent !important;
 }
 .visibleContainer_a82ccc.fullSize_a82ccc,
 .visibleContainer_af9888.fullSize_af9888 {
-    top: 56px;
+    top: 50px;
     left: 152px;
 }
 .statusBubble_af9888,
@@ -534,7 +534,7 @@ background-color: transparent !important;
 	border: none !important;
 }
 .statusBubbleOuter_af9888:before, .statusBubbleOuter_a82ccc:before {
-	top: -24px
+	top: -24px;
 }
 .statusBubbleOuter_af9888:after, .statusBubbleOuter_a82ccc:after {
 	top: -36px;
