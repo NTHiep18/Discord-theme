@@ -155,7 +155,7 @@ body {
 .cozy_f9f2ca .timestamp_f9f2ca {
 	color: var(--text-default);
 }
-:not(.inlineMediaEmbed_b0068a).embed_Wrapper_b558d0 {
+:not(.inlineMediaEmbed_b0068a).embedWrapper_b558d0 {
 	border-left: 4px solid var(--main-color) !important;
 	background: rgb(var(--mica-color), calc(var(--mica-opacity) / 2));
 	width: fit-content;
@@ -1164,10 +1164,10 @@ margin: 8px;
 	border-width: 6px;
 }
 .tooltipRight_b6c360 {
-    border-left: 2px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
 }
 .tooltipTop_b6c360 {
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
 }
 
 /* Fuck server discovery */
