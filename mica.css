@@ -68,6 +68,7 @@ body {
 .members_cbd271,
 .scroller_e2e187,
 .channelTextArea_bdf0de:focus-within,
+.wrapper_faf5ab,
 .base_a4d4d9 .container_fc4f04,
 .content_a7d72e .searchResultsWrap_c2b47d,
 .privateChannels_f0963d,
@@ -290,7 +291,9 @@ body {
 .channelAppLauncher_df39bd {
 	display: none;
 }
-.buttons_bdf0de {height: 36px;}
+.buttons_bdf0de {
+	height: 36px;
+}
 
 /* Top bar */
 .base_a4d4d9 .container_fc4f04 {
@@ -435,6 +438,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 .scrollerBase_eed6a8 {
 	scrollbar-width: none;
 }
+
 /* User popout */
 .outer_c69a7b {
 	background: var(--background-image) no-repeat center / cover !important;
@@ -859,7 +863,8 @@ background-color: transparent !important;
 	border-radius: 24px;
 	overflow: hidden;
 }
-.wrapper_c5f96a:has(.lowerBadge_c5f96a) {
+.wrapper_c5f96a:has(.lowerBadge_c5f96a),
+.wrapper_c5f96a:has(.upperBadge_c5f96a) {
 	overflow: visible;
 }
 .circleIconButton_db6521 {
@@ -869,7 +874,7 @@ background-color: transparent !important;
 .reaction_ec6b19, .reactionBtn_ec6b19.forceShowLook_ec6b19 {
 	background: rgba(255, 255, 255, .1);
     border-radius: 4px;
-	border: none;
+	border: 1px solid transparent;
 	height: 24px !important;
 	display: flex;
 	justify-content: center;
@@ -882,7 +887,7 @@ reactionBtn_ec6b19 :hover {
 }
 .reaction_ec6b19.reactionMe_ec6b19 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
-	border: 2px var(--main-color) solid;
+	border-color: var(--main-color);
 	box-sizing: border-box;
 }
 .reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
