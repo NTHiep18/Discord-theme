@@ -15,7 +15,7 @@
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
-	--shadow: var(--shadow);
+	--shadow: var(--shadow-color);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -733,7 +733,15 @@ background-color: transparent !important;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
 }
-.header_a0 {color: var(--main-color);}
+.peopleList_e0840f.scrollerBase_c49869 {
+	scrollbar-width: none;
+}
+.header_a0 {
+	color: var(--main-color);
+}
+.empty_c47fa9 {
+	fill :rgb(var(--second-color), 0.7);
+}
 .container_effbe2:focus-within {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
@@ -927,6 +935,7 @@ reactionBtn_ec6b19 :hover {
 
 /* Right click menu */
 :not(.userPopoutOverlayBackground_c69a7b) > .menu_d90b3d, .container_ac201b {
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     position: relative;
     z-index: 2;
     box-shadow: var(--shadow);
@@ -1162,6 +1171,7 @@ margin: 8px;
 	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s linear 0s 1 normal !important;
+	color: var(--text-default);
 }
 .theme-dark .tooltip_b6c360.tooltipPrimary_b6c360>.tooltipPointer_b6c360 {
     border-top-color: var(--main-color);
