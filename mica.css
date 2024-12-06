@@ -1187,16 +1187,11 @@ margin: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s linear 0s 1 normal !important;
 	color: var(--text-default);
+	box-shadow: var(--shadow);
 }
 .theme-dark .tooltip_b6c360.tooltipPrimary_b6c360>.tooltipPointer_b6c360 {
     border-top-color: var(--main-color);
 	border-width: 6px;
-}
-.tooltipRight_b6c360 {
-    border-left: 1px solid var(--main-color);
-}
-.tooltipTop_b6c360 {
-    border-bottom: 1px solid var(--main-color);
 }
 
 /* Fuck server discovery */
