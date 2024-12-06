@@ -157,10 +157,11 @@ body {
 .cozy_f9f2ca .timestamp_f9f2ca {
 	color: var(--text-default);
 }
-:not(.inlineMediaEmbed_b0068a).embed_Wrapper_b558d0 {
+.embedFull_b0068a {
 	border-left: 4px solid var(--main-color) !important;
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
 	width: fit-content;
+	box-shadow: var(--shadow);
 }
 .popoverReactionHoverBar_e986d9 {
 	border: none !important;
