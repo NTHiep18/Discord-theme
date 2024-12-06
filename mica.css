@@ -14,7 +14,7 @@
     /* App background */
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
-	--shadow-color: rgb(0, 0, 0, .6); /* Color of b0x-shadow */
+	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: var(--shadow);
 
     /* Channel color */
