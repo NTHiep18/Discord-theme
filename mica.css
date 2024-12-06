@@ -905,7 +905,8 @@ background-color: transparent !important;
 	background: rgb(from var(--main-color) r g b / .2);
 }
 /* Reaction */
-.reaction_ec6b19, .reactionBtn_ec6b19.forceShowLook_ec6b19 {
+.reaction_ec6b19, .reactionBtn_ec6b19.forceShowLook_ec6b19,
+.reaction_f61c73 {
 	background: rgba(255, 255, 255, .1);
     border-radius: 4px;
 	border: 1px solid transparent;
@@ -916,10 +917,12 @@ background-color: transparent !important;
 	width: auto;
 }
 .reaction_ec6b19:hover,
-reactionBtn_ec6b19 :hover {
+.reactionBtn_ec6b19:hover
+.reaction_f61c73:hover {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
-.reaction_ec6b19.reactionMe_ec6b19 {
+.reaction_ec6b19.reactionMe_ec6b19,
+.reaction_f61c73.reactionMe_f61c73 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-color: var(--main-color);
 	box-sizing: border-box;
@@ -1005,9 +1008,6 @@ margin: 8px;
 }
 .item_a0:hover {
 	background: rgb(from var(--main-color) r g b / .8) !important;
-}
-.selected_a0.item_a0 {
-	background: var(--main-color) !important;
 }
 .title_a1cafe {
 	color: var(--text-default);
