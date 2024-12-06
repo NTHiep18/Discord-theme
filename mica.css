@@ -15,7 +15,7 @@
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
-	--shadow: var(--shadow-color);
+	--shadow: 2px 2px 2px 1px var(--shadow-color);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -189,6 +189,9 @@ body {
 .container_a1531c, .container_e365d2 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
+}
+.chat_f57fdc:before {
+	display: none;
 }
 
 /* Main chat scrollbar */
@@ -372,6 +375,9 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
     margin-top: 11px;
     margin-left: 6px;
     background-color: var(--channel-color);
+}
+.animatedContainer_fd6364 {
+	border-radius: 8px;
 }
 .iconContainer_d8bfb3 {
 	margin-right: 0;
@@ -927,8 +933,7 @@ reactionBtn_ec6b19 :hover {
 	min-width: unset !important;
 }
 .container_b385c8 {
-	background-color: rgb(var(--second-color), .7);
-    backdrop-filter: blur(var(--mica-filter));
+	background-color: rgb(var(--second-color), .9);
 	border-radius: 8px;
 	margin: 6px;
 }
@@ -1108,10 +1113,11 @@ margin: 8px;
 .content_a7d72e > .container_a6d69a {
 	margin-right: 6px;
 }
-.grid_a6d69a .card_a6d69a {
+.headerRow_a6d69a {
 	left: 0 !important;
 	top: 0 !important;
 	width: 100% !important;
+	padding-right: 6px;
 }
 .resizeHandle_d1c246 {
 	border-bottom-right: 0 !important;
@@ -1120,9 +1126,14 @@ margin: 8px;
 .collapsed_c1668f .title_c1668f {
 	height: 36px;
 	margin: 0;
-	line-height: 36p;
+	line-height: 36p6;
 	padding-right: 0;
 	margin-right: 8px;
+	padding-left: 8px;
+	border-radius: 8px;
+}
+.content_eed6a8 > div:first-child {
+	top: 0;
 }
 .list_a6d69a .header_a6d69a {
 	margin-top: 0;
@@ -1131,8 +1142,11 @@ margin: 8px;
 	height: calc(100% - 24px);
 	margin-bottom: 24px;
 }
+.sortDropdown_a6d69a {
+	margin-bottom: 0;
+}
 .divider_a6d69a {
-	display: none;
+	margin: 0 4px
 }
 .spine_e1e976 {
 	width: 16px !important;
