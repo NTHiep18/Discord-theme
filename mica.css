@@ -657,10 +657,6 @@ background-color: transparent !important;
 	position: relative;
 	z-index: 2;
 }
-.tabBarItem_ecc04c .defaultColor_a595eb {
-	color: #ffffff;
-	line-height: 28px;
-}
 .avatar_f94206.fullSize_f94206 {
 	top: -44px;
 }
@@ -682,11 +678,13 @@ background-color: transparent !important;
 .container_b64375 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border: none;
+	box-shadow: var(--shadow);
 }
 .connectedAccountContainer_ab12c6 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 6px;
 	padding: 8px;
+	box-shadow: var(--shadow);
 }
 .footer_b8cc6d {
 	padding: 0 12px 12px;
@@ -782,6 +780,18 @@ background-color: transparent !important;
 .lookFilled_dd4f85.colorPrimary_dd4f85 {
 	background: var(--main-color);
 }
+.tabBar_d8bb15 {
+    gap: 4px;
+    border-bottom: 1px solid var(--text-default);
+}
+.top_a0 .item_a0 {
+    flex-grow: 1;
+    justify-content: center;
+    padding: 6px 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
 /* Search box */
 .searchBar_a46bef {
 	background: transparent;
