@@ -14,6 +14,8 @@
     /* App background */
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
+	--shadow-color: rgb(0, 0, 0, .6); /* Color of b0x-shadow */
+	--shadow: var(--shadow);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -81,7 +83,7 @@ body {
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6) !important;
+	box-shadow: var(--shadow) !important;
 }
 .privateChannels_f0963d, .container_ee69e0 {
 	margin: 0 6px 12px 0;
@@ -164,6 +166,8 @@ body {
 	border: none !important;
 	background: rgb(var(--mica-color), var(--mica-opacity));
 	border-radius: 4px;
+	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow);
 }
 .buttonInner_b385c8, .addReactButton_b385c8 {
 	background-color: rgb(var(--mica-color), var(--mica-opacity));
@@ -183,7 +187,7 @@ body {
 }
 .container_a1531c, .container_e365d2 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	box-shadow: var(--shadow);
 }
 
 /* Main chat scrollbar */
@@ -305,7 +309,7 @@ body {
     width: auto;
     height: 40px;
     min-height: 40px;
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	box-shadow: var(--shadow);
 	padding: 0;
 }
 .container_fc4f04 .topic_bf3bbb {
@@ -508,6 +512,7 @@ background-color: transparent !important;
 .button_f9d37d {
 	background-color: rgb(var(--mica-color), var(--mica-opacity)) !important;
 	border-radius: 8px !important;
+	box-shadow: var(--shadow);
 }
 .headerInner_b9fccc {
 	padding: 38px 0 10px;
@@ -676,6 +681,14 @@ background-color: transparent !important;
 	border-radius: 6px;
 	padding: 8px;
 }
+.footer_b8cc6d {
+	padding: 0 12px 12px;
+}
+.wrapper_cb78f1.biteSize_cb78f1 {
+	top: 10px;
+	right: 10px;
+	margin: 2px 2px 0 0;
+}
 
 /* Setting menu */
 .sidebarRegionScroller_c25c6d.scrollerBase_c49869,
@@ -695,7 +708,7 @@ background-color: transparent !important;
 .sidebar_c25c6d .side_a0 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
 	padding: 20px 8px;
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	box-shadow: var(--shadow);
     margin-right: 6px;
     border-radius: 8px;
 }
@@ -705,7 +718,7 @@ background-color: transparent !important;
 	backdrop-filter: blur(var(--mica-filter));
 	max-width: calc(100% - 200px);
 	border-radius: 8px;
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	box-shadow: var(--shadow);
 }
 .contentRegionScroller_c25c6d .toolsContainer_c25c6d {
 	margin-left: 10px;
@@ -717,7 +730,7 @@ background-color: transparent !important;
 	border-radius: 8px;
 	background: rgb(var(--mica-color), var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	box-shadow: var(--shadow);
 }
 .header_a0 {color: var(--main-color);}
 .container_effbe2:focus-within {
@@ -743,7 +756,7 @@ background-color: transparent !important;
 .accountProfileCard_b69b77 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
 	border-radius: 4px;
-	box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, .6);
+	box-shadow: var(--shadow);
 }
 .background_b69b77, .fieldList_b69b77 {
 	background: transparent;
@@ -801,6 +814,9 @@ background-color: transparent !important;
 }
 .option_b0286e.user_b0286e .displayUsername_b0286e {
 	color: var(--text-faded);
+}
+.background_b69b77 {
+    padding: 16px 0 0 4px;
 }
 .button_ddc613 {
 	background: rgb(var(--mica-color), var(--mica-opacity));
@@ -910,7 +926,11 @@ reactionBtn_ec6b19 :hover {
 
 /* Right click menu */
 :not(.userPopoutOverlayBackground_c69a7b) > .menu_d90b3d, .container_ac201b {
-	background-color: rgb(var(--mica-color), var(--mica-opacity));
+    position: relative;
+    z-index: 2;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    overflow: hidden;
 }
 :not(.menus_d4e7c2) > .menu_d90b3d::before {
 	content: "";
@@ -921,6 +941,9 @@ reactionBtn_ec6b19 :hover {
 	height: 100%;
 	z-index: -1;
 	backdrop-filter: blur(var(--mica-filter));
+}
+.submenuPaddingContainer_d90b3d {
+	padding: 0;
 }
 .isBurstReactionPicker__428c0 {
 	box-shadow: none;
