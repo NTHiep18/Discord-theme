@@ -481,6 +481,9 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 .inner_c69a7b:before {
 	display: none;
 }
+.body_b9fccc {
+	margin-right: 8px;
+}
 .overlay_c69a7b {
 background-color: transparent !important;
 }
@@ -494,7 +497,8 @@ background-color: transparent !important;
     margin: 8px 8px 0;
 }
 .scroller_d53fbd {
-	padding: 8px;
+	padding: 8px !important;
+	scrollbar-width: none;
 }
 .avatar_f94206.biteSize_f94206 {
 	top: 0 !important;
@@ -557,17 +561,6 @@ background-color: transparent !important;
 }
 .wrapper_f7e168 .button_f7e168:hover, .wrapper_f7e168 .button_f7e168.selected_f7e168 {
 	background-color: rgb(from var(--main-color) r g b / 0.8);
-}
-.scroller_d53fbd {
-	&::-webkit-scrollbar {
-    width: 8px;
-    }
-    &::-webkit-scrollbar-track {
-    background: transparent;
-    }
-    &::-webkit-scrollbar-thumb {
-    background: var(--main-color);
-    }
 }
 .tabBarItem_ecc04c {
     height: 28px;
