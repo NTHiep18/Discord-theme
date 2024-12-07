@@ -571,6 +571,9 @@ background-color: transparent !important;
     height: 28px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+	& > :first-child {
+		line-height: 26px;
+	}
 }
 .text_dc9488 {
 	color: var(--text-default) !important;
@@ -580,7 +583,7 @@ background-color: transparent !important;
 	flex-basis: 0;
 	text-align: center;
 	border-color: transparent !important;
-	color: var(--text-faded);
+	color: var(--text-default);
 }
 .top_a0 .selected_a0.item_a0 {
 	border-color: var(--text-default) !important;
@@ -784,6 +787,9 @@ background-color: transparent !important;
 .tabBar_d8bb15 {
     gap: 4px;
     border-bottom: 1px solid var(--text-default);
+}
+.topPill_a0 .themed_a0.selected_a0.item_a0, .side_a0 .themed_a0.selected_a0.item_a0 {
+	background: var(--main-color);
 }
 
 /* Search box */
