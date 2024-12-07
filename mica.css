@@ -117,6 +117,7 @@ body {
 .list_a6d69a, .grid_a6d69a {
     margin: 6px 12px 6px 6px;
 }
+
 /* Main chat */
 .tabBody_c2739c:before {display: none;}
 .chatContent_a7d72e, .theme-dark .container_a6d69a {
@@ -739,7 +740,7 @@ background-color: transparent !important;
 	color: var(--main-color);
 }
 .empty_c47fa9 {
-	fill :rgb(from var(--second-color) r g b 0.7);
+	fill :rgb(from var(--second-color) r g b / 0.7);
 }
 .container_effbe2:focus-within {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -880,7 +881,8 @@ background-color: transparent !important;
 		scrollbar-width: none;
 	}
 }
-.bar_eba0ba {
+/* new unread bar */
+.bar_eba0ba, .bar_edf32f {
 	background: var(--main-color);
 	border-radius: 8px;
 	margin: 0 40px;
@@ -1205,10 +1207,21 @@ margin: 8px;
 .autocomplete_bcc24e {
 	backdrop-filter: blur(10px);
 }
+
 /* inbox */
+.recentMentionsPopout_ddb5b4, .container_f1c3d9, .container_f8a938 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
+}
+.layer_cd0de5 {
+	box-shadow: var(--shadow);
+}
+.scroller_f1c3d9, .scroller_ddb5b4 {
+	scrollbar-width: none;
+	padding: 0 8px !important;
+}
 .messages_c06487, .container_ddb5b4 {
 	background: transparent;
-	padding: 0;
 }
 .headerTabs_f0cd33 {
 	margin: 0;
