@@ -102,14 +102,11 @@ body {
 	margin: 0 12px 6px 6px;
 }
 .content_a7d72e .searchResultsWrap_c2b47d {
-	margin: 6px 12px 24px 6px;
+	margin: 6px 12px 0px 6px;
 }
 .peopleColumn_c2739c {
 	height: fit-content;
 	margin: 6px;
-}
-.threadSidebarOpen_a7d72e {
-	margin: 0 6px 24px;
 }
 .nowPlayingColumn_c2739c {
 	height: fit-content;
@@ -327,6 +324,9 @@ body {
 }
 .icon_fc4f04 {
 	color: var(--text-default);
+}
+.content_a7d72e {
+	margin-bottom: 24px;
 }
 .content_a7d72e:before {
 	display: none;
@@ -1121,7 +1121,7 @@ margin: 8px;
     width: calc(100% - 6px);
 }
 .chat_a7d72e.threadSidebarOpen_a7d72e {
-	margin: 0 0 24px 0;
+	margin: 0;
 }
 .content_a7d72e > .container_a6d69a {
 	margin-right: 6px;
