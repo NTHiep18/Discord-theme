@@ -453,7 +453,8 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 }
 .wrapperCommon_a08117, .container_a5ad5c {
 	color: var(--main-color);
-	}
+	text-align: center;
+}
 .wrapper_a08117.muted_a08117, .wrapper_a08117.muted_a08117 .name_a08117 {
 	color: var(--muted-color);
 }
@@ -1050,10 +1051,11 @@ margin: 8px;
 /* Auto hidden member list */
 .container_cbd271, .membersWrap_cbd271:not(.container_cbd271 > .membersWrap_cbd271) {
 	transition: 0.1s linear;
-	margin-right: -192px;
+	width: 60px;
+	margin: 0 6px;
 }
 .container_cbd271:hover, .membersWrap_cbd271:not(.container_cbd271 > .membersWrap_cbd271):hover {
-	margin-right: 0;
+	width: 240px;
 }
 
 /* Day change notif */
@@ -1261,17 +1263,20 @@ margin: 8px;
 	background: transparent;
 }
 
-/* mod only stuffs */
+/* discord function stuffs (block/ban/kick etc) */
 .footer_f9a4c9 {
 	background: transparent;
 }
 .layer_c9e2da .scrollerBase_c49869 {
 	scrollbar-width: none;
 }
-.banReasonOtherClickable_e6c06b {
+.banReasonOtherClickable_e6c06bm {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     color: var(--text-default) !important;
     border-radius: 8px;
+}
+.sidebarContainer_d2194f {
+	margin-left: 0;
 }
 .innerContainer_d2194f {
 	padding: 0;
@@ -1298,7 +1303,7 @@ margin: 8px;
 	margin: 0 12px 24px 0;
 	box-shadow: var(--shadow);
 }
-.header_f51af4 {
+ .root_f9a4c9, .header_f51af4 {
 	margin: 0 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     color: var(--text-default) !important;
