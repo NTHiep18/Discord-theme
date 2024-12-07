@@ -1057,7 +1057,10 @@ margin: 8px;
 .container_cbd271:hover, .membersWrap_cbd271:not(.container_cbd271 > .membersWrap_cbd271):hover {
 	width: 240px;
 }
-
+.membersWrap_cbd271, .membersWrap_cbd271 {
+	min-width: 0;
+	width: inherit;
+}
 /* Day change notif */
 .content_c2654d {
 	border-radius: 4px;
