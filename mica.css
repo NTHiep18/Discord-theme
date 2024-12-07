@@ -325,9 +325,6 @@ body {
 .icon_fc4f04 {
 	color: var(--text-default);
 }
-.content_a7d72e {
-	margin-bottom: 24px;
-}
 .content_a7d72e:before {
 	display: none;
 }
@@ -1061,6 +1058,10 @@ margin: 8px;
 	min-width: 0;
 	width: inherit;
 }
+.members_cbd271 {
+	width: inherit;
+}
+
 /* Day change notif */
 .content_c2654d {
 	border-radius: 4px;
