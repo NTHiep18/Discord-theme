@@ -78,8 +78,9 @@ body {
 .nowPlayingColumn_c2739c,
 .input_f8bc55:focus-within,
 .mainCard_a6d69a, .tag_a6d69a, .sortDropdown_a6d69a, .tagsButton_a6d69a,
-.resizeHandle_d1c246, .chatHeaderBar_e2f46e,
-.modal_a60b1b, .header_e664f3, .popout_c5b389 {
+.chatHeaderBar_e2f46e,
+.modal_a60b1b, .header_e664f3, .popout_c5b389
+.root_f9a4c9 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
@@ -307,6 +308,10 @@ body {
 }
 .buttons_bdf0de {
 	height: 36px;
+}
+/* reply */
+.stackedBars_bdf0de {
+	background: transparent;
 }
 
 /* Top bar */
@@ -1122,6 +1127,9 @@ margin: 8px;
 .resizeHandle_d1c246 {
 	border-bottom-right: 0 !important;
 	border-top-right: 0 !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	backdrop-filter: blur(var(--mica-filter));
+	height: calc(100% - 24px);
 }
 .collapsed_c1668f .title_c1668f {
 	height: 36px;
@@ -1137,10 +1145,6 @@ margin: 8px;
 }
 .list_a6d69a .header_a6d69a {
 	margin-top: 0;
-}
-.chatLayerWrapper_d1c246 {
-	height: calc(100% - 24px);
-	margin-bottom: 24px;
 }
 .sortDropdown_a6d69a {
 	margin-bottom: 6px;
@@ -1249,4 +1253,49 @@ margin: 8px;
 	padding: 0 0 4px 0;
 	margin: 0;
 	background: transparent;
+}
+
+/* mod only stuffs */
+.footer_f9a4c9 {
+	background: transparent;
+}
+.layer_c9e2da .scrollerBase_c49869 {
+	scrollbar-width: none;
+}
+.banReasonOtherClickable_e6c06b {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    color: var(--text-default) !important;
+    border-radius: 8px;
+}
+.innerContainer_d2194f {
+	padding: 0;
+}
+.container_d936aa {
+	margin: 16px;
+	background: transparent;
+	box-shadow: var(--shadow);
+}
+.topRow_d936aa, .bottomRowAction_d936aa {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    color: var(--text-default) !important;
+}
+.container_f51af4 {
+	background: transparent;
+	& .scrollerBase_c49869 {
+		scrollbar-width: none;
+	}
+}
+.header_f51af4 {
+	margin: 0 16px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    color: var(--text-default) !important;
+}
+.modInfoItemContainer_ce9fb9 {
+	box-shadow: var(--shadow);
+}
+.modInfoItem_ce9fb9 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    color: var(--text-default) !important;
 }
