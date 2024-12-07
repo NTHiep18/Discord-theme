@@ -1225,8 +1225,9 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 }
-.layer_cd0de5 [aria-label = "Inbox"] {
+.layer_cd0de5:has([aria-label = "Inbox"]) {
 	box-shadow: var(--shadow);
+	border-radius: 8px;
 }
 .scroller_f1c3d9, .scroller_ddb5b4 {
 	scrollbar-width: none;
