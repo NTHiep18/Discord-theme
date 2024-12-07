@@ -1281,16 +1281,21 @@ margin: 8px;
 }
 .container_f51af4 {
 	background: transparent;
+	padding-right: 16px !important;
 	& .scrollerBase_c49869 {
 		scrollbar-width: none;
 	}
 }
+.guildSidebar_a7d72e {
+	margin: 0 12px 24px 0;
+	box-shadow: var(--shadow);
+}
 .header_f51af4 {
 	margin: 0 16px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     color: var(--text-default) !important;
+	box-shadow: var(--shadow);
+	border-radius: 8px;
 }
 .modInfoItemContainer_ce9fb9 {
 	box-shadow: var(--shadow);
