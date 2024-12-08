@@ -206,11 +206,15 @@ body {
     }
 }
 /* Code block */
+.markup_f8f345 .codeContainer_f8f345 {
+	padding: 0 4px 4px 0;
+}
 .newMosaicStyle_d8e2d0 .textContainer_d8e2d0,
 .footer_d8e2d0,
 .markup_f8f345 code {
 	border: none;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
 }
 .footer_d8e2d0 {
 	margin-top: 2px;
