@@ -1308,7 +1308,7 @@ margin: 8px;
 	background: transparent;
 	box-shadow: var(--shadow);
 }
-.topRow_d936aa, .bottomRowAction_d936aa {
+.topRow_d936aa, .bottomRowAction_d936aa, .permissionItemContainer_f38b88 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     color: var(--text-default) !important;
 }
@@ -1319,7 +1319,7 @@ margin: 8px;
 	}
 }
 .innerContainer_f51af4 {
-	padding: 12px 8px;
+	padding: 12px 8px !important;
 }
 .guildSidebar_a7d72e {
 	margin: 0 12px 24px 0;
