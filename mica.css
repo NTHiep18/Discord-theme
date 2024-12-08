@@ -224,6 +224,7 @@ body {
 }
 .hljs {
 	background: transparent;
+	border-radius: 8px;
 }
 .theme-dark .hljs-comment, .theme-dark .hljs-code, .theme-dark .hljs-formula {
 	color: rgb(144, 238, 144);
