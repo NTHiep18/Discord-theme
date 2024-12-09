@@ -312,7 +312,7 @@ body {
 	height: 36px;
 }
 /* reply */
-.stackedBars_bdf0de {
+.stackedBars_bdf0de, .replyBar_b11c5e, .threadSuggestionBar_b11c5e {
 	background: transparent;
 }
 
