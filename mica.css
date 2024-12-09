@@ -262,13 +262,14 @@ body {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
 	overflow-y: hidden;
 	padding: 0;
+	& :focus-within {
+		background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+		backdrop-filter: blur(var(--mica-filter));
+		border-radius: 8px;
+		box-shadow: var(--shadow) !important;
+	}
 }
-.channelTextArea_bdf0de:focus-within .scrollableContainer_bdf0de {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-	backdrop-filter: blur(var(--mica-filter));
-	border-radius: 8px;
-	box-shadow: var(--shadow) !important;
-}
+.channelTextArea_bdf0de:focus-within .scrollableContainer_bdf0de 
 .channelTextArea_a7d72e {
 	margin-bottom: 24px;
 }
