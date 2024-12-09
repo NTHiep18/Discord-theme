@@ -74,10 +74,10 @@ body {
 .content_a7d72e .searchResultsWrap_c2b47d,
 .privateChannels_f0963d,
 .peopleColumn_c2739c,
-.nowPlayingColumn_c2739c, .input_f8bc55:focus-within,,
+.nowPlayingColumn_c2739c, .input_f8bc55:focus-within,
 .mainCard_a6d69a, .tag_a6d69a, .sortDropdown_a6d69a, .tagsButton_a6d69a,
 .chatHeaderBar_e2f46e,
-.modal_a60b1b, .header_e664f3, .popout_c5b389
+.modal_a60b1b, .header_e664f3, .popout_c5b389,
 .root_f9a4c9 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
@@ -262,11 +262,8 @@ body {
     color: rgb(255,255,255);
     line-height: 1.25rem;
 }
-.channelTextArea_bdf0de {
+.channelTextArea_bdf0de .scrollableContainer_bdf0de {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
-}
-.channelTextArea_bdf0de:focus-within {
-	box-shadow: 0 0 10px 2px var(--main-color);
 }
 .channelTextArea_a7d72e {
 	margin-bottom: 24px;
