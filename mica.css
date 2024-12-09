@@ -462,6 +462,18 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 .scrollerBase_eed6a8 {
 	scrollbar-width: none;
 }
+/* voice channels */
+.wrapper_a5bc92 {
+	box-shadow: var(--shadow);
+	border-radius: 6px;
+	color: var(--text-default);
+}
+.users_a5bc92 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+}
+.total_a5bc92, .total_a5bc92:after {
+	background: var(--main-color);
+}
 
 /* User popout */
 .outer_c69a7b {
@@ -1239,6 +1251,14 @@ margin: 8px;
 }
 .autocomplete_bcc24e .autocompleteInner_bcc24e {
 	background: transparent;
+	& .scrollerBase_c49869 {
+		scrollbar-width: none;
+	}
+}
+.clickable_bcc24e > .base_bcc24e:hover {
+	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
+	color: var(--text-default);
+	box-shadow: var(--shadow);
 }
 
 /* inbox */
