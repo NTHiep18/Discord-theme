@@ -758,7 +758,7 @@ background-color: transparent !important;
 	color: var(--main-color);
 }
 .empty_c47fa9 {
-	fill :rgb(from var(--second-color) r g b / 0.7);
+	fill :rgb(from var(--second-color) r g b / 0.4);
 }
 .container_effbe2:focus-within {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -1156,7 +1156,7 @@ margin: 8px;
 }
 .resizeHandle_d1c246 {
 	border-bottom-left-radius: 8px !important;
-	border-top-right-radius: 8px !important;
+	border-top-left-radius: 8px !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	height: calc(100% - 24px);
