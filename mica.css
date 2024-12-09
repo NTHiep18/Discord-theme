@@ -1239,7 +1239,7 @@ margin: 8px;
 	backdrop-filter: blur(var(--mica-filter)) !important;
 }
 .autocomplete_bcc24e {
-	backdrop-filter: blur(10px);
+	background: transparent;
 }
 
 /* inbox */
