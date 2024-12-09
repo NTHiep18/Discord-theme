@@ -46,7 +46,8 @@
 .appMount_ea7e65 {
 	background: var(--background-overlay);
 }
-.bg_d4b6c5, .app_a01fb1, .sidebar_a4d4d9, .container_b2ca13, .chat_a7d72e, .channelTextArea_bdf0de:focus-within,
+.bg_d4b6c5, .app_a01fb1, .sidebar_a4d4d9, .container_b2ca13, .chat_a7d72e,
+.channelTextArea_a7d72e, .channelTextArea_bdf0de:focus-within,
 .container_cbd271, .member_cbd271, .scroller_c47fa9, .container_c2739c, .container_bf550a, .searchBar_e0840f,
 .statusBubble_a82ccc, .statusBubble_af9888,
 .layer_d4b6c5, .standardSidebarView_c25c6d, .sidebarRegionScroller_c25c6d, .contentRegion_c25c6d, .contentRegionScroller_c25c6d, .container_effbe2,
@@ -70,7 +71,7 @@ body {
 .members_cbd271,
 .scroller_e2e187,
 .wrapper_faf5ab,
-.base_a4d4d9 .container_fc4f04, .channelTextArea_bdf0de:focus-within,
+.base_a4d4d9 .container_fc4f04,
 .content_a7d72e .searchResultsWrap_c2b47d,
 .privateChannels_f0963d,
 .peopleColumn_c2739c,
