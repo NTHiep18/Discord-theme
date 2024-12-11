@@ -1012,6 +1012,10 @@ background-color: transparent !important;
     border-radius: 8px;
     overflow: hidden;
 }
+.menu_d90b3d.scrollerBase_c49869 {
+	scrollbar-width: 0;
+	padding-right: 8px !important;
+}
 :not(.menus_d4e7c2) > .menu_d90b3d::before {
 	content: "";
 	position: absolute;
@@ -1028,11 +1032,14 @@ background-color: transparent !important;
 .isBurstReactionPicker__428c0 {
 	box-shadow: none;
 }
+.labelContainer_d90b3d {
+	padding: 6px;
+	border-radius: 4px;
+}
 .label_d90b3d {
 	color: var(--text-normal);
 }
 .separator_d90b3d {
-	margin: 0;
 	border-bottom-color: var(--text-normal);
 }
 .container_ac201b {
@@ -1044,6 +1051,10 @@ background-color: transparent !important;
 }
 .button_a24e84:hover {
 	background: var(--main-color);
+}
+.colorDefault_d90b3d.focused_d90b3d {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
 }
 
 /* Homepage */
