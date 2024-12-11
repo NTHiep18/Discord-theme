@@ -417,18 +417,19 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 .link_d8bfb3 {
 	border-radius: 4px;
 	padding: 0;
-	border-width: 1px;
-	border-color: transparent;
-	border-style: solid;
+	border: none;
 }
 .wrapper_d8bfb3:hover .link_d8bfb3 {
 	box-shadow: var(--shadow);
+	background: transparent;
 }
 .modeSelected_d8bfb3 .link_d8bfb3 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 }
-.wrapper_d8bfb3.modeSelected_d8bfb3 .link_d8bfb3:before {background: transparent;}
+.wrapper_d8bfb3.modeSelected_d8bfb3 .link_d8bfb3:before {
+	background: transparent;
+}
 .wrapper_d8bfb3 {
 	padding: 0px 12px 0px 4px;
 	margin: 0;
