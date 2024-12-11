@@ -617,6 +617,7 @@ background-color: transparent !important;
 	color: var(--text-default);
 	line-height: 1.25rem;
 	padding: 4px 0 8px;
+	border-radius: 6px;
 }
 .top_a0 .selected_a0.item_a0 {
 	color: var(--text-default) !important;
@@ -1006,8 +1007,8 @@ background-color: transparent !important;
     border-radius: 8px;
     overflow: hidden;
 }
-.menu_d90b3d.scrollerBase_c49869 {
-	scrollbar-width: 0;
+.menu_d90b3d .scrollerBase_c49869 {
+	scrollbar-width: none;
 	padding-right: 8px !important;
 }
 :not(.menus_d4e7c2) > .menu_d90b3d::before {
