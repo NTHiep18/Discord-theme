@@ -608,12 +608,6 @@ background-color: transparent !important;
 .top_a0 {
 	display: flex;
 	gap: 0;
-	& :first-child {
-		border-top-left-radius: 8px;
-	}
-	& :last-child {
-		border-top-right-radius: 8px;
-	}
 }
 .top_a0 .item_a0 {
 	flex-grow: 1;
@@ -625,9 +619,9 @@ background-color: transparent !important;
 	padding: 4px 0 8px;
 }
 .top_a0 .selected_a0.item_a0 {
-	border-color: var(--text-default) !important;
 	color: var(--text-default) !important;
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	box-shadow: var(--shadow);
 }
 .note_a24910 {
 	margin: 0;
@@ -1281,8 +1275,7 @@ margin: 8px;
 
 /* Autocomplete emote pick */
 .autocomplete_bcc24e {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-	backdrop-filter: blur(var(--mica-filter)) !important;
+	background: #4e6790;
 }
 .autocomplete_bcc24e .autocompleteInner_bcc24e {
 	background: transparent;
@@ -1291,7 +1284,7 @@ margin: 8px;
 	}
 }
 .clickable_bcc24e > .base_bcc24e:hover {
-	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
+	background: rgb(var(--mica-color), var(--mica-opacity));
 	color: var(--text-default);
 	box-shadow: var(--shadow);
 }
