@@ -624,7 +624,7 @@ background-color: transparent !important;
 	border-color: transparent !important;
 	color: var(--text-default);
 	line-height: 1.25rem;
-	padding: 4px 0 8px;
+	padding: 4px 0;
 	border-radius: 6px;
 }
 .top_a0 .selected_a0.item_a0 {
@@ -673,7 +673,7 @@ background-color: transparent !important;
 	position: absolute;
 }
 .roleCircle_f9575e {
-	border-radius: 2px;
+	border-radius: 4px;
 	width: 100%;
 	height: 20px;
 	margin: 0 8px 0 0;
@@ -1085,7 +1085,8 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .item_a0:hover {
-	background: rgb(from var(--main-color) r g b / .8) !important;
+	background: transparent !important;
+	box-shadow: var(--shadow);
 }
 .title_a1cafe {
 	color: var(--text-default);
