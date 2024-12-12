@@ -50,7 +50,8 @@
 .container_cbd271, .member_cbd271, .scroller_c47fa9, .container_c2739c, .container_bf550a, .searchBar_e0840f,
 .statusBubble_a82ccc, .statusBubble_af9888,
 .layer_d4b6c5, .standardSidebarView_c25c6d, .sidebarRegionScroller_c25c6d, .contentRegion_c25c6d, .contentRegionScroller_c25c6d, .container_effbe2,
-.container_d1c246 {
+.container_d1c246,
+.recentMentionsPopout_ddb5b4, .container_f1c3d9, .container_f8a938 {
     background: transparent !important;
 }
 body {
@@ -1359,6 +1360,7 @@ margin: 8px;
 }
 .header_ac90a2 {
 	border: none;
+	padding: 16px 16px 8px;
 }
 .messageGroupWrapper_ac90a2 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
