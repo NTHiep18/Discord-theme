@@ -78,8 +78,7 @@ body {
 .mainCard_a6d69a, .tag_a6d69a, .sortDropdown_a6d69a, .tagsButton_a6d69a,
 .chatHeaderBar_e2f46e,
 .modal_a60b1b, .header_e664f3, .popout_c5b389,
-.root_f9a4c9,
-.messagesPopoutWrap_ac90a2 {
+.root_f9a4c9 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
@@ -1300,7 +1299,10 @@ margin: 8px;
 }
 
 /* inbox */
-.recentMentionsPopout_ddb5b4, .container_f1c3d9, .container_f8a938 {
+.recentMentionsPopout_ddb5b4:before, .container_f1c3d9:before, .container_f8a938:before {
+	position: absolute;
+	inset: 0;
+	content: '';
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 }
@@ -1329,10 +1331,10 @@ margin: 8px;
 	border-top-right-radius: 8px;
 }
 .channelHeader_f3978e {
-	background: var(--second-color);
-	padding: 12px 16px 12px 24px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    backdrop-filter: blur(15px);
+    padding: 12px 16px 12px 24px;
+    border-radius: 8px;
 }
 .collapseButton_d09ffd {
 	left: 0;
@@ -1356,7 +1358,7 @@ margin: 8px;
 	padding: 8px !important;
 }
 .header_ac90a2 {
-	border-bottom-color: var(--shadow-color);
+	border: none;
 }
 .messageGroupWrapper_ac90a2 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
