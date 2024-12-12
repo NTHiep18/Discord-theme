@@ -1285,6 +1285,7 @@ margin: 8px;
 /* Autocomplete emote pick */
 .autocomplete_bcc24e {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
 }
 .autocomplete_bcc24e .autocompleteInner_bcc24e {
 	background: transparent;
