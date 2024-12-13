@@ -222,6 +222,33 @@ body {
     background: var(--main-color);
     }
 }
+
+/* main chat loading */
+.wrapper_cdfd51, .wrapper_b75bb9 {
+	background: transparent;
+}
+.messagesWrapper_e2e187:has(.wrapper_cdfd51):before {
+    content: "Loading...";
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    display: flex;
+    margin: 6px 12px 12px 6px;
+    justify-content: center;
+    align-items: center;
+	background: linear-gradient(135deg, transparent 25%,  rgb(from var(--mica-color) r g b / .1) 50%,  transparent 75%);
+    background-size: 200% 200%;
+    animation: loading-wave 3s linear infinite;
+}
+@keyframes loading-wave {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
 /* Code block */
 .markup_f8f345 .codeContainer_f8f345 {
 	padding: 0 4px 4px 0;
@@ -245,6 +272,9 @@ body {
 }
 .theme-dark .hljs-comment, .theme-dark .hljs-code, .theme-dark .hljs-formula {
 	color: rgb(144, 238, 144);
+}
+.markup_f8f345 .codeActions_f8f345 {
+	right: 12px;
 }
 
 /* Text input area */
@@ -627,7 +657,7 @@ background-color: transparent !important;
 	padding: 4px 0;
 	border-radius: 6px;
 }
-.top_a0 .selected_a0.item_a0 {
+.selected_a0.item_a0 {
 	color: var(--text-default) !important;
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
@@ -836,9 +866,6 @@ background-color: transparent !important;
     gap: 4px;
     border-bottom: 1px solid var(--text-default);
 }
-.topPill_a0 .themed_a0.selected_a0.item_a0, .side_a0 .themed_a0.selected_a0.item_a0 {
-	background: var(--main-color);
-}
 .header_f4c122 {
 	min-height: auto;
 }
@@ -898,10 +925,11 @@ background-color: transparent !important;
     padding: 16px 0 0 4px;
 }
 .button_ddc613 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: transparent;
+	box-shadow: var(--shadow);
 	border-radius: 8px;
-	& :hover {
-		background: rgb(var(--main-color));
+	&:hover {
+		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	}
 }
 /* Mentions */
@@ -1263,6 +1291,10 @@ margin: 8px;
 }
 .repliedMessage_f9f2ca .repliedTextPreview_f9f2ca .repliedTextContent_f9f2ca, .threadMessageAccessory_f9f2ca .threadMessageAccessoryPreview_f9f2ca .threadMessageAccessoryContent_f9f2ca {
 	color: var(--text-default);
+}
+.row_c5b389:hover {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
 }
 
 /* tooltips */
