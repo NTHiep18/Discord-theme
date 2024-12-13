@@ -227,7 +227,7 @@ body {
 .wrapper_cdfd51, .wrapper_b75bb9 {
 	background: transparent;
 }
-.messagesWrapper_e2e187:has(.wrapper_cdfd51):before {
+.messagesWrapper_e2e187:not(:has(.messageListItem_d5deea)):before {
     content: "Loading...";
     position: absolute;
     inset: 0;
