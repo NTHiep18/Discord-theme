@@ -1328,6 +1328,7 @@ margin: 8px;
 		scrollbar-width: none;
 	}
 }
+.clickable_bcc24e[aria-selected=true]>.base_bcc24e,
 .clickable_bcc24e > .base_bcc24e:hover {
 	background: rgb(var(--mica-color), var(--mica-opacity));
 	color: var(--text-default);
@@ -1393,6 +1394,7 @@ margin: 8px;
 }
 
 /* pin */
+.layer_cd0de5:has([aria-label = "Pinned Messages"])
 .messagesPopoutWrap_ac90a2 {
 	background: transparent;
 }
@@ -1467,4 +1469,25 @@ margin: 8px;
 .modInfoItem_ce9fb9 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     color: var(--text-default) !important;
+}
+
+/* emote page */
+.contentWrapper_af5dbb {
+	background: transparent;
+	box-shadow: none;
+}
+.contentWrapper_af5dbb:before {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    backdrop-filter: blur(var(--mica-filter));
+}
+.container_c18ec9 {
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    backdrop-filter: blur(var(--mica-filter));
+}
+.container_c18ec9:focus-within {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
