@@ -229,6 +229,8 @@ body {
 .messagesWrapper_e2e187:not(:has(.messageListItem_d5deea)):before {
     content: "Loading...";
     position: absolute;
+	font-size: 30px;
+	color: var(--text-default);
     inset: 0;
     z-index: 5;
     display: flex;
@@ -644,7 +646,7 @@ background-color: transparent !important;
 }
 .top_a0 {
 	display: flex;
-	gap: 0;
+	gap: 4px;
 }
 .top_a0 .item_a0 {
 	flex-grow: 1;
@@ -655,6 +657,7 @@ background-color: transparent !important;
 	line-height: 1.25rem;
 	padding: 4px 0;
 	border-radius: 6px;
+	margin: 0;
 }
 .selected_a0.item_a0 {
 	color: var(--text-default) !important;
