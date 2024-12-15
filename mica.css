@@ -1479,7 +1479,7 @@ margin: 8px;
 
 /* emote page */
 .drawerSizingWrapper_af5dbb {
-	width: 504px !important;
+	width: 512px !important;
 }
 .contentWrapper_af5dbb {
 	background: transparent;
@@ -1500,7 +1500,7 @@ margin: 8px;
 }
 .bodyWrapper_c6ee36  {
 	margin-left: 16px;
-	padding-right: 8px;
+	padding-right: 4px;
 	& .scrollerBase_c49869 {
 		scrollbar-width: none;
 	}
@@ -1511,12 +1511,10 @@ margin: 8px;
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 	margin-right: 4px;
+	margin-bottom: 4px;
 }
 .emojiListRow_fbfedd {
-	padding-left: 0;
-}
-.categorySectionLast_a3bc57, .categorySectionCollapsed_a3bc57, .categorySectionNitroDivider_a3bc57 {
-	padding-bottom: 4px;
+	padding-left: 4px;
 }
 .wrapper_e06857:after {
 	display: none;
@@ -1526,6 +1524,7 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     box-shadow: var(--shadow);
     border-radius: 8px;
+	width: auto;
 }
 .container_c18ec9 {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
