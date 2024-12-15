@@ -1478,6 +1478,9 @@ margin: 8px;
 }
 
 /* emote page */
+.drawerSizingWrapper_af5dbb {
+	width: 504px !important;
+}
 .contentWrapper_af5dbb {
 	background: transparent;
 	box-shadow: none;
@@ -1491,12 +1494,51 @@ margin: 8px;
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
+.emojiPickerHasTabWrapper_c6ee36 .header_c6ee36 {
+	padding: 0 8px 16px;
+}
+.bodyWrapper_c6ee36  {
+	margin-left: 16px;
+	padding-right: 8px;
+	& .scrollerBase_c49869 {
+		scrollbar-width: none;
+	}
+}
+.header_a3bc57 {
+	position: absolute;
+	content: '';
+	inset: 0;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    backdrop-filter: blur(var(--mica-filter));
+}
+.emojiListRow_fbfedd {
+	padding-left: 0;
+}
+.categorySectionLast_a3bc57, .categorySectionCollapsed_a3bc57, .categorySectionNitroDivider_a3bc57 {
+	padding-bottom: 4px;
+}
+.inspector_c3120f {
+	margin: 0 8px 8px;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+}
 .container_c18ec9 {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
-    box-shadow: var(--shadow);
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
 .container_c18ec9:focus-within {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
+}
+.emojiPickerHasTabWrapper_c6ee36 .categoryList_c6ee36 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+}
+.unicodeShortcut_dfa278 {
+	display: none;
 }
