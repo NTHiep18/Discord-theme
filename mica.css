@@ -181,6 +181,7 @@ body {
 	border-radius: 4px;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
+	padding: 4px;
 }
 .buttonInner_b385c8, .addReactButton_b385c8 {
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -227,16 +228,11 @@ body {
 	background: transparent;
 }
 .messagesWrapper_e2e187:not(:has(.messageListItem_d5deea)):before {
-    content: "Loading...";
     position: absolute;
-	font-size: 30px;
-	color: var(--text-default);
     inset: 0;
     z-index: 5;
     display: flex;
     margin: 6px 12px 12px 6px;
-    justify-content: center;
-    align-items: center;
 	background: linear-gradient(135deg, transparent 25%,  rgb(from var(--mica-color) r g b / .1) 50%,  transparent 75%);
     background-size: 200% 200%;
     animation: loading-wave 3s linear infinite;
@@ -636,7 +632,8 @@ background-color: transparent !important;
 	top: 92px !important;
 }
 .wrapper_f7e168 .button_f7e168:hover, .wrapper_f7e168 .button_f7e168.selected_f7e168 {
-	background-color: rgb(from var(--main-color) r g b / 0.8);
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
 }
 .tabBarItem_ecc04c {
     height: 28px;
@@ -1494,16 +1491,26 @@ margin: 8px;
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
-.emojiPickerHasTabWrapper_c6ee36 .header_c6ee36 {
+.navItem_af5dbb {
+	border-radius: 8px;
+}
+.navItem_af5dbb:hover {
+    box-shadow: var(--shadow);
+}
+.navButtonActive_af5dbb {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    box-shadow: var(--shadow);
+}
+.header_c6ee36, .header_d8cdac {
 	padding: 0 8px 16px;
 	box-shadow: none;
 }
 .bodyWrapper_c6ee36  {
 	margin-left: 16px;
 	padding-right: 4px;
-	& .scrollerBase_c49869 {
-		scrollbar-width: none;
-	}
+}
+.thin_c49869.scrollerBase_c49869 {
+	scrollbar-width: none;
 }
 .header_a3bc57 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -1535,7 +1542,7 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 }
-.emojiPickerHasTabWrapper_c6ee36 .categoryList_c6ee36 {
+.wrapper_ba23fe {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     box-shadow: var(--shadow);
     border-radius: 8px;
@@ -1543,4 +1550,8 @@ margin: 8px;
 }
 .unicodeShortcut_dfa278 {
 	display: none;
+}
+.emojiItem_fbfedd.emojiItemSelected_fbfedd {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    box-shadow: var(--shadow);
 }
