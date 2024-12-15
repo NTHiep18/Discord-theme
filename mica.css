@@ -1506,9 +1506,6 @@ margin: 8px;
 	}
 }
 .header_a3bc57 {
-	position: absolute;
-	content: '';
-	inset: 0;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     box-shadow: var(--shadow);
     border-radius: 8px;
