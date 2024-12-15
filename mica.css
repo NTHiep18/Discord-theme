@@ -167,13 +167,11 @@ body {
 	box-shadow: var(--shadow) !important;
 }
 .hoverButtonGroup_d0395d {
-	background: transparent;
-	overflow: visible;
-}
-.hoverButtonGroup_d0395d {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
+	backdrop-filter: blur(var(--mica-filter));
+	overflow: hidden;
 }
 .popoverReactionHoverBar_e986d9 {
 	border: none !important;
@@ -1567,4 +1565,7 @@ margin: 8px;
 .categoryItemDefaultCategorySelected_dfa278, .firstPartyCategorySelected_a7a485, .stickerCategoryGenericSelected_a7a485 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     box-shadow: var(--shadow);
+}
+.stickerInspected_a708c4 .inspectedIndicator_a708c4 {
+	background: transparent;
 }
