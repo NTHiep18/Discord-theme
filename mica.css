@@ -1496,6 +1496,7 @@ margin: 8px;
 }
 .navItem_af5dbb:hover {
     box-shadow: var(--shadow);
+	background: transparent;
 }
 .navButtonActive_af5dbb {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -1505,14 +1506,14 @@ margin: 8px;
 	padding: 0 8px 16px;
 	box-shadow: none;
 }
-.bodyWrapper_c6ee36  {
+.bodyWrapper_c6ee36, .wrapper_de4721 {
 	margin-left: 16px;
 	padding-right: 4px;
 }
 .thin_c49869.scrollerBase_c49869 {
 	scrollbar-width: none;
 }
-.header_a3bc57 {
+.wrapper_e06857 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     box-shadow: var(--shadow);
     border-radius: 8px;
