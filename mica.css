@@ -35,6 +35,9 @@
 :root {
 	--text-link: var(--url-color) !important;
 }
+.markup_f8f345 a {
+	color: var(--url-color);
+}
 @keyframes appear {
 	from {transform: scaleX(0%);}
 	to {transform: scaleX(100%);}
