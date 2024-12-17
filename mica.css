@@ -176,6 +176,10 @@ body {
 	backdrop-filter: blur(var(--mica-filter));
 	overflow: hidden;
 }
+.nonMediaMosaicItem_d0395d {
+	top: 4px;
+	right: 4px;
+}
 .popoverReactionHoverBar_e986d9 {
 	border: none !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -598,6 +602,9 @@ background-color: transparent !important;
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
+	&:hover {
+		background-color: var(--main-color) !important;
+	}
 }
 .headerInner_b9fccc {
 	padding: 38px 0 10px;
@@ -688,6 +695,10 @@ background-color: transparent !important;
 .avatarPositionNormal_f89da9, .avatarPositionPremiumBanner_f89da9 {
 	top: 28px;
 }
+.root_e6f2d0, .root_e6f2d0 {
+	gap: 6px;
+}
+
 .role_f9575e {
 	z-index: 2;
 	position: relative;
@@ -714,6 +725,7 @@ background-color: transparent !important;
 	width: 100%;
 	height: 20px;
 	margin: 0 8px 0 0;
+	box-shadow: var(--shadow);
 }
 .roleName_f9575e {
 	overflow: hidden;
@@ -739,7 +751,6 @@ background-color: transparent !important;
 }
 .button_edead5 {
 	height: 20px;
-	box-shadow: none;
 	border-radius: 4px !important;
 }
 .avatar_f94206.fullSize_f94206 {
@@ -1120,8 +1131,6 @@ margin: 8px;
 .actionButton_e01b91, .actionButton_e01b91.highlight_e01b91,
 .emptyCard_f02fcf {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-}
-.actionButton_e01b91:hover {
 	box-shadow: var(--shadow);
 }
 .actionButton_e01b91:hover {
@@ -1136,14 +1145,23 @@ margin: 8px;
 .searchBar_f0963d .searchBarComponent_f0963d {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
+.interactive_c91bad:hover {
+	background: transparent;
+	box-shadow: var(--shadow);
+}
 .selected_f5eb4b {
-	background: var(--main-color);
+    background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
 	& .avatarWithText_c91bad {
 		color: var(--text-default);
 	}
 }
 .outer_ac5d22 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
+	&:hover {
+		box-shadow: var(--shadow);
+		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	}
 }
 .inset_ac5d22 {
 	background :transparent;
