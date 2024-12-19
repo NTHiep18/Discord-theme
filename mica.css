@@ -193,10 +193,10 @@ body {
 .popoverReactionHoverBar_e986d9 {
 	border: none !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	border-radius: 4px;
+	border-radius: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
-	padding: 4px;
+	padding: 6px;
 }
 .buttonInner_b385c8, .addReactButton_b385c8 {
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -426,6 +426,10 @@ body {
 .avatarWrapper_b2ca13 {
 	width: 132px;
 	margin-right: 0;
+	background: transparent;
+	&:hover {
+		background: rgb(from var(--main-color) r g b / .8) !important;
+	}
 }
 .avatarWrapper_b2ca13 .nameTag_b2ca13 {
 	padding: 0 0 4px 4px;
@@ -919,6 +923,14 @@ background-color: transparent !important;
 .divider_b03b7f {
 	border-top: none;
 }
+.lookFilled_dd4f85, .lookOutlined_dd4f85 {
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	box-shadow: var(--shadow);
+	border-radius: 8px;
+}
+.lookFilled_dd4f85.colorRed_dd4f85 {
+	background: rgb(218, 55, 60) !important;
+}
 
 /* Search box */
 .searchBar_a46bef {
@@ -971,7 +983,7 @@ background-color: transparent !important;
 .background_b69b77 {
     padding: 16px 0 0 4px;
 }
-.button_ddc613, .button_dd4f85 {
+.button_ddc613 {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
 	box-shadow: var(--shadow);
 	border-radius: 4px;
@@ -1131,9 +1143,15 @@ background-color: transparent !important;
 }
 .button_a24e84 {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
+	border-radius: 8px
 }
 .button_a24e84:hover {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
+}
+.icon_a24e84 {
+	height: 24px;
+	width: 24px;
 }
 .colorDefault_d90b3d.focused_d90b3d {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
