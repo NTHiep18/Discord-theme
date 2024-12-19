@@ -118,6 +118,16 @@ body {
 }
 
 /* Main chat */
+.scroller_e2e187 {
+	backdrop-filter: none;
+}
+.scroller_e2e187:before {
+	position: absolute;
+	inset: 0;
+	display: block;
+	content: '';
+	backdrop-filter: blur(var(--mica-filter));
+}
 .tabBody_c2739c:before {display: none;}
 .chatContent_a7d72e, .theme-dark .container_a6d69a {
 	background: transparent;
@@ -955,13 +965,19 @@ background-color: transparent !important;
 .background_b69b77 {
     padding: 16px 0 0 4px;
 }
-.button_ddc613 {
+.button_ddc613, .button_dd4f85 {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	&:hover {
 		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	}
+}
+.small_f9a4c9 {
+	width: auto;
+}
+.modal_ed23b8 {
+	margin: 0 !important;
 }
 /* Mentions */
 .wrapper_bf1b19 {
