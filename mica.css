@@ -118,17 +118,17 @@ body {
 }
 
 /* Main chat */
-.scroller_e2e187 {
-	backdrop-filter: none;
+.messagesWrapper_e2e187:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    backdrop-filter: blur(var(--mica-filter));
+    inset: 6px 12px 12px 6px;
+    border-radius: 8px;
 }
-.scroller_e2e187:before {
-	position: absolute;
-	inset: 0;
-	display: block;
-	content: '';
-	backdrop-filter: blur(var(--mica-filter));
+.tabBody_c2739c:before {
+	display: none;
 }
-.tabBody_c2739c:before {display: none;}
 .chatContent_a7d72e, .theme-dark .container_a6d69a {
 	background: transparent;
 }
