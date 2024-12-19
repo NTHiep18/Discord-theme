@@ -763,6 +763,12 @@ background-color: transparent !important;
 	position: relative;
 	z-index: 2;
 }
+.expandButton_e6f2d0 {
+	padding: 2px 7px;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	border: none;
+	box-shadow: var(--shadow);
+}
 .button_edead5 {
 	height: 20px;
 	border-radius: 4px !important;
