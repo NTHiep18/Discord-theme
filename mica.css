@@ -1398,6 +1398,10 @@ margin: 8px;
 }
 
 /* tooltips */
+.layer_cd0de5:has(.tooltip_b6c360):before, .layer_cd0de5:has(.reactionTooltip_fba897):before {
+	backdrop-shadow: none;
+	display: none;
+}
 .theme-dark .tooltip_b6c360,
 .reactionTooltip_fba897 {
 	border-radius: 8px;
@@ -1435,10 +1439,10 @@ margin: 8px;
 
 /* inbox */
 .messagesPopoutWrap_ac90a2, .container_f1c3d9, .container_f8a938 {
-	background: transparent;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 }
-.layer_cd0de5:before {
+.layer_cd0de5:not(:has(.tooltip_b6c360)):before, .layer_cd0de5:not(:has(.reactionTooltip_fba897)):before {
 	position: absolute;
 	inset: 0;
 	content: '';
@@ -1498,9 +1502,8 @@ margin: 8px;
 }
 
 /* pin */
-.layer_cd0de5:has([aria-label = "Pinned Messages"])
-.messagesPopoutWrap_ac90a2 {
-	background: transparent;
+.layer_cd0de5:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap_ac90a2 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 }
 .messagesPopoutWrap_ac90a2 .scrollerBase_c49869 {
