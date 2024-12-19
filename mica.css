@@ -895,7 +895,7 @@ background-color: transparent !important;
 	background: rgb(from var(--main-color) r g b / .2) !important;
 }
 .itemFilled_eb92a8[aria-checked=true] {
-	background: rgb(from var(--main-color) r g b / .6);
+	background: rgb(from var(--main-color) r g b / .7);
 }
 .avatar_b69b77 {
 	top: 58px;
@@ -933,6 +933,22 @@ background-color: transparent !important;
 }
 .lookFilled_dd4f85.colorRed_dd4f85 {
 	background: rgb(218, 55, 60) !important;
+}
+.lookFilled_f6639d.select_f6639d {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	border: none;
+	box-shadow: var(--shadow);
+}
+.popout_f6639d {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	border: none;
+	box-shadow: var(--shadow);
+}
+.option_f6639d[aria-selected=true]:not(.option_f6639d.multi_f6639d) {
+	background-color: rgb(from var(--main-color) r g b / .7);
+}
+.option_f6639d:focus, .option_f6639d:hover, .option_f6639d.focused_f6639d {
+	background-color: rgb(from var(--main-color) r g b / .4);
 }
 
 /* Search box */
@@ -1422,13 +1438,12 @@ margin: 8px;
 	background: transparent;
 	box-shadow: var(--shadow);
 }
-.messagesPopoutWrap_ac90a2:before, .container_f1c3d9:before, .container_f8a938:before {
+.layer_cd0de5:before {
 	position: absolute;
 	inset: 0;
 	content: '';
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
-	z-index: -1;
+}
 }
 .layer_cd0de5:has([aria-label = "Inbox"]) {
 	box-shadow: var(--shadow);
@@ -1440,6 +1455,7 @@ margin: 8px;
 }
 .messages_c06487, .container_ddb5b4 {
 	background: transparent;
+	padding-right: 0;
 }
 .headerTabs_f0cd33 {
 	margin: 0;
@@ -1493,7 +1509,7 @@ margin: 8px;
 }
 .header_ac90a2 {
 	border: none;
-	padding: 16px 16px 8px;
+	padding: 16px 8px 8px;
 }
 .messageGroupWrapper_ac90a2 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
