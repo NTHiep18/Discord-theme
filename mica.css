@@ -126,6 +126,9 @@ body {
     inset: 6px 12px 12px 6px;
     border-radius: 8px;
 }
+.scroller_e2e187.scrollerBase_c49869 {
+	backdrop-filter: none;
+}
 .tabBody_c2739c:before {
 	display: none;
 }
