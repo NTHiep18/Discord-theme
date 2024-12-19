@@ -954,6 +954,13 @@ background-color: transparent !important;
 .option_f6639d:focus, .option_f6639d:hover, .option_f6639d.focused_f6639d {
 	background-color: rgb(from var(--main-color) r g b / .4);
 }
+.formNotice_aae945, .authedApp_f0135d {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	backdrop-filter: blur(var(--mica-filter));
+	border-radius: 8px;
+	box-shadow: var(--shadow) !important;
+	border: none;
+}
 
 /* Search box */
 .searchBar_a46bef {
@@ -1378,6 +1385,9 @@ margin: 8px;
 .spine_e1e976 + .spine_e1e976 {
 	top: 7px;
 }
+.container_e664f3 {
+	background: transparent;
+}
 .spine_e1e976 path  {display: none;}
 .searchBox_e664f3 {
 	background: transparent;
@@ -1387,10 +1397,11 @@ margin: 8px;
 }
 .container_acb8b3 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	box-shadow: var(--shadow);
 }
 .list_c6aa12 {
-	padding: 6px !important;
-	margin: 6px;
+	padding: 0 6px !important;
+	margin: 0 6px;
 	border-radius: 8px;
 }
 .repliedMessage_f9f2ca .repliedTextPreview_f9f2ca .repliedTextContent_f9f2ca, .threadMessageAccessory_f9f2ca .threadMessageAccessoryPreview_f9f2ca .threadMessageAccessoryContent_f9f2ca {
@@ -1402,7 +1413,9 @@ margin: 8px;
 }
 
 /* tooltips */
-.layer_cd0de5:has(.tooltip_b6c360):before, .layer_cd0de5:has(.reactionTooltip_fba897):before {
+.layer_cd0de5:has(.tooltip_b6c360):before,
+.layer_cd0de5:has(.reactionTooltip_fba897):before, 
+.layer_cd0de5:has(.popout_c5b389):before {
 	display: none;
 }
 .theme-dark .tooltip_b6c360,
