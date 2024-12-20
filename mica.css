@@ -1320,10 +1320,10 @@ margin: 8px;
 .spoilerMarkdownContent_aa9639 {
     border-radius: 4px;
 	padding: 1px 4px;
-	background-color: var(--second-color);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 	&.hidden_aa9639 {
-		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+		background-color: var(--second-color);
 	}
 }
 
