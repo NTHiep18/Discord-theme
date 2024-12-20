@@ -1470,7 +1470,6 @@ margin: 8px;
 	content: '';
 	backdrop-filter: blur(var(--mica-filter));
 }
-}
 .layer_cd0de5:has([aria-label = "Inbox"]) {
 	box-shadow: var(--shadow);
 	border-radius: 8px;
