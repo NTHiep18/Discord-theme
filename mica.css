@@ -295,6 +295,9 @@ body {
 .markup_f8f345 .codeActions_f8f345 {
 	right: 12px;
 }
+.messageContent_f9f2ca:has(code), .messageContent_f9f2ca:has(.obscuredTextContent_aa9639) {
+	overflow: visible;
+}
 
 /* Text input area */
 .divider_c2654d {
@@ -1315,10 +1318,13 @@ margin: 8px;
 
 /* Spoilers */
 .spoilerMarkdownContent_aa9639 {
-    border: 1px var(--main-color) solid;
     border-radius: 4px;
 	padding: 1px 4px;
-	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background-color: var(--second-color);
+	box-shadow: var(--shadow);
+	&.hidden_aa9639 {
+		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	}
 }
 
 /* Gallery and channel thread list */
@@ -1607,6 +1613,9 @@ margin: 8px;
 }
 
 /* emote, gif, sticker */
+.layer_cd0de5:has(.positionContainer_af5dbb):before {
+	display: none;
+}
 .drawerSizingWrapper_af5dbb {
 	width: 512px !important;
 }
