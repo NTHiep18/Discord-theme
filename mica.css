@@ -571,8 +571,6 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 }
 .inner_c69a7b {
     background: transparent !important;
-	backdrop-filter: blur(var(--mica-filter));
-	z-index: 2;
 }
 .inner_c69a7b:before {
 	position: absolute;
@@ -622,13 +620,13 @@ background-color: transparent !important;
 .banner_d5fdb1 {
 	background: transparent !important;
 }
+.container_c32acf {
+	z-index: 1;
+}
 .button_f9d37d {
-	background-color: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2)) !important;
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
-	&:hover {
-		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-	}
 }
 .headerInner_b9fccc {
 	padding: 38px 0 10px;
