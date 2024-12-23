@@ -1340,6 +1340,7 @@ margin: 8px;
 }
 .content_a7d72e > .container_a6d69a {
 	margin-right: 6px;
+	margin-bottom: 24px;
 }
 .headerRow_a6d69a {
 	left: 0 !important;
@@ -1377,6 +1378,9 @@ margin: 8px;
 }
 .tagList_a6d69a {
 	height: 38px;
+}
+.tagListInner_a6d69a:last-child {
+	margin-right: 4px;
 }
 .spine_e1e976 {
 	width: 16px !important;
