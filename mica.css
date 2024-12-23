@@ -563,24 +563,26 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	padding: 0 !important;
 }
 .outer_c69a7b:before {
-	content: "";
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: var(--background-overlay);
 	position: absolute;
+	display: block;
+	content: "";
+	inset: 0;
+	background: var(--background-overlay);
 }
 .inner_c69a7b {
-    background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+    background: transparent !important;
 	backdrop-filter: blur(var(--mica-filter));
 	z-index: 2;
 }
 .inner_c69a7b:before {
-	display: none;
+	position: absolute;
+	display: block;
+	content: "";
+	inset: 0;
+	height: 100% !important;
+	width: 100% !important;
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));	
 }
 .body_b9fccc {
 	margin-right: 8px;
@@ -643,13 +645,11 @@ background-color: transparent !important;
 }
 .statusBubbleOuter_af9888,
 .statusBubbleOuter_af9888:before,
-.statusBubbleOuter_af9888:after,
-.statusBubbleOuter_a82ccc,
-.statusBubbleOuter_a82ccc:before,
-.statusBubbleOuter_a82ccc:after {
+.statusBubbleOuter_af9888:after {
     background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border: none !important;
 	box-shadow: var(--shadow);
+	backdrop-filter: blur(var(--mica-filter));
 }
 .statusBubbleOuter_af9888:before, .statusBubbleOuter_a82ccc:before {
 	top: -24px;
@@ -1030,9 +1030,9 @@ background-color: transparent !important;
 }
 /* Mentions */
 .wrapper_bf1b19 {
-    border: 1px var(--main-color) solid;
     border-radius: 4px !important;
-	background: var(--second-color) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--text-normal) !important;
 }
@@ -1173,12 +1173,9 @@ background-color: transparent !important;
 	z-index: 2;
 }
 .button_a24e84 {
-	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
-	border-radius: 8px
-}
-.button_a24e84:hover {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
+	border-radius: 8px;
 }
 .icon_a24e84 {
 	height: 24px;
@@ -1209,11 +1206,8 @@ margin: 8px;
 }
 .peopleListItem_d51464:hover .actionButton_e01b91, .actionButton_e01b91.highlight_e01b91,
 .peopleListItem_d51464:hover .emptyCard_f02fcf {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
-}
-.actionButton_e01b91:hover {
-	background: var(--main-color) !important;
 }
 .searchBar_e0840f:focus-within {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
