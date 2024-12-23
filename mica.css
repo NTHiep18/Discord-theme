@@ -21,11 +21,11 @@
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
     --channel-color:  rgba(255,255,255,0.5); /* Color of normal channel */
     --muted-color: rgba(255,255,255,0.1); /* Color of muted channels */
-    --url-color: rgb(30, 144, 255); /* Color of links */
+    --url-color: rgb(74, 144, 226); /* Color of links */
     
     /* Text font and color */
-    --main-font: 'Borda 3'; /* Font that applies to everywhere except codeblock */
-    --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* Font for code block */
+    --main-font: 'gg sans'; /* Font that applies to everywhere except codeblock */
+    --code-font: Consolas, Liberation Mono; /* Font for code block */
     --text-normal: rgb(220, 221, 222); /* Color for UI parts */
     --text-default: rgb(255, 255, 255); /* Color for most texts */
     --text-faded: rgb(128, 149, 186); 
