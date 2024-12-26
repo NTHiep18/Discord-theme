@@ -1375,10 +1375,11 @@ margin: 8px;
 	top: 0;
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
-    border-radius: 0;
+    border-radius: 0 0 0 3px;
 }
 .spine_e1e976 + .spine_e1e976 {
 	top: 7px;
+	border-radius: 0;
 }
 .container_e664f3 {
 	background: transparent;
@@ -1411,6 +1412,12 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 }
+.cozy_f9f2ca.hasThread_f9f2ca:after {
+	border-color: var(--main-color);
+}
+.container_c15230 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	box-shadow: var(--shadow);
 
 /* tooltips */
 .layer_cd0de5:has(.tooltip_b6c360):before,
@@ -1421,7 +1428,7 @@ margin: 8px;
 .theme-dark .tooltip_b6c360,
 .reactionTooltip_fba897 {
 	border-radius: 8px;
-	background: rgb(var(--mica-color), calc(var(--mica-opacity)*1.5));
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) * 1.5));
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s linear 0s 1 normal !important;
 	color: var(--text-default);
@@ -1448,7 +1455,7 @@ margin: 8px;
 }
 .clickable_bcc24e[aria-selected=true]>.base_bcc24e,
 .clickable_bcc24e > .base_bcc24e:hover {
-	background: rgb(var(--mica-color), var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	color: var(--text-default);
 	box-shadow: var(--shadow);
 }
