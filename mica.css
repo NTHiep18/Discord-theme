@@ -1418,6 +1418,7 @@ margin: 8px;
 .container_c15230 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
+}
 
 /* tooltips */
 .layer_cd0de5:has(.tooltip_b6c360):before,
