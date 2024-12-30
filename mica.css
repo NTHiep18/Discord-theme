@@ -190,6 +190,7 @@ body {
 	box-shadow: var(--shadow) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	overflow: hidden;
+	outline: none;
 }
 .nonMediaMosaicItem_d0395d {
 	top: 4px;
