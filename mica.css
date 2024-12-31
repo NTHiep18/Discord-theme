@@ -434,8 +434,14 @@ body {
 }
 
 /* User info area */
+.layer_cd0de5:has(.accountProfilePopoutWrapper_b2ca13):before {
+	backdrop-filter: none;
+}
 .accountProfilePopoutWrapper_b2ca13 {
 	left: 0;
+	transform: translateX(-28px);
+	border-radius: 8px;
+	box-shadow: var(--shadow);
 }
 .container_b2ca13 {
 	height: 36px;
