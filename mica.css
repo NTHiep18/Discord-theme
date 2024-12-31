@@ -969,7 +969,7 @@ background-color: transparent !important;
 	border-top: none;
 }
 .lookFilled_dd4f85, .lookOutlined_dd4f85 {
-	background: transparent !important;
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2)) !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 	&:hover {
@@ -1203,7 +1203,7 @@ background-color: transparent !important;
 	z-index: 2;
 }
 .button_a24e84 {
-	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));;
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 	width: 28px;
