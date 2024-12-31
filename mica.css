@@ -172,6 +172,9 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 }
+.container_b558d0 {
+	gap: 8px;
+}
 .embedFull_b0068a {
 	border-left: 4px solid var(--main-color) !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -415,6 +418,18 @@ body {
 	background: var(--text-default);
 	margin: 0;
 }
+.toolbar_fc4f04 {
+	padding-right: 4px;
+	&> * {
+		height: auto;
+		margin: 0;
+		padding: 4px;
+		border-radius: 4px;
+		&:hover {
+		box-shadow: var(--shadow);
+		}
+	}
+}
 
 /* User info area */
 .container_b2ca13 {
@@ -440,7 +455,7 @@ body {
 	margin-right: 0;
 	background: transparent;
 	&:hover {
-		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+		background-color: transparent;
 		box-shadow: var(--shadow);
 	}
 }
@@ -454,7 +469,8 @@ button.button_adca65, span.button_adca65 {
 	border-radius: 8px;
 }
 button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hover {
-	
+	background: transparent;
+	box-shadow: var(--shadow);
 }
 
 /* Channel list */
