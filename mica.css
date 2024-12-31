@@ -1468,6 +1468,9 @@ margin: 8px;
 .layer_cd0de5:has(.popout_c5b389):before {
 	display: none;
 }
+.layer_cd0de5:has(.popout_c5b389) {
+	transform: translateX(16px);
+}
 .theme-dark .tooltip_b6c360,
 .reactionTooltip_fba897 {
 	border-radius: 8px;
