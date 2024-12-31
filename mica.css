@@ -440,7 +440,8 @@ body {
 	margin-right: 0;
 	background: transparent;
 	&:hover {
-		background: rgb(from var(--main-color) r g b / .8) !important;
+		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+		box-shadow: var(--shadow);
 	}
 }
 .avatarWrapper_b2ca13 .nameTag_b2ca13 {
@@ -453,7 +454,7 @@ button.button_adca65, span.button_adca65 {
 	border-radius: 8px;
 }
 button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hover {
-	background: rgb(from var(--main-color) r g b / .8) !important;
+	
 }
 
 /* Channel list */
@@ -1165,11 +1166,14 @@ background-color: transparent !important;
 	z-index: 2;
 }
 .button_a24e84 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: transparent;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 	width: 28px;
 	height: 28px;
+	&:hover {
+		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	}
 }
 .icon_a24e84 {
 	height: 24px;
@@ -1440,6 +1444,9 @@ margin: 8px;
     border-top-color: var(--main-color);
 	border-width: 6px;
 }
+.popoutContainer_cf58b5, .guildSection_e58351 {
+	background: transparent;
+}
 
 /* Fuck server discovery */
 .footer_d71945 {display: none}
@@ -1614,7 +1621,7 @@ margin: 8px;
     color: var(--text-default) !important;
 }
 
-/* emote, gif, sticker */
+/* emote, gif, sticker picker */
 .layer_cd0de5:has(.positionContainer_af5dbb):before {
 	display: none;
 }
