@@ -422,13 +422,15 @@ body {
 	padding-right: 4px;
 	&> * {
 		height: auto;
-		margin: 0;
 		padding: 4px;
 		border-radius: 4px;
 		&:hover {
 		box-shadow: var(--shadow);
 		}
 	}
+}
+.iconWrapper_fc4f04 {
+	margin: 0;
 }
 
 /* User info area */
@@ -455,7 +457,7 @@ body {
 	margin-right: 0;
 	background: transparent;
 	&:hover {
-		background-color: transparent;
+		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 		box-shadow: var(--shadow);
 	}
 }
@@ -469,7 +471,7 @@ button.button_adca65, span.button_adca65 {
 	border-radius: 8px;
 }
 button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hover {
-	background: transparent;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 }
 
@@ -645,9 +647,12 @@ background-color: transparent !important;
 	z-index: 1;
 }
 .button_f9d37d {
-	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: transparent !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
+	&:hover {
+		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	}
 }
 .headerInner_b9fccc {
 	padding: 38px 0 10px;
@@ -951,9 +956,12 @@ background-color: transparent !important;
 	border-top: none;
 }
 .lookFilled_dd4f85, .lookOutlined_dd4f85 {
-	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: transparent !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
+	&:hover {
+		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	}
 }
 .lookFilled_dd4f85.colorRed_dd4f85 {
 	background: rgb(218, 55, 60) !important;
