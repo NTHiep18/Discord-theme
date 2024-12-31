@@ -589,6 +589,10 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 }
 
 /* User popout */
+.full-motion .translate_f88ae3 {
+	border-radius: 8px;
+	box-shadow: var(--shadow);
+}
 .outer_c69a7b {
 	background: var(--background-image) no-repeat center / cover !important;
 	border: none !important;
@@ -656,7 +660,7 @@ background-color: transparent !important;
 	z-index: 1;
 }
 .button_f9d37d {
-	background: transparent !important;
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2)) !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
 	&:hover {
@@ -1199,7 +1203,7 @@ background-color: transparent !important;
 	z-index: 2;
 }
 .button_a24e84 {
-	background: transparent;
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 	width: 28px;
@@ -1590,7 +1594,7 @@ margin: 8px;
 	right: 8px;
 }
 .jumpButton_ac90a2 {
-	background: transparent;
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	&:hover {
