@@ -1147,10 +1147,11 @@ background-color: transparent !important;
 	padding: 2px 6px;
 }
 .reaction_ec6b19:hover,
-.reactionBtn_ec6b19:hover
+.reactionBtn_ec6b19:hover,
 .reaction_f61c73:hover {
 	box-shadow: var(--shadow);
 	border-color: transparent;
+	border-color: none;
 }
 .reaction_ec6b19.reactionMe_ec6b19,
 .reaction_f61c73.reactionMe_f61c73 {
