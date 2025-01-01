@@ -1110,7 +1110,7 @@ background-color: transparent !important;
 	}
 }
 /* new unread bar */
-.bar_eba0ba {
+.bar_eba0ba, .bar_edf32f {
 	background: var(--main-color);
 	border-radius: 8px;
 	margin: 4px 40px;
