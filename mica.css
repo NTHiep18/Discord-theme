@@ -256,17 +256,17 @@ body {
     inset: 0;
     z-index: 5;
     display: flex;
+	background: linear-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .1),  transparent, rgb(from var(--mica-color) r g b / .1),  transparent);
     margin: 6px 12px 12px 6px;
-	background: linear-gradient(135deg, transparent 25%,  rgb(from var(--mica-color) r g b / .1) 50%,  transparent 75%);
     background-size: 200% 200%;
     animation: loading-wave 3s linear infinite;
 }
 @keyframes loading-wave {
     0% {
-        background-position: 0 0;
+        background-position: 100% 100%;
     }
     100% {
-        background-position: 100% 100%;
+        background-position: 0 0;
     }
 }
 
