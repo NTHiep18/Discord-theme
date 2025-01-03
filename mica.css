@@ -1594,6 +1594,7 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 	border-radius: 8px;
+	border: none;
 }
 .footer_ac90a2 {
 	background: transparent;
