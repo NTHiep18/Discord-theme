@@ -1260,10 +1260,6 @@ margin: 8px;
 .searchBar_f0963d .searchBarComponent_f0963d {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
-.interactive_c91bad:hover {
-	background: transparent;
-	box-shadow: var(--shadow);
-}
 .selected_f5eb4b {
 	background: var(--background-gradient);
 	background-size: 200% 100%;
@@ -1381,6 +1377,9 @@ margin: 8px;
 }
 
 /* Gallery and channel thread list */
+.popout_c5b389 {
+	margin-left: 0;
+}
 .list_a6d69a>div:first-child {
 	padding: 0;
 	margin-right: 6px;
