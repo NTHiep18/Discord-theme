@@ -521,8 +521,14 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	background: transparent;
 }
 .modeSelected_d8bfb3 .link_d8bfb3 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background-image: linear-gradient(135deg, rgb(from var(--main-color) r g b / var(--mica-opacity)) 50%, rgb(from var(--mica-color) r g b / var(--mica-opacity))) !important;
+	background-size: 200% 100%;
+	background-position: 100%;
 	box-shadow: var(--shadow);
+	transition: 300ms linear;
+}
+.modeSelected_d8bfb3:hover .link_d8bfb3 {
+	background-position: 0%;
 }
 .wrapper_d8bfb3.modeSelected_d8bfb3 .link_d8bfb3:before {
 	background: transparent;
