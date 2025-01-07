@@ -977,7 +977,7 @@ background-color: transparent !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 	&:hover {
-		background-color: transparent; !important;
+		background-color: transparent !important;
 		background-image: var(--background-gradient) !important;
 	}
 }
