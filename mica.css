@@ -1266,7 +1266,13 @@ margin: 8px;
 }
 .selected_f5eb4b {
 	background: var(--background-gradient);
+	background-size: 200% 100%;
+	background-position: 100%;
+	transition: 300ms linear;
 	box-shadow: var(--shadow);
+	&:hover {
+		background-position: 0%;
+	}
 	& .avatarWithText_c91bad {
 		color: var(--text-default);
 	}
@@ -1287,6 +1293,19 @@ margin: 8px;
 }
 .scroller_bf550a {
 	border-left: none;
+}
+
+/* DMs */
+.content_a7d72e > .panel_c69a7b {
+	margin:6px 12px 24px 0px;
+	background: transparent !important;
+	box-shadow: var(--shadow);
+	border-radius: 8px;
+	overflow: hidden;
+	height: auto;
+}
+.content_a7d72e > .panel_c69a7b:before {
+	background: transparent;
 }
 
 /* Auto hidden member list */
