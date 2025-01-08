@@ -1113,7 +1113,7 @@ background-color: transparent !important;
 }
 /* new unread bar */
 .bar_eba0ba, .bar_edf32f {
-	background: var(--main-color);
+	background: var(--background-gradient);
 	border-radius: 8px;
 	margin: 4px 40px;
 	box-shadow: var(--shadow);
@@ -1224,7 +1224,7 @@ background-color: transparent !important;
 	width: 24px;
 }
 .colorDefault_d90b3d.focused_d90b3d {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: var(--background-gradient);
 	box-shadow: var(--shadow);
 }
 
