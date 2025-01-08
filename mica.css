@@ -1263,6 +1263,9 @@ margin: 8px;
 .searchBar_f0963d .searchBarComponent_f0963d {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
+.interactive_f5eb4b:hover, .interactive_f5eb4b:focus-within {
+	background: none;
+}
 .selected_f5eb4b {
 	background-image: var(--background-gradient) !important;
 	background-size: 200% 100%;
