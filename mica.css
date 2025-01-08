@@ -522,14 +522,12 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	background: transparent;
 }
 .modeSelected_d8bfb3 .link_d8bfb3 {
-	background-image: var(--background-gradient) !important;
-	background-size: 200% 100%;
-	background-position: 100%;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	transition: 300ms linear;
 }
 .modeSelected_d8bfb3:hover .link_d8bfb3 {
-	background-position: 0%;
+	background-position: 0% !important;
 }
 .wrapper_d8bfb3.modeSelected_d8bfb3 .link_d8bfb3:before {
 	background: transparent;
@@ -539,7 +537,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	margin: 0;
 }
 .wrapper_d8bfb3:active {
-	transition: none;
+	transition: 300ms linear;
 }
 .wrapper_d8bfb3:before {
 	margin-right: 8px;
@@ -685,15 +683,13 @@ background-color: transparent !important;
 .statusBubbleOuter_af9888,
 .statusBubbleOuter_af9888:before,
 .statusBubbleOuter_af9888:after {
-    background-image: var(--background-gradient) !important;
+    background: var(--background-gradient) 100% / 200% 100% !important;
 	border: none !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
-	background-size: 200% 100%;
-	background-position: 100%;
 	transition: 300ms linear;
 	&:hover {
-		background-position: 0%;
+		background-position: 0% !important;
 	}
 }
 .statusBubbleOuter_af9888:before, .statusBubbleOuter_a82ccc:before {
@@ -973,10 +969,7 @@ background-color: transparent !important;
 	border-top: none;
 }
 .lookFilled_dd4f85, .lookOutlined_dd4f85 {
-			background-color: transparent !important;
-	background-image: var(--background-gradient) !important;
-	background-size: 200% 100% !important;
-	background-position: 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 	transition: 300s linear;
@@ -1267,13 +1260,12 @@ margin: 8px;
 	background: none;
 }
 .selected_f5eb4b {
-	background-image: var(--background-gradient) !important;
-	background-size: 200% 100%;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	background-position: 100%;
 	transition: 300ms linear;
 	box-shadow: var(--shadow);
 	&:hover {
-		background-position: 0%;
+		background-position: 0% !important;
 	}
 	& .avatarWithText_c91bad {
 		color: var(--text-default);
@@ -1312,7 +1304,7 @@ margin: 8px;
 
 /* Auto hidden member list */
 .container_cbd271, .membersWrap_cbd271:not(.container_cbd271 > .membersWrap_cbd271) {
-	transition: 0.1s linear;
+	transition: 200ms linear;
 	width: 60px;
 	margin: 0 6px;
 }
