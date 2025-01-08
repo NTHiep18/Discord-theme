@@ -693,16 +693,24 @@ background-color: transparent !important;
 .statusBubbleOuter_af9888,
 .statusBubbleOuter_af9888:before,
 .statusBubbleOuter_af9888:after {
-    background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    background: var(--background-gradient) !important;
 	border: none !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
+	background-size: 200% 100%;
+	background-position: 100%;
+	transition: 300ms linear;
+	&:hover {
+		background-position: 0%;
+	}
 }
 .statusBubbleOuter_af9888:before, .statusBubbleOuter_a82ccc:before {
 	top: -24px;
+	left: 6px;
 }
 .statusBubbleOuter_af9888:after, .statusBubbleOuter_a82ccc:after {
 	top: -36px;
+	left: -6px;
 }
 .popover_a64b81 {
 	left: 24px;
@@ -973,12 +981,15 @@ background-color: transparent !important;
 	border-top: none;
 }
 .lookFilled_dd4f85, .lookOutlined_dd4f85 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+			background-color: transparent !important;
+	background-image: var(--background-gradient) !important;
+	background-size: 200% 100%;
+	background-position: 100%;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
+	transition: 300s linear;
 	&:hover {
-		background-color: transparent !important;
-		background-image: var(--background-gradient) !important;
+		background-position: 0%;
 	}
 }
 .lookFilled_dd4f85.colorRed_dd4f85 {
@@ -1138,10 +1149,10 @@ background-color: transparent !important;
 	background: rgb(from var(--main-color) r g b / .2);
 }
 /* Reaction */
-.reaction_ec6b19, .reactionBtn_ec6b19.forceShowLook_ec6b19,
+.reaction_ec6b19, .reactionBtn_ec6b19,
 .reaction_f61c73 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-    border-radius: 4px;
+    border-radius: 4px !important;
 	border: 1px solid transparent;
 	height: 24px !important;
 	display: flex;
@@ -1149,8 +1160,8 @@ background-color: transparent !important;
 	box-sizing: border-box;
 	width: auto;
 }
-.reactionBtn_ec6b19.forceShowLook_ec6b19 {
-	padding: 2px 6px;
+.reactionBtn_ec6b19 {
+	padding: 2px 6px !important;
 }
 .reaction_ec6b19:hover,
 .reactionBtn_ec6b19:hover,
