@@ -972,7 +972,7 @@ background-color: transparent !important;
 	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
-	transition: 300s linear;
+	transition: 300ms linear;
 	&:hover {
 		background-position: 0% !important;
 	}
