@@ -523,7 +523,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
     height: 2px;
     flex-grow: 1;
     transition: all .3s ease-in-out;
-    background: linear-gradient(to left, var(--main-color), transparent 50%) 100% / 200% 100%;
+    background: linear-gradient(to left, currentcolor, transparent 50%) 100% / 200% 100%;
     margin: 7px 5px 7px 0;
 }
 .name_a08117:after {
@@ -531,7 +531,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
     height: 2px;
     flex-grow: 1;
     transition: all .3s ease-in-out;
-    background: linear-gradient(to right, var(--main-color), transparent 50%) 0% / 200% 100%;
+    background: linear-gradient(to right, currentcolor, transparent 50%) 0% / 200% 100%;
     margin: 7px 0 7px 5px;
 }
 .collapsed_a08117 .name_a08117:before {
@@ -873,7 +873,7 @@ background-color: transparent !important;
 .connectedAccountNameText_f3eb60,
 .pronouns_c32acf,
 .userTagUsername_c32acf, .listRow_d2d6cb,
-.guildNick_c5a773, .discordIcon_b06bc5,
+.guildNick_c5a773, .discordIcon_b06bc5, .emptyText_d2d6cb,
 .text-xs\/semibold_dc00ef, .text-xs\/medium_dc00ef, .text-xs\/normal_dc00ef,
 .text-sm\/normal_dc00ef, .text-sm\/medium_dc00ef, .heading-xl\/bold_dc00ef, .heading-sm\/semibold_dc00ef,
 .heading-lg\/bold_dc00ef, .text-md\/semibold_dc00ef {
