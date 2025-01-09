@@ -1021,7 +1021,6 @@ background-color: transparent !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	box-shadow: var(--shadow);
-	margin-top: 12px;
 }
 .option_b0286e:hover {
 	background: rgb(from var(--main-color) r g b / .6);
