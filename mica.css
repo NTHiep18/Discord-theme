@@ -531,7 +531,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
     height: 2px;
     flex-grow: 1;
     transition: all .3s ease-in-out;
-    background: linear-gradient(to right, var(--main-color) 50%, transparent) 0% / 200% 100%;
+    background: linear-gradient(to right, var(--main-color), transparent 50%) 0% / 200% 100%;
     margin: 7px 0 7px 5px;
 }
 .collapsed_a08117 .name_a08117:before {
