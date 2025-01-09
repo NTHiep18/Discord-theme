@@ -739,7 +739,8 @@ background-color: transparent !important;
 	margin: 0;
 	justify-content: center;
 }
-.top_a0 .item_a0:hover {
+.item_a0:hover {
+	background: transparent !important;
 	box-shadow: var(--shadow);
 }
 .selected_a0.item_a0 {
@@ -920,9 +921,6 @@ background-color: transparent !important;
 .header_a0 {
 	color: var(--main-color);
 }
-.side_a0 .item_a0:hover {
-	background: transparent !important;
-}
 .empty_c47fa9 {
 	fill :rgb(from var(--second-color) r g b / 0.4);
 }
@@ -1078,6 +1076,7 @@ background-color: transparent !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--text-normal) !important;
+	transition: 300ms linear;
 	&:hover {
 		background-position: 0%;
 	}
