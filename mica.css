@@ -1004,7 +1004,7 @@ background-color: transparent !important;
 .lookFilled_dd4f85, .lookOutlined_dd4f85 {
 	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
-	border-radius: 8px;
+	border-radius: 6px;
 	transition: 300ms linear;
 	&:hover {
 		background-position: 0% !important;
