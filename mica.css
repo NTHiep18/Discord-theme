@@ -1503,7 +1503,7 @@ margin: 8px;
 .theme-dark .tooltip_b6c360,
 .reactionTooltip_fba897 {
 	border-radius: 8px;
-	background: var(--background-gradient);
+	background: var(--background-gradient) 100% / 200% 100%;
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s linear 0s 1 normal !important;
 	color: var(--text-default);
