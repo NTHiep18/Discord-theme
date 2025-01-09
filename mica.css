@@ -156,6 +156,8 @@ body {
 	background: var(--main-color);
 	padding-bottom: 0;
 	margin: 0 12px;
+	left: auto;
+	width: 600px;
 }
 .newMessagesBar_cf58b5 {
 	top: 6px;
@@ -1014,11 +1016,11 @@ background-color: transparent !important;
 .searchAnswer_b0fa94, .searchFilter_b0fa94 {
 	background-color: var(--main-color);
 }
-.container_eedf95,
-.searchResult_ddc613 {
+.container_eedf95, .searchResult_ddc613 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
+	box-shadow: var(--shadow);
 	margin-top: 12px;
 }
 .option_b0286e:hover {
@@ -1056,11 +1058,12 @@ background-color: transparent !important;
     padding: 16px 0 0 4px;
 }
 .button_ddc613 {
-	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
+	background: var(--background-gradient) 100% / 200% 100%;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
+	transition: 300ms linear;
 	&:hover {
-		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+		background-position: 0%;
 	}
 }
 .small_f9a4c9 {
