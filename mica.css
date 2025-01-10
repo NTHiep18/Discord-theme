@@ -1478,14 +1478,21 @@ margin: 8px;
 .spine_e1e976 {
 	width: 16px !important;
     height: 16px !important;
+	left: 16px;
 	top: 0;
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
     border-radius: 0 0 0 3px;
 }
+.spineBorder_e1e976 {
+	display: none;
+}
 .spine_e1e976 + .spine_e1e976 {
 	top: 7px;
 	border-radius: 0;
+}
+.typeThread_d8bfb3.wrapper_d8bfb3 {
+	left: 30px;
 }
 .container_e664f3 {
 	background: transparent;
