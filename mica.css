@@ -1492,7 +1492,10 @@ margin: 8px;
 	border-radius: 0;
 }
 .typeThread_d8bfb3.wrapper_d8bfb3 {
-	left: 30px;
+	margin-left: 30px;
+}
+.typeThread_d8bfb3 .unread_d8bfb3 {
+	display: none;
 }
 .container_e664f3 {
 	background: transparent;
