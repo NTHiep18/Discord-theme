@@ -77,7 +77,7 @@ body {
 .base_a4d4d9 .container_fc4f04,
 .content_a7d72e .searchResultsWrap_c2b47d,
 .privateChannels_f0963d,
-.peopleColumn_c2739c, .channelTextArea_bdf0de:focus-within.channelTextArea_bdf0de:before,
+.peopleColumn_c2739c, .channelTextArea_bdf0de:before,
 .nowPlayingColumn_c2739c, .input_f8bc55:focus-within,
 .mainCard_a6d69a, .tag_a6d69a, .sortDropdown_a6d69a, .tagsButton_a6d69a,
 .chatHeaderBar_e2f46e, .modal_a60b1b, .popout_c5b389, .root_f9a4c9 {
@@ -342,8 +342,10 @@ body {
 	position: absolute;
 	content: '';
 	inset: 0;
-	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
 	border-radius: 8px;
+}
+.channelTextArea_bdf0de:focus-within.channelTextArea_bdf0de:before {
+	background: rgb(from var(--main-color) r g b / .2) !important;
 }
 .scrollableContainer_bdf0de  {
 	overflow-y: hidden;
@@ -778,8 +780,12 @@ background-color: transparent !important;
 }
 .selected_a0.item_a0 {
 	color: var(--text-default) !important;
-	background: var(--background-gradient) !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
+	&:hover {
+		background-position: 0% !important;
+		transition: 300ms linear;
+	}
 }
 .note_a24910 {
 	margin: 0;
@@ -1282,8 +1288,11 @@ margin: 8px;
 }
 .peopleListItem_d51464:hover .actionButton_e01b91, .actionButton_e01b91.highlight_e01b91,
 .peopleListItem_d51464:hover .emptyCard_f02fcf {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
+	&:hover {
+		background-position: 0% !important;
+	}
 }
 .searchBar_e0840f:focus-within {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -1310,11 +1319,11 @@ margin: 8px;
 	}
 }
 .outer_ac5d22 {
-	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	border: none;
 	&:hover {
 		box-shadow: var(--shadow);
-		background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+		background-position: 0% !important;
 	}
 }
 .inset_ac5d22 {
