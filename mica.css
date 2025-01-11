@@ -155,15 +155,19 @@ body {
 	height: 24px;
 	background: var(--main-color);
 	padding-bottom: 0;
-	margin: 0 12px;
+	margin-right: 12px;
 	left: auto;
 	width: 600px;
+	box-shadow: var(--shadow);
+	border-radius: 4px;
+	opacity: .8;
 }
 .newMessagesBar_cf58b5 {
-	top: 6px;
+	top: 16px;
 }
 .jumpToPresentBar_cf58b5 {
 	right: 16px;
+	bottom: 8px;
 }
 .messageSpine_f9f2ca:before, .repliedMessageClickableSpine_f9f2ca {
 	border-color: var(--main-color);
