@@ -524,6 +524,9 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	display: flex;
 	justify-content: center;
 }
+.name_a08117 {
+	transition: all .3s linear;
+}
 .name_a08117:before {
     content: "";
     height: 2px;
