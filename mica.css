@@ -160,7 +160,7 @@ body {
 	width: 600px;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
-	opacity: .8;
+	opacity: .9;
 }
 .newMessagesBar_cf58b5 {
 	top: 16px;
@@ -349,7 +349,7 @@ body {
 	border-radius: 8px;
 }
 .channelTextArea_bdf0de:focus-within.channelTextArea_bdf0de:before {
-	background: rgb(from var(--main-color) r g b / .2) !important;
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), rgb(from var(--mica-color) r g b / var(--mica-opacity))) !important;
 }
 .scrollableContainer_bdf0de  {
 	overflow-y: hidden;
