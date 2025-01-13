@@ -16,7 +16,7 @@
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: 2px 2px 2px 1px var(--shadow-color);
-	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 40%, rgb(from var(--mica-color) r g b / var(--mica-opacity)));
+	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 40%, rgb(from var(--mica-color) r g b / var(--mica-opacity)) 70%);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -348,7 +348,7 @@ body {
 	border-radius: 8px;
 }
 .channelTextArea_bdf0de:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .3), transparent 40%) !important;
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%) !important;
 }
 .scrollableContainer_bdf0de  {
 	overflow-y: hidden;
@@ -679,7 +679,7 @@ background-color: transparent !important;
 .input_f8bc55 {
 	background: rgb(20, 20, 20, 0.2) !important;
 	&:focus-within {
-		linear-gradient(90deg, rgb(from var(--main-color) r g b / .4), transparent 40%) !important;
+		linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%) !important;
 	}
 }
 .tabBar_ecc04c {
@@ -1058,7 +1058,7 @@ background-color: transparent !important;
 	background: transparent;
 }
 .searchBar_a46bef:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .4), transparent 40%);
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%);
 }
 .searchAnswer_b0fa94, .searchFilter_b0fa94 {
 	background-color: var(--main-color);
@@ -1828,7 +1828,7 @@ margin: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
 .container_c18ec9:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .4), transparent 40%);
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%);
 	box-shadow: var(--shadow);
 }
 .wrapper_ba23fe {
