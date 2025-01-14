@@ -784,7 +784,7 @@ background-color: transparent !important;
 	flex-grow: 1;
 	flex-basis: 0;
 	text-align: center;
-	border-color: transparent !important;
+	border: none !important;
 	color: var(--text-default);
 	line-height: 1.25rem;
 	padding: 4px 0;
