@@ -356,7 +356,7 @@ body {
 	border-radius: 8px;
 }
 .channelTextArea_bdf0de:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%) !important;
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 50%) !important;
 }
 .scrollableContainer_bdf0de  {
 	overflow-y: hidden;
