@@ -733,14 +733,17 @@ background-color: transparent !important;
     top: 50px;
     left: 152px;
 }
-.outer_af9888,
+.outer_af9888 {
+	background: transparent;
+}
+.inner_af9888,
 .outer_af9888:before,
 .outer_af9888:after {
     background: var(--background-gradient) 100% / 200% 100% !important;
 	border: none !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
-	transition: all 300ms linear;
+	transition: 300ms linear;
 	&:hover {
 		background-position: 0% !important;
 	}
