@@ -725,19 +725,17 @@ background-color: transparent !important;
 .headerInner_b9fccc {
 	padding: 38px 0 10px;
 }
-.visibleContainer_a82ccc.biteSize_a82ccc,
-.visibleContainer_af9888.biteSize_af9888 {
+.container_af9888.biteSize_af9888 {
 	top: 60px;
 	left: 100px;
 }
-.visibleContainer_a82ccc.fullSize_a82ccc,
-.visibleContainer_af9888.fullSize_af9888 {
+.container_af9888.fullSize_af9888 {
     top: 50px;
     left: 152px;
 }
-.statusBubbleOuter_af9888,
-.statusBubbleOuter_af9888:before,
-.statusBubbleOuter_af9888:after {
+.outer_af9888,
+.outer_af9888:before,
+.outer_af9888:after {
     background: var(--background-gradient) 100% / 200% 100% !important;
 	border: none !important;
 	box-shadow: var(--shadow);
@@ -747,11 +745,11 @@ background-color: transparent !important;
 		background-position: 0% !important;
 	}
 }
-.statusBubbleOuter_af9888:before, .statusBubbleOuter_a82ccc:before {
+.outer_af9888:before {
 	top: -24px;
 	left: 6px;
 }
-.statusBubbleOuter_af9888:after, .statusBubbleOuter_a82ccc:after {
+.outer_af9888:after {
 	top: -36px;
 	left: -6px;
 }
