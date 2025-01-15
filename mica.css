@@ -346,7 +346,7 @@ body {
     line-height: 1.25rem;
 }
 .channelTextArea_bdf0de {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .6), transparent 30%) 100% / 300% 100%;
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) 100% / 300% 100%;
 	transition: 200ms linear;
 }
 .channelTextArea_bdf0de:before {
@@ -699,7 +699,7 @@ background-color: transparent !important;
 .input_f8bc55 {
 	background: rgb(20, 20, 20, 0.2) !important;
 	&:focus-within {
-		linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%) !important;
+		linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) !important;
 	}
 }
 .tabBar_ecc04c {
@@ -1081,7 +1081,7 @@ background-color: transparent !important;
 	background: transparent;
 }
 .searchBar_a46bef:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%);
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
 }
 .searchAnswer_b0fa94, .searchFilter_b0fa94 {
 	background-color: var(--main-color);
@@ -1854,7 +1854,7 @@ margin: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
 .container_c18ec9:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .35), transparent 30%);
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
 	box-shadow: var(--shadow);
 }
 .wrapper_ba23fe {
