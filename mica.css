@@ -1441,7 +1441,7 @@ margin: 8px;
 .divider_c2654d.isUnread_c2654d, .divider_c2654d:has(.content_c2654d) {
 	background: transparent;
 	border-top: 1px var(--main-color) solid;
-	margin: 0 4px 4px 72px;
+	margin: 0 4px 4px 72px !important;
 	top: 0 !important;
 	z-index: 1;
 }
