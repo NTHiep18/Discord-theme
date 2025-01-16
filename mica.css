@@ -1252,6 +1252,7 @@ background-color: transparent !important;
 /* Right click menu */
 .layer_cd0de5:has(.menu_d90b3d):before {
 	background: var(--background-overlay) !important;
+	border-radius: 8px;
 }
 :not(.userPopoutOverlayBackground_c69a7b) > .menu_d90b3d, .container_ac201b {
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
