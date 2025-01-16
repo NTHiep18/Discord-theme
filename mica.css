@@ -16,7 +16,7 @@
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: 2px 2px 2px 1px var(--shadow-color);
-	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 20%, rgb(from var(--main-color) r g b / .2) 60%);
+	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 30%, rgb(from var(--main-color) r g b / .2) 70%);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -346,7 +346,7 @@ body {
     line-height: 1.25rem;
 }
 .channelTextArea_bdf0de {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) 100% / 300% 100%;
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) 100% / 200% 100%;
 	transition: 200ms linear;
 }
 .channelTextArea_bdf0de:before {
@@ -481,7 +481,7 @@ body {
 	margin: 6px;
 }
 .menus_ad5fac .button_dd4f85 {
-	background: var(--background-gradient) 100% / 300% 100%;
+	background: var(--background-gradient) 100% / 200% 100%;
 	box-shadow: var(--shadow);
 	transition: 300ms linear;
 	&:hover {
@@ -554,7 +554,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
     height: 2px;
     flex-grow: 1;
     transition: all .3s linear;
-    background: linear-gradient(to left, currentcolor, transparent 50%) 100% / 300% 100%;
+    background: linear-gradient(to left, currentcolor, transparent 50%) 100% / 200% 100%;
     margin: 7px 5px 7px 0;
 }
 .name_a08117:after {
@@ -562,7 +562,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
     height: 2px;
     flex-grow: 1;
     transition: all .3s linear;
-    background: linear-gradient(to right, currentcolor, transparent 50%) 0% / 300% 100%;
+    background: linear-gradient(to right, currentcolor, transparent 50%) 0% / 200% 100%;
     margin: 7px 0 7px 5px;
 }
 .collapsed_a08117 .name_a08117:before {
@@ -589,7 +589,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	background: transparent;
 }
 .modeSelected_d8bfb3 .link_d8bfb3 {
-	background: var(--background-gradient) 100% / 300% 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 }
 .modeSelected_d8bfb3:hover .link_d8bfb3 {
@@ -751,7 +751,7 @@ background-color: transparent !important;
 .inner_af9888,
 .outer_af9888:before,
 .outer_af9888:after {
-    background: var(--background-gradient) 100% / 300% 100% !important;
+    background: var(--background-gradient) 100% / 200% 100% !important;
 	border: none !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
@@ -814,7 +814,7 @@ background-color: transparent !important;
 }
 .selected_a0.item_a0 {
 	color: var(--text-default) !important;
-	background: var(--background-gradient) 100% / 300% 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	&:hover {
 		background-position: 0% !important;
@@ -1041,7 +1041,7 @@ background-color: transparent !important;
 	border-top: none;
 }
 .lookFilled_dd4f85, .lookOutlined_dd4f85 {
-	background: var(--background-gradient) 100% / 300% 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	border-radius: 6px;
 	transition: 300ms linear;
@@ -1127,7 +1127,7 @@ background-color: transparent !important;
     padding: 16px 0 0 4px;
 }
 .button_ddc613 {
-	background: var(--background-gradient) 100% / 300% 100%;
+	background: var(--background-gradient) 100% / 200% 100%;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	transition: 300ms linear;
@@ -1144,7 +1144,7 @@ background-color: transparent !important;
 /* Mentions */
 .wrapper_bf1b19 {
     border-radius: 4px !important;
-	background: var(--background-gradient) 100% / 300% 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--text-normal) !important;
@@ -1168,7 +1168,7 @@ background-color: transparent !important;
 	padding-top: 0;
 }
 .childWrapperNoHoverBg_f90abb {
-	background: transparent var(--background-gradient) 100% / 300% 100% !important;
+	background: transparent var(--background-gradient) 100% / 200% 100% !important;
 	transition: 300ms linear;
 	&:hover {
 		background-position: 0% !important;
@@ -1324,7 +1324,7 @@ margin: 8px;
 }
 .peopleListItem_d51464:hover .actionButton_e01b91, .actionButton_e01b91.highlight_e01b91,
 .peopleListItem_d51464:hover .emptyCard_f02fcf {
-	background: var(--background-gradient) 100% / 300% 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	&:hover {
 		background-position: 0% !important;
@@ -1343,7 +1343,7 @@ margin: 8px;
 	background: none;
 }
 .selected_f5eb4b {
-	background: var(--background-gradient) 100% / 300% 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	background-position: 100%;
 	transition: 300ms linear;
 	box-shadow: var(--shadow);
@@ -1355,7 +1355,7 @@ margin: 8px;
 	}
 }
 .outer_ac5d22 {
-	background: var(--background-gradient) 100% / 300% 100% !important;
+	background: var(--background-gradient) 100% / 200% 100% !important;
 	border: none;
 	&:hover {
 		box-shadow: var(--shadow);
@@ -1593,7 +1593,7 @@ margin: 8px;
 .theme-dark .tooltip_b6c360,
 .reactionTooltip_fba897 {
 	border-radius: 8px;
-	background: var(--background-gradient) 100% / 300% 100%;
+	background: var(--background-gradient) 100% / 200% 100%;
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s linear 0s 1 normal !important;
 	color: var(--text-default);
@@ -1717,7 +1717,7 @@ margin: 8px;
 	right: 8px;
 }
 .jumpButton_ac90a2 {
-	background: var(--background-gradient) 100% / 300% 100%;
+	background: var(--background-gradient) 100% / 200% 100%;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	&:hover {
@@ -1810,7 +1810,7 @@ margin: 8px;
 	}
 }
 .navButtonActive_af5dbb {
-	background: var(--background-gradient) 100% / 300% 100%;
+	background: var(--background-gradient) 100% / 200% 100%;
     box-shadow: var(--shadow);
 	&:hover {
 		background-position: 0%;
@@ -1843,7 +1843,7 @@ margin: 8px;
 }
 .inspector_c3120f {
 	margin: 0 8px 8px 16px;
-	background: var(--background-gradient) 100% / 300% 100%;
+	background: var(--background-gradient) 100% / 200% 100%;
     box-shadow: var(--shadow);
     border-radius: 8px;
 	width: auto;
@@ -1858,7 +1858,7 @@ margin: 8px;
 	box-shadow: var(--shadow);
 }
 .wrapper_ba23fe {
-	background: var(--background-gradient) 100% / 300% 100%;
+	background: var(--background-gradient) 100% / 200% 100%;
     box-shadow: var(--shadow);
     border-radius: 8px;
 	margin: 0 0 8px 8px;
