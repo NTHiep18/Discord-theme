@@ -16,7 +16,7 @@
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: 2px 2px 2px 1px var(--shadow-color);
-	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 15%, rgb(from var(--main-color) r g b / .2) 85%);
+	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 15%, rgb(from var(--main-color) r g b / .2) 75%);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
