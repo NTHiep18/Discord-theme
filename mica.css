@@ -16,7 +16,7 @@
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: 2px 2px 2px 1px var(--shadow-color);
-	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 15%, rgb(from var(--main-color) r g b / .2) 85%);
+	--background-gradient: ease-in-out-gradient(135deg, rgb(from var(--main-color) r g b) 15%, rgb(from var(--main-color) r g b / .2) 85%);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -266,10 +266,10 @@ body {
     inset: 0;
     z-index: 5;
     display: flex;
-	background: linear-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .1),  transparent, rgb(from var(--mica-color) r g b / .1),  transparent);
+	background: ease-in-out-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .1),  transparent, rgb(from var(--mica-color) r g b / .1),  transparent);
     margin: 6px 12px 12px 6px;
     background-size: 200% 200%;
-    animation: loading-wave 3s linear infinite;
+    animation: loading-wave 3s ease-in-out infinite;
 }
 @keyframes loading-wave {
     0% {
@@ -346,8 +346,8 @@ body {
     line-height: 1.25rem;
 }
 .channelTextArea_bdf0de {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) 100% / 200% 100%;
-	transition: 200ms linear;
+	background: ease-in-out-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) 100% / 200% 100%;
+	transition: 200ms ease-in-out;
 }
 .channelTextArea_bdf0de:before {
 	position: absolute;
@@ -483,7 +483,7 @@ body {
 .menus_ad5fac .button_dd4f85 {
 	background: var(--background-gradient) 100% / 200% 100%;
 	box-shadow: var(--shadow);
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	&:hover {
 		background-position: 0%;
 		color: var(--text-default);
@@ -547,22 +547,22 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	justify-content: center;
 }
 .name_a08117 {
-	transition: all .3s linear;
+	transition: all .3s ease-in-out;
 }
 .name_a08117:before {
     content: "";
     height: 2px;
     flex-grow: 1;
-    transition: all .3s linear;
-    background: linear-gradient(to left, currentcolor, transparent 50%) 100% / 200% 100%;
+    transition: all .3s ease-in-out;
+    background: ease-in-out-gradient(to left, currentcolor, transparent 50%) 100% / 200% 100%;
     margin: 7px 5px 7px 0;
 }
 .name_a08117:after {
     content: "";
     height: 2px;
     flex-grow: 1;
-    transition: all .3s linear;
-    background: linear-gradient(to right, currentcolor, transparent 50%) 0% / 200% 100%;
+    transition: all .3s ease-in-out;
+    background: ease-in-out-gradient(to right, currentcolor, transparent 50%) 0% / 200% 100%;
     margin: 7px 0 7px 5px;
 }
 .collapsed_a08117 .name_a08117:before {
@@ -582,7 +582,7 @@ button.button_adca65.enabled_adca65:hover, span.button_adca65.enabled_adca65:hov
 	border-radius: 4px;
 	padding: 0;
 	border: none;
-	transition: background 300ms linear;
+	transition: background 300ms ease-in-out;
 }
 .wrapper_d8bfb3:hover .link_d8bfb3 {
 	box-shadow: var(--shadow);
@@ -699,7 +699,7 @@ background-color: transparent !important;
 .input_f8bc55 {
 	background: rgb(20, 20, 20, 0.2) !important;
 	&:focus-within {
-		linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) !important;
+		ease-in-out-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%) !important;
 	}
 }
 .tabBar_ecc04c {
@@ -755,7 +755,7 @@ background-color: transparent !important;
 	border: none !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	&:hover {
 		background-position: 0% !important;
 	}
@@ -793,7 +793,7 @@ background-color: transparent !important;
 	max-width: 100%;
 }
 .item_a0 {
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 }
 .top_a0 .item_a0 {
 	background: transparent;
@@ -1044,7 +1044,7 @@ background-color: transparent !important;
 	background: var(--background-gradient) 100% / 200% 100% !important;
 	box-shadow: var(--shadow);
 	border-radius: 6px;
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	&:hover {
 		background-position: 0% !important;
 	}
@@ -1081,7 +1081,7 @@ background-color: transparent !important;
 	background: transparent;
 }
 .searchBar_a46bef:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
+	background: ease-in-out-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
 }
 .searchAnswer_b0fa94, .searchFilter_b0fa94 {
 	background-color: var(--main-color);
@@ -1130,7 +1130,7 @@ background-color: transparent !important;
 	background: var(--background-gradient) 100% / 200% 100%;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	&:hover {
 		background-position: 0%;
 	}
@@ -1148,7 +1148,7 @@ background-color: transparent !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--text-normal) !important;
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	&:hover {
 		background-position: 0%;
 	}
@@ -1169,7 +1169,7 @@ background-color: transparent !important;
 }
 .childWrapperNoHoverBg_f90abb {
 	background: transparent var(--background-gradient) 100% / 200% 100% !important;
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	&:hover {
 		background-position: 0% !important;
 	}
@@ -1211,29 +1211,26 @@ background-color: transparent !important;
 	background: rgb(from var(--main-color) r g b / .2);
 }
 /* Reaction */
-.reaction_ec6b19, .reactionBtn_ec6b19,
-.reaction_f61c73 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+.reaction_ec6b19, .reactionBtn_ec6b19 {
+	background: var(--background-gradient) 100% / 200% 100%;
     border-radius: 4px !important;
-	border: 1px solid transparent;
+	box-shadow: var(--shadow);
+	border: none !important;
 	height: 24px !important;
 	display: flex;
 	justify-content: center;
 	box-sizing: border-box;
 	width: auto;
+	transition: 300ms ease-in-out;
 }
 .reactionBtn_ec6b19 {
 	padding: 2px 6px !important;
 }
 .reaction_ec6b19:hover,
-.reactionBtn_ec6b19:hover,
-.reaction_f61c73:hover {
-	box-shadow: var(--shadow);
-	border-color: transparent;
-	border-color: none;
+.reactionBtn_ec6b19:hover {
+	background-position: 0%;
 }
-.reaction_ec6b19.reactionMe_ec6b19,
-.reaction_f61c73.reactionMe_f61c73 {
+.reaction_ec6b19.reactionMe_ec6b19 {
 	border-color: var(--main-color);
 	box-sizing: border-box;
 }
@@ -1346,7 +1343,7 @@ margin: 8px;
 .selected_f5eb4b {
 	background: var(--background-gradient) 100% / 200% 100% !important;
 	background-position: 100%;
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	box-shadow: var(--shadow);
 	&:hover {
 		background-position: 0% !important;
@@ -1388,7 +1385,7 @@ margin: 8px;
 
 /* Auto hidden member list */
 .container_cbd271, .membersWrap_cbd271:not(.container_cbd271 > .membersWrap_cbd271) {
-	transition: 200ms linear;
+	transition: 200ms ease-in-out;
 	width: 60px;
 	margin: 0 6px;
 }
@@ -1596,7 +1593,7 @@ margin: 8px;
 	border-radius: 8px;
 	background: var(--background-gradient) 100% / 200% 100%;
 	backdrop-filter: blur(var(--mica-filter));
-	animation: appear 0.25s linear 0s 1 normal !important;
+	animation: appear 0.25s ease-in-out 0s 1 normal !important;
 	color: var(--text-default);
 	box-shadow: var(--shadow);
 }
@@ -1855,7 +1852,7 @@ margin: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
 .container_c18ec9:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
+	background: ease-in-out-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
 	box-shadow: var(--shadow);
 }
 .wrapper_ba23fe {
