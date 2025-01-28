@@ -346,7 +346,7 @@ body {
     line-height: 1.25rem;
 }
 .channelTextArea_bdf0de {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .4), transparent 40%) 100% / 200% 100%;
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .5), transparent 40%) 100% / 200% 100%;
 	transition: 400ms ease-in-out;
 }
 .channelTextArea_bdf0de:before {
@@ -747,6 +747,7 @@ background-color: transparent !important;
 }
 .outer_af9888 {
 	background: transparent;
+	overflow: visible;
 }
 .inner_af9888,
 .outer_af9888:before,
@@ -756,9 +757,17 @@ background-color: transparent !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
+}
+.inner_af9888 {
+	padding: 6px 12px;
+	border-radius: 100px;
 	&:hover {
 		background-position: 0% !important;
 	}
+}
+.outer_af9888:hover:before,
+.outer_af9888:hover:after {
+	background-position: 0% !important;
 }
 .outer_af9888:before {
 	top: -24px;
@@ -1081,7 +1090,8 @@ background-color: transparent !important;
 	background: transparent;
 }
 .searchBar_a46bef:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .5), transparent 20%);
+	box-shadow: var(--shadow);
 }
 .searchAnswer_b0fa94, .searchFilter_b0fa94 {
 	background-color: var(--main-color);
@@ -1848,13 +1858,12 @@ margin: 8px;
 	width: auto;
 }
 .container_c18ec9 {
-	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
     border-radius: 8px;
-    backdrop-filter: blur(var(--mica-filter));
 }
 .container_c18ec9:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .2), transparent 20%);
+	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .5), transparent 20%) !important;
 	box-shadow: var(--shadow);
+	backdrop-filter: blur(var(--mica-filter));
 }
 .wrapper_ba23fe {
 	background: var(--background-gradient) 100% / 200% 100%;
