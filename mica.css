@@ -151,7 +151,7 @@ body {
 	left: -60px;
 }
 .cozy_c19a55 .timestamp_c19a55 {
-	left: -64px;
+	left: -64px !important;
 }
 .newMessagesBar__0f481, .jumpToPresentBar__0f481 {
 	height: 24px;
