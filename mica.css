@@ -751,6 +751,8 @@ background-color: transparent !important;
 .outer_ab8609 {
 	background: transparent;
 	overflow: visible;
+	border: none !important;
+	box-shadow: none;
 }
 .inner_ab8609,
 .outer_ab8609:before,
@@ -1244,15 +1246,13 @@ background-color: transparent !important;
 .reactionBtn__23977:hover {
 	background-position: 0%;
 }
-.reaction__23977.reactionMe__23977 {
-	border-color: var(--main-color);
-	box-sizing: border-box;
+.reactionCount__23977 {
+	color: rgba(255, 255, 255, .4);
+	min-width: unset !important;
+	font-weight: 400;
 }
 .reaction__23977.reactionMe__23977 .reactionCount__23977 {
 	color: rgba(255, 255, 255, 0.8);
-}
-.reactionCount__23977 {
-	min-width: unset !important;
 }
 .container__34c2c {
 	background-color: rgb(from var(--second-color) r g b / .9);
