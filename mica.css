@@ -595,7 +595,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	box-shadow: var(--shadow);
 }
 .modeSelected__2ea32:hover .link__2ea32 {
-	rgb(from var(--main-color) r g b / .4) !important;
+	background: rgb(from var(--main-color) r g b / .4) !important;
 }
 .wrapper__2ea32.modeSelected__2ea32 .link__2ea32:before {
 	background: transparent;
@@ -766,12 +766,12 @@ background-color: transparent !important;
 	padding: 6px 12px;
 	border-radius: 100px;
 	&:hover {
-		rgb(from var(--main-color) r g b / .4) !important;
+		background: rgb(from var(--main-color) r g b / .4) !important;
 	}
 }
 .outer_ab8609:hover:before,
 .outer_ab8609:hover:after {
-	rgb(from var(--main-color) r g b / .4) !important;
+	background: rgb(from var(--main-color) r g b / .4) !important;
 }
 .outer_ab8609:before {
 	top: -24px;
@@ -830,7 +830,7 @@ background-color: transparent !important;
 	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	&:hover {
-		rgb(from var(--main-color) r g b / .4) !important;
+		background: rgb(from var(--main-color) r g b / .4) !important;
 	}
 }
 .note_a24910 {
@@ -1059,7 +1059,7 @@ background-color: transparent !important;
 	border-radius: 6px;
 	transition: 300ms ease-in-out;
 	&:hover {
-		rgb(from var(--main-color) r g b / .4) !important;
+		background: rgb(from var(--main-color) r g b / .4) !important;
 	}
 }
 .lookFilled__201d5.colorRed__201d5 {
@@ -1185,7 +1185,7 @@ background-color: transparent !important;
 	background: transparent rgb(from var(--main-color) r g b / .2) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
-		rgb(from var(--main-color) r g b / .4) !important;
+		background: rgb(from var(--main-color) r g b / .4) !important;
 	}
 }
 .guildSeparator__252b6 {
@@ -1338,7 +1338,7 @@ margin: 8px;
 	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	&:hover {
-		rgb(from var(--main-color) r g b / .4) !important;
+		background: rgb(from var(--main-color) r g b / .4) !important;
 	}
 }
 .searchBar__5ec2f:focus-within {
@@ -1359,7 +1359,7 @@ margin: 8px;
 	transition: 300ms ease-in-out;
 	box-shadow: var(--shadow);
 	&:hover {
-		rgb(from var(--main-color) r g b / .4) !important;
+		background: rgb(from var(--main-color) r g b / .4) !important;
 	}
 	& .avatarWithText__972a0 {
 		color: var(--text-default);
@@ -1370,7 +1370,7 @@ margin: 8px;
 	border: none;
 	&:hover {
 		box-shadow: var(--shadow);
-		rgb(from var(--main-color) r g b / .4) !important;
+		background: rgb(from var(--main-color) r g b / .4) !important;
 	}
 }
 .inset_bf1984 {
