@@ -16,7 +16,6 @@
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: 2px 2px 2px 1px var(--shadow-color);
-	--background-gradient: linear-gradient(135deg, rgb(from var(--main-color) r g b) 15%, rgb(from var(--main-color) r g b / .2) 75%);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -349,7 +348,7 @@ body {
     line-height: 1.25rem;
 }
 .channelTextArea__74017 {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .5), transparent 40%) 100% / 200% 100%;
+	background: transparent;
 	transition: 400ms ease-in-out;
 }
 .channelTextArea__74017:before {
@@ -358,7 +357,7 @@ body {
 	inset: 0;
 }
 .channelTextArea__74017:focus-within {
-	background-position: 0%;
+	background: rgb(from var(--main-color) r g b / 0.4);
 }
 .channelTextArea__74017
 .channelBottomBarArea_f75fb0 .channelTextArea__74017 {
@@ -484,7 +483,7 @@ body {
 	margin: 6px;
 }
 .menus_af7fb7 .button__201d5 {
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
 	box-shadow: var(--shadow);
 	transition: 300ms ease-in-out;
 	&:hover {
@@ -592,7 +591,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	background: transparent;
 }
 .modeSelected__2ea32 .link__2ea32 {
-	background: var(--background-gradient) 100% / 200% 100% !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 }
 .modeSelected__2ea32:hover .link__2ea32 {
@@ -757,7 +756,7 @@ background-color: transparent !important;
 .inner_ab8609,
 .outer_ab8609:before,
 .outer_ab8609:after {
-    background: var(--background-gradient) 100% / 200% 100% !important;
+    background: rgb(from var(--main-color) r g b / .2) !important;
 	border: none !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
@@ -828,7 +827,7 @@ background-color: transparent !important;
 }
 .selected_b3f026.item_b3f026 {
 	color: var(--text-default) !important;
-	background: var(--background-gradient) 100% / 200% 100% !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	&:hover {
 		background-position: 0% !important;
@@ -1055,7 +1054,7 @@ background-color: transparent !important;
 	border-top: none;
 }
 .lookFilled__201d5, .lookOutlined__201d5 {
-	background: var(--background-gradient) 100% / 200% 100% !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	border-radius: 6px;
 	transition: 300ms ease-in-out;
@@ -1142,7 +1141,7 @@ background-color: transparent !important;
     padding: 16px 0 0 4px;
 }
 .button__02a39 {
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	transition: 300ms ease-in-out;
@@ -1159,7 +1158,7 @@ background-color: transparent !important;
 /* Mentions */
 .wrapper_f61d60 {
     border-radius: 4px !important;
-	background: var(--background-gradient) 100% / 200% 100% !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--text-normal) !important;
@@ -1183,7 +1182,7 @@ background-color: transparent !important;
 	padding-top: 0;
 }
 .childWrapperNoHoverBg__6e9f8 {
-	background: transparent var(--background-gradient) 100% / 200% 100% !important;
+	background: transparent rgb(from var(--main-color) r g b / .2) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
 		background-position: 0% !important;
@@ -1228,7 +1227,7 @@ background-color: transparent !important;
 /* Reaction */
 .reaction__23977, .reactionBtn__23977 {
 	background-color: transparent !important;
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
     border-radius: 4px !important;
 	box-shadow: var(--shadow);
 	border: none !important;
@@ -1336,7 +1335,7 @@ margin: 8px;
 }
 .peopleListItem_cc6179:hover .actionButton_f8fa06, .actionButton_f8fa06.highlight_f8fa06,
 .peopleListItem_cc6179:hover .emptyCard__7e549 {
-	background: var(--background-gradient) 100% / 200% 100% !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	&:hover {
 		background-position: 0% !important;
@@ -1355,7 +1354,7 @@ margin: 8px;
 	background: none;
 }
 .selected_bf202d {
-	background: var(--background-gradient) 100% / 200% 100% !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	background-position: 100%;
 	transition: 300ms ease-in-out;
 	box-shadow: var(--shadow);
@@ -1367,7 +1366,7 @@ margin: 8px;
 	}
 }
 .outer_bf1984 {
-	background: var(--background-gradient) 100% / 200% 100% !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	border: none;
 	&:hover {
 		box-shadow: var(--shadow);
@@ -1607,7 +1606,7 @@ margin: 8px;
 .theme-dark .tooltip__382e7,
 .reactionTooltip_b49891 {
 	border-radius: 8px;
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s ease-in-out 0s 1 normal !important;
 	color: var(--text-default);
@@ -1731,7 +1730,7 @@ margin: 8px;
 	right: 8px;
 }
 .jumpButton__45690 {
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	&:hover {
@@ -1824,7 +1823,7 @@ margin: 8px;
 	}
 }
 .navButtonActive__08434 {
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
     box-shadow: var(--shadow);
 	&:hover {
 		background-position: 0%;
@@ -1857,7 +1856,7 @@ margin: 8px;
 }
 .inspector_aeaaeb {
 	margin: 0 8px 8px 16px;
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
     box-shadow: var(--shadow);
     border-radius: 8px;
 	width: auto;
@@ -1871,7 +1870,7 @@ margin: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 }
 .wrapper__4e6ce {
-	background: var(--background-gradient) 100% / 200% 100%;
+	background: rgb(from var(--main-color) r g b / .2);
     box-shadow: var(--shadow);
     border-radius: 8px;
 	margin: 0 0 8px 8px;
