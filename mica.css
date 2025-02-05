@@ -237,7 +237,20 @@ body {
 	background: transparent;
 }
 .blockquoteDivider__75297 {
-	background-color: var(--main-color);
+	width: 0 !important;
+	border-radius: 4px 0 0 4px;
+	background-color: transparent;
+	border-left: 4px solid var(--main-color);
+	& blockquote {
+		padding-left: 8px;
+	}
+}
+.quote__122e4 {
+	width: 0 !important;
+	border-radius: 4px 0 0 4px;
+	background-color: transparent;
+	border-left: 4px solid var(--main-color);
+	margin-right: 8px;
 }
 .container__0be77, .container_f69538 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
