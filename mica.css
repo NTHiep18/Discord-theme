@@ -780,8 +780,8 @@ background-color: transparent !important;
 	transition: 300ms ease-in-out;
 }
 .inner_ab8609 {
-	padding: 6px 12px;
-	border-radius: 100px;
+	padding: 4px 8px;
+	border-radius: 8px;
 	&:hover {
 		background: rgb(from var(--main-color) r g b / .6) !important;
 	}
