@@ -1204,7 +1204,7 @@ background-color: transparent !important;
 	padding-top: 0;
 }
 .childWrapperNoHoverBg__6e9f8 {
-	background: transparent rgb(from var(--main-color) r g b / .2) !important;
+	background: var(--second-color) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
 		background: rgb(from var(--main-color) r g b / .6) !important;
