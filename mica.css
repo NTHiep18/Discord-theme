@@ -1111,7 +1111,7 @@ background-color: transparent !important;
 	background: transparent;
 }
 .searchBar__97492:focus-within {
-	background: linear-gradient(90deg, rgb(from var(--main-color) r g b / .5), transparent 20%);
+	background: rgb(from var(--main-color) r g b / .6);
 	box-shadow: var(--shadow);
 }
 .searchAnswer_bd8186, .searchFilter_bd8186 {
@@ -1248,7 +1248,7 @@ background-color: transparent !important;
 }
 /* Reaction */
 .reaction__23977, .reactionBtn__23977 {
-	background: rgb(from var(--main-color) r g b / .2);
+	background: rgb(from var(--main-color) r g b / .2) !important;
     border-radius: 4px !important;
 	box-shadow: var(--shadow);
 	border: none !important;
@@ -1264,7 +1264,7 @@ background-color: transparent !important;
 }
 .reaction__23977:hover,
 .reactionBtn__23977:hover {
-	background: rgb(from var(--main-color) r g b / .6);
+	background: rgb(from var(--main-color) r g b / .6) !important;
 }
 .reactionCount__23977 {
 	color: rgba(255, 255, 255, .4);
