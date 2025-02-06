@@ -1228,10 +1228,15 @@ background-color: transparent !important;
 }
 /* new unread bar */
 .bar__7aaec, .bar__3b95d {
-	background: rgb(from var(--main-color) r g b / .6);
+	background: rgb(from var(--main-color) r g b / .2);
 	border-radius: 8px;
 	margin: 4px 40px;
 	box-shadow: var(--shadow);
+	backdrop-filter: blur(var(--mica-filter));
+	transition: 300ms linear;
+	&:hover {
+		background: rgb(from var(--main-color) r g b / .6);
+	}
 }
 .expandedFolderBackground__48112 {
 	left: 8px;
