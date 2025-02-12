@@ -377,7 +377,7 @@ body {
 	inset: 0;
 }
 .channelTextArea__74017:focus-within:before {
-	background: rgb(from var(--mica-color) r g b / (--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow) !important;
 }
