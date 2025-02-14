@@ -3,7 +3,7 @@
 /* If you would like to customize, copy paste this to your custom CSS section then adjust the variables */
 :root {
     /* Mica effect */
-    --mica-color: rgb(200, 200, 200); /* Mica color */
+    --mica-color: rgb(200, 200, 240); /* Mica color */
     --mica-opacity: .2; /* Mica transparency */
     --mica-filter: 15px; /* Blur effect */
 
@@ -1239,7 +1239,7 @@ background-color: transparent !important;
 	margin: 4px 40px;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
-	transition: 300ms linear;
+	transition: 300ms ease-in-out;
 	&:hover {
 		background: rgb(from var(--main-color) r g b / .6);
 	}
@@ -1854,7 +1854,7 @@ margin: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
 .navItem__08434 {
-	border-radius: 8px;
+	border-radius: 4px;
 	&:hover {
 		box-shadow: var(--shadow);
 		background: transparent;
@@ -1868,7 +1868,7 @@ margin: 8px;
 	}
 }
 .header_c0e32c, .header__8ef02 {
-	padding: 0 8px 16px;
+	padding: 0 8px 16px !important;
 	box-shadow: none;
 	background: transparent;
 }
@@ -1893,6 +1893,9 @@ margin: 8px;
 .wrapper__14245:after {
 	display: none;
 }
+.header__14245 {
+	width: 100%;
+}
 .inspector_aeaaeb {
 	margin: 0 8px 8px 16px;
 	background: rgb(from var(--main-color) r g b / .2);
@@ -1903,9 +1906,10 @@ margin: 8px;
 .container_a45028 {
     border-radius: 8px;
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2));
+	trasition: 300ms ease-in-out;
 }
 .container_a45028:focus-within {
-	background: rgb(from var(--mica-color) r g b / (--mica-opacity)) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
 }
