@@ -938,6 +938,7 @@ background-color: transparent !important;
 }
 .expandButton_fccfdf, .collapseButton_fccfdf {
 	padding: 2px 5px;
+	height: 20px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border: none;
 	box-shadow: var(--shadow);
@@ -1188,14 +1189,12 @@ background-color: transparent !important;
 /* Mentions */
 .wrapper_f61d60 {
     border-radius: 4px !important;
-	background: rgb(from var(--main-color) r g b / .2) !important;
+	background: rgb(from var(--main-color) r g b / var(--mica-opacity) !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
-	color: var(--text-normal) !important;
+	color: var(--url-color) !important;
 	transition: 300ms ease-in-out;
-	&:hover {
-		background: rgb(from var(--main-color) r g b / .6);
-	}
+
 }
 .mentioned__5126c {
 	background: rgb(from var(--main-color) r g b / .2) !important;
