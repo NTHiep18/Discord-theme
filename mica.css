@@ -1189,7 +1189,7 @@ background-color: transparent !important;
 /* Mentions */
 .wrapper_f61d60 {
     border-radius: 4px !important;
-	background: rgb(from var(--main-color) r g b / var(--mica-opacity) !important;
+	background: rgb(from var(--main-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--url-color) !important;
