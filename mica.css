@@ -703,7 +703,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	border-radius: 8px !important;
 }
 .inner_c0bea0 {
-    background: transparent !important;
+    background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .inner_c0bea0:before {
 	position: absolute;
@@ -712,7 +712,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	inset: 0;
 	height: 100% !important;
 	width: 100% !important;
-	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background-color: var(--background-overlay);
 	backdrop-filter: blur(var(--mica-filter));	
 }
 .body__24502 {
@@ -1758,7 +1758,9 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 	border-radius: 8px;
+	margin-bottom: 8px;
 	border: none;
+	padding: 8px 0;
 }
 .footer__45690 {
 	background: transparent;
@@ -1766,7 +1768,7 @@ margin: 8px;
 .actionButtons__45690 {
 	right: 8px;
 }
-.jumpButton__45690 {
+.jumpButton__45690, .button__06eda, .jumpMessageButton__95796 {
 	background: rgb(from var(--main-color) r g b / .2);
 	box-shadow: var(--shadow);
 	border-radius: 4px;
