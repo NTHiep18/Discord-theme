@@ -703,7 +703,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	border-radius: 8px !important;
 }
 .inner_c0bea0 {
-    background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+    background: var(--background-overlay) !important;
 }
 .inner_c0bea0:before {
 	position: absolute;
@@ -712,7 +712,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	inset: 0;
 	height: 100% !important;
 	width: 100% !important;
-	background-color: var(--background-overlay);
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));	
 }
 .body__24502 {
