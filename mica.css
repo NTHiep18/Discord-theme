@@ -386,7 +386,8 @@ body {
 	margin-bottom: 24px;
 }
 .scrollableContainer__74017  {
-	overflow-y: hidden;
+	overflow-y: scroll;
+	scrollbar-width: none;
 	background: transparent !important;
 	padding: 0;
 }
