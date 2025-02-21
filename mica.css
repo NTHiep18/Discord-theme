@@ -694,7 +694,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	box-shadow: var(--shadow);
 }
 .outer_c0bea0 {
-	background: transparent !important;
+	background: var(--background-image) center / cover no-repeat fixed !important;
 	border: none !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
