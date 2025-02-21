@@ -977,6 +977,9 @@ background-color: transparent !important;
 }
 .footer__5be3e {
 	padding: 0 12px 10px;
+	& > .channelTextArea__74017 {
+		margin-bottom: 0;
+	}
 }
 .wrapper_da5890.biteSize_da5890 {
 	top: 10px;
