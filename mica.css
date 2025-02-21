@@ -68,15 +68,10 @@ body {
     font-family: var(--main-font);
 }
 /* Add mica effect */
-.container__2637a:before,
-.panels_c48ade,
-.members_c8ffbb,
-.scroller__36d07,
-.wrapper__44df5,
-.base_c48ade .container__9293f,
-.content_f75fb0 .searchResultsWrap_a9e706,
-.privateChannels__35e86,
-.peopleColumn__133bf,
+.container__2637a:before, .chatContent_f75fb0:before,
+.panels_c48ade, .members_c8ffbb,.wrapper__44df5,
+.base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706,
+.privateChannels__35e86, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
 .chatHeaderBar_a5700d, .modal__9a792, .popout__76f04, .root__49fc1 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -88,13 +83,13 @@ body {
 	margin: 0 6px 12px 0;
 }
 .panels_c48ade {
-	margin: 0 6px 24px 0;
+	margin: 0 6px 12px 0;
 }
 .members_c8ffbb {
-    margin: 6px 12px 24px 0px;
+    margin: 6px 12px 12px 0px;
 }
 .scroller__36d07 {
-	margin: 6px 12px 12px 6px;
+	margin: 6px 12px 0px 6px;
 }
 .base_c48ade .container__9293f {
 	margin: 0 12px 6px 6px;
@@ -115,7 +110,7 @@ body {
 }
 
 /* Main chat */
-.messagesWrapper__36d07:before {
+.chatContent_f75fb0:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -350,7 +345,7 @@ body {
     display: none;
 }
 .form_f75fb0 {
-	padding: 0 12px 0 6px;
+	padding: 0 20px 0 14px;
 	background-color: transparent;
 	margin-top: 0;
 }
@@ -367,6 +362,7 @@ body {
 .channelTextArea__74017 {
 	background: transparent;
 	border-radius: 8px;
+	margin-bottom: 36px;
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
@@ -698,7 +694,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	box-shadow: var(--shadow);
 }
 .outer_c0bea0 {
-	background: var(--background-image) no-repeat center / cover !important;
+	background: transparent !important;
 	border: none !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
@@ -714,7 +710,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	height: 100% !important;
 	width: 100% !important;
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	backdrop-filter: blur(var(--mica-filter));	
+	backdrop-filter: blur(var(--mica-filter));
 }
 .body__24502 {
 	margin-right: 8px;
