@@ -61,7 +61,7 @@ body {
 }
 
 
-.chatContent_f75fb0 {background: transparent;}
+.chatContent_f75fb0, .theme-dark .container_f369db {background: transparent;}
 
 /* Change font */
 ::-webkit-input-placeholder, body, button, input, select, textarea {
@@ -125,7 +125,7 @@ body {
 	display: none;
 }
 .chatContent_f75fb0, .theme-dark .container_f369db {
-	background: transparent;
+	z-index: 1;
 }
 .group-spacing-16 .groupStart__5126c {
     margin-top: 0;
