@@ -759,9 +759,6 @@ background-color: transparent !important;
 .container__63ed3 {
 	z-index: 1;
 }
-.headerInner__24502 {
-	padding: 38px 0 10px;
-}
 .container_ab8609.biteSize_ab8609 {
 	top: 60px;
 	left: 100px;
@@ -944,7 +941,7 @@ background-color: transparent !important;
 	top: -44px;
 }
 .headerInner__24502 {
-	padding: 40px 16px 0;
+	padding: 40px 0;
 }
 .connectedAccountNameText_e6abe8,
 .pronouns__63ed3,
