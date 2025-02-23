@@ -1503,7 +1503,9 @@ margin: 8px;
 }
 
 /* Gallery and channel thread list */
-
+.full-motion .translate_faf9c0.animatorRight_faf9c0 {
+	transform: translateY(-2px);
+}
 .popout__76f04 {
 	margin-left: 0;
 }
@@ -1687,6 +1689,7 @@ margin: 8px;
 	inset: 0;
 	content: '';
 	backdrop-filter: blur(var(--mica-filter));
+	border-radius: 8px;
 }
 .layer_da8173:has([aria-label = "Inbox"]) {
 	box-shadow: var(--shadow);
