@@ -933,6 +933,7 @@ background-color: transparent !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border: none;
 	box-shadow: var(--shadow);
+	box-sizing: border-box;
 }
 .button__7d7f7 {
 	height: 20px;
