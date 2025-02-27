@@ -598,7 +598,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
     margin: 7px 0 7px 5px;
 }
 .collapsed__29444 .name__29444:before {
-	background: rgb(from var(--main-color) r g b / .6);
+	background-position: 0;
 }
 .collapsed__29444 .name__29444:after {
 	background-position: 100%;
