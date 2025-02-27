@@ -70,13 +70,6 @@ body {
 
 /* Theme watermark */
 .typeWindows__421ed>.wordmark__421ed svg {display:none;}
-.typeWindows__421ed>.wordmark__421ed:after{
-	content:"Glasscord";
-	color: transparent;
-	font-size: 16px;
-	font-weight: 600;
-	text-shadow:0 0 1px var(--mica-color);
-}
 
 /* Add mica effect */
 .container__2637a:before, .chatContent_f75fb0:before,
