@@ -1309,7 +1309,6 @@ background-color: transparent !important;
     box-shadow: var(--shadow);
     border-radius: 8px;
     overflow: hidden;
-	backdrop-filter: blur(var(--mica-filter));
 }
 .menu_c1e9c4 .scrollerBase_d125d2 {
 	scrollbar-width: none;
