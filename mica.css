@@ -53,7 +53,7 @@
 .bg__960e4, .app__160d8, .container__2637a, .sidebar_c48ade, .container__37e49, .content__37e49, .chat_f75fb0,
 .container_c8ffbb, .member_c8ffbb, .scroller__99e7c, .container__133bf, .container__7d20c, .searchBar__5ec2f,
 .statusBubble_a82ccc, .statusBubble_af9888, .privateChannels__35e86,
-.layer__960e4, .standardSidebarView__23e6b, .sidebarRegionScroller__23e6b, .contentRegion__23e6b, .contentRegionScroller__23e6b,
+.layer__960e4, .standardSidebarView__23e6b, .contentRegion__23e6b, .contentRegionScroller__23e6b,
 .container__01ae2 {
     background: transparent !important;
 }
@@ -372,7 +372,7 @@ body {
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
-	background: transparent !important;
+	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 4)) !important;
 	border-radius: 8px;
 	position: absolute;
 	content: '';
@@ -499,6 +499,18 @@ body {
 	height: 36px;
 	padding: 0;
 	left: 4px;
+}
+.container__37e49:after {
+    display: flex;
+    content: "GlassCord";
+    position: absolute;
+    height: 24px;
+    width: 100%;
+    justify-content: center;
+    top: 42px;
+    /* text-align: center; */
+    color: var(--text-default);
+    text-shadow: 1px 1px 2px var(--main-color), -1px 1px 2px var(--main-color), 1px -1px 2px var(--main-color), -1px -1px 2px var(--main-color);
 }
 .menus_af7fb7 {
 	gap: 4px;
@@ -1010,15 +1022,11 @@ background-color: transparent !important;
 	border-radius: 8px;
 	margin-bottom: 12px;
 	box-shadow: var(--shadow);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .sidebar__23e6b {
 	width: 100%;
 	padding: 0;
-}
-.sidebar__23e6b .side_b3f026 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	padding: 8px;
-    border-radius: 8px;
 }
 .contentRegion__23e6b {
 	margin-bottom: 12px;
