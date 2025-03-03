@@ -1,6 +1,7 @@
 /* SETTINGS */
 /* Default value of the theme */
 /* If you would like to customize, copy paste this to your custom CSS section then adjust the variables */
+
 :root {
     /* Mica effect */
     --mica-color: rgb(200, 200, 240); /* Mica color */
@@ -72,7 +73,7 @@ body {
 .typeWindows__421ed>.wordmark__421ed svg {display:none;}
 
 /* Add mica effect */
-.container__2637a:before, .chatContent_f75fb0:before,
+.sidebar_c48ade:before, .chatContent_f75fb0:before,
 .panels_c48ade, .members_c8ffbb,.wrapper__44df5,
 .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706,
 .privateChannels__35e86, .peopleColumn__133bf,
@@ -83,11 +84,11 @@ body {
 	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
 }
-.privateChannels__35e86, .container__2637a {
+.privateChannels__35e86, .sidebar_c48ade {
 	margin: 0 6px 12px 0;
 }
 .panels_c48ade {
-	margin: 0 6px 12px 0;
+	margin: 0 6px 12px;
 }
 .members_c8ffbb {
     margin: 6px 12px 12px 0px;
@@ -372,7 +373,7 @@ body {
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
-	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) / 2)) !important;
+	background: transparent !important;
 	border-radius: 8px;
 	position: absolute;
 	content: '';
@@ -526,7 +527,6 @@ body {
 	color: var(--text-faded);
 }
 .avatarWrapper__37e49 {
-	width: 132px;
 	margin-right: 0;
 	background: transparent;
 	&:hover {
@@ -540,6 +540,13 @@ body {
 .panels_c48ade {
 	border-radius: 8px;
 }
+.buttons__37e49 {
+	width: 0;
+	transition: 300ms linear;
+}
+.container__37e49:hover > .buttons__37e49 {
+	width: auto;
+}
 button.button__67645, span.button__67645 {
 	border-radius: 8px;
 }
@@ -548,12 +555,15 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 }
 
 /* Channel list */
-.container__2637a:before {
+.sidebar_c48ade:before {
 	display: block;
 	position: absolute;
 	content: "";
-	inset: 0;
-}
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 12px;
+	width: inherit;
 .sectionDivider__629e4 {
     width: calc(100% - 12px);
     margin-top: 11px;
@@ -1126,7 +1136,7 @@ background-color: transparent !important;
 	background: transparent;
 }
 .searchBar__97492:focus-within {
-	background: rgb(from var(--main-color) r g b / .6);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 }
 .searchAnswer_bd8186, .searchFilter_bd8186 {
