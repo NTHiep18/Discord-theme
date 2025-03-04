@@ -516,7 +516,7 @@ body {
 	gap: 4px;
 }
 .menuOverlay_af7fb7 {
-	padding: 4px 0;
+	padding: 4px 6px;
 	overflow: visible;
 }
 .menuDivider_af7fb7 {
@@ -1913,7 +1913,7 @@ margin: 8px;
 }
 .thin_d125d2.scrollerBase_d125d2 {
 	scrollbar-width: none;
-	padding: 12px 12px 6px !important;
+	padding: 12px 6px 6px !important;
 }
 .wrapper__14245 {
 	background: rgb(from var(--main-color) r g b / .6);
