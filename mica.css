@@ -746,6 +746,7 @@ background-color: transparent !important;
 .input__0f084 {
 	border: none !important;
 	background: transparent !important;
+	transition: 300ms linear;
 	&::placeholder {
 		color: var(--text-default);
 	}
@@ -970,6 +971,9 @@ background-color: transparent !important;
 }
 .headerInner__24502 {
 	padding: 40px 0;
+}
+.spriteGreyscale__04eed {
+	color: var(--channel-color) !important;
 }
 .connectedAccountNameText_e6abe8,
 .pronouns__63ed3,
