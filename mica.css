@@ -518,6 +518,7 @@ body {
 	left:50%;
     justify-content: left;
     top: 42px;
+	font-weight: 600;
     color: rgb(0, 0, 0);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
