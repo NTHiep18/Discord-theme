@@ -500,16 +500,29 @@ body {
 	padding: 0;
 	left: 4px;
 }
-.container__37e49:after {
+.container__37e49:before {
     display: flex;
-    content: "GlassCord";
+    content: "Glass";
     position: absolute;
     height: 24px;
-    width: 100%;
-    justify-content: center;
+    width: auto;
+    justify-content: right;
     top: 42px;
-    /* text-align: center; */
-    color: var(--text-default);
+    color: rgb(220, 220, 220);
+	letter-spacing: 1px;
+    text-shadow: 1px 1px 2px var(--main-color), -1px 1px 2px var(--main-color), 1px -1px 2px var(--main-color), -1px -1px 2px var(--main-color);
+}
+.container__37e49:after {
+    display: flex;
+    content: "Cord";
+    position: absolute;
+    height: 24px;
+    width: auto;
+	left:50%;
+    justify-content: left;
+    top: 42px;
+    color: rgb(20, 20, 20);
+	letter-spacing: 1px;
     text-shadow: 1px 1px 2px var(--main-color), -1px 1px 2px var(--main-color), 1px -1px 2px var(--main-color), -1px -1px 2px var(--main-color);
 }
 .menus_af7fb7 {
