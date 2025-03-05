@@ -504,26 +504,23 @@ body {
     display: flex;
     content: "Glass";
     position: absolute;
-    height: 24px;
-    width: auto;
+	right: 50%;
     justify-content: right;
     top: 42px;
-    color: rgb(220, 220, 220);
+    color: rgb(255, 255, 255);
 	letter-spacing: 1px;
-    text-shadow: 1px 1px 2px var(--main-color), -1px 1px 2px var(--main-color), 1px -1px 2px var(--main-color), -1px -1px 2px var(--main-color);
+    text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
 }
 .container__37e49:after {
     display: flex;
     content: "Cord";
     position: absolute;
-    height: 24px;
-    width: auto;
 	left:50%;
     justify-content: left;
     top: 42px;
-    color: rgb(20, 20, 20);
+    color: rgb(0, 0, 0);
 	letter-spacing: 1px;
-    text-shadow: 1px 1px 2px var(--main-color), -1px 1px 2px var(--main-color), 1px -1px 2px var(--main-color), -1px -1px 2px var(--main-color);
+    text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
 }
 .menus_af7fb7 {
 	gap: 4px;
