@@ -1692,10 +1692,11 @@ margin: 8px;
 .layer_da8173:has(.tooltip__382e7):before,
 .layer_da8173:has(.reactionTooltip_b49891):before, 
 .layer_da8173:has(.popout__76f04):before {
-	background: var(--background-overlay);
+	display: none;
 }
 .layer_da8173:has(.popout__76f04) {
 	transform: translateX(16px);
+	background: var(--background-overlay);
 }
 .theme-dark .tooltip__382e7,
 .reactionTooltip_b49891 {
