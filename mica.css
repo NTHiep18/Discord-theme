@@ -1365,6 +1365,7 @@ background-color: transparent !important;
 }
 .menu_c1e9c4 .scrollerBase_d125d2 {
 	scrollbar-width: none;
+	padding: 6px !important;
 }
 .submenuPaddingContainer_c1e9c4 {
 	padding: 0;
@@ -1946,7 +1947,7 @@ margin: 8px;
 }
 .body_af7fb7.scrollerBase_d125d2 {
 	scrollbar-width: none;
-	padding: 6px;
+	padding: 6px !important;
 }
 .wrapper__14245 {
 	background: rgb(from var(--main-color) r g b / .6);
