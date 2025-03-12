@@ -221,13 +221,17 @@ body {
 	border-radius: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow) !important;
-	padding: 2px;
+	padding: 0;
+	overflow: hidden;
 }
 .hoverBarButton_f84418 {
+	height: 28px;
+	width: 28px;
 	box-shadow: none !important;
+	border-radius: 0;
 	background: rgb(from var(--main-color) r g b / .2) !important;
 	&:hover {
-		background: rgb(from var(--mica-color) r g b / .6) !important;
+		background: rgb(from var(--main-color) r g b / .6) !important;
 	}
 }
 .buttonInner__34c2c, .addReactButton__34c2c {
@@ -1185,14 +1189,20 @@ background-color: transparent !important;
 }
 
 /* Search box */
-.searchBar__97492 {
+.	__97492 {
 	background: transparent;
 	height: 32px;
-	&: > * {
-		height: 32px;
-		display: flex;
-		align-items: center;
-	}
+}
+.search__97492 .DraftEditor-root {
+	height: 32px;
+	display: flex;
+	align-items: center;
+}
+.searchBar__97492 .icon__97492 {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
 }
 .searchBar__97492:focus-within {
 	background: rgb(from var(--main-color) r g b / .2);
@@ -1715,12 +1725,13 @@ margin: 8px;
 }
 .theme-dark .tooltip__382e7,
 .reactionTooltip_b49891 {
-	border-radius: 8px
+	border-radius: 8px;
 	background: rgb(from var(--main-color) r g b / .6);
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s ease-in-out 0s 1 normal !important;
 	color: var(--text-default);
 	box-shadow: var(--shadow);
+	overflow: hidden;
 	&:before {
 		position: absolute;
 		inset: 0;
