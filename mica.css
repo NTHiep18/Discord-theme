@@ -87,7 +87,7 @@ body {
 	margin: 0 6px 12px 0;
 }
 
- {
+.panels_c48ade {
 	margin: 0 6px 24px;
 }
 .members_c8ffbb {
@@ -498,8 +498,9 @@ body {
 }
 .container__37e49 {
 	height: 32px;
-	padding: 0 0 0 4px;
+	padding: 0;
 	overflow: hidden;
+	border-radius: 8px;
 }
 .avatarWrapper__37e49 {
     width: 100%;
@@ -527,7 +528,7 @@ body {
 	width: auto;
 }
 button.button__67645, span.button__67645 {
-	border-radius: 8px;
+	border-radius: 0;
 }
 button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hover {
 	background: rgb(from var(--main-color) r g b / .6) !important;
@@ -540,11 +541,11 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	right: 50%;
 	font-size: 14px;
     justify-content: right;
-    top: 42px;
+    top: 39px;
     color: rgb(255, 255, 255);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
-}
+}	
 .panels_c48ade:after {
     display: flex;
     content: "Cord";
@@ -552,7 +553,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	left:50%;
 	font-size: 14px;
     justify-content: left;
-    top: 42px;
+    top: 39px;
 	font-weight: 600;
     color: rgb(0, 0, 0);
 	letter-spacing: 1px;
