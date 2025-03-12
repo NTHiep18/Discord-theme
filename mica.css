@@ -86,7 +86,8 @@ body {
 .sidebar_c48ade {
 	margin: 0 6px 12px 0;
 }
-.panels_c48ade {
+
+ {
 	margin: 0 6px 24px;
 }
 .members_c8ffbb {
@@ -496,22 +497,25 @@ body {
 	box-shadow: var(--shadow);
 }
 .container__37e49 {
-	height: 36px;
+	height: 32px;
 	padding: 0 0 0 4px;
+	overflow: hidden;
 }
 .avatarWrapper__37e49 {
     width: 100%;
-    transition: 300ms linear;
+    transition: 0ms;
 	margin-right: 0;
-	background: transparent;
+	background: rgb(from var(--main-color) r g b / .2);
 	&:hover {
 		background-color: rgb(from var(--main-color) r g b / .6) !important;
+		transition: 300ms;
 	}
 }
 .buttons__37e49 {
     width: 0;
     transition: 300ms linear;
 	overflow: hidden;
+	background: rgb(from var(--main-color) r g b / .2);
 }
 .container__37e49:hover  .avatarWrapper__37e49 {
     width: calc(100% - 96px);
@@ -529,22 +533,24 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	background: rgb(from var(--main-color) r g b / .6) !important;
 }
 
-.container__37e49:before {
+.panels_c48ade:before {
     display: flex;
     content: "Glass";
     position: absolute;
 	right: 50%;
+	font-size: 14px;
     justify-content: right;
     top: 42px;
     color: rgb(255, 255, 255);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
 }
-.container__37e49:after {
+.panels_c48ade:after {
     display: flex;
     content: "Cord";
     position: absolute;
 	left:50%;
+	font-size: 14px;
     justify-content: left;
     top: 42px;
 	font-weight: 600;
