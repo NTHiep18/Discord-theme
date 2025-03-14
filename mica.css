@@ -559,7 +559,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	right: 50%;
 	font-size: 14px;
     justify-content: right;
-    top: 39px;
+    top: 40px;
     color: rgb(255, 255, 255);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
@@ -571,7 +571,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	left:50%;
 	font-size: 14px;
     justify-content: left;
-    top: 39px;
+    top: 40px;
 	font-weight: 600;
     color: rgb(0, 0, 0);
 	letter-spacing: 1px;
@@ -1204,6 +1204,9 @@ background-color: transparent !important;
 	height: 32px;
 	display: flex;
 	align-items: center;
+}
+.search__97492 .DraftEditor-root .public-DraftEditor-content, .search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root {
+	padding-bottom: 0;
 }
 .searchBar__97492 .icon__97492 {
 	width: 32px;
