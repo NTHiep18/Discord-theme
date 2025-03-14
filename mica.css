@@ -234,6 +234,10 @@ body {
 		background: rgb(from var(--main-color) r g b / .6) !important;
 	}
 }
+.separator_f84418 {
+	margin: 2px;
+	background: rgb(from var(--main-color) r g b / .2);
+}
 .buttonInner__34c2c, .addReactButton__34c2c {
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
@@ -1076,6 +1080,9 @@ background-color: transparent !important;
 	width: 100%;
 	padding: 0;
 }
+.side_b3f026 {
+	padding: 6px;
+}
 .contentRegion__23e6b {
 	margin-bottom: 12px;
 }
@@ -1189,7 +1196,7 @@ background-color: transparent !important;
 }
 
 /* Search box */
-.	__97492 {
+.searchBar__97492 {
 	background: transparent;
 	height: 32px;
 }
