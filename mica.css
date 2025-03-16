@@ -74,7 +74,7 @@ body {
 
 /* Add mica effect */
 .sidebar_c48ade:before, .chatContent_f75fb0:before,
-.panels_c48ade, .members_c8ffbb,.wrapper__44df5, .toast__3fde7,
+.members_c8ffbb,.wrapper__44df5, .toast__3fde7,
 .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
 .chatHeaderBar_a5700d, .modal__9a792, .popout__76f04, .root__49fc1, .authBox__921c5 {
@@ -85,10 +85,6 @@ body {
 }
 .sidebar_c48ade {
 	margin: 0 6px 12px 0;
-}
-
-.panels_c48ade {
-	margin: 0 6px 24px;
 }
 .members_c8ffbb {
     margin: 6px 12px 12px 0px;
@@ -565,7 +561,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	right: 50%;
 	font-size: 14px;
     justify-content: right;
-    top: 40px;
+    top: 44px;
     color: rgb(255, 255, 255);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
@@ -577,7 +573,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	left:50%;
 	font-size: 14px;
     justify-content: left;
-    top: 40px;
+    top: 44px;
 	font-weight: 600;
     color: rgb(0, 0, 0);
 	letter-spacing: 1px;
@@ -618,6 +614,8 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 }
 .panels_c48ade {
 	border-radius: 8px;
+	margin: 0 6px 24px;
+	background: transparent;
 }
 /* Channel list */
 .sidebar_c48ade:before {
