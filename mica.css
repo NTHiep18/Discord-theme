@@ -553,7 +553,13 @@ button.button__67645, span.button__67645 {
 button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hover {
 	background: rgb(from var(--main-color) r g b / .6) !important;
 }
-
+.panels_c48ade {
+	border-radius: 8px;
+	margin: 0 6px 24px;
+	background: transparent;
+	box-shadow: var(--shadow);
+	position: relative;
+}
 .panels_c48ade:before {
     display: flex;
     content: "Glass";
@@ -612,12 +618,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	padding: 0 0 4px 4px;
 	margin: 0;
 }
-.panels_c48ade {
-	border-radius: 8px;
-	margin: 0 6px 24px;
-	background: transparent;
-	box-shadow: var(--shadow);
-}
+
 /* Channel list */
 .sidebar_c48ade:before {
 	display: block;
