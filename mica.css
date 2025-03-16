@@ -616,6 +616,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	border-radius: 8px;
 	margin: 0 6px 24px;
 	background: transparent;
+	box-shadow: var(--shadow);
 }
 /* Channel list */
 .sidebar_c48ade:before {
