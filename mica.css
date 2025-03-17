@@ -1043,7 +1043,7 @@ background-color: transparent !important;
 	fill: var(--text-default) !important;
 }
 .container__8061a {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	border: none;
 	box-shadow: var(--shadow);
 }
