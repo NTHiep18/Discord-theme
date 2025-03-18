@@ -1219,6 +1219,7 @@ background-color: transparent !important;
     border: none;
     background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     box-shadow: var(--shadow);
+	padding-top: 16px;
 }
 .markDash_a562c8 {
 	display: none;
