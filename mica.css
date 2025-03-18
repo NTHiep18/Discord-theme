@@ -605,6 +605,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 .menus_af7fb7 .button__201d5 {
 	background: rgb(from var(--main-color) r g b / .2);
 	box-shadow: var(--shadow);
+	border-radius: 4px;
 	transition: 300ms ease-in-out;
 	&:hover {
 		background: rgb(from var(--main-color) r g b / .6);
@@ -782,6 +783,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	border: none !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
+	box-shadow: var(--shadow);
 }
 .inner_c0bea0 {
     background: var(--background-overlay) !important;
@@ -1130,6 +1132,7 @@ background-color: transparent !important;
 }
 .container_fea832 {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) /2)) !important;
+	transition: 300ms;
 }
 .container_fea832:focus-within {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -1212,8 +1215,23 @@ background-color: transparent !important;
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 }
+.cardPrimary__73069.outline__73069 {
+    border: none;
+    background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+    box-shadow: var(--shadow);
+}
+.markDash_a562c8 {
+	display: none;
+}
+.input__87bf1 {
+	box-shadow: var(--shadow);
+}
 .bd-sidebar-header h2, .bd-sidebar-header .bd-icon {
 	color: var(--main-color);
+}
+.bd-switch {
+	box-shadow: var(--shadow);
+	border-radius: 12px;
 }
 .bd-divider {
 	border-top-color: var(--main-color);
