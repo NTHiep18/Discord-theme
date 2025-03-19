@@ -282,6 +282,9 @@ body {
 .messageListItem__5126c {
 	margin-bottom: 4px;
 }
+.container__5e208 {
+	overflow: visible;
+}
 
 /* Main chat scrollbar */
 .scroller__36d07.scrollerBase_d125d2 {
