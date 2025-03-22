@@ -1636,7 +1636,8 @@ margin: 8px;
 	box-shadow: var(--shadow) !important;
 	padding-bottom: 0 !important;
 }
-.monaco-scrollable-element> * {
+.monaco-scrollable-element > .decorationsOverviewRuler,
+.monaco-scrollable-element > .scrollbar {
 	width: 12px !important;
 }
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider {
