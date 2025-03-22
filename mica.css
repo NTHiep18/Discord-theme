@@ -15,6 +15,7 @@
     /* App background */
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
     --background-image: url(https://i.imgur.com/Glq6SsX.jpg); /* Remember to use the correct url to your image */
+	--background-position: center;
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: 2px 2px 2px 1px var(--shadow-color);
 
@@ -58,7 +59,7 @@
     background: transparent !important;
 }
 body {
-    background: var(--background-image) center / cover no-repeat fixed !important;
+    background: var(--background-image) var(--background-position) / cover no-repeat fixed !important;
 }
 
 
