@@ -1616,15 +1616,6 @@ margin: 8px;
 }
 
 /* The css editor */
-#floating-editor-window {
-	z-index: 3002;
-	max-width: 800px;
-	width: 100%;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-	border-radius: 8px;
-	backdrop-filter: blur(var(--mica-filter));
-	box-shadow: var(--shadow) !important;
-}
 .floating-window-titlebar,
 .floating-window-content, 
 .floating-window #bd-editor-controls,
@@ -1635,13 +1626,30 @@ margin: 8px;
 .monaco-editor .find-widget {
 	background: transparent !important;
 }
+#floating-editor-window {
+	z-index: 3002;
+	max-width: 800px;
+	width: 100%;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	border-radius: 8px;
+	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow) !important;
+	padding-bottom: 0 !important;
+}
+.monaco-scrollable-element> * {
+	width: 12px !important;
+}
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider {
+	background: rgb(from var(--main-color) r g b / .2) !important;
+}
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider.active,
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider:hover {
+	background: rgb(from var(--main-color) r g b/ .6) !important;
+}
 .monaco-editor .find-widget {
 	border-radius: 6px;
 	box-shadow: var(--shadow) !important;
 	top: 6px !important;
-}
-#bd-editor-controls {
-	background: rgba(0, 0, 0, 0.9);
 }
 
 /* New pill */
