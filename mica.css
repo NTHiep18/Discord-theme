@@ -1622,6 +1622,7 @@ margin: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 8px;
 	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow) !important;
 }
 .floating-window-titlebar,
 .floating-window-content, 
