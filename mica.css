@@ -1614,11 +1614,28 @@ margin: 8px;
 	display: none;
 }
 
-/* Why tf is the editor behind the window bar whose z-index is set to 3001*/
+/* The css editor */
 #floating-editor-window {
 	z-index: 3002;
 	max-width: 800px;
 	width: 100%;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	border-radius: 8px;
+	backdrop-filter: blur(var(--mica-filter));
+}
+.floating-window-titlebar,
+.floating-window #bd-editor-controls,
+.monaco-editor,
+.monaco-editor .margin,
+.monaco-editor-background,
+.monaco-editor .inputarea.ime-input,
+.monaco-editor .find-widget {
+	background: transparent !important);
+}
+.monaco-editor .find-widget {
+	border-radius: 6px;
+	box-shadow: var(--shadow) !important;
+	top: 6px !important;
 }
 #bd-editor-controls {
 	background: rgba(0, 0, 0, 0.9);
