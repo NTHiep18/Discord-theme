@@ -1624,13 +1624,14 @@ margin: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 }
 .floating-window-titlebar,
+.floating-window-content, 
 .floating-window #bd-editor-controls,
 .monaco-editor,
 .monaco-editor .margin,
 .monaco-editor-background,
 .monaco-editor .inputarea.ime-input,
 .monaco-editor .find-widget {
-	background: transparent !important);
+	background: transparent !important;
 }
 .monaco-editor .find-widget {
 	border-radius: 6px;
