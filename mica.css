@@ -1631,7 +1631,7 @@ margin: 8px;
 	max-width: 800px;
 	width: 100%;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-	border-radius: 8px;
+	border-radius: 6px;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow) !important;
 	padding-bottom: 0 !important;
@@ -1641,6 +1641,7 @@ margin: 8px;
 }
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider {
 	background: rgb(from var(--main-color) r g b / .2) !important;
+	border-radius: 6px !important;
 }
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider.active,
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider:hover {
