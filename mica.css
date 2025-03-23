@@ -790,7 +790,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	box-shadow: var(--shadow);
 }
 .inner_c0bea0 {
-    background-color: var(--background-overlay) rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+    background: var(--background-overlay) !important;
 }
 .inner_c0bea0:before {
 	position: absolute;
@@ -799,6 +799,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	inset: 0;
 	height: 100% !important;
 	width: 100% !important;
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 }
 .body__24502 {
@@ -1629,11 +1630,19 @@ margin: 8px;
 	z-index: 3002;
 	max-width: 800px;
 	width: 100%;
-	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) var(--background-overlay) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 6px;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow) !important;
 	padding-bottom: 0 !important;
+	&:before {
+		position:absolute;
+		inset: 0;
+		content: '';
+		background: var(--background-overlay);
+		z-index: -1;	
+		backdrop-filter: blur(var(--mica-filter));
+	}
 }
 .monaco-scrollable-element > .decorationsOverviewRuler,
 .monaco-scrollable-element > .scrollbar {
@@ -1821,12 +1830,20 @@ margin: 8px;
 .theme-dark .tooltip__382e7,
 .reactionTooltip_b49891 {
 	border-radius: 8px;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) var(--background-overlay);
+	background: var(--background-overlay);
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s ease-in-out 0s 1 normal !important;
 	color: var(--text-default);
 	box-shadow: var(--shadow);
 	overflow: hidden;
+	&:before {
+		position: absolute;
+		inset: 0;
+		content: '';
+		display: block;
+		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+		z-index:-1;
+	}
 }
 .theme-dark .tooltip__382e7.tooltipPrimary__382e7>.tooltipPointer__382e7 {
     border-top-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
