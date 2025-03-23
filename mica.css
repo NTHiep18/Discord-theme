@@ -1635,6 +1635,14 @@ margin: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow) !important;
 	padding-bottom: 0 !important;
+	&:before {
+		position:absolute;
+		inset: 0;
+		content: '';
+		background: var(--background-overlay);
+		z-index: -1;	
+		backdrop-filter: blur(var(--mica-filter));
+	}
 }
 .monaco-scrollable-element > .decorationsOverviewRuler,
 .monaco-scrollable-element > .scrollbar {
