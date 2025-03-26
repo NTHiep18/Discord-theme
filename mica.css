@@ -1713,7 +1713,7 @@ background-color: transparent !important;
 	background: transparent !important;
 }
 #floating-editor-window {
-	z-index: 3002;
+	z-index: 1000;
 	max-width: 800px;
 	width: 100%;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
