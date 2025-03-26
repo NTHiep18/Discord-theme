@@ -1379,6 +1379,9 @@ background-color: transparent !important;
 .guilds_c48ade {
 	width: 64px !important;
 }
+.unreadMentionsIndicatorBottom_ef3116, .unreadMentionsIndicatorTop_ef3116 {
+	width: 64px !important;
+}
 .listItem__650eb {
 	width: 64px !important;
 }
