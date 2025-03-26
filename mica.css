@@ -585,12 +585,12 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	background: rgb(from var(--main-color) r g b / .6) !important;
 }
 .panels_c48ade {
+	height: 36px !important;
 	border-radius: 8px !important;
 	margin: 0 6px 24px;
-	inset: 0;
+	inset: auto 0 0 auto !important;
 	width: 228px !important;
-	right: 0;
-	bottom: 0;
+	border: none !important;
 	background: transparent !important;
 	box-shadow: var(--shadow);
 	position: relative;
@@ -649,6 +649,12 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 }
 .avatarWrapper__37e49 .avatar__37e49 {
 	margin-left: 4px;
+	height: 36px !important;
+	width: 36px !important;
+}
+.mask__44b0c foreignobject {
+	width: 36px !important;
+	height: 36px !important;
 }
 .avatarWrapper__37e49 .nameTag__37e49 {
 	padding: 0 0 4px 4px;
