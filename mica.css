@@ -227,7 +227,7 @@ body {
 	top: 4px;
 	right: 4px;
 }
-.popoverReactionHoverBar_f84418 {
+.buttonContainer_c19a55 .popoverReactionHoverBar_f84418 {
 	border: none !important;
 	background: transparent;
 	border-radius: 8px;
@@ -1375,7 +1375,10 @@ background-color: transparent !important;
 	color: var(--text-faded);
 }
 
-/* Server column */
+/* Server column */ {
+.listItem__650eb {
+	width: 64px;
+}
 .scroller_ef3116 {
 	padding-top: 0;
 }
@@ -1389,6 +1392,7 @@ background-color: transparent !important;
 .guildSeparator__252b6 {
 	display: none;
 }
+
 .layer__960e4 .wrapper_ef3116 {
     background: transparent;
     box-shadow: none;
