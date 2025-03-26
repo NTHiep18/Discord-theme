@@ -830,7 +830,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	backdrop-filter: blur(var(--mica-filter));
 }
 .body__24502 {
-	margin-right: 8px;
+	margin: 8px;
 }
 .overlay_c0bea0 {
 background-color: transparent !important;
@@ -1069,7 +1069,7 @@ background-color: transparent !important;
 	top: -44px;
 }
 .headerInner__24502 {
-	padding: 40px 0;
+	padding: 20px 0;
 }
 .spriteGreyscale__04eed {
 	color: var(--channel-color) !important;
