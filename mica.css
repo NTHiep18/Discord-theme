@@ -1375,12 +1375,18 @@ background-color: transparent !important;
 	color: var(--text-faded);
 }
 
-/* Server column */ {
+/* Server column */ 
+.guilds_c48ade {
+	width: 64px !important;
+}
 .listItem__650eb {
-	width: 64px;
+	width: 64px !important;
 }
 .scroller_ef3116 {
 	padding-top: 0;
+}
+.unreadMentionsIndicatorBottom_ef3116, .unreadMentionsIndicatorTop_ef3116 {
+	padding: 4px;
 }
 .childWrapperNoHoverBg__6e9f8 {
 	background: var(--second-color) !important;
@@ -1602,10 +1608,14 @@ margin: 8px;
 	background: transparent;
 }
 
-/* Auto hidden member list */
+/* Member list */
+.container_c8ffbb {
+	border: none !important;
+}
 .member__5d473 {
 	margin-left: 0;
 }
+/* Auto hide member list */
 .container_c8ffbb, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb) {
 	transition: 200ms ease-in-out;
 	width: 60px;
