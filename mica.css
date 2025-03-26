@@ -49,7 +49,7 @@
 	box-shadow: none;
 }
 .appMount__51fd7 {
-	background: var(--background-overlay);
+	background: var(--background-overlay) !important;
 }
 .bg__960e4, .app__160d8, .container__2637a, .sidebar_c48ade, .container__37e49, .content__37e49, .chat_f75fb0,
 .container_c8ffbb, .member_c8ffbb, .scroller__99e7c, .container__133bf, .container__7d20c, .searchBar__5ec2f,
@@ -63,7 +63,9 @@ body {
 }
 
 
-.chatContent_f75fb0, .theme-dark .container_f369db {background: transparent;}
+.chatContent_f75fb0, .theme-dark .container_f369db {
+	background: transparent !important;
+}
 
 /* Change font */
 ::-webkit-input-placeholder, body, button, input, select, textarea {
@@ -89,6 +91,9 @@ body {
 }
 .members_c8ffbb {
     margin: 6px 12px 12px 0px;
+}
+.chat_f75fb0 {
+	border: none !important;
 }
 .scroller__36d07 {
 	margin: 6px 12px 0px 6px;
@@ -329,10 +334,10 @@ body {
 }
 .container__4d95d,
 .markup__75297 code {
-	border: none;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	border: none !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
-	border-radius: 8px;
+	border-radius: 8px !important;
 }
 .textContainer__4d95d, .footer__4d95d {
 	background: transparent;
@@ -366,15 +371,14 @@ body {
     height: 8px;
 }
 .placeholder__443e5, .slateTextArea_ec4baf {
-    padding-left: 12px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+    padding: 8px 10px 8px 12px !important;
+	min-height: 0 !important;
 }
 .cozy-3raOZG .header-23xsNx:after {
     display: none;
 }
 .form_f75fb0 {
-	padding: 0 26px 0 20px;
+	padding: 0 26px 0 20px !important;
 	background-color: transparent;
 	margin-top: 0;
 }
@@ -391,9 +395,10 @@ body {
     line-height: 1.25rem;
 }
 .channelTextArea__74017 {
-	background: transparent;
+	background: transparent !important;
 	border-radius: 8px;
 	margin-bottom: 36px;
+	border: none !important;
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
@@ -419,8 +424,8 @@ body {
 	padding: 0;
 }
 .attachButton__0923f {
-	height: 36px;
-	padding: 10px;
+	height: 36px !important;
+	padding: 10px !important;
 }
 .attachWrapper__0923f {
 	margin-left: 15px;
@@ -1583,6 +1588,9 @@ margin: 8px;
 }
 
 /* Auto hidden member list */
+.member__5d473 {
+	margin-left: 0;
+}
 .container_c8ffbb, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb) {
 	transition: 200ms ease-in-out;
 	width: 60px;
