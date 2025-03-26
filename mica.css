@@ -447,7 +447,7 @@ body {
 	color: var(--text-faded);
 }
 .channelAttachmentArea_b77158 {
-	background: transparent;
+	background: transparent !important;
 }
 .sansAttachButton__74017 {
 	padding-left: 0px;
