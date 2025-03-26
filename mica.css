@@ -76,7 +76,7 @@ body {
 .typeWindows__421ed>.wordmark__421ed svg {display:none;}
 
 /* Add mica effect */
-.sidebar_c48ade:before, .chatContent_f75fb0:before,
+.sidebarList_c48ade:before, .chatContent_f75fb0:before,
 .members_c8ffbb,.wrapper__44df5, .toast__3fde7,
 .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
@@ -385,9 +385,10 @@ body {
 .typing_b88801 {
 	margin: 0;
 	bottom: 12px;
+	font-size: 16px !important;
 }
 .base_b88801 .ellipsis_b88801 {
-	margin: 0 8px 0 24px;
+	margin: 0 8px 0 24px !important;
 	width: 24px !important;
 }
 .markup__75297 {
@@ -636,16 +637,26 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 }
 
 /* Channel list */
-.sidebar_c48ade:before {
+.sidebar_c48ade {
+	width: 304px !important;
+}
+.sidebar_c48ade:after {
+	display: none;
+}
+.sidebarList_c48ade {
+	width: 240px !important;
+}
+.sidebarList_c48ade:before {
 	display: block;
 	position: absolute;
 	content: "";
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 12px;
+	bottom: 0;
 	width: inherit;
 }
+
 .sectionDivider__629e4 {
     width: calc(100% - 12px);
     margin-top: 11px;
