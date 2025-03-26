@@ -475,6 +475,15 @@ body {
 }
 
 /* Top bar */
+.title_c38106 {
+	bottom: 12px;
+}
+.title__85643 {
+	padding: 2px 12px;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity);
+	border-radius: 0 0 6px 6px;
+	backdrop-filter: blur(var(--mica-filter));
+}
 .base_c48ade .container__9293f {
     width: auto;
     height: 40px;
@@ -2051,6 +2060,7 @@ background-color: transparent !important;
 }
 .layer_bc663c .scrollerBase_d125d2 {
 	scrollbar-width: none;
+	padding: 8px;
 }
 .banReasonOtherClickable__837b7m {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
