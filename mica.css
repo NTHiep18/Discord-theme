@@ -645,6 +645,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 }
 .sidebarList_c48ade {
 	width: 240px !important;
+	backdrop-filter: none !important;
 }
 .sidebarList_c48ade:before {
 	display: block;
