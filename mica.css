@@ -125,6 +125,9 @@ body {
 }
 
 /* Main chat */
+.content_f75fb0, .subtitleContainer_f75fb0 {
+	border: none !important;
+}
 .chatContent_f75fb0:before {
     content: "";
     position: absolute;
@@ -640,7 +643,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 /* Channel list */
 .sidebar_c48ade {
 	width: 304px !important;
-	overflow: visible;
+	overflow: visible !important;
 }
 .sidebar_c48ade:after {
 	display: none;
@@ -946,6 +949,9 @@ background-color: transparent !important;
 }
 .item_b3f026 {
 	transition: 300ms ease-in-out;
+	&:after {
+		display: none !important;
+	}
 }
 .top_b3f026 .item_b3f026 {
 	background: transparent;
