@@ -2005,6 +2005,7 @@ background-color: transparent !important;
 	border-top-right-radius: 8px;
 }
 .channelHeader__35a7e {
+	position: static !important;
 	background: transparent !important;
     padding: 12px 16px;
 	box-shadow: var(--shadow);
