@@ -478,9 +478,10 @@ body {
 /* Top bar */
 .title_c38106 {
 	bottom: 12px;
+	top: -2px
 }
 .title__85643 {
-	padding: 2px 72px;
+	padding: 4px 32px 2px 32px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 0 0 6px 6px;
 	backdrop-filter: blur(var(--mica-filter));
@@ -1454,14 +1455,15 @@ background-color: transparent !important;
 }
 /* new unread bar */
 .bar__7aaec, .bar__3b95d {
-	background: rgb(from var(--main-color) r g b / .2);
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	border-radius: 4px;
-	margin: 4px 40px;
+	margin: 4px 40px 20px !important;
 	box-shadow: var(--shadow);
+	border: none !important;
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: rgb(from var(--main-color) r g b / .6);
+		background: rgb(from var(--main-color) r g b / .6) !important;
 	}
 }
 .expandedFolderBackground__48112 {
@@ -1963,7 +1965,7 @@ background-color: transparent !important;
 
 /* inbox */
 .messagesPopoutWrap__45690, .container__2692d, .container_fc561d {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 }
 .layer_da8173:before {
@@ -2003,17 +2005,16 @@ background-color: transparent !important;
 	border-top-right-radius: 8px;
 }
 .channelHeader__35a7e {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-    backdrop-filter: blur(15px);
-    padding: 12px 16px 12px 24px;
-    border-radius: 8px;
+	background: transparent !important;
+    padding: 12px 16px;
 	box-shadow: var(--shadow);
+	border-bottom: 1px solid rgb(200 200 200 / .3);
 }
 .collapseButton__427f0 {
 	left: 0;
 }
 .messageContainer__1ccd1, .messageContainer__95796 {
-	padding: 0 0 4px 0;
+	padding: 6px 0;
 	margin: 0;
 	background: transparent;
 }
@@ -2027,12 +2028,12 @@ background-color: transparent !important;
 
 /* pin */
 .layer_da8173:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap__45690 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	box-shadow: var(--shadow);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	box-shadow: var(--shadow) !important;
 }
 .messagesPopoutWrap__45690 .scrollerBase_d125d2 {
 	scrollbar-width: none;
-	padding: 8px !important;
+	padding: 16px !important;
 }
 .header__45690 {
 	border: none !important;
@@ -2054,11 +2055,11 @@ background-color: transparent !important;
 	right: 8px;
 }
 .jumpButton__45690, .button__06eda, .jumpMessageButton__95796 {
-	background: rgb(from var(--main-color) r g b / .2);
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	&:hover {
-		background: rgb(from var(--main-color) r g b / .6);
+		background: rgb(from var(--main-color) r g b / .6) !important;
 	}
 }
 
