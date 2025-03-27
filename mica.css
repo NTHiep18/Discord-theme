@@ -170,7 +170,7 @@ body {
 	background: var(--main-color);
 	padding-bottom: 0;
 	margin-right: 12px;
-	left: auto;
+	left: auto !important;
 	width: 600px;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
@@ -202,6 +202,7 @@ body {
 	gap: 8px;
 }
 .embedFull__623de {
+	border: none !important;
 	border-left: 4px solid var(--main-color) !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	width: fit-content;
@@ -224,6 +225,9 @@ body {
 .nonMediaMosaicItem__06ab4 {
 	top: 4px;
 	right: 4px;
+}
+.message__5126c:hover {
+	background: rgb(from var(--main-color) r g b / .1);
 }
 .buttonContainer_c19a55 .popoverReactionHoverBar_f84418,
 .buttonContainer_c19a55 .popoverReactionHoverBar_f84418:hover {
@@ -903,6 +907,7 @@ background-color: transparent !important;
 }
 .container__63ed3 {
 	z-index: 1;
+	padding-left: 8px;
 }
 .container_ab8609.biteSize_ab8609 {
 	top: 60px;
@@ -1999,11 +2004,15 @@ background-color: transparent !important;
 	scrollbar-width: none;
 	padding: 16px !important;
 }
+.container_a54d1d {
+	padding: 0;
+}
 .messages__1ccd1, .container__95796 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border: none !important;
 	box-shadow: var(--shadow) !important;
 	padding-right: 0;
+	border-radius: 8px;
 }
 .headerTabs_ab6641 {
 	margin: 0;
@@ -2041,8 +2050,11 @@ background-color: transparent !important;
 	border: none !important;
 }
 .controlButton_ab6641, .friendRequestsButton__523aa {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
+	&:hover {
+		background: rgb(from var(--mica-color) r g b / .6) !important;
+	}
 }
 .numberBadge__2b1f5 {
 	background: transparent !important;
