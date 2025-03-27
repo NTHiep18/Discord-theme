@@ -1996,6 +1996,7 @@ background-color: transparent !important;
 	content: '';
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
+	z-index: -1;
 }
 .layer_da8173:has([aria-label = "Inbox"]) {
 	box-shadow: var(--shadow);
