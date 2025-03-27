@@ -372,7 +372,7 @@ body {
 	border-top: none;
 }
 .scrollerSpacer__36d07 {
-    height: 8px;
+    height: 8px !important;
 }
 .placeholder__443e5, .slateTextArea_ec4baf {
     padding: 8px 12px !important;
@@ -391,6 +391,7 @@ body {
 	margin: 0;
 	bottom: 12px;
 	font-size: 16px !important;
+	color: var(--text-standard) !important;
 }
 .base_b88801 .ellipsis_b88801 {
 	margin: 0 8px 0 24px !important;
