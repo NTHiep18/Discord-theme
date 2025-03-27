@@ -371,7 +371,8 @@ body {
     height: 8px;
 }
 .placeholder__443e5, .slateTextArea_ec4baf {
-    padding: 8px 10px 8px 12px !important;
+    padding: 8px 12px !important;
+	margin-left: 0 !important;
 	min-height: 0 !important;
 }
 .cozy-3raOZG .header-23xsNx:after {
@@ -1966,7 +1967,7 @@ background-color: transparent !important;
 }
 
 /* inbox */
-.messagesPopoutWrap__45690, .container__2692d, .container_fc561d {
+.messagesPopoutWrap__45690, .container__2692d, .container_fc561d, .channel__427f0 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 }
@@ -1986,9 +1987,8 @@ background-color: transparent !important;
 	padding: 0 8px !important;
 }
 .messages__1ccd1, .container__95796 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	box-shadow: var(--shadow);
-	border-radius: 8px;
+	background: transparent !important;
+	border: none !important;
 	padding-right: 0;
 }
 .headerTabs_ab6641 {
