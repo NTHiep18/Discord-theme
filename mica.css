@@ -306,10 +306,11 @@ body {
 
 /* main chat loading */
 .wrapper_d852db, .wrapper_fc8177 {
-	background: transparent;
+	background: transparent !important;
 }
 .messagesWrapper__36d07:not(:has(.messageListItem__5126c)):before {
-    position: absolute;
+    content: '';
+	position: absolute;
     inset: 0;
     z-index: 5;
     display: flex;
