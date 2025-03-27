@@ -2007,7 +2007,11 @@ background-color: transparent !important;
 .container_a54d1d {
 	padding: 0;
 }
-.messages__1ccd1, .container__95796 {
+.messages__1ccd1 {
+	background: transparent !important;
+	border: none !important;
+}
+.container__95796 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border: none !important;
 	box-shadow: var(--shadow) !important;
@@ -2033,6 +2037,7 @@ background-color: transparent !important;
 }
 .channel__427f0 {
 	border-radius: 8px;
+	margin-top: 12px;
 }
 .channelHeader__35a7e {
 	position: static !important;
