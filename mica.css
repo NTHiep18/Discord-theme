@@ -2160,7 +2160,8 @@ background-color: transparent !important;
     color: var(--text-standard) !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
-	border-radius: 8px;
+	border-radius: 8px !important;
+	border: none !important;
 }
 .modInfoItemContainer__96c0b {
 	box-shadow: var(--shadow);
