@@ -164,7 +164,7 @@ body {
 .chatContent_f75fb0 .jumpToPresentBar__0f481 {
 	border: none;
 	height: 24px;
-	background: rgb(from var(--main-color) r g b / .6);
+	background: var(--main-color);
 	padding-bottom: 0;
 	margin-right: 12px;
 	left: auto !important;
@@ -172,11 +172,12 @@ body {
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	opacity: .6;
+	min-height: 0;
 	&:before {
 		display: none;
 	}
 	& .lookFilled__201d5 {
-		background: transparent;
+		background: transparent !important;
 		box-shadow: none;
 	}
 }
