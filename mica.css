@@ -1796,6 +1796,15 @@ background-color: transparent !important;
 /* Gallery and channel thread list */
 .popout__76f04 {
 	margin-left: 0;
+	&:before {
+		content:'';
+		position:absolute;
+		z-index: -1;
+		inset: 0;
+		background: var(--background-overlay);
+		border-radius: 8px;
+	}
+}
 }
 .list_f369db>div:first-child {
 	padding: 0;
@@ -1932,10 +1941,6 @@ background-color: transparent !important;
 .layer_da8173:has(.reactionTooltip_b49891):before, 
 .layer_da8173:has(.popout__76f04):before {
 	display: none;
-}
-.layer_da8173:has(.popout__76f04) {
-	transform: translateX(16px);
-	background: var(--background-overlay);
 }
 .theme-dark .tooltip__382e7,
 .reactionTooltip_b49891 {
