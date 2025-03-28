@@ -405,11 +405,11 @@ body {
     color: rgb(255,255,255);
     line-height: 1.25rem;
 }
-.channelTextArea__74017 {
-	background: transparent !important;
+.chatContent_f75fb0 .channelTextArea__74017 {
+	background: transparent;
 	border-radius: 8px;
 	margin-bottom: 36px;
-	border: none !important;
+	border: none;
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
@@ -474,7 +474,9 @@ body {
 	height: 36px;
 }
 /* reply */
-.stackedBars__74017, .replyBar__841c8, .bar_f5401d {
+.channelTextArea__74017 .stackedBars__74017,
+.channelTextArea__74017 .replyBar__841c8,
+.channelTextArea__74017 .bar_f5401d {
 	background: transparent;
 	z-index: 1;
 	position: relative;
