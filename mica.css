@@ -1413,6 +1413,10 @@ background-color: transparent !important;
 .modal__487be {
 	margin: 0 !important;
 }
+.content_f75fb0 .searchResultsWrap_a9e706 {
+	border-left: none;
+}
+
 /* Mentions */
 .wrapper_f61d60 {
     border-radius: 4px !important;
@@ -2135,7 +2139,10 @@ background-color: transparent !important;
 }
 .layer_bc663c .scrollerBase_d125d2 {
 	scrollbar-width: none;
-	padding: 8px !important;
+	padding: 12px !important;
+}
+.content_ca6911 {
+	margin-bottom: 0;
 }
 .banReasonOtherClickable__837b7m {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
