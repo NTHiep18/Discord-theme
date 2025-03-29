@@ -2009,6 +2009,7 @@ background-color: transparent !important;
 }
 .layer_da8173 .popoutContainer__0f481, .layer_da8173 .guildSection_d5cd2d {
 	background: transparent;
+	box-shadow: var(--shadow);
 }
 
 /* Fuck server discovery */
