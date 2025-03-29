@@ -852,7 +852,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 
 /* User popout */
 .outer_c0bea0 {
-	background: var(--background-image) center / cover no-repeat fixed !important;
+	background: var(--background-image) var(--background-position) / cover no-repeat fixed !important;
 	border: none !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
@@ -1429,7 +1429,7 @@ background-color: transparent !important;
 /* Mentions */
 .wrapper_f61d60 {
     border-radius: 4px !important;
-	background: rgb(from var(--main-color) r g b / var(--mica-opacity)) !important;
+	background: rgb(from var(--main-color) r g b / .1) !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--text-standard) !important;
