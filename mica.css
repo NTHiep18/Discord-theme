@@ -251,7 +251,7 @@ body {
 	border-radius: 0;
 	background: rgb(from var(--main-color) r g b / .4) !important;
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .separator_f84418 {
@@ -569,7 +569,7 @@ body {
 	border-radius: 0;
 	background: rgb(from var(--main-color) r g b / .4);
 	&:hover {
-		background-color: var(--main-color!important;
+		background-color: var(--main-color) !important;
 		transition: 300ms;
 		border-radius: 0;	
 	}
@@ -600,7 +600,7 @@ body {
 	margin: 0;
 }
 button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hover {
-	background: var(--main-color!important;
+	background: var(--main-color) !important;
 }
 .panels_c48ade {
 	height: 36px !important;
@@ -784,7 +784,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	box-shadow: var(--shadow);
 }
 .modeSelected__2ea32:hover .link__2ea32 {
-	background: var(--main-color!important;
+	background: var(--main-color) !important;
 }
 .wrapper__2ea32.modeSelected__2ea32 .link__2ea32:before {
 	background: transparent;
@@ -950,12 +950,12 @@ background-color: transparent !important;
 	padding: 4px 8px;
 	border-radius: 8px;
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .outer_ab8609:hover:before,
 .outer_ab8609:hover:after {
-	background: var(--main-color!important;
+	background: var(--main-color) !important;
 }
 .outer_ab8609:before {
 	top: -24px;
@@ -1020,7 +1020,7 @@ background-color: transparent !important;
 	background: rgb(from var(--main-color) r g b / .4) !important;
 	box-shadow: var(--shadow);
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .note_a24910 {
@@ -1264,7 +1264,7 @@ background-color: transparent !important;
 	border-radius: 6px;
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .lookFilled__201d5.colorRed__201d5 {
@@ -1467,7 +1467,7 @@ background-color: transparent !important;
 	background: var(--second-color) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .guildSeparator__252b6 {
@@ -1495,7 +1495,7 @@ background-color: transparent !important;
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .wrapper__48112 .expandedFolderBackground__48112 {
@@ -1536,7 +1536,7 @@ background-color: transparent !important;
 }
 .reaction__23977:hover,
 .reactionBtn__23977:hover {
-	background: var(--main-color!important;
+	background: var(--main-color) !important;
 }
 .reactionCount__23977 {
 	color: rgba(255, 255, 255, .4);
@@ -1642,7 +1642,7 @@ background-color: transparent !important;
 	background: rgb(from var(--main-color) r g b / .4) !important;
 	box-shadow: var(--shadow);
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .searchBar__5ec2f:focus-within {
@@ -1663,7 +1663,7 @@ background-color: transparent !important;
 	transition: 300ms ease-in-out;
 	box-shadow: var(--shadow);
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 	& .avatarWithText__972a0 {
 		color: var(--text-standard);
@@ -1674,7 +1674,7 @@ background-color: transparent !important;
 	border: none;
 	&:hover {
 		box-shadow: var(--shadow);
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 .inset_bf1984 {
@@ -2008,7 +2008,7 @@ background-color: transparent !important;
 }
 .clickable__13533[aria-selected=true]>.base__13533,
 .clickable__13533 > .base__13533:hover {
-	background: var(--main-color!important;
+	background: var(--main-color) !important;
 	color: var(--text-standard);
 	box-shadow: var(--shadow);
 }
@@ -2128,7 +2128,7 @@ background-color: transparent !important;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	&:hover {
-		background: var(--main-color!important;
+		background: var(--main-color) !important;
 	}
 }
 
