@@ -613,6 +613,20 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	box-shadow: var(--shadow);
 	position: relative;
 }
+.panels_c48ade .container_e131a9 {
+	background: transparent;
+	border: none;
+	padding: 0;
+	gap: 0;
+	margin: 0;
+}
+.panels_c48ade .actionButtons_e131a9 {
+	grid-gap: 0;
+	> * {
+		border-radius: 0;
+		box-shadow: none;
+	}
+}
 .panels_c48ade:before {
     display: flex;
     content: "Glass";
@@ -620,7 +634,8 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	right: 50%;
 	font-size: 14px;
     justify-content: right;
-    top: 44px;
+    top: 100%;
+	margin-top: 8px;
     color: rgb(255, 255, 255);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
@@ -632,7 +647,8 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	left:50%;
 	font-size: 14px;
     justify-content: left;
-    top: 44px;
+    top: 100%;
+	margin-top: 8px;
 	font-weight: 600;
     color: rgb(0, 0, 0);
 	letter-spacing: 1px;
@@ -2299,8 +2315,8 @@ background-color: transparent !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
 }
-.wrapper__4e6ce {
-	top: 50px;
+.contentWrapper__08434 .wrapper__4e6ce {
+	top: 56px;
 	background: rgb(from var(--main-color) r g b / .2);
     box-shadow: var(--shadow);
     border-radius: 8px;
