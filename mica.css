@@ -1991,7 +1991,7 @@ background-color: transparent !important;
     border-top-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-width: 6px;
 }
-.popoutContainer__0f481, .guildSection_d5cd2d {
+.layer_da8173 .popoutContainer__0f481, .layer_da8173 .guildSection_d5cd2d {
 	background: transparent;
 }
 
@@ -2213,9 +2213,10 @@ background-color: transparent !important;
 .drawerSizingWrapper__08434 {
 	width: 512px !important;
 }
-.contentWrapper__08434 {
+.layerContainer_da8173 .contentWrapper__08434 {
 	background: transparent;
 	box-shadow: none;
+	border: none;
 }
 .contentWrapper__08434:before {
 	position: absolute;
@@ -2226,8 +2227,9 @@ background-color: transparent !important;
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
-.navItem__08434 {
+.navList__08434 .navItem__08434 {
 	border-radius: 4px;
+	border: none;
 	&:hover {
 		box-shadow: var(--shadow);
 		background: transparent;
@@ -2240,13 +2242,14 @@ background-color: transparent !important;
 		background: rgb(from var(--main-color) r g b / .6);
 	}
 }
-.header_c0e32c, .header__8ef02 {
+.emojiPicker_c0e32c .header_c0e32c, .header__8ef02 {
 	padding: 8px !important;
 	box-shadow: none;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	margin: 0;
+	border: none;
 }
-.emojiPicker_c0e32c {
+.contentWrapper__08434 .emojiPicker_c0e32c {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: none;
 }
@@ -2258,13 +2261,16 @@ background-color: transparent !important;
 	scrollbar-width: none;
 	padding: 6px !important;
 }
-.wrapper__14245 {
+.contentWrapper__08434 .wrapper__14245 {
 	background: rgb(from var(--main-color) r g b / .2);
     box-shadow: var(--shadow);
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 	margin-right: 4px;
 	margin-bottom: 4px;
+	&:hover {
+		background: rgb(from var(--main-color) r g b / .6);
+	}
 }
 .emojiListRow_fc7141 {
 	padding-left: 4px;
@@ -2275,12 +2281,13 @@ background-color: transparent !important;
 .header__14245 {
 	width: 100%;
 }
-.inspector_aeaaeb {
+.emojiPicker_c0e32c .inspector_aeaaeb {
 	margin: 0 8px 8px 16px;
 	background: rgb(from var(--main-color) r g b / .2);
     box-shadow: var(--shadow);
     border-radius: 8px;
 	width: auto;
+	border: none;
 }
 .container_a45028 {
     border-radius: 8px;
