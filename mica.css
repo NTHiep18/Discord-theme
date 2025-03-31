@@ -1032,7 +1032,7 @@ background-color: transparent !important;
 	line-height: 1.25rem;
 	padding: 4px 0;
 	border-radius: 6px;
-	margin: 0;
+	margin: 0 !important;
 	justify-content: center;
 }
 .item_b3f026:hover {
