@@ -743,8 +743,9 @@ body {
 	right: 50%;
 	font-size: 14px;
     justify-content: right;
-    bottom:2px;
-    color: rgb(255, 255, 255);
+    bottom: 2px;
+	font-weight: 600;
+    color: rgb(240, 240, 240);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
 }	
@@ -757,7 +758,7 @@ body {
     justify-content: left;
     bottom: 2px;
 	font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(20, 20, 20);
 	letter-spacing: 1px;
     text-shadow: 1px 1px 1px var(--main-color), -1px 1px 1px var(--main-color), 1px -1px 1px var(--main-color), -1px -1px 1px var(--main-color);
 }
