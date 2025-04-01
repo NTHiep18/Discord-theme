@@ -509,7 +509,7 @@ body {
 	color: var(--text-standard);
 }
 .icon__9293f {
-	color: var(--text-standard);
+	color: var(--text-standard) !important;
 }
 .content_f75fb0:before {
 	display: none;
@@ -2319,6 +2319,7 @@ background-color: transparent !important;
     border-radius: 8px;
 	background: rgb(from var(--main-color) r g b / 0.05);
 	transition: 300ms ease-in-out;
+	border: none !important;
 }
 .container_a45028:focus-within {
 	background: rgb(from var(--main-color) r g b / .2) !important;
