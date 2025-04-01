@@ -1621,12 +1621,14 @@ background-color: transparent !important;
 }
 .menu_c1e9c4 .wrapper_f563df {
 	padding: 0;
+	border-radius: 8px;
+	box-shadow: var(--shadow);
+	overflow: hidden;
+	margin-bottom: 4px;
+	gap: 0;
 }
 .button_f563df {
 	background: rgb(from var(--main-color) r g b / .2);
-	box-shadow: var(--shadow);
-	border-radius: 8px;
-	width: 32px;
 	height: 32px;
 	&:hover {
 		background-color: rgb(from var(--main-color) r g b / .6);
