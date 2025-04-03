@@ -1173,6 +1173,7 @@ background-color: transparent !important;
 	padding: 0 12px 10px;
 	& > .channelTextArea__74017 {
 		margin-bottom: 0;
+		border: none;
 	}
 }
 .wrapper_da5890.biteSize_da5890 {
@@ -1454,7 +1455,7 @@ background-color: transparent !important;
 /* Mentions */
 .wrapper_f61d60 {
     border-radius: 4px !important;
-	background: rgb(from var(--main-color) r g b / .1) !important;
+	background: rgb(from var(--main-color) r g b / .6) !important;
 	box-shadow: var(--shadow);
 	padding: 0px 2px;
 	color: var(--text-standard) !important;
