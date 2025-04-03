@@ -232,7 +232,7 @@ body {
 	right: 4px;
 }
 .message__5126c:hover {
-	background: rgb(from var(--main-color) r g b / .1) !important;
+	background: rgb(from var(--main-color) r g b / .05) !important;
 }
 .buttonContainer_c19a55 .popoverReactionHoverBar_f84418,
 .buttonContainer_c19a55 .popoverReactionHoverBar_f84418:hover {
