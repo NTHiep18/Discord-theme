@@ -209,12 +209,12 @@ body {
 .embedFull__623de {
 	border: none !important;
 	border-left: 4px solid var(--main-color) !important;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	width: fit-content;
 	box-shadow: var(--shadow);
 }
 .file__0ccae {	
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	border: none;
 	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
@@ -344,7 +344,7 @@ body {
 .container__4d95d,
 .markup__75297 code {
 	border: none !important;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px !important;
 }
