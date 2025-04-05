@@ -1535,6 +1535,8 @@ background-color: transparent !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
+	border: none;
+	border-radius: 24px;
 }
 .wrapper_cc5dd2 {
 	border-radius: 24px;
@@ -1927,6 +1929,12 @@ background-color: transparent !important;
 }
 .tagListInner_f369db:last-child {
 	margin-right: 4px;
+}
+.mainCard_f369db {
+	border: none !important;
+	&:hover {
+		background-color: rgb(from var(--main-color) r g b / .6) !important;
+	}
 }
 .spine__5b40b {
 	width: 16px !important;
