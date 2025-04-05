@@ -1219,9 +1219,9 @@ background-color: transparent !important;
 	height: calc(100% - 36px);
 }
 .contentRegionScroller__23e6b .toolsContainer__23e6b {
-	margin-left: 10px;
-	padding-top: 00px;
-	border-radius: 4px;
+	margin: 0px;
+	padding-top: 0px;
+	flex: 0;
 }
 .contentRegionScroller__23e6b .tools__23e6b {
 	padding: 8px;
@@ -1229,6 +1229,7 @@ background-color: transparent !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
+	right: 132px;
 }
 .peopleList__5ec2f.scrollerBase_d125d2 {
 	scrollbar-width: none;
