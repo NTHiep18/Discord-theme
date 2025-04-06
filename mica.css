@@ -1621,9 +1621,10 @@ background-color: transparent !important;
 	margin-bottom: 4px;
 	gap: 0;
 }
-.button_f563df {
+.menu_c1e9c4 .button_f563df {
 	background: rgb(from var(--main-color) r g b / .2);
 	height: 32px;
+	border-radius: 0;
 	&:hover {
 		background-color: rgb(from var(--main-color) r g b / .6);
 	}
