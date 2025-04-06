@@ -877,14 +877,14 @@ body {
 
 /* User popout */
 .outer_c0bea0 {
-	background: transparent !important;
+	background: var(--background-overlay) !important;
 	border: none !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
 }
 .inner_c0bea0 {
-    background: transparent !important;
+    background: rgb(from var(--mica-color) r g b / var(--mica-opacity) !important;
 }
 .body__24502 {
 	margin: 8px;
