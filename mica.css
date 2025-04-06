@@ -546,9 +546,6 @@ body {
 }
 
 /* User info area */
-.layer_da8173:has(.accountProfilePopoutWrapper__37e49):before {
-	backdrop-filter: none;
-}
 .accountProfilePopoutWrapper__37e49 {
 	left: 0;
 	transform: translateX(-28px);
