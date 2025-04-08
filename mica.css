@@ -1003,7 +1003,8 @@ background-color: transparent !important;
 	z-index: 3;
 }
 .item_b3f026 {
-	transition: 300ms ease-in-out;
+	transition: 300ms ease-in-out !important;
+	color: var(--channel-color) !important;
 	font-size: 16px !important;
 	min-height: 0 !important;
 	&:after {
@@ -1016,7 +1017,7 @@ background-color: transparent !important;
 	flex-basis: 0;
 	text-align: center;
 	border: none !important;
-	color: var(--text-standard);
+	color: var(--text-standard) !important;
 	line-height: 1.25rem;
 	padding: 4px 0;
 	border-radius: 6px;
