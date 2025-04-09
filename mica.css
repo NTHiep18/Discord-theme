@@ -200,7 +200,7 @@ body {
 	margin-right: 0;
 }
 .cozy_c19a55 .timestamp_c19a55 {
-	color: var(--text-standard);
+	color: var(--text-standard) !important;
 }
 .wrapper_d5f3cd {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -878,12 +878,24 @@ body {
 }
 
 /* User popout */
+.backdrop__78332.withLayer__78332 {
+	background: transparent !important;
+	backdrop-filter: none !important;
+}
 .outer_c0bea0 {
 	background: var(--background-overlay) !important;
 	border: none !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
+	&:before {
+		position: absolute;
+		inset: 0;
+		content: '';
+		backdrop-filter: blur(var(--mica-filter));
+		border-radius: 8px;
+		z-index: -1;
+	}
 }
 .inner_c0bea0 {
     background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -2022,14 +2034,6 @@ background-color: transparent !important;
 .messagesPopoutWrap__45690, .container__2692d, .container_fc561d, .channel__427f0 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
-}
-.layer_da8173:before {
-	position: absolute;
-	inset: 0;
-	content: '';
-	backdrop-filter: blur(var(--mica-filter));
-	border-radius: 8px;
-	z-index: -1;
 }
 .layer_da8173:has([aria-label = "Inbox"]) {
 	box-shadow: var(--shadow);
