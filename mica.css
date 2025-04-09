@@ -1599,6 +1599,14 @@ background-color: transparent !important;
     overflow: hidden;
 	border: none !important;
 }
+.menu_c1e9c4:before {
+	position: absolute;
+    inset: 0;
+    content: '';
+    backdrop-filter: blur(var(--mica-filter));
+    border-radius: 8px;
+    z-index: -1;
+}
 .menu_c1e9c4 .scrollerBase_d125d2 {
 	scrollbar-width: none;
 	padding: 6px !important;
@@ -1943,7 +1951,9 @@ background-color: transparent !important;
 	display: none;
 }
 .container_d9c882 {
-	background: transparent;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow);
 }
 .spine__5b40b path  {display: none;}
 .searchBox_d9c882 {
@@ -2036,6 +2046,8 @@ background-color: transparent !important;
 	box-shadow: var(--shadow);
 }
 .layer_da8173:has([aria-label = "Inbox"]) {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 }
@@ -2108,6 +2120,7 @@ background-color: transparent !important;
 .layer_da8173:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap__45690 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow) !important;
+	backdrop-filter: blur(var(--mica-filter));
 }
 .messagesPopoutWrap__45690 .scrollerBase_d125d2 {
 	scrollbar-width: none;
@@ -2338,6 +2351,6 @@ background-color: transparent !important;
 	background: transparent;
 }
 .container_fed6d3, .header_fed6d3 {
-	background: transparent;
+	background: transparent !important;
 	box-shadow: none;
 }
