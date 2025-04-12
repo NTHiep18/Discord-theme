@@ -2178,6 +2178,12 @@ background-color: transparent !important;
 }
 
 /* discord function stuffs (block/ban/kick etc) */
+.root__49fc1:not(:has(.outer_c0bea0)) {
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
+	border: none;
+	box-shadow: var(--shadow);
+}
 .sidebarContainer__656be .outer_c0bea0 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	& .inner_c0bea0 {
@@ -2208,6 +2214,10 @@ background-color: transparent !important;
 .innerContainer__656be {
 	padding: 0;
 }
+.bottomRow__34940 {
+	gap: 0;
+	margin-top: 0;
+}
 .container__34940 {
 	margin: 8px;
 	background: transparent;
@@ -2227,7 +2237,7 @@ background-color: transparent !important;
 	padding: 12px 8px !important;
 }
 .guildSidebar_f75fb0 {
-	margin: 0 12px 24px 0;
+	margin: 0 12px 12px 0;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
 }
