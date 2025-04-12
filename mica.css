@@ -591,12 +591,24 @@ body {
 		border-radius: 0;	
 	}
 }
+.panels_c48ade .voiceButtonsContainer_e131a9 {
+	margin-left: 0;
+	gap: 0;
+}
+.panels_c48ade .lineClamp1__4bd52 {
+	line-height: 16px;
+}
 .panels_c48ade .pointerEvents__44b0c {
 	x:24;
 	y:24;
 }
 .container__37e49:hover  .avatarWrapper__37e49 {
     width: calc(100% - 96px);
+}
+.panels_c48ade .buttons__37e49 {
+    width: 0;
+    transition: 300ms linear;
+	gap: 0;
 }
 .container__37e49:hover .buttons__37e49 {
     width: 96px;
@@ -901,7 +913,7 @@ body {
 }
 @keyframes blur-hack {
 	to {
-		backdrop-blur: blur(var(--mica-filter));
+		backdrop-filter: blur(var(--mica-filter));
 	}
 }
 .inner_c0bea0 {
