@@ -566,6 +566,7 @@ body {
 	box-shadow: var(--shadow);
 	position: relative;
 	backdrop-filter: blur(var(--mica-filter));
+	overflow: hidden;
 }
 .panels_c48ade .container__37e49 {
 	min-height: 36px;
@@ -691,8 +692,13 @@ body {
 }
 .rtcConnectionStatusWrapper__06d62 {
 	background: rgb(from var(--main-color) r g b / .2);
+	padding: 0 6px;
 }
-
+.container__50387 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow);
+}
 
 /* Channel list */
 .sidebar_c48ade {
@@ -825,7 +831,7 @@ body {
 	box-shadow: var(--shadow);
 }
 .modeSelected__2ea32:hover .link__2ea32 {
-	background: var(--main-color) !important;
+	background: rgb(from var(--main-color) r g b / .6) !important;
 }
 .wrapper__2ea32.modeSelected__2ea32 .link__2ea32:before {
 	background: transparent;
