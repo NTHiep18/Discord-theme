@@ -2062,7 +2062,7 @@ body {
 	border-width: 6px;
 }
 .layer_da8173 .popoutContainer__0f481 {
-	background: rgb(var(--mica-color) r g b / var(--mica-opacity);
+	background: rgb(var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
 }
