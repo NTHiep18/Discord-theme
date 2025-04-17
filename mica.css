@@ -919,21 +919,21 @@ body {
 	backdrop-filter: none !important;
 }
 .outer_c0bea0 {
-	background: var(--background-overlay) !important;
+	background: var(--background-image) var(--background-position) / cover no-repeat fixed  !important;
 	border: none !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
-	backdrop-filter: blur(calc(var(--mica-filter) - 0.1px));
 	box-shadow: var(--shadow);
-	animation: blur-hack 1s;
-}
-@keyframes blur-hack {
-	to {
-		backdrop-filter: blur(var(--mica-filter));
-	}
 }
 .inner_c0bea0 {
     background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	&:before {
+		display: block;
+		position: absolute;
+		content: "";
+		height: 100% !important;
+		width: 100% !important;
+		background: var(--background-overlay);
 }
 .body__24502 {
 	margin: 8px;
@@ -1619,9 +1619,16 @@ background-color: transparent !important;
 	color: rgba(255, 255, 255, 0.8);
 }
 .container__34c2c {
-	background-color: rgb(from var(--second-color) r g b / .9);
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 8px;
 	margin: 6px;
+	box-shadow: var(--shadow);
+	& .buttonInner__34c2c {
+		background: rgb(from var(--main-color) r g b / .2);
+		&:hover {
+			background: rgb(from var(--main-color) r g b / .6);
+		}
+	}
 }
 
 /* Right click menu */
@@ -2051,9 +2058,13 @@ background-color: transparent !important;
     border-top-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-width: 6px;
 }
-.layer_da8173 .popoutContainer__0f481, .layer_da8173 .guildSection_d5cd2d {
-	background: transparent;
+.layer_da8173 .popoutContainer__0f481 {
+	background: rgb(var(--mica-color) r g b / var(--mica-opacity);
+	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
+}
+.layer_da8173 .guildSection_d5cd2d {
+	background: transparent;
 }
 
 /* Fuck server discovery */
