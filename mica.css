@@ -935,12 +935,13 @@ body {
 		width: 100% !important;
 		background: var(--background-overlay);
 		backdrop-filter: blur(var(--mica-filter));
+	}
 }
 .body__24502 {
 	margin: 8px;
 }
 .overlay_c0bea0 {
-background-color: transparent !important;
+	background-color: transparent !important;
 }
 .input__0f084 {
 	border: none !important;
