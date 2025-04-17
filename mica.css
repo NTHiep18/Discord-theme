@@ -934,6 +934,7 @@ body {
 		height: 100% !important;
 		width: 100% !important;
 		background: var(--background-overlay);
+		backdrop-filter: blur(var(--mica-filter));
 }
 .body__24502 {
 	margin: 8px;
@@ -1623,6 +1624,7 @@ background-color: transparent !important;
 	border-radius: 8px;
 	margin: 6px;
 	box-shadow: var(--shadow);
+	backdrop-filter: blur(var(--mica-filter));
 	& .buttonInner__34c2c {
 		background: rgb(from var(--main-color) r g b / .2);
 		&:hover {
