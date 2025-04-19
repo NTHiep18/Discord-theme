@@ -2189,9 +2189,6 @@ body {
 		background: rgb(from var(--mica-color) r g b / .6) !important;
 	}
 }
-.numberBadge__2b1f5 {
-	background: transparent !important;
-}
 
 /* pin */
 .layer_da8173:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap__45690 {
