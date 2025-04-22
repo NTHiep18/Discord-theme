@@ -997,10 +997,17 @@ body {
 	z-index: 1;
 	margin: 0 16px;
 }
-.container_ab8609.biteSize_da5890 {
+.container_ab8609.biteSize_ab8609 {
 	display: none;
 	top: calc(var(--custom-user-profile-banner-height) + 20px);
 	left: 108px !important;
+	z-index: 3;
+	backdrop-filter: blur(var(--mica-filter));
+}
+.container_ab8609.fullSize_ab8609 {
+	display: none;
+    top: 48px;
+    left: 160px;
 	z-index: 3;
 	backdrop-filter: blur(var(--mica-filter));
 }
@@ -1012,10 +1019,7 @@ body {
 	right: 10px;
 	margin: 2px 2px 0 0;
 }
-.container_ab8609.fullSize_ab8609 {
-    top: 48px;
-    left: 160px;
-}
+
 .wrapper_da5890.fullSize_da5890 {
 	top: calc(var(--custom-user-profile-banner-height) + 15px);
 	right: 10px;
