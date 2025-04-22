@@ -998,13 +998,13 @@ body {
 }
 .container_ab8609 {
 	display: none;
-	top: calc(var(--custom-user-profile-banner-height) + 10px);
-	left: 108px;
+	top: calc(var(--custom-user-profile-banner-height) + 10px) !important;
+	left: 108px !important;
 	z-index: 3;
 	backdrop-filter: blur(var(--mica-filter));
 }
 .avatar__75742: hover ~ .container_ab8609 {
-	display: none;
+	display: block;
 }
 .wrapper_da5890.biteSize_da5890 {
 	top: calc(var(--custom-user-profile-banner-height) + 15px);
@@ -1016,7 +1016,10 @@ body {
     left: 152px;
 }
 .wrapper_da5890.fullSize_da5890 {
-	
+	top: calc(var(--custom-user-profile-banner-height) + 15px);
+	right: 10px;
+	margin: 2px 2px 0 0;
+}
 .headerButtons__24502 {
 	padding-top: 40px;
 }
