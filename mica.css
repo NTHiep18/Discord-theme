@@ -291,7 +291,8 @@ body {
 	margin-right: 8px;
 }
 .container__0be77, .container_f69538 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	border: none !important;
 	box-shadow: var(--shadow);
 }
 .chat_f02135:before {
@@ -1226,6 +1227,7 @@ body {
 	background: rgb(from var(--main-color) r g b / .2) !important;
 	border: none;
 	box-shadow: var(--shadow);
+	border-radius: 4px;
 }
 .connectedAccountContainer_e6abe8 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
