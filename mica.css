@@ -1911,6 +1911,9 @@ body {
 .monaco-editor .find-widget {
 	background: transparent !important;
 }
+.monaco-editor {
+	outline: none !important;
+}
 #floating-editor-window {
 	z-index: 1000;
 	max-width: 800px;
