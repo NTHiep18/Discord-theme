@@ -1015,14 +1015,13 @@ body {
 	display: block;
 }
 .wrapper_da5890.biteSize_da5890 {
-	top: calc(var(--custom-user-profile-banner-height) + 15px);
+	top: calc(var(--custom-user-profile-banner-height) + 16px);
 	right: 16px;
 }
 
 .wrapper_da5890.fullSize_da5890 {
-	top: calc(var(--custom-user-profile-banner-height) + 15px);
-	right: 10px;
-	margin: 2px 2px 0 0;
+	top: calc(var(--custom-user-profile-banner-height) + 16px);
+	right: 16px;
 }
 .mask__68edb circle {
 	cy: var(--custom-user-profile-banner-height);
@@ -1205,8 +1204,11 @@ body {
 	height: 20px;
 	border-radius: 4px !important;
 }
+.avatar__75742.biteSize__75742 {
+	top: 65px;
+}
 .avatar__75742.fullSize__75742 {
-	top: -67px;
+	top: -63px;
 }
 .headerInner__24502 {
 	padding: 16px 0;
@@ -1334,12 +1336,18 @@ body {
 	background: rgb(from var(--main-color) r g b / .6);
 }
 .avatar__1fed1 {
-	top: 58px;
+	top: 103.63px;
+	left: 41px;
 }
 .accountProfileCard__1fed1 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 8px;
 	box-shadow: var(--shadow);
+	& .mask__68edb circle {
+		cx: 56;
+		cy: 100;
+		r: 33;
+	}
 }
 .background__1fed1, .fieldList__1fed1 {
 	background: transparent;
