@@ -118,6 +118,11 @@ body {
 #bd-notifications-root>* {
 	padding: 4px !important;
 }
+#bd-notices {
+	position: absolute;
+	justify-self: end;
+	align-self: end;
+}
 
 /* Main chat */
 .content_f75fb0, .subtitleContainer_f75fb0 {
