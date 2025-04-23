@@ -195,6 +195,7 @@ body {
 	box-shadow: var(--shadow);
 	& .traitLabel_d452e4 {
 		line-height: 16px;
+	}
 }
 .chatContent_f75fb0 .newMessagesBar__0f481,
 .chatContent_f75fb0 .jumpToPresentBar__0f481 {
