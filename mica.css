@@ -650,7 +650,6 @@ body {
     transition: 300ms;
 	margin-right: 0;
 	border-radius: 0;
-	background: rgb(from var(--main-color) r g b / .2);
 	&:hover {
 		background-color: rgb(from var(--main-color) r g b / .6) !important;
 		transition: 300ms;
@@ -687,7 +686,6 @@ body {
 	height: 36px;
 	width: 36px;
 	margin: 0;
-	background: rgb(from var(--main-color) r g b / .2);
 	&:hover {
 		background-color: rgb(from var(--main-color) r g b / .6) !important;
 	}
@@ -714,7 +712,6 @@ body {
 		box-shadow: none;
 	}
 }
-
 .menus_af7fb7 {
 	gap: 4px;
 }
@@ -756,7 +753,6 @@ body {
 	margin: 0;
 }
 .rtcConnectionStatusWrapper__06d62 {
-	background: rgb(from var(--main-color) r g b / .2);
 	padding: 0 6px;
 }
 .container__50387 {
