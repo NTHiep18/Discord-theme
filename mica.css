@@ -625,7 +625,7 @@ body {
 	inset: auto 0 0 auto !important;
 	width: 228px !important;
 	border: none !important;
-	background: rgb(from var(--mica-color) r g b var(--mica-opacity)) !important;
+	background: transparent !important;
 	box-shadow: var(--shadow);
 	position: relative;
 	backdrop-filter: blur(var(--mica-filter));
@@ -648,6 +648,7 @@ body {
     transition: 300ms;
 	margin-right: 0;
 	border-radius: 0;
+	background-color: rgb(from var(--main-color) r g b / .2) !important;
 	&:hover {
 		background-color: rgb(from var(--main-color) r g b / .6) !important;
 		transition: 300ms;
@@ -683,6 +684,7 @@ body {
 	border-radius: 0;
 	height: 36px;
 	width: 36px;
+	background-color: rgb(from var(--main-color) r g b / .2) !important;
 	margin: 0;
 	&:hover {
 		background-color: rgb(from var(--main-color) r g b / .6) !important;
