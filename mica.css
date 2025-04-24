@@ -435,7 +435,7 @@ body {
 }
 .typing_b88801 {
 	margin: 0;
-	top: -36px;
+	bottom: 12px;
 	font-size: 16px !important;
 	color: var(--text-standard) !important;
 }
