@@ -91,7 +91,7 @@ body {
 	border: none !important;
 }
 .scroller__36d07 {
-	margin: 6px 12px 12px 6px;
+	margin-bottom: 12px;
 }
 .base_c48ade .container__9293f {
 	margin: 0 12px 6px 6px;
@@ -455,7 +455,7 @@ body {
 .chatContent_f75fb0 .channelTextArea__74017 {
 	background: transparent;
 	border-radius: 8px;
-	margin-bottom: 24px;
+	margin-bottom: 12px;
 	border: none;
 }
 .channelTextArea__74017:before {
