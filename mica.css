@@ -624,8 +624,9 @@ body {
 }
 .panels_c48ade {
 	border-radius: 8px !important;
+	margin: 0 6px 24px;
 	inset: auto 0 0 auto !important;
-	width: 240px !important;
+	width: 228px !important;
 	border: none !important;
 	background: rgb(from var(--mica-color) r g b var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
@@ -773,7 +774,6 @@ body {
 	width: 240px !important;
 	backdrop-filter: none !important;
 	border: none !important;
-	margin-bottom: 48px;
 }
 .sidebarList_c48ade:before {
 	display: block;
@@ -782,7 +782,7 @@ body {
 	top: 0;
 	left: 64px;
 	right: 0;
-	bottom: 48px;
+	bottom: 0;
 	width: inherit;
 }
 .sectionDivider__629e4 {
@@ -818,7 +818,7 @@ body {
 	flex: 1 !important;
 }
 .container__2637a {
-	padding-bottom: 24px !important;
+	padding-bottom: 56px !important;
 }
 .container__2637a:before {
     display: flex;
@@ -827,7 +827,7 @@ body {
 	right: 50%;
 	font-size: 14px;
     justify-content: right;
-    bottom: 5px;
+    bottom: 2px;
 	font-weight: 600;
     color: rgb(240, 240, 240);
 	letter-spacing: 1px;
@@ -840,7 +840,7 @@ body {
 	left:50%;
 	font-size: 14px;
     justify-content: left;
-    bottom: 5px;
+    bottom: 2px;
 	font-weight: 600;
     color: rgb(20, 20, 20);
 	letter-spacing: 1px;
