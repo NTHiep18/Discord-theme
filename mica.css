@@ -82,22 +82,22 @@ body {
 	box-shadow: var(--shadow) !important;
 }
 .sidebar_c48ade {
-	margin: 0 6px 24px 0;
+	margin: 0 6px 12px 0;
 }
 .members_c8ffbb {
-    margin: 6px 12px 24px 0px;
+    margin: 6px 12px 12px 0px;
 }
 .chat_f75fb0 {
 	border: none !important;
 }
 .scroller__36d07 {
-	margin: 6px 12px 24px 6px;
+	margin: 6px 12px 12px 6px;
 }
 .base_c48ade .container__9293f {
 	margin: 0 12px 6px 6px;
 }
 .content_f75fb0 .searchResultsWrap_a9e706 {
-	margin: 6px 12px 24px 0px;
+	margin: 6px 12px 12px 0px;
 }
 .peopleColumn__133bf {
 	height: fit-content;
@@ -423,7 +423,7 @@ body {
 	border-top: none;
 }
 .scrollerSpacer__36d07 {
-    height: 8px !important;
+    display: none;
 }
 .placeholder__443e5, .slateTextArea_ec4baf {
     padding: 8px 12px !important;
