@@ -91,7 +91,7 @@ body {
 	border: none !important;
 }
 .scroller__36d07 {
-	margin: 6px 12px 0px 6px;
+	margin: 6px 12px 24px 6px;
 }
 .base_c48ade .container__9293f {
 	margin: 0 12px 6px 6px;
@@ -440,13 +440,13 @@ body {
 }
 .typing_b88801 {
 	margin: 0;
-	bottom: 12px;
+	top: -36px;
 	font-size: 16px !important;
 	color: var(--text-standard) !important;
 }
 .base_b88801 .ellipsis_b88801 {
 	margin: 0 8px 0 24px !important;
-	width: 24px !important;
+	width: 32px !important;
 }
 .markup__75297 {
     color: var(--text-standard);
@@ -460,16 +460,15 @@ body {
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
-	background: rgb(from var(--main-color) r g b / .05) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 8px;
 	position: absolute;
 	content: '';
 	inset: 0;
-	backdrop-filter: blur(var(--mica-filter));
 }
 .channelTextArea__74017:focus-within:before {
-	background: rgb(from var(--main-color) r g b / .2) !important;
 	box-shadow: var(--shadow) !important;
+	backdrop-filter: blur(var(--mica-filter));
 }
 .channelTextArea__74017
 .channelBottomBarArea_f75fb0 .channelTextArea__74017 {
@@ -628,7 +627,7 @@ body {
 	inset: auto 0 0 auto !important;
 	width: 240px !important;
 	border: none !important;
-	background: transparent !important;
+	background: rgb(from var(--mica-color) r g b var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 	position: relative;
 	backdrop-filter: blur(var(--mica-filter));
@@ -1633,10 +1632,13 @@ body {
 .top__7aaec {
 	top: 4px !important;
 }
+.bottom__7aaec {
+	bottom: 20px;
+}
 .bar__7aaec, .bar__3b95d {
 	background: rgb(from var(--main-color) r g b / .2) !important;
 	border-radius: 4px;
-	margin: 4px 40px 20px !important;
+	margin: 0 !important;
 	box-shadow: var(--shadow);
 	border: none !important;
 	backdrop-filter: blur(var(--mica-filter));
