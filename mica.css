@@ -429,7 +429,7 @@ body {
     display: none;
 }
 .chatContent_f75fb0 .form_f75fb0 {
-	padding: 0 26px 0 20px !important;
+	padding: 0 16px !important;
 	background-color: transparent;
 	margin-top: 0;
 }
@@ -2484,4 +2484,9 @@ body {
 .container_fed6d3, .header_fed6d3 {
 	background: transparent !important;
 	box-shadow: none;
+}
+.message__89466 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	border: none;
+	box-shadow: var(--shadow);
 }
