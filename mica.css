@@ -800,7 +800,7 @@ body {
 }
 .wrapperCommon__29444 {
 	padding: 0;
-	margin: 0 8px 0 4px;
+	margin: 0 4px;
 }
 .icon__29444 {
 	display: none;
@@ -966,6 +966,17 @@ body {
 }
 .previewContainer__6da2d {
 	background: transparent;
+}
+.uploadArea_dbca3c, .uploadArea_dbca3c {
+	background: transparent !important;
+}
+.chat_f75fb0 .wrapper_cb9592 {
+	margin: 0 12px 12px 6px;
+	height: calc(100% - 12px);
+	background: rgb(from var(--mica-color) r g b / var(--mica-filter));
+	border-radius: 8px;
+	box-shadow: var(--shadow);
+	backdrop-filter: blur(var(--mica-filter));
 }
 
 /* User popout */
