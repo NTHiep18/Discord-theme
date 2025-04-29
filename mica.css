@@ -703,6 +703,9 @@ body {
 	margin: 0;
 	border-radius: 0;
 }
+.inner_e131a9 {
+	background: rgb(from var(--main-color) r g b / .2);
+}
 .panels_c48ade .actionButtons_e131a9 {
 	grid-gap: 0;
 	> * {
