@@ -8,9 +8,9 @@
     --mica-opacity: .2; /* Mica transparency */
     --mica-filter: 15px; /* Blur effect */
 
-    /* Main and second color */
+    /* coloring */
     --main-color: #5865F1; /* Main color */
-    --second-color: rgb(3, 2, 51); /* Second color to compliment main color */
+    --second-color: rgb(90, 120, 240, .2); /* for background */
 
     /* App background */
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
@@ -945,6 +945,7 @@ body {
 .scrollerBase__99f8c {
 	scrollbar-width: none;
 }
+
 /* voice channels */
 .channelInfo_c69b6d .wrapper__260e1 {
 	box-shadow: var(--shadow);
@@ -963,12 +964,19 @@ body {
 	border-right-color: var(--main-color) !important;
 }
 .streamPreviewWrapper__6da2d .streamPreview__6da2d {
-	background: rgb(from var(--mica-color) r g b / var(--mica-filter));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
 }
 .previewContainer__6da2d {
 	background: transparent;
+}
+.callContainer_cb9592 {
+	border: none !important;
+	background: transparent;
+}
+.root_bfe55a {
+	background: transparent !important;
 }
 .uploadArea_dbca3c, .uploadArea_dbca3c {
 	background: transparent !important;
@@ -1363,7 +1371,7 @@ body {
 	color: var(--main-color);
 }
 .empty__99e7c {
-	fill :rgb(from var(--second-color) r g b / 0.4);
+	fill :rgb(--second-color);
 }
 .container_fea832 {
 	background: rgb(from var(--mica-color) r g b / calc(var(--mica-opacity) /2)) !important;
