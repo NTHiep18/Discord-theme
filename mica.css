@@ -248,12 +248,12 @@ body {
 .embedFull__623de {
 	border: none !important;
 	border-left: 4px solid var(--main-color) !important;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color) !important;
 	width: fit-content;
 	box-shadow: var(--shadow);
 }
 .file__0ccae {	
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color) !important;
 	border: none;
 	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
@@ -384,7 +384,7 @@ body {
 .container__4d95d,
 .markup__75297 code {
 	border: none !important;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px !important;
 }
@@ -1298,9 +1298,9 @@ body {
 	border-radius: 4px;
 }
 .connectedAccountContainer_e6abe8 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color) !important;
 	border: none;
-	border-radius: 8px;
+	border-radius: 6px;
 	padding: 8px;
 	box-shadow: var(--shadow);
 }
@@ -1312,6 +1312,8 @@ body {
 	& > .channelTextArea__74017 {
 		margin-bottom: 0;
 		border: none;
+		background: transparent !important;
+		border-radius: 6px;
 	}
 }
 
@@ -1633,10 +1635,10 @@ body {
 	padding: 4px;
 }
 .childWrapperNoHoverBg__6e9f8 {
-	background: var(--second-color) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: var(--main-color) !important;
+		background: var(--second-color) !important;
 	}
 }
 .guildSeparator__252b6 {
@@ -2073,7 +2075,7 @@ body {
 .mainCard_f369db {
 	border: none !important;
 	&:hover {
-		background-color: var(--main-color) !important;
+		background-color: var(--second-color) !important;
 	}
 }
 .spine__5b40b {
