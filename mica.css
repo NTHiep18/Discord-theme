@@ -2007,7 +2007,7 @@ body {
 	margin-left: 0;
 }
 .list_f369db>div:first-child {
-	padding: 0;
+	padding: 0 !important;
 	margin-right: 6px;
 }
 .list_f369db, .grid_f369db {
