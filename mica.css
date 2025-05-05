@@ -1659,6 +1659,7 @@ body {
 }
 .bottom__7aaec {
 	bottom: 72px !important;
+	overflow: visible;
 }
 .bar__7aaec, .bar__3b95d {
 	background: var(--second-color) !important;
@@ -2040,7 +2041,14 @@ body {
 	border-top-left-radius: 8px !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
-	height: calc(100% - 24px);
+	height: calc(100% - 12px);
+	box-shadow: var(--shadow);
+}
+.chatLayerWrapper__01ae2 .container__01ae2 {
+	border: none;
+}
+.chat_ee72fa:before {
+	display: none;
 }
 .collapsed_d9be46 .title_d9be46 {
 	height: 36px;
@@ -2141,8 +2149,9 @@ body {
 	top: 36px !important;
 }
 .container__9271d {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
+	border: none !important;
 }
 
 /* tooltips */
@@ -2197,15 +2206,12 @@ body {
 }
 
 /* inbox */
-.messagesPopoutWrap__45690, .container__2692d, .container_fc561d, .channel__427f0 {
+.messagesPopoutWrap__45690, .container__2692d, .container_fc561d {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 }
 .layer_da8173:has([aria-label = "Inbox"]) {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
-	box-shadow: var(--shadow);
-	border-radius: 8px;
 }
 .recentMentionsPopout__95796 .scrollerBase_d125d2 {
 	scrollbar-width: none;
@@ -2219,11 +2225,15 @@ body {
 	border: none !important;
 }
 .container__95796 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color);
 	border: none !important;
 	box-shadow: var(--shadow) !important;
 	padding-right: 0;
 	border-radius: 8px;
+}
+.channel__427f0 {
+	background: var(--second-color);
+	box-shadow: var(--shadow);
 }
 .headerTabs_ab6641 {
 	margin: 0;
@@ -2249,7 +2259,7 @@ body {
 .channelHeader__35a7e {
 	position: static !important;
 	background: transparent !important;
-    padding: 12px 16px;
+    padding:8px;
 	border-bottom: 1px solid var(--shadow-color);
 }
 .collapseButton__427f0 {
@@ -2285,12 +2295,15 @@ body {
 	background: transparent !important;
 }
 .messageGroupWrapper__45690 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px !important;
 	margin-bottom: 8px !important;
 	border: none !important;
 	padding: 8px 0;
+	& .wrapper_c19a55 {
+		padding-top: 0 !important;
+	}
 }
 .footer__45690 {
 	background: transparent;
