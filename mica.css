@@ -2189,8 +2189,11 @@ body {
 
 /* Autocomplete emote pick */
 .autocomplete__13533 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: var(--second-color);
 	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow) !important;
+	left: 0 !important;
+	right: 0 !important;
 }
 .autocomplete__13533 .autocompleteInner__13533 {
 	background: transparent;
