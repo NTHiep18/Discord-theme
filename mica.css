@@ -1657,7 +1657,7 @@ body {
 .top__7aaec {
 	top: 4px !important;
 }
-.bottom__7aaec {
+.bottom__7aaec:not(:has(.emptyBar__7aaec)) {
 	bottom: 66px !important;
 	overflow: visible;
 }
@@ -2314,7 +2314,7 @@ body {
 .actionButtons__45690 {
 	right: 8px;
 }
-.jumpButton__45690, .button__06eda, .jumpMessageButton__95796 {
+.jumpButton__45690, .button__06eda, .jumpMessageButton__95796, .jumpButton_ed0c8c {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow) !important;
 	border-radius: 4px;
@@ -2415,7 +2415,7 @@ body {
 }
 .layerContainer_da8173 .contentWrapper__08434 {
 	background: transparent;
-	box-shadow: none;
+	box-shadow: var(--shadow);
 	border: none;
 }
 .contentWrapper__08434:before {
@@ -2423,7 +2423,6 @@ body {
 	content: '';
 	inset: 0;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-    box-shadow: var(--shadow);
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
