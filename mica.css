@@ -110,6 +110,22 @@ body {
 .characterBackground_eb4069 .artwork_eb4069 {
 	display: none;
 }
+.base_c48ade {
+	grid-template-areas:
+    "titleBar titleBar titleBar"
+    "guildsList notice notice"
+    "guildsList channelsList page"
+    "guildsList userPanel page";
+
+grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
+
+grid-template-rows: 
+    [top] var(--custom-app-top-bar-height) 
+    [titleBarEnd] min-content 
+    [noticeEnd] 1fr 
+    [channelsEnd] min-content
+    [end];
+}
 
 /* BetterDiscord message boxes */
 #bd-notifications-root>* {
@@ -623,6 +639,7 @@ body {
 	box-shadow: var(--shadow);
 }
 .panels_c48ade {
+	grid-area: userPanel;
 	border-radius: 8px !important;
 	margin: 0 6px 24px;
 	inset: auto 0 0 auto !important;
@@ -651,7 +668,7 @@ body {
     transition: 300ms;
 	margin-right: 0;
 	border-radius: 0;
-	background-color: var(--second-color) !important;
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	&:hover {
 		background-color: var(--main-color) !important;
 		transition: 300ms;
@@ -687,7 +704,7 @@ body {
 	border-radius: 0;
 	height: 36px;
 	width: 36px;
-	background-color: var(--second-color) !important;
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity))  !important;
 	margin: 0;
 	&:hover {
 		background-color: var(--main-color) !important;
@@ -699,6 +716,7 @@ body {
 .panels_c48ade .lookFilled__201d5 {
 	border-radius: 0;
 	box-shadow: none;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 }
 .panels_c48ade .container_e131a9 {
 	background: transparent;
@@ -709,7 +727,7 @@ body {
 	border-radius: 0;
 }
 .inner_e131a9 {
-	background: var(--second-color);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) ;
 }
 .panels_c48ade .actionButtons_e131a9 {
 	grid-gap: 0;
@@ -730,7 +748,7 @@ body {
 	margin: 6px;
 }
 .menus_af7fb7 .button__201d5 {
-	background: var(--second-color);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	transition: 300ms ease-in-out;
@@ -776,19 +794,19 @@ body {
 	display: none;
 }
 .sidebarList_c48ade {
+	position: relative;
 	width: 240px !important;
 	backdrop-filter: none !important;
 	border: none !important;
+	margin-bottom: 12px;
+	border-radius: 12px;
+    box-shadow: var(--shadow);
 }
 .sidebarList_c48ade:before {
 	display: block;
 	position: absolute;
 	content: "";
-	top: 0;
-	left: 64px;
-	right: 0;
-	bottom: 0;
-	width: inherit;
+	inset: 0;
 }
 .sectionDivider__629e4 {
     width: calc(100% - 12px);
@@ -823,7 +841,7 @@ body {
 	flex: 1 !important;
 }
 .container__2637a {
-	padding-bottom: 56px !important;
+	padding-bottom: 16px !important;
 }
 .container__2637a:before {
     display: flex;
