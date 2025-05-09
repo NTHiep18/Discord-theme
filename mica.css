@@ -460,14 +460,10 @@ body {
 	position: absolute;
 	content: '';
 	inset: 0;
+	backdrop-filter: blur(var(--mica-filter));
 }
 .form_f75fb0 .channelTextArea__74017:before {
-	transition: 300ms ease-in-out;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-	border-radius: 8px;
-	position: absolute;
-	content: '';
-	inset: 0;
 	box-shadow: var(--shadow) !important;
 }
 .channelTextArea__74017:focus-within:before {
