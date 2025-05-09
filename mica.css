@@ -71,7 +71,7 @@ body {
 .typeWindows__421ed>.wordmark__421ed svg {display:none;}
 
 /* Add mica effect */
-.sidebarList_c48ade:before, .chatContent_f75fb0:before,
+.sidebarList_c48ade:before, .messagesWrapper__36d07:before,
 .members_c8ffbb,.wrapper__44df5, .toast__3fde7,
 .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
@@ -135,14 +135,15 @@ body {
 .content_f75fb0, .subtitleContainer_f75fb0 {
 	border: none !important;
 }
-.chatContent_f75fb0:before {
+.messagesWrapper__36d07:before {
     content: "";
     position: absolute;
     z-index: -1;
     inset: 0;
 }
-.scroller__36d07.scrollerBase_d125d2 {
+.messagesWrapper__36d07 .scroller__36d07.scrollerBase_d125d2 {
 	backdrop-filter: none;
+	margin-bottom: 16px;
 }
 .tabBody__133bf:before {
 	display: none;
@@ -364,7 +365,6 @@ body {
     z-index: 5;
     display: flex;
 	background: linear-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .1),  transparent, rgb(from var(--mica-color) r g b / .1),  transparent);
-    margin: 6px 12px 12px 6px;
     background-size: 200% 200%;
     animation: loading-wave 3s ease-in-out infinite;
 }
@@ -429,9 +429,9 @@ body {
     display: none;
 }
 .chatContent_f75fb0 .form_f75fb0 {
-	padding: 0 16px !important;
+	padding: 0 !important;
 	background-color: transparent;
-	margin-top: 0;
+	margin-top: 12px;
 }
 .typing_b88801 {
 	margin: 0;
@@ -455,11 +455,20 @@ body {
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
-	background: rgb(from var(--main-color) r g b / .05) !important;
+	background: transparent !important;
 	border-radius: 8px;
 	position: absolute;
 	content: '';
 	inset: 0;
+}
+.form_f75fb0 .channelTextArea__74017:before {
+	transition: 300ms ease-in-out;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	border-radius: 8px;
+	position: absolute;
+	content: '';
+	inset: 0;
+	box-shadow: var(--shadow) !important;
 }
 .channelTextArea__74017:focus-within:before {
 	background: var(--second-color) !important;
