@@ -797,7 +797,7 @@ body {
 	backdrop-filter: none !important;
 	border: none !important;
 	margin-bottom: 12px;
-	border-radius: 12px;
+	border-radius: 8px;
     box-shadow: var(--shadow);
 }
 .sidebarList_c48ade:before {
@@ -1002,13 +1002,19 @@ body {
 .uploadArea_dbca3c, .uploadArea_dbca3c {
 	background: transparent !important;
 }
-.chat_f75fb0 .wrapper_cb9592 {
+.chat_f75fb0 .callContainer_cb9592 {
 	margin: 0 12px 12px 6px;
 	height: calc(100% - 12px);
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 8px;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
+}
+.chat_f75fb0 .channelChatWrapper_cb9592 {
+		background: transparent;
+}
+.gradientContainer_bfe55a {
+	display: none;
 }
 
 /* User popout */
