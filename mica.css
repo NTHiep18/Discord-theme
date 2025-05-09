@@ -775,7 +775,7 @@ body {
     "titleBar titleBar titleBar"
     "guildsList notice notice"
     "guildsList channelsList page"
-    "guildsList userPanel page"; !important;
+    "guildsList userPanel page" !important;
 	grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end] !important;
 	grid-template-rows: 
     [top] var(--custom-app-top-bar-height) 
