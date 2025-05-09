@@ -110,22 +110,6 @@ body {
 .characterBackground_eb4069 .artwork_eb4069 {
 	display: none;
 }
-.base_c48ade {
-	grid-template-areas:
-    "titleBar titleBar titleBar"
-    "guildsList notice notice"
-    "guildsList channelsList page"
-    "guildsList userPanel page";
-
-grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
-
-grid-template-rows: 
-    [top] var(--custom-app-top-bar-height) 
-    [titleBarEnd] min-content 
-    [noticeEnd] 1fr 
-    [channelsEnd] min-content
-    [end];
-}
 
 /* BetterDiscord message boxes */
 #bd-notifications-root>* {
@@ -641,13 +625,13 @@ grid-template-rows:
 .panels_c48ade {
 	grid-area: userPanel;
 	border-radius: 8px !important;
-	margin: 0 6px 24px;
+	margin: 0;
 	inset: auto 0 0 auto !important;
-	width: 228px !important;
+	width: 240px !important;
 	border: none !important;
 	background: transparent !important;
 	box-shadow: var(--shadow);
-	position: relative;
+	position: relative !important;
 	backdrop-filter: blur(var(--mica-filter));
 	overflow: hidden;
 }
@@ -786,6 +770,20 @@ grid-template-rows:
 }
 
 /* Channel list */
+.base_c48ade {
+	grid-template-areas:
+    "titleBar titleBar titleBar"
+    "guildsList notice notice"
+    "guildsList channelsList page"
+    "guildsList userPanel page"; !important;
+	grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end] !important;
+	grid-template-rows: 
+    [top] var(--custom-app-top-bar-height) 
+    [titleBarEnd] min-content 
+    [noticeEnd] 1fr 
+    [channelsEnd] min-content
+    [end] !important;
+}
 .sidebar_c48ade {
 	width: 304px !important;
 	overflow: visible !important;
