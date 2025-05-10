@@ -200,7 +200,7 @@ body {
 .chatContent_f75fb0 .jumpToPresentBar__0f481 {
 	border: none;
 	height: 24px;
-	background: rgb(from var(--main-color)r g b / .2);
+	background: var(--second-color);
 	padding-bottom: 0;
 	margin-right: 12px;
 	left: auto !important;
@@ -211,7 +211,7 @@ body {
 	min-height: 0;
 	backdrop-filter: blur(var(--mica-filter));
 	&:hover {
-		background: rgb(from var(--main-color)r g b / .6);
+		background: var(--main-color);
 	}
 	&:before {
 		display: none;
