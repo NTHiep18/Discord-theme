@@ -1010,7 +1010,7 @@ body {
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
 }
-.chat_f75fb0 .channelChatWrapper_cb9592 {
+.chat_f75fb0 .channelChatWrapper_cb9592, .chat_f75fb0 .wrapper_cb9592 {
 		background: transparent;
 }
 .gradientContainer_bfe55a {
@@ -1960,7 +1960,8 @@ body {
 
 /* The css editor */
 .floating-window-titlebar,
-.floating-window-content, 
+.floating-window-content,
+#bd-editor-panel,
 .floating-window #bd-editor-controls,
 .monaco-editor,
 .monaco-editor .margin,
