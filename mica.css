@@ -271,7 +271,7 @@ body {
 	top: 4px;
 	right: 4px;
 }
-.message__5126c:hover {
+.message__5126c:hover, .message__5126c.selected__5126c {
 	background: var(--second-color)!important;
 }
 .buttonContainer_c19a55 .popoverReactionHoverBar_f84418,
@@ -1284,10 +1284,14 @@ body {
 .expandButton_fccfdf, .collapseButton_fccfdf {
 	padding: 2px 5px;
 	height: 20px;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color);
 	border: none;
 	box-shadow: var(--shadow);
 	box-sizing: border-box;
+	border-radius: 6px;
+	&:hover {
+		background: var(--main-color);
+	}
 }
 .button__7d7f7 {
 	height: 20px;
@@ -1685,7 +1689,7 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: var(--second-color) !important;
+		background: var(--main-color) !important;
 	}
 }
 .guildSeparator__252b6 {
@@ -1740,7 +1744,7 @@ body {
 	overflow: visible;
 }
 .circleIconButton__5bc7e {
-	background: var(--second-color);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 /* Reaction */
 .reaction__23977, .reactionBtn__23977 {
