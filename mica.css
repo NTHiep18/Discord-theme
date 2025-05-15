@@ -460,7 +460,6 @@ body {
 	position: absolute;
 	content: '';
 	inset: 0;
-	backdrop-filter: blur(var(--mica-filter));
 }
 .form_f75fb0 .channelTextArea__74017:before {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
