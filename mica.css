@@ -469,6 +469,7 @@ body {
 .channelTextArea__74017:focus-within:before {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow) !important;
+	backdrop-filter: blur(var(--mica-filter));
 }
 .channelTextArea__74017
 .channelBottomBarArea_f75fb0 .channelTextArea__74017 {
