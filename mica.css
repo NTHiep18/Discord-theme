@@ -75,7 +75,7 @@ body {
 .members_c8ffbb,.wrapper__44df5, .toast__3fde7,
 .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
-.chatHeaderBar_a5700d, .modal__9a792, .popout__76f04, .authBox__921c5, .didRender_faf9c0 {
+.chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
