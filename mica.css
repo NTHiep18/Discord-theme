@@ -75,7 +75,7 @@ body {
 .members_c8ffbb,.wrapper__44df5, .toast__3fde7,
 .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
-.chatHeaderBar_a5700d, .modal__9a792, .popout__76f04, .authBox__921c5 {
+.chatHeaderBar_a5700d, .modal__9a792, .popout__76f04, .authBox__921c5, .didRender_faf9c0 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
@@ -2071,6 +2071,7 @@ body {
 /* Gallery and channel thread list */
 .popout__76f04 {
 	margin-left: 0;
+	background: transparent;
 }
 .list_f369db>div:first-child {
 	padding: 0 !important;
@@ -2510,26 +2511,26 @@ body {
 		background: var(--main-color);
 	}
 }
-.emojiPicker_c0e32c .header_c0e32c, .header__8ef02 {
+.header_c0e32c {
 	padding: 8px !important;
 	box-shadow: none;
 	background: transparent !important;
 	margin: 0;
 	border: none;
 }
-.contentWrapper__08434 .emojiPicker_c0e32c {
-	background: transparent;
+.didRender_faf9c0 .emojiPicker_c0e32c {
+	background: transparent ;
 	box-shadow: none;
 }
 .bodyWrapper_c0e32c, .wrapper_e94b8c {
 	margin-left: 16px;
 	padding-right: 4px;
 }
-.body_af7fb7.scrollerBase_d125d2 {
+.didRender_faf9c0 .scrollerBase_d125d2 {
 	scrollbar-width: none;
 	padding: 6px !important;
 }
-.contentWrapper__08434 .wrapper__14245 {
+.didRender_faf9c0 .wrapper__14245 {
 	background: var(--second-color);
     box-shadow: var(--shadow);
     border-radius: 8px;
@@ -2549,7 +2550,10 @@ body {
 .header__14245 {
 	width: 100%;
 }
-.emojiPicker_c0e32c .inspector_aeaaeb {
+.headerCollapseIcon__14245 {
+	margin-left: auto;
+}
+.didRender_faf9c0 .inspector_aeaaeb {
 	margin: 0 8px 8px 16px;
 	background: var(--second-color);
     box-shadow: var(--shadow);
