@@ -1920,22 +1920,25 @@ body {
 		color: var(--text-standard);
 	}
 }
-.outer_bf1984 {
+.scroller__7d20c .outer_bf1984 {
 	background: var(--second-color) !important;
 	border: none;
+	box-shadow: var(--shadow);
 	&:hover {
-		box-shadow: var(--shadow);
 		background: var(--main-color) !important;
 	}
 }
 .inset_bf1984 {
 	background :transparent;
-}
-.section__00943 {
-	background-color: var(--main-color);
+	& .section__00943 {
+		background-color: transparent;
+		border: none;
+	}
 }
 .nowPlayingColumn__133bf .scroller__7d20c {
 	border-left: none;
+	padding: 12px;
+	scrollbar-width: none;
 }
 
 /* DMs */
