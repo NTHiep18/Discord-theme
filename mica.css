@@ -1037,14 +1037,14 @@ body {
 	box-shadow: var(--shadow);
 }
 .inner_c0bea0 {
-    background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+    background:  var(--background-overlay) !important;
 	&:before {
 		display: block;
 		position: absolute;
 		content: "";
 		height: 100% !important;
 		width: 100% !important;
-		background: var(--background-overlay);
+		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 		backdrop-filter: blur(var(--mica-filter));
 	}
 }
@@ -2104,6 +2104,15 @@ body {
 	border: none !important;
 }
 .pill_a2c9e8 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	border: none !important;
+	border-radius: 4px;
+	box-shadow: var(--shadow);
+	&: hover {
+		background: var(--second-color) !important;
+	}
+}
+.tags__08166 .pill_a2c9e8 {
 	background: var(--second-color) !important;
 	border: none !important;
 	border-radius: 4px;
@@ -2246,7 +2255,7 @@ body {
 .theme-dark .tooltip__382e7,
 .reactionTooltip_b49891 {
 	border-radius: 8px;
-	background: var(--second-color);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s ease-in-out 0s 1 normal !important;
 	color: var(--text-standard);
@@ -2255,7 +2264,7 @@ body {
 	overflow: hidden;
 }
 .theme-dark .tooltip__382e7.tooltipPrimary__382e7>.tooltipPointer__382e7 {
-    border-top-color: var(--second-color);
+    border-top-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-width: 6px;
 }
 .layer_da8173 .popoutContainer__0f481 {
@@ -2511,17 +2520,21 @@ body {
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 }
-.navList__08434 .navItem__08434 {
-	border-radius: 4px;
-	box-shadow: var(--shadow);
-	border: none;
-	background: var(--second-color);
-	transition: 300ms ease-in-out;
-	&:hover {
-		background: var(--main-color);
+.navList__08434 {
+	gap: 8px;
+	& .navItem__08434 {
+		border-radius: 4px;
+		box-shadow: var(--shadow);
+		border: none;
+		background: transparent;
+		transition: 300ms ease-in-out;
+		flex-grow: 1;
+		&:hover {
+			box-shadow: var(--shadow);
+		}
 	}
 }
-.navButtonActive__08434 {
+.navItem__08434.navButtonActive__08434 {
 	background: var(--second-color);
     box-shadow: var(--shadow);
 	transition: 300ms ease-in-out;
