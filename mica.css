@@ -171,10 +171,6 @@ body {
 .avatarDecoration_c19a55 {
 	left: -60px;
 }
-.chipletContainerInner__4a25c {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	box-shadow: var(--shadow);
-}
 .cozy_c19a55 .timestamp_c19a55 {
 	left: -64px !important;
 }
@@ -187,7 +183,7 @@ body {
 	border: none;
 	border-radius: 0;
 }
-.trait_d452e4 {
+.clanTagChiplet_c19a55 {
 	background: var(--second-color);
 	border: none;
 	padding: 2px;
