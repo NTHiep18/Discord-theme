@@ -2518,7 +2518,7 @@ body {
 	margin: 0;
 	border: none;
 }
-.didRender_faf9c0 .emojiPicker_c0e32c {
+.layerContainer_da8173 .emojiPicker_c0e32c {
 	background: transparent ;
 	box-shadow: none;
 }
@@ -2526,11 +2526,11 @@ body {
 	margin-left: 16px;
 	padding-right: 4px;
 }
-.didRender_faf9c0 .scrollerBase_d125d2 {
+.layerContainer_da8173 .scrollerBase_d125d2 {
 	scrollbar-width: none;
 	padding: 6px !important;
 }
-.didRender_faf9c0 .wrapper__14245 {
+.layerContainer_da8173 .wrapper__14245 {
 	background: var(--second-color);
     box-shadow: var(--shadow);
     border-radius: 8px;
@@ -2553,7 +2553,7 @@ body {
 .headerCollapseIcon__14245 {
 	margin-left: auto;
 }
-.didRender_faf9c0 .inspector_aeaaeb {
+.layerContainer_da8173 .inspector_aeaaeb {
 	margin: 0 8px 8px 16px;
 	background: var(--second-color);
     box-shadow: var(--shadow);
