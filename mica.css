@@ -944,7 +944,7 @@ body {
 	text-shadow: none;
 }
 .scroller__629e4 {
-	padding-left: 4px;
+	padding: 0 4px !important;
 }
 .icon__2ea32, .name__2ea32 {
 	color: var(--channel-color);
