@@ -75,7 +75,7 @@ body {
 .members_c8ffbb,.wrapper__44df5, .toast__3fde7,
 .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
-.chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0 {
+.chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0, .list_dcc822 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
@@ -106,6 +106,9 @@ body {
 .nowPlayingColumn__133bf {
 	height: fit-content;
 	margin: 6px 12px auto 6px;
+}
+.list_dcc822 {
+	margin:6px 12px 12px 6px
 }
 .characterBackground_eb4069 .artwork_eb4069 {
 	display: none;
@@ -1363,11 +1366,22 @@ body {
 }
 .menus_ce8328 {
 	gap: 0;
+	& .menuDivider_ce8328 {
+		display: none;
+	}
 }
 .menuOverlay_ce8328 {
 	padding: 0;
 	overflow: visible;
 }
+.submenuPaddingContainer_ce8328 {
+	padding: 0;
+	& .menu_c1e9c4 {
+		background: transparent;
+		border: none;
+	}
+}
+
 .button__201d5 {
 	border-radius: 4px;
 	transition: 300ms ease-in-out;
@@ -1516,6 +1530,7 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border: none;
 	box-shadow: var(--shadow);
+	backdrop-filter: blur(var(--mica-filter));
 }
 .option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413) {
 	background-color: rgb(from var(--main-color) r g b / .7);
@@ -1809,7 +1824,7 @@ body {
 }
 
 /* Right click menu */
-.layerContainer_da8173 :not(.userPopoutOverlayBackground_c69a7b) > .menu_c1e9c4, .layerContainer_da8173 .container__3dde2 {
+:not(.submenuPaddingContainer_ce8328) > .menu_c1e9c4, .layerContainer_da8173 .container__3dde2 {
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     position: relative;
     z-index: 2;
@@ -1818,7 +1833,7 @@ body {
     overflow: hidden;
 	border: none !important;
 }
-.menu_c1e9c4:before {
+:not(.submenuPaddingContainer_ce8328) > .menu_c1e9c4:before {
 	position: absolute;
     inset: 0;
     content: '';
@@ -1837,7 +1852,7 @@ body {
 	box-shadow: none;
 }
 .labelContainer_c1e9c4 {
-	padding: 6px;
+	padding: 0px;
 	border-radius: 4px;
 }
 .label_c1e9c4 {
