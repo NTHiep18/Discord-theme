@@ -632,7 +632,7 @@ body {
 	border-radius: 8px !important;
 	margin: 0;
 	inset: auto 0 0 auto !important;
-	width: 240px !important;
+	min-width: 240px !important;
 	border: none !important;
 	background: transparent !important;
 	box-shadow: var(--shadow);
@@ -791,7 +791,7 @@ body {
     [end] !important;
 }
 .sidebar_c48ade {
-	width: 304px !important;
+	min-width: 304px !important;
 	overflow: visible !important;
 }
 .sidebar_c48ade:after {
@@ -799,7 +799,7 @@ body {
 }
 .sidebarList_c48ade {
 	position: relative;
-	width: 240px !important;
+	min-width: 240px !important;
 	backdrop-filter: none !important;
 	border: none !important;
 	margin-bottom: 12px;
