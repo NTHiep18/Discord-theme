@@ -389,7 +389,7 @@ body {
 	border: none !important;
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
-	border-radius: 8px !important;
+	border-radius: 6px !important;
 }
 .chatContent_f75fb0 .textContainer__4d95d,
 .chatContent_f75fb0 .footer__4d95d {
