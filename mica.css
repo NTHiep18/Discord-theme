@@ -830,6 +830,9 @@ body {
 .children__2ea32 {
 	margin-right: 5px;
 }
+.unread__2ea32 {
+	display: none;
+}
 .wrapperCommon__29444 {
 	padding: 0;
 	margin: 0 4px;
@@ -2281,7 +2284,7 @@ body {
 }
 .theme-dark .tooltip__382e7 {
 	border-radius: 8px;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: var(--second-color);
 	backdrop-filter: blur(var(--mica-filter));
 	animation: appear 0.25s ease-in-out 0s 1 normal !important;
 	color: var(--text-standard);
@@ -2295,8 +2298,7 @@ body {
 	padding: 12px;
 }
 .theme-dark .tooltip__382e7.tooltipPrimary__382e7>.tooltipPointer__382e7 {
-    border-top-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	border-width: 6px;
+    display:none;
 }
 .layer_da8173 .popoutContainer__0f481 {
 	background: rgb(var(--mica-color) r g b / var(--mica-opacity));
