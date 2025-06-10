@@ -439,7 +439,7 @@ body {
 }
 .typing_b88801 {
 	margin: 0;
-	bottom: 44px;
+	top: -30px;
 	font-size: 14px !important;
 	color: var(--text-standard) !important;
 }
@@ -2112,7 +2112,7 @@ body {
 }
 
 /* Gallery and channel thread list */
-.popout__76f04 {
+.didRender_faf9c0>div:first-child {
 	margin-left: 0;
 	background: transparent;
 }
