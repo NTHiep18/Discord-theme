@@ -780,7 +780,7 @@ body {
     "guildsList userPanel page" !important;
 	grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end] !important;
 	grid-template-rows: 
-    [top] var(--custom-app-top-bar-height) 
+    [top] min-content
     [titleBarEnd] min-content 
     [noticeEnd] 1fr 
     [channelsEnd] min-content
@@ -1868,7 +1868,7 @@ body {
 	box-shadow: none;
 }
 .labelContainer_c1e9c4 {
-	padding: 0px;
+	padding: 0px 8px;
 	border-radius: 4px;
 }
 .label_c1e9c4 {
@@ -1982,7 +1982,7 @@ body {
 }
 .nowPlayingColumn__133bf .scroller__7d20c {
 	border-left: none;
-	padding: 12px;
+	padding: 12px !important;
 	scrollbar-width: none;
 }
 
