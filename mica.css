@@ -139,7 +139,7 @@ body {
 	border: none !important;
 }
 .messagesWrapper__36d07 {
-	mask: none;
+	mask: none !important;
 	&:before {
     content: "";
     position: absolute;
