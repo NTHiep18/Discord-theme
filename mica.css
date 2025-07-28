@@ -189,18 +189,24 @@ body {
 	border: none;
 	border-radius: 0;
 }
+.header_c19a55 {
+	overflow: visible !important;
+}
 .clanTagChiplet_c19a55 {
 	background: var(--second-color);
 	border: none;
 	padding: 2px;
-	border-radius: 6px;
+	border-radius: 4px;
 	box-shadow: var(--shadow);
-	line-height: 12px !important;
 	transition: 300ms ease-in-out;
 	&:hover {
 		background: var(--main-color);
 	}
 }
+.tagText__10651 {
+	line-height: 12px !important;
+}
+
 .chatContent_f75fb0 .newMessagesBar__0f481,
 .chatContent_f75fb0 .jumpToPresentBar__0f481 {
 	border: none;
@@ -2018,7 +2024,6 @@ body {
 	border: 2px solid var(--main-color);
 	background: var(--second-color);
 	line-height: 12px;
-	margin-bottom: -8px;
 }
 .content__908e2:before {
 	display: none;
@@ -2073,7 +2078,7 @@ body {
 /* New pill */
 .unreadPill__908e2 {
 	padding-top: 2px;
-	top: -7px;
+	top: -6px;
     background-color: var(--main-color);
 }
 .unreadPillCapStroke__908e2 {
@@ -2082,10 +2087,22 @@ body {
 }
 .divider__908e2.isUnread__908e2, .divider__908e2:has(.content__908e2) {
 	background: transparent;
-	border-top: 1px var(--main-color) solid;
-	margin: 0 4px 4px 72px !important;
-	top: 0 !important;
+	margin: 0 8px 8px 72px !important;
+	top: 4px !important;
 	z-index: 1;
+	display: flex;
+	&:before {
+		flex: 1;
+		content: "";
+		height: 1px;
+		background: var(--main-color);
+	}
+	&:after {
+		flex: 1;
+		content: "";
+		height: 1px;
+		background: var(--main-color);
+	}	
 }
 
 /* Spoilers */
