@@ -167,7 +167,7 @@ body {
 }
 .cozy_c19a55.wrapper_c19a55 {
 	margin-right: 16px;
-    margin-left: 72px;
+    margin-left: 72px !important;
 	padding: 0;
 }
 .avatar_c19a55 {
@@ -1075,9 +1075,13 @@ body {
 	background: transparent !important;
 	outline: none;
 	box-shadow: none;
+	border-radius: 0;
 	&:before {
 		background: transparent !important;
 	}
+}
+.user-profile-modal-v2 :where(.banner__68edb) {
+	border-radius: 0;
 }
 .overlay_c0bea0 {
 	background-color: transparent !important;
