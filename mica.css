@@ -1314,12 +1314,6 @@ body {
 	height: 20px;
 	border-radius: 4px !important;
 }
-.user-profile-popout .avatar__75742 {
-	top: 65px;
-}
-.user-profile-modal .avatar__75742 {
-	top: -63px;
-}
 .headerInner__24502 {
 	padding: 16px 0;
 	margin-right: 16px;
@@ -1354,6 +1348,9 @@ body {
 }
 .flowerStar__3e3b0 path {
 	fill: var(--main-color);
+}
+.body__5be3e {
+	padding-top: 24px;
 }
 .footer__5be3e {
 	padding: 0 16px 12px;
@@ -2003,7 +2000,7 @@ body {
 /* Auto hide member list */
 .container_c8ffbb, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb) {
 	transition: 200ms ease-in-out;
-	width: 60px;
+	width: 48px;
 	margin: 0 6px;
 }
 .container_c8ffbb:hover, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb):hover {
