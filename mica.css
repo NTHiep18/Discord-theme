@@ -353,6 +353,9 @@ body {
 .container__5e208 {
 	overflow: visible;
 }
+.chatGradientBase__36d07 {
+	display: none;
+}
 
 /* Main chat scrollbar */
 .scroller__36d07.scrollerBase_d125d2 {
@@ -448,13 +451,17 @@ body {
 }
 .typing_b88801 {
 	margin: 0;
-	top: -30px;
+	top: -30px !important;
 	font-size: 14px !important;
 	color: var(--text-standard) !important;
+	padding-left: 0 !important;
 }
 .base_b88801 .ellipsis_b88801 {
 	margin: 0 8px 0 12px !important;
 	width: 32px !important;
+}
+.base_b88801 .text_b88801 {
+	margin-left: 12px;
 }
 .markup__75297 {
     color: var(--text-standard);
@@ -496,9 +503,11 @@ body {
 .attachButton__0923f {
 	height: 36px !important;
 	padding: 10px !important;
+	margin: 0 0 0 6px;
 }
-.attachWrapper__0923f {
+.channelTextArea__74017 .attachWrapper__0923f {
 	margin-left: 15px;
+	padding: 0;
 }
 .has-webkit-scrollbar .buttons__74017 {
 	margin-right: 0;
@@ -536,7 +545,6 @@ body {
 }
 .channelTextArea__74017 .textArea__74017.textAreaSlate__74017 {
 	height: 36px;
-	margin-left: 3px;
 	min-height: 36px !important;
 }
 .textArea__74017 {
