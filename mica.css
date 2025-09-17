@@ -277,6 +277,8 @@ body {
 	backdrop-filter: blur(var(--mica-filter));
 	overflow: hidden;
 	outline: none;
+	border: none;
+	padding: 0;
 }
 .nonMediaMosaicItem__06ab4 {
 	top: 4px;
@@ -315,9 +317,6 @@ body {
 .buttonInner__34c2c:hover, .addReactButton__34c2c:hover {
 	background-color: var(--main-color);
 	border-color: transparent;
-}
-.container__040f0 {
-	top: 0;
 }
 .emptyChannelIcon__00de6 {
 	background: transparent;
@@ -402,7 +401,7 @@ body {
 	border: none !important;
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
-	border-radius: 6px !important;
+	border-radius: 4px !important;
 }
 .chatContent_f75fb0 .textContainer__4d95d,
 .chatContent_f75fb0 .footer__4d95d {
@@ -506,8 +505,11 @@ body {
 	margin: 0 0 0 6px;
 }
 .channelTextArea__74017 .attachWrapper__0923f {
-	margin-left: 15px;
 	padding: 0;
+}
+.align-chat-input .button__24af7:not(.noHover__24af7):hover,
+.align-chat-input .attachButtonInner__0923f:hover {
+	background-color: transparent;
 }
 .has-webkit-scrollbar .buttons__74017 {
 	margin-right: 0;
@@ -1591,13 +1593,15 @@ body {
 
 /* Search box */
 .searchBar__97492 {
-	background: rgb(from var(--main-color) r g b / .05) !important;
+	background: transparent !important;
 	border: none !important;
 	border-radius: 6px !important;
-	transition: 300ms;
+	transition: 300ms !important;
+	width: 40px;
 	&:focus-within {
 		background: var(--second-color) !important;
 		box-shadow: var(--shadow);
+		width: 200px;
 	}
 }
 .search__97492 .DraftEditor-root {
@@ -2463,6 +2467,30 @@ body {
 	transition: 300ms ease-in-out;
 	&:hover {
 		background: var(--main-color) !important;
+	}
+}
+
+/* thread button */
+.browser_d98031 {
+	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	backdrop-filter: blur(var(--mica-filter));
+	border: none !important;
+	box-shadow: var(--shadow) !important;
+	border-radius: 8px !important;
+}
+.container__6764b {
+	background: var(--second-color) !important;
+	box-shadow: var(--shadow) !important;
+	border-radius: 4px;
+	border: none !important;
+	padding: 8px !important;
+	height: 64px;
+	transition: 300ms ease-in-out;
+	&:hover {
+		background: var(--main-color) !important;
+	}
+	&.left__6764b {
+		gap: 4px;
 	}
 }
 
