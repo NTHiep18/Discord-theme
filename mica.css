@@ -52,7 +52,7 @@
 	background: var(--background-overlay) !important;
 }
 .bg__960e4, .app__160d8, .container__2637a, .sidebar_c48ade, .guilds_c48ade, .container__37e49, .content__37e49, .chat_f75fb0,
-.container_c8ffbb, .container__7641b, .member_c8ffbb, .scroller__99e7c, .container__133bf, .container__7d20c, .searchBar__5ec2f,
+.container_c8ffbb, .container__7641b, .member_c8ffbb, .scroller__99e7c, .container__133bf, .container__7d20c,
 .statusBubble_a82ccc, .statusBubble_af9888, .privateChannels__35e86, .tabBody__133bf, .chatContent_f75fb0, .theme-dark .container_f369db,
 .layer__960e4, .standardSidebarView__23e6b, .contentRegion__23e6b, .contentRegionScroller__23e6b,
 .container__01ae2 {
@@ -483,11 +483,11 @@ body {
 .form_f75fb0 .channelTextArea__74017:before {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow) !important;
+	backdrop-filter: blur(var(--mica-filter));
 }
 .channelTextArea__74017:focus-within:before {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow) !important;
-	backdrop-filter: blur(var(--mica-filter));
 }
 .channelTextArea__74017
 .channelBottomBarArea_f75fb0 .channelTextArea__74017 {
@@ -1096,7 +1096,7 @@ body {
 .overlay_c0bea0 {
 	background-color: transparent !important;
 }
-:not(.wrapper__3412a).input__0f084 {
+:not(.wrapper__3412a) > .input__0f084 {
 	border: none !important;
 	background: rgb(from var(--main-color) r g b / 0.05) !important;
 	transition: 300ms ease-in-out;
@@ -1956,8 +1956,13 @@ body {
 		background: var(--main-color) !important;
 	}
 }
-.searchBar__5ec2f:focus-within {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+.searchBar__5ec2f {
+	transition: 300ms ease-in-out;
+	&:focus-within {
+	background: var(--second-color) !important;
+	box-shadow: var(--shadow);
+	border-radius: 8px;
+	}
 }
 .title__1472a {
 	color: var(--text-standard);
@@ -2302,8 +2307,8 @@ body {
 }
 
 /* tooltips */
-.layer_da8173:has(.tooltip__382e7):before, 
-.layer_da8173:has(.popout__76f04):before {
+.layer__59d0d:has(.tooltip__382e7):before, 
+.layer__59d0d:has(.popout__76f04):before {
 	display: none;
 }
 .theme-dark .tooltip__382e7 {
@@ -2324,12 +2329,12 @@ body {
 .theme-dark .tooltip__382e7.tooltipPrimary__382e7>.tooltipPointer__382e7 {
     display:none;
 }
-.layer_da8173 .popoutContainer__0f481 {
+.layer__59d0d .popoutContainer__0f481 {
 	background: rgb(var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
 }
-.layer_da8173 .guildSection_d5cd2d {
+.layer__59d0d .guildSection_d5cd2d {
 	background: transparent;
 }
 
@@ -2362,7 +2367,7 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow);
 }
-.layer_da8173:has([aria-label = "Inbox"]) {
+.layer__59d0d:has([aria-label = "Inbox"]) {
 	backdrop-filter: blur(var(--mica-filter));
 }
 .recentMentionsPopout__95796 .scrollerBase_d125d2 {
@@ -2433,7 +2438,7 @@ body {
 }
 
 /* pin */
-.layer_da8173:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap__45690 {
+.layer__59d0d:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap__45690 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow) !important;
 	backdrop-filter: blur(var(--mica-filter));
@@ -2612,13 +2617,13 @@ body {
 }
 
 /* emote, gif, sticker picker */
-.layer_da8173:has(.positionContainer__08434):before {
+.layer__59d0d:has(.positionContainer__08434):before {
 	display: none;
 }
 .drawerSizingWrapper__08434 {
 	width: 512px !important;
 }
-.layerContainer_da8173 .contentWrapper__08434 {
+.layerContainer__59d0d .contentWrapper__08434 {
 	background: transparent;
 	box-shadow: var(--shadow);
 	border: none;
@@ -2630,6 +2635,7 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
+	z-index: -1;
 }
 .navList__08434 {
 	gap: 8px;
