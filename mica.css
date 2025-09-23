@@ -1335,7 +1335,6 @@ body {
 .spriteGreyscale__04eed {
 	color: var(--channel-color) !important;
 }
-.connectedAccountNameText_e6abe8,
 .pronouns__63ed3,
 .userTagUsername__63ed3, .listRow__9d78f,
 .guildNick_aafe31, .discordIcon_c4eb81, .emptyText__9d78f,
@@ -1347,18 +1346,12 @@ body {
 .activity__5be3e path {
 	fill: var(--text-standard) !important;
 }
-.container__8061a {
+.connection__9bfb9 {
 	background: var(--second-color) !important;
 	border: none;
 	box-shadow: var(--shadow);
-	border-radius: 4px;
-}
-.connectedAccountContainer_e6abe8 {
-	background: var(--second-color) !important;
-	border: none;
-	border-radius: 6px;
+	border-radius: 8px;
 	padding: 8px;
-	box-shadow: var(--shadow);
 }
 .flowerStar__3e3b0 path {
 	fill: var(--main-color);
@@ -1380,29 +1373,20 @@ body {
 }
 .menus_ce8328 {
 	gap: 0;
-	& .menuDivider_ce8328 {
+	& .menuItem_ce8328:after {
 		display: none;
 	}
+	& .menuItemInner_ce8328:hover {
+		background: var(--second-color);
+		box-shadow: var(--shadow);
+	}
+}
+.body_ce8328 {
+	padding: 8px 16px !important;
 }
 .menuOverlay_ce8328 {
 	padding: 0;
 	overflow: visible;
-}
-.submenuPaddingContainer_ce8328 {
-	padding: 0;
-	& .menu_c1e9c4 {
-		background: transparent;
-		border: none;
-	}
-}
-
-.button__201d5 {
-	border-radius: 4px;
-	transition: 300ms ease-in-out;
-	&:hover {
-		background: var(--second-color);
-		box-shadow: var(--shadow);
-	}
 }
 
 /* Setting menu */
@@ -1522,7 +1506,7 @@ body {
 .divider__46c3b {
 	border-top-color: var(--main-color);
 }
-.lookFilled__201d5, .lookOutlined__201d5 {
+.button__201d5, .button_a22cb0 {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	border: none !important;
@@ -2492,12 +2476,12 @@ body {
 }
 
 /* thread button */
-.header_d9c882 {
+.header_d9c882, .container_d9c882 {
 	background: transparent;
 	border: none;
 }
-.browser_d98031 {
-	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+.browser_d98031, .container__53cea {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border: none !important;
 	box-shadow: var(--shadow) !important;
