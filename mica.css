@@ -1693,7 +1693,16 @@ body {
 .wrapper__3412a {
 	background: transparent;
 	border: none;
-	border-radius: 0;
+	border: none !important;
+	transition: 300ms ease-in-out;
+	border-radius: 6px;
+	&::placeholder {
+		color: var(--text-standard);
+	}
+	&:focus-within {
+		background: rgb(from var(--main-color) r g b / 0.2) !important;
+		box-shadow: var(--shadow);
+	}
 	&.input__0f084 {
 		height: 36px;
 		padding-left: 12px;
@@ -2045,7 +2054,7 @@ body {
 .content__908e2 {
 	border-radius: 4px;
 	color: var(--text-normal);
-	border: 2px solid var(--main-color);
+	box-shadow: var(--shadow);
 	background: var(--second-color);
 	line-height: 12px;
 }
@@ -2649,6 +2658,9 @@ body {
 			background: transparent;
 			box-shadow: var(--shadow);
 		}
+	& .stickersNavItem__08434 {
+		text-align: center;
+		}
 	}
 }
 .navItem__08434.navButtonActive__08434 {
@@ -2666,18 +2678,27 @@ body {
 	margin: 0;
 	border: none;
 }
-.layerContainer_da8173 .emojiPicker_c0e32c {
-	background: transparent ;
+.container__0f084 .icon__0f084 {
+	height: 32px;
+	width: 32px;
+	border: none;
+}
+.header_c0e32c .button__201d5 {
+	height: 32px;
+	min-height: 32px;
+}
+.emojiPicker_c0e32c {
+	background: transparent;
 	box-shadow: none;
 }
 .bodyWrapper_c0e32c, .wrapper_e94b8c {
 	margin-left: 16px;
 	padding-right: 4px;
 }
-.layerContainer_da8173 .scrollerBase_d125d2 {
+.scrollerBase_d125d2 {
 	scrollbar-width: none;
 }
-.layerContainer_da8173 .wrapper__14245 {
+.wrapper__14245 {
 	background: var(--second-color);
     box-shadow: var(--shadow);
     border-radius: 8px;
@@ -2701,7 +2722,7 @@ body {
 .headerCollapseIcon__14245 {
 	margin-left: auto;
 }
-.layerContainer_da8173 .inspector_aeaaeb {
+.inspector_aeaaeb {
 	margin: 0 8px 8px 16px;
 	background: var(--second-color);
     box-shadow: var(--shadow);
@@ -2754,9 +2775,13 @@ body {
 	background: transparent !important;
 	box-shadow: none;
 	padding: 0 8px 12px 8px !important;
+	border: none;
 }
 .message__89466 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border: none;
 	box-shadow: var(--shadow);
+}
+.row_c6367b {
+	padding-bottom: 4px;
 }
