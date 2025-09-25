@@ -213,7 +213,7 @@ body {
 	height: 24px;
 	background: var(--second-color);
 	padding-bottom: 0;
-	margin-right: 12px 12px 0;
+	margin: 0;
 	left: auto !important;
 	width: 400px;
 	box-shadow: var(--shadow);
