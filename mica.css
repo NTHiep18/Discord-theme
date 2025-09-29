@@ -71,9 +71,7 @@ body {
 .typeWindows__421ed>.wordmark__421ed svg {display:none;}
 
 /* Add mica effect */
-.sidebarList_c48ade:before, .messagesWrapper__36d07:before,
-.members_c8ffbb,.wrapper__44df5, .toast__3fde7,
-.base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
+.wrapper__44df5, .toast__3fde7, .base_c48ade .container__9293f, .content_f75fb0 .searchResultsWrap_a9e706, .peopleColumn__133bf,
 .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
 .chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0:before, .list_dcc822 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -457,7 +455,7 @@ body {
 .chatContent_f75fb0 .form_f75fb0 {
 	padding: 0 !important;
 	background-color: transparent;
-	margin-top: 12px;
+	margin-top: 0;
 }
 .typing_b88801 {
 	margin: 0;
@@ -490,11 +488,6 @@ body {
 	position: absolute;
 	content: '';
 	inset: 0;
-}
-.form_f75fb0 .channelTextArea__74017:before {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-	box-shadow: var(--shadow) !important;
-	backdrop-filter: blur(var(--mica-filter));
 }
 .channelTextArea__74017:focus-within:before {
 	background: var(--second-color) !important;
@@ -658,8 +651,7 @@ body {
 	grid-area: userPanel;
 	border-radius: 8px !important;
 	margin: 0;
-	inset: auto 0 0 auto !important;
-	min-width: 240px !important;
+	min-width: 216px !important;
 	border: none !important;
 	background: transparent !important;
 	box-shadow: var(--shadow);
@@ -832,12 +824,6 @@ body {
 	margin-bottom: 12px;
 	border-radius: 8px;
     box-shadow: var(--shadow);
-}
-.sidebarList_c48ade:before {
-	display: block;
-	position: absolute;
-	content: "";
-	inset: 0;
 }
 .content__99f8c .sectionDivider__629e4 {
     width: calc(100% - 12px);
@@ -1373,12 +1359,6 @@ body {
 }
 .footer__5be3e {
 	padding: 0 16px 12px;
-	& > .channelTextArea__74017 {
-		margin-bottom: 0;
-		border: none;
-		background: transparent !important;
-		border-radius: 6px;
-	}
 	& .inner__74017 {
 		padding-left: 0
 	}
