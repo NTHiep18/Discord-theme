@@ -52,7 +52,8 @@
 	background: var(--background-overlay) !important;
 }
 .bg__960e4, .app__160d8, .container__2637a, .sidebar_c48ade, .guilds_c48ade, .container__37e49, .content__37e49, .chat_f75fb0,
-.container_c8ffbb, .container__7641b, .member_c8ffbb, .content_f75fb0 .searchResultsWrap_a9e706, .scroller__99e7c, .container__133bf, .container__7d20c, .base_c48ade .container__9293f,
+.container_c8ffbb, .container__7641b, .member_c8ffbb, .content_f75fb0 .searchResultsWrap_a9e706,
+.scroller__99e7c, .container__133bf, .nowPlayingColumn__133bf, .container__7d20c, .base_c48ade .container__9293f,
 .members_c8ffbb, .statusBubble_a82ccc, .statusBubble_af9888, .privateChannels__35e86, .tabBody__133bf, .chatContent_f75fb0, .theme-dark .container_f369db,
 .layer__960e4, .standardSidebarView__23e6b, .contentRegion__23e6b, .contentRegionScroller__23e6b,
 .container__01ae2 {
@@ -105,10 +106,6 @@ body {
 .peopleColumn__133bf {
 	height: fit-content;
 	margin: 6px;
-}
-.nowPlayingColumn__133bf {
-	height: fit-content;
-	margin: 6px 12px auto 6px;
 }
 .list_dcc822 {
 	margin:6px 12px 12px 6px
@@ -373,6 +370,7 @@ body {
     }
     &::-webkit-scrollbar-track {
     background: transparent;
+	margin-bottom: 8px;
     }
     &::-webkit-scrollbar-thumb {
     background: var(--main-color);
@@ -713,7 +711,8 @@ body {
 	border-radius: 0;
 	height: 36px;
 	width: 36px;
-	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity))  !important;
+	background-color: var(--second-color) !important;
+	box-shadow: none;
 	transition: 300ms ease-in-out;
 	margin: 0;
 	&:hover {
@@ -726,7 +725,7 @@ body {
 .panels_c48ade .lookFilled__201d5 {
 	border-radius: 0;
 	box-shadow: none;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color) !important;
 }
 .panels_c48ade .container_e131a9 {
 	background: transparent;
@@ -737,7 +736,7 @@ body {
 	border-radius: 0;
 }
 .inner_e131a9 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) ;
+	background: var(--second-color);
 }
 .panels_c48ade .actionButtons_e131a9 {
 	grid-gap: 0;
@@ -1987,6 +1986,9 @@ body {
 	border-left: none;
 	padding: 12px !important;
 	scrollbar-width: none;
+}
+.header__7d20c {
+	text-align: center;
 }
 
 /* DMs */
