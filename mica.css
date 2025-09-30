@@ -875,7 +875,7 @@ body {
 	padding-bottom: 12px !important;
 	margin-left: 0;
 }
-.sidebarList_c48ade .scrollerBase_d125d2	 {
+.container__2637a:before {
     display: flex;
     content: "Glass";
     position: absolute;
@@ -892,7 +892,7 @@ body {
     display: flex;
     content: "Cord";
     position: absolute;
-	left:50%;.sidebarList_c48ade .scrollerBase_d125d2	
+	left:50%;
 	font-size: 14px;
     justify-content: left;
     bottom: -2px;
@@ -2016,7 +2016,7 @@ body {
 /* Auto hide member list */
 .container_c8ffbb, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb) {
 	transition: 200ms ease-in-out;
-	width: 48px;
+	width: 56px;
 }
 .container_c8ffbb:hover, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb):hover {
 	width: 240px;
