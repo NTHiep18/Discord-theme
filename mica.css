@@ -458,7 +458,7 @@ body {
 }
 .typing_b88801 {
 	margin: 0;
-	top: -30px !important;
+	top: -20px !important;
 	font-size: 14px !important;
 	color: var(--text-standard) !important;
 	padding-left: 0 !important;
@@ -468,7 +468,7 @@ body {
 	width: 32px !important;
 }
 .base_b88801 .text_b88801 {
-	margin-left: 12px;
+	margin-left: 6px;
 }
 .markup__75297 {
     color: var(--text-standard);
