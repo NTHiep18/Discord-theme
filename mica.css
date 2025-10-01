@@ -81,7 +81,7 @@ body {
 	box-shadow: var(--shadow) !important;
 }
 .content_c48ade {
-	margin: 0px 12px 12px 0;
+	margin: 0px 20px 20px 0;
 	position: relative;
 }
 .content_c48ade:before {
@@ -228,9 +228,6 @@ body {
 		background: transparent !important;
 		box-shadow: none;
 	}
-}
-.chatContent_f75fb0 .newMessagesBar__0f481 {
-	top: 16px;
 }
 .chatContent_f75fb0 .jumpToPresentBar__0f481 {
 	right: 16px;
@@ -573,7 +570,7 @@ body {
 
 /* Top bar */
 .bar_c38106 {
-	margin: 12px;
+	margin: 20px;
 }
 .title_c38106 {
 	left: 52px;
@@ -595,9 +592,16 @@ body {
     backdrop-filter: blur(var(--mica-filter));
     box-shadow: var(--shadow);
 	border-radius: 6px;
+	gap: 0;
+} 
+.winButtons_c38106 {
+	gap: 0;
+	&:before {
+		display: none;
+	}
 }
 .base_c48ade .container__9293f {
-    width: auto;
+   width: auto;
     height: 40px;
     min-height: 40px;
 	padding: 0;
