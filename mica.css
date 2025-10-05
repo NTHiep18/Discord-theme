@@ -53,7 +53,7 @@
 }
 .bg__960e4, .app__160d8, .container__2637a, .sidebar_c48ade, .guilds_c48ade, .container__37e49, .content__37e49, .chat_f75fb0,
 .container_c8ffbb, .container__7641b, .member_c8ffbb, .content_f75fb0,
-.scroller__99e7c, .container__133bf, .nowPlayingColumn__133bf, .container__7d20c, .base_c48ade .container__9293f,
+.scroller__99e7c, .container__133bf,  .container__7d20c, 
 .members_c8ffbb, .statusBubble_a82ccc, .statusBubble_af9888, .privateChannels__35e86, .tabBody__133bf, .chatContent_f75fb0, .theme-dark .container_f369db,
 .layer__960e4, .standardSidebarView__23e6b, .contentRegion__23e6b, .contentRegionScroller__23e6b,
 .container__01ae2 {
@@ -72,9 +72,9 @@ body {
 .typeWindows__421ed>.wordmark__421ed svg {display:none;}
 
 /* Add mica effect */
-.wrapper__44df5, .toast__3fde7, .sidebar_c48ade:before, .subtitleContainer_f75fb0,
-.chatContent_f75fb0:before, .container__7641b:before, .searchResultsWrap_a9e706,
-.mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
+.wrapper__44df5, .toast__3fde7, .sidebar_c48ade:before, .base_c48ade .container__9293f,
+.chatContent_f75fb0:before, .container__7641b:before, .container_c8ffbb:before, .searchResultsWrap_a9e706,
+.peopleColumn__133bf, .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
 .chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0:before, .list_dcc822 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
@@ -114,6 +114,11 @@ body {
 .scroller__36d07 {
 	margin-bottom: 0;
 }
+.container_c8ffbb:before {
+	position: absolute;
+	content: '';
+	inset: 0;
+}
 .container__7641b:before {
 	position: absolute;
 	content: '';
@@ -121,10 +126,10 @@ body {
 }
 .peopleColumn__133bf {
 	height: fit-content;
-	margin: 20px;
+	margin: 0 20px 0 0;
 }
-.list_dcc822 {
-	margin:6px 12px 12px 6px
+.nowPlayingColumn__133bf {
+	height: fit-content;
 }
 .characterBackground_eb4069 .artwork_eb4069 {
 	display: none;
@@ -512,7 +517,7 @@ body {
 .attachButton__0923f {
 	height: 36px !important;
 	padding: 10px !important;
-	margin: 0 0 0 6px;
+	margin: 0;
 }
 .channelTextArea__74017 .attachWrapper__0923f {
 	padding: 0;
@@ -580,15 +585,17 @@ body {
 
 /* Top bar */
 .bar_c38106 {
-	margin: 20px;
+	min-height: 0;
+	height: 20px;
 }
 .title_c38106 {
 	left: 52px;
 	width: 240px;
-    background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-    border-radius: 8px;
-    box-shadow: var(--shadow);
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	border-radius: 8px;
+	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
+	display: none;
 }
 .title__85643 {
 	padding: 4px 32px 2px 32px;
@@ -598,11 +605,11 @@ body {
 	box-shadow: var(--shadow);
 }
 .trailing_c38106 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-    backdrop-filter: blur(var(--mica-filter));
-    box-shadow: var(--shadow);
-	border-radius: 6px;
 	gap: 0;
+	top: 32px;
+	right: 20px;
+	border-left: 1px solid var(--text-faded);
+	z-index: 100;
 } 
 .winButtons_c38106 {
 	gap: 0;
@@ -616,6 +623,7 @@ body {
     min-height: 40px;
 	padding: 0;
 	border: none !important;
+	z-index: 0;
 }
 .container__9293f .topic__6ec1a {
 	color: var(--text-standard);
@@ -629,18 +637,34 @@ body {
 .children__9293f {
 	margin-left: 8px;
 }
-.children__9293f:after {
+.base_c48ade .children__9293f:after {
 	width: 1px;
-	height: 24px;
-	top: 8px;
-	background: var(--text-standard);
+	height: 32px;
+	top: 4px;
+	background: var(--text-faded);
 }
 .divider__9293f {
 	background: var(--text-standard);
 	margin: 0;
 }
 .toolbar__9293f {
-	padding-right: 4px;
+	padding-right: 160px;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	&>:not(.search__49676) {
 		height: auto;
 		padding: 4px;
@@ -1593,11 +1617,11 @@ body {
 	}
 }
 .search__97492 .DraftEditor-root {
-	padding: 2px 4px 0 !important;
+	padding: 0 !important;
 	font-size: 16px;
 }
 .search__97492 .DraftEditor-root .public-DraftEditor-content, .search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root {
-	padding-bottom: 0;
+	/* padding: 0; */
 	scrollbar-width: none;
 }
 .searchBar__97492 .icon__97492 {
@@ -2020,6 +2044,7 @@ body {
 
 /* Member list */
 .container_c8ffbb, .container__7641b {
+	position: relative;
 	border: none !important;
 	& .scrollerBase_d125d2 {
 		scrollbar-width: none;
