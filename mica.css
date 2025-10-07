@@ -606,7 +606,7 @@ body {
 }
 .trailing_c38106 {
 	gap: 0;
-	top: 32px;
+	top: 30px;
 	right: 20px;
 	border-left: 1px solid var(--text-faded);
 	z-index: 100;
@@ -975,7 +975,7 @@ body {
 }
 .link__2ea32 {
 	border-radius: 4px;
-	padding: 0;
+	padding: 0 !important;
 	border: none;
 	transition: background 300ms ease-in-out;
 }
