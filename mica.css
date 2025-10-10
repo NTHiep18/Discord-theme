@@ -54,7 +54,7 @@
 .bg__960e4, .app__160d8, .container__2637a, .sidebar_c48ade, .guilds_c48ade, .container__37e49, .content__37e49, .chat_f75fb0,
 .container_c8ffbb, .container__7641b, .member_c8ffbb, .content_f75fb0,
 .scroller__99e7c, .container__133bf,  .container__7d20c, 
-.members_c8ffbb, .statusBubble_a82ccc, .statusBubble_af9888, .privateChannels__35e86, .tabBody__133bf, .chatContent_f75fb0, .theme-dark .container_f369db,
+.members_c8ffbb, .statusBubble_a82ccc, .statusBubble_af9888, .privateChannels__35e86, .tabBody__133bf, .chatContent_f75fb0,
 .layer__960e4, .standardSidebarView__23e6b, .contentRegion__23e6b, .contentRegionScroller__23e6b,
 .container__01ae2 {
     background: transparent !important;
@@ -74,8 +74,8 @@ body {
 /* Add mica effect */
 .wrapper__44df5, .toast__3fde7, .sidebar_c48ade:before, .base_c48ade .container__9293f,
 .chatContent_f75fb0:before, .container__7641b:before, .container_c8ffbb:before, .searchResultsWrap_a9e706,
-.peopleColumn__133bf, .nowPlayingColumn__133bf, .mainCard_f369db, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
-.chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0:before, .list_dcc822 {
+.peopleColumn__133bf, .nowPlayingColumn__133bf, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
+.container_f369db, .chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0:before, .list_dcc822 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
@@ -101,18 +101,21 @@ body {
 .page_c48ade  {
 	overflow: visible !important;
 }
+.base_c48ade .container__9293f {
+	margin-bottom: 20px;
+}
 .chat_f75fb0 {
 	border: none !important;
 	overflow: visible;
-}
-.content_f75fb0 {
-	margin-top: 20px;
 }
 .chatContent_f75fb0 {
 	margin-right: 20px;
 }
 .scroller__36d07 {
 	margin-bottom: 0;
+}
+.container_f369db {
+	margin-right: 20px;
 }
 .container_c8ffbb:before {
 	position: absolute;
@@ -618,7 +621,7 @@ body {
 	}
 }
 .base_c48ade .container__9293f {
-   width: auto;
+    width: auto;
     height: 40px;
     min-height: 40px;
 	padding: 0;
@@ -2057,7 +2060,7 @@ body {
 /* Auto hide member list */
 .container_c8ffbb, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb) {
 	transition: 200ms ease-in-out;
-	width: 56px;
+	width: 48px;
 }
 .container_c8ffbb:hover, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb):hover {
 	width: 240px;
@@ -2068,6 +2071,9 @@ body {
 }
 .members_c8ffbb {
 	width: inherit;
+}
+.member_c8ffbb {
+	margin-left: 0;
 }
 
 /* Day change notif */
@@ -2180,38 +2186,47 @@ body {
 }
 .list_f369db, .grid_f369db {
 	border-radius: 8px;
-    margin: 6px 0px 0px 6px;
-    width: calc(100% - 6px);
+    margin: 8px 0 8px;
+    width: calc(100% - 16px);
+	scrollbar-width: none;
 }
 .chat_f75fb0.threadSidebarOpen_f75fb0 {
 	margin: 0;
 }
-
-.content_f75fb0 .container_f369db {
-	margin-right: 6px;
-	margin-bottom: 12px;
-	border: none !important;
-}
 .pill_a2c9e8 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
+	background: var(--second-color) !important;
 	border: none !important;
 	border-radius: 4px;
 	box-shadow: var(--shadow);
 	&:hover {
-		background: var(--second-color) !important;
+		background: var(--main-color) !important;
 	}
 }
 .tags__08166 .pill_a2c9e8 {
-	background: var(--second-color) !important;
+	background: var(--main-color) !important;
 	border: none !important;
 	border-radius: 4px;
 	box-shadow: var(--shadow);
 }
 .headerRow_f369db {
-	left: 0 !important;
-	top: 0 !important;
 	width: 100% !important;
-	padding-right: 6px !important;
+	padding-right: 8px !important;
+	& .mainCard_f369db {
+		background: none;
+		box-shadow: none !important;
+		border-radius: 12px;
+		&:hover {
+			background: var(--second-color);
+			box-shadow: var(--shadow);
+		}
+	}
+}
+.matchingPostsRow_f369db {
+	background: none;
+	border: none;
+}
+.tagsContainer_f369db {
+	padding-top: 12px;
 }
 .resizeHandle__01ae2 {
 	border-bottom-left-radius: 8px !important;
@@ -2260,10 +2275,13 @@ body {
 .mainCard_f369db {
 	border: none !important;
 	transition: 300ms ease-in-out;
+	background: var(--second-color);
+	box-shadow:  var(--shadow) !important;	
 	&:hover {
-		background-color: var(--second-color) !important;
+		background-color: var(--main-color) !important;
 	}
 }
+
 .spine__5b40b {
 	width: 16px !important;
     height: 16px !important;
