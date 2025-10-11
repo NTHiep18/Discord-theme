@@ -52,7 +52,7 @@
 	background: var(--background-overlay) !important;
 }
 .bg__960e4, .app__160d8, .container__2637a, .sidebar_c48ade, .guilds_c48ade, .container__37e49, .content__37e49, .chat_f75fb0,
-.container_c8ffbb, .container__7641b, .member_c8ffbb, .content_f75fb0,
+.container_c8ffbb, .container__7641b, .content_f75fb0,
 .scroller__99e7c, .container__133bf,  .container__7d20c, 
 .members_c8ffbb, .statusBubble_a82ccc, .statusBubble_af9888, .privateChannels__35e86, .tabBody__133bf, .chatContent_f75fb0,
 .layer__960e4, .standardSidebarView__23e6b, .contentRegion__23e6b, .contentRegionScroller__23e6b,
@@ -92,7 +92,7 @@ body {
 	inset: 0;
 }
 .content_c48ade {
-	margin: 0px 20px 20px 0;
+	margin: 0px 0px 20px 0;
 	position: relative;
 }
 .sidebar_c48ade {
@@ -108,14 +108,8 @@ body {
 	border: none !important;
 	overflow: visible;
 }
-.chatContent_f75fb0 {
-	margin-right: 20px;
-}
 .scroller__36d07 {
 	margin-bottom: 0;
-}
-.container_f369db {
-	margin-right: 20px;
 }
 .container_c8ffbb:before {
 	position: absolute;
@@ -161,6 +155,7 @@ body {
 /* Main chat */
 .content_f75fb0, .subtitleContainer_f75fb0 {
 	border: none !important;
+	margin-right: 20px;
 }
 .messagesWrapper__36d07 {
 	mask: none !important;
@@ -651,23 +646,7 @@ body {
 	margin: 0;
 }
 .toolbar__9293f {
-	padding-right: 160px;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	padding-right: 164px;
 	&>:not(.search__49676) {
 		height: auto;
 		padding: 4px;
@@ -2049,10 +2028,10 @@ body {
 .container_c8ffbb, .container__7641b {
 	position: relative;
 	border: none !important;
+	margin-left: 20px;
 	& .scrollerBase_d125d2 {
 		scrollbar-width: none;
 	}
-}
 }
 .member__5d473 {
 	margin-left: 0;
@@ -2233,8 +2212,11 @@ body {
 	border-top-left-radius: 8px !important;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
-	height: calc(100% - 12px);
 	box-shadow: var(--shadow);
+	margin-right: 4px;
+	&:hover {
+		background: var(--main-color) !important;
+	}
 }
 .chatLayerWrapper__01ae2 .container__01ae2 {
 	border: none;
