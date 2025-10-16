@@ -242,6 +242,9 @@ body {
 		box-shadow: none;
 	}
 }
+.chatContent_f75fb0 .newMessagesBar__0f481 {
+	top: 12px;
+}
 .chatContent_f75fb0 .jumpToPresentBar__0f481 {
 	right: 16px;
 	bottom: 8px;
@@ -464,7 +467,7 @@ body {
 .chatContent_f75fb0 .form_f75fb0 {
 	padding: 0 !important;
 	background-color: transparent;
-	margin: 0 6px 8px;
+	margin: 0 12px 12px;
 }
 .typing_b88801 {
 	margin: 0;
@@ -2035,6 +2038,7 @@ body {
 }
 .member__5d473 {
 	margin-left: 0;
+	background: transparent;
 }
 /* Auto hide member list */
 .container_c8ffbb, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb) {
@@ -2050,9 +2054,6 @@ body {
 }
 .members_c8ffbb {
 	width: inherit;
-}
-.member_c8ffbb {
-	margin-left: 0;
 }
 
 /* Day change notif */
@@ -2220,6 +2221,8 @@ body {
 }
 .chatLayerWrapper__01ae2 .container__01ae2 {
 	border: none;
+	margin-right: 20px;
+	overflow: visible;
 }
 .chat_ee72fa:before {
 	display: none;
@@ -2336,11 +2339,7 @@ body {
 }
 
 /* tooltips */
-.layer__59d0d:has(.tooltip__382e7):before, 
-.layer__59d0d:has(.popout__76f04):before {
-	display: none;
-}
-.theme-dark .tooltip__382e7, .tooltip__4e35b {
+.tooltip_c36707, .tooltip__4e35b {
 	border-radius: 8px;
 	background: var(--second-color);
 	backdrop-filter: blur(var(--mica-filter));
@@ -2355,7 +2354,7 @@ body {
 	box-shadow: none;
 	padding: 12px;
 }
-.theme-dark .tooltip__382e7.tooltipPrimary__382e7>.tooltipPointer__382e7, .caret__5bc6a {
+.tooltipPointer_c36707 {
     display:none;
 }
 .layer__59d0d .popoutContainer__0f481 {
