@@ -677,6 +677,9 @@ body {
 	border: none !important;
 	background: transparent !important;
 	box-shadow: var(--shadow);
+	bottom: 12px;
+	left: 12px;
+	width: fit-content;
 	position: relative !important;
 	backdrop-filter: blur(var(--mica-filter));
 	overflow: hidden;
@@ -1933,9 +1936,12 @@ body {
 /* Homepage */
 .container__133bf {
 	border: none !important;
+	margin-right: 20px;
+	overflow: visible;
 }
 .tabBody__133bf {
 	border: none !important;
+	overflow: visible;
 }
 .channel__972a0 {
 	margin: 8px;
@@ -2171,7 +2177,7 @@ body {
 	scrollbar-width: none;
 }
 .chat_f75fb0.threadSidebarOpen_f75fb0 {
-	margin: 0;
+	margin-right: 20px;
 }
 .pill_a2c9e8 {
 	background: var(--second-color) !important;
@@ -2263,6 +2269,9 @@ body {
 	background: var(--second-color);
 	box-shadow:  var(--shadow) !important;	
 	&:hover {
+		background-color: var(--main-color) !important;
+	}
+	&.isOpen_faa96b {
 		background-color: var(--main-color) !important;
 	}
 }
