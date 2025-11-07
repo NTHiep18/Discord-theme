@@ -1408,7 +1408,6 @@ body {
 /* Setting menu */
 .sidebarRegionScroller__23e6b.scrollerBase_d125d2 {
 	scrollbar-width: none;
-	margin-bottom: 12px;
     box-shadow: var(--shadow);
     border-radius: 8px;
 }
@@ -1422,8 +1421,7 @@ body {
 .sidebarRegion__23e6b .sidebarRegionScroller__23e6b {
 	backdrop-filter: blur(var(--mica-filter));
 	max-width: 200px;
-	margin-top: 36px;
-	margin-right: 12px;
+	margin: 36px 20px 20px auto;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 }
 .sidebar__23e6b {
@@ -1446,6 +1444,7 @@ body {
 }
 .contentRegionScroller__23e6b {
 	height: calc(100% - 36px);
+	margin-top: 36px !important;
 }
 .contentRegionScroller__23e6b .toolsContainer__23e6b {
 	margin: 0px;
