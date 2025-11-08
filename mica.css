@@ -1224,14 +1224,14 @@ body {
 .text__530ce {
 	color: var(--text-standard) !important;
 }
-.top_b3f026 {
+.top_aa8da2 {
 	display: flex;
 	gap: 4px;
 	border-bottom: none;
 	max-width: 100%;
 	z-index: 3;
 }
-.item_b3f026 {
+.item_aa8da2 {
 	transition: 300ms ease-in-out !important;
 	color: var(--channel-color) !important;
 	font-size: 16px !important;
@@ -1240,7 +1240,7 @@ body {
 		display: none !important;
 	}
 }
-.top_b3f026 .item_b3f026 {
+.top_aa8da2 .item_aa8da2 {
 	background: transparent;
 	flex-grow: 1;
 	flex-basis: 0;
@@ -1253,11 +1253,11 @@ body {
 	margin: 0 !important;
 	justify-content: center;
 }
-.item_b3f026:hover {
+.item_aa8da2:hover {
 	background: transparent !important;
 	box-shadow: var(--shadow);
 }
-.selected_b3f026.item_b3f026 {
+.selected_aa8da2.item_aa8da2 {
 	color: var(--text-standard) !important;
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
@@ -1321,7 +1321,7 @@ body {
 	z-index: 2;
 	margin: 2px !important;
 }
-.role_dfa8b6 .overflow__82b15 {
+.role_dfa8b6 .overflow_b0dfc2 {
 	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.4), 1px -1px 2px rgb(0, 0, 0, 0.4), -1px 1px 2px rgb(0, 0, 0, 0.4), -1px -1px 2px rgb(0, 0, 0, 0.4);
 	padding: 4px;
 	margin-right: 0;
@@ -1433,7 +1433,7 @@ body {
 	width: 100%;
 	padding: 0;
 }
-.side_b3f026 {
+.side_aa8da2 {
 	padding: 6px;
 }
 .contentRegion__23e6b {
@@ -1467,7 +1467,7 @@ body {
 .peopleList__5ec2f.scrollerBase_d125d2 {
 	scrollbar-width: none;
 }
-.header_b3f026 {
+.header_aa8da2 {
 	color: var(--main-color);
 }
 .empty__99e7c {
@@ -1591,7 +1591,7 @@ body {
 	margin-top: 8px !important;
 }
 .bd-settings-group.collapsible .bd-settings-title:before, .bd-settings-group.collapsible .bd-settings-title:after,
-.separator_b3f026 {
+.separator_aa8da2 {
 	background-color: var(--main-color); 
 }
 
