@@ -73,7 +73,7 @@ body {
 
 /* Add mica effect */
 .wrapper__44df5, .toast__3fde7, .sidebar__5e434:before, .base__5e434 .container__9293f,
-.chatContent_f75fb0:before, .container__7641b:before, .container_c8ffbb:before, .searchResultsWrap_a9e706,
+.chatContent_f75fb0:before, .container__7641b:before, .container_c8ffbb:before, .searchResultsWrap_a9e706, .container_f1c5c9,
 .peopleColumn__133bf, .nowPlayingColumn__133bf, .tag_f369db, .sortDropdown_f369db, .tagsButton_f369db,
 .container_f369db, .chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .didRender_faf9c0:before, .list_dcc822 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -1118,7 +1118,12 @@ body {
 .overlay_c0bea0 {
 	background-color: transparent !important;
 }
-:not(.wrapper__3412a) > .input__0f084 {
+.hasLeading__0f084 {
+	border: none !important;
+	outline: none !important; 
+	background: transparent;
+}
+:not(.hasLeading__0f084) > .input__0f084 {
 	border: none !important;
 	background: rgb(from var(--main-color) r g b / 0.05) !important;
 	transition: 300ms ease-in-out;
@@ -1591,13 +1596,13 @@ body {
 }
 
 /* Search box */
-.searchBar__97492 {
+.search__97492 {
 	background: transparent !important;
 	border: none !important;
 	border-radius: 6px !important;
 	transition: 300ms !important;
 	width: 40px;
-	&:focus-within {
+	&.opened__97492 {
 		background: var(--second-color) !important;
 		box-shadow: var(--shadow);
 		width: 200px;
@@ -1610,6 +1615,10 @@ body {
 .search__97492 .DraftEditor-root .public-DraftEditor-content, .search__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root {
 	/* padding: 0; */
 	scrollbar-width: none;
+}
+.searchBar__97492 {
+	background: none;
+	border: none;
 }
 .searchBar__97492 .icon__97492 {
 	width: 32px;
@@ -1643,6 +1652,10 @@ body {
 .search-1FM8Qc .searchBar-zdmu7v {
 	background: transparent;
 	outline: 1px solid var(--main-color);
+}
+.container_f1c5c9 {
+	right: 8px;
+	
 }
 .searchHeader_f3b986 {
 	background: transparent;
@@ -1688,24 +1701,7 @@ body {
 }
 .content_f75fb0 .searchResultsWrap_a9e706 {
 	border-left: none;
-}
-.wrapper__3412a {
-	background: transparent;
-	border: none;
-	border: none !important;
-	transition: 300ms ease-in-out;
-	border-radius: 6px;
-	&::placeholder {
-		color: var(--text-standard);
-	}
-	&:focus-within {
-		background: rgb(from var(--main-color) r g b / 0.2) !important;
-		box-shadow: var(--shadow);
-	}
-	&.input__0f084 {
-		height: 36px;
-		padding-left: 12px;
-	}
+	margin-left: 20px;
 }
 
 /* Mentions */
@@ -2416,7 +2412,7 @@ body {
 .container_a54d1d {
 	padding: 0;
 }
-.messagesPopoutWrap__45690, .messages__1ccd1 {
+.messagesPopoutWrap_e8b59c, .messages__1ccd1 {
 	background: transparent !important;
 	border: none !important;
 }
@@ -2477,21 +2473,21 @@ body {
 }
 
 /* pin */
-.layer__59d0d:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap__45690 {
+.layer__59d0d:has([aria-label = "Pinned Messages"]) .messagesPopoutWrap_e8b59c {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	box-shadow: var(--shadow) !important;
 	backdrop-filter: blur(var(--mica-filter));
 }
-.messagesPopoutWrap__45690 .scrollerBase_d125d2 {
+.messagesPopoutWrap_e8b59c .scrollerBase_d125d2 {
 	scrollbar-width: none;
 	padding: 16px !important;
 }
-.header__45690 {
+.header_e8b59c {
 	border: none !important;
 	padding: 16px 16px 8px !important;
 	background: transparent !important;
 }
-.messageGroupWrapper__45690 {
+.messageGroupWrapper_e8b59c {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px !important;
@@ -2502,13 +2498,13 @@ body {
 		padding-top: 0 !important;
 	}
 }
-.footer__45690 {
+.footer_e8b59c {
 	background: transparent;
 }
-.actionButtons__45690 {
+.actionButtons_e8b59c {
 	right: 8px;
 }
-.jumpButton__45690, .button__06eda, .jumpMessageButton__95796, .jumpButton_ed0c8c {
+.jumpButton_e8b59c, .button__06eda, .jumpMessageButton__95796, .jumpButton_ed0c8c {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow) !important;
 	border-radius: 4px;
