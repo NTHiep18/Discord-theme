@@ -1084,6 +1084,7 @@ body {
 		width: 100% !important;
 		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 		backdrop-filter: blur(var(--mica-filter));
+		border-radius: 8px;
 	}
 }
 .profile__9c3be {
@@ -1124,6 +1125,10 @@ body {
 		background: rgb(from var(--main-color) r g b / 0.2) !important;
 		box-shadow: var(--shadow);
 	}
+}
+.footer__7f9c0 {
+	z-index: 1;
+	border-top: none;
 }
 .tabBar_d1d9f3 {
     gap: 4px;
@@ -1370,12 +1375,8 @@ body {
 .activity__5be3e path {
 	fill: var(--text-standard) !important;
 }
-.connection__9bfb9 {
-	background: var(--second-color) !important;
-	border: none;
-	box-shadow: var(--shadow);
-	border-radius: 8px;
-	padding: 8px;
+.profileAppConnections__9c3be {
+	gap: 8px;
 }
 .flowerStar__3e3b0 path {
 	fill: var(--main-color);
