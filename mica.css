@@ -1446,7 +1446,7 @@ body {
 	box-shadow: var(--shadow);
 }
 .contentRegionScroller__23e6b {
-	height: calc(100% - 36px);
+	height: calc(100% - 44px);
 	margin-top: 36px !important;
 }
 .contentRegionScroller__23e6b .toolsContainer__23e6b {
@@ -1821,7 +1821,7 @@ body {
 
 /* Reaction */
 .reaction__23977, .reactionBtn__23977 {
-	background: var(--second-color) !important;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
     border-radius: 4px !important;
 	box-shadow: var(--shadow);
 	border: none !important;
@@ -1838,7 +1838,7 @@ body {
 }
 .reaction__23977:hover,
 .reactionBtn__23977:hover {
-	background: var(--main-color) !important;
+	background: var(--second-color) !important;
 }
 .reactionCount__23977 {
 	color: rgba(255, 255, 255, .4);
