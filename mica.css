@@ -1446,6 +1446,7 @@ body {
 	overflow: hidden
 }
 .itemFilled__88a69 {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	color: var(--text-standard) !important;
 	border-radius: 0 !important;
 	margin-bottom: 0;
