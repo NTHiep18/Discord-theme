@@ -1435,22 +1435,30 @@ body {
 	fill: var(--second-color);
 }
 .select__3f413 {
+	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px;
+	border: none;
+}
+.container__88a69 {
+	border-radius: 8px;
+	box-shadow: var(--shadow);
+	overflow: hidden
 }
 .itemFilled__88a69 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	color: var(--text-standard) !important;
-	border-radius: 8px;
+	border-radius: 0 !important;
+	margin-bottom: 0;
+	&:hover {
+		background: var(--second-color) !important;
+	}
+	&[aria-checked=true] {
+		background: var(--main-color);
+	}
+}
+.bar_a562c8 {
 	box-shadow: var(--shadow);
 }
-.itemFilled__88a697:hover {
-	background: var(--second-color) !important;
-}
-.itemFilled__88a69[aria-checked=true] {
-	background: var(--main-color);
-}
-
 .accountProfileCard__1fed1 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 8px;
