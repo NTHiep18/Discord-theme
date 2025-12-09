@@ -2048,11 +2048,17 @@ body {
 	z-index: 1000;
 	max-width: 800px;
 	width: 100%;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 6px;
-	backdrop-filter: blur(var(--mica-filter));
+	background: var(--background-image);
 	box-shadow: var(--shadow) !important;
 	padding-bottom: 0 !important;
+	&:before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+		backdrop-filter: blur(var(--mica-filter));
+	}
 }
 .monaco-scrollable-element > .decorationsOverviewRuler,
 .monaco-scrollable-element > .scrollbar {
