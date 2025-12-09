@@ -2050,6 +2050,7 @@ body {
 	width: 100%;
 	border-radius: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--filter));
 	box-shadow: var(--shadow) !important;
 	padding-bottom: 0 !important;
 }
