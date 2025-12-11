@@ -310,7 +310,7 @@ body {
 	right: 4px;
 }
 .message__5126c:hover, .message__5126c.selected__5126c {
-	background: rgb(255, 255, 255, .1) !important;
+	background: rgb(255, 255, 255, .03) !important;
 }
 .buttonContainer_c19a55 .popoverReactionHoverBar_f84418,
 .buttonContainer_c19a55 .popoverReactionHoverBar_f84418:hover {
@@ -1329,7 +1329,7 @@ body {
 	padding: 4px;
 	margin-right: 0;
 }
-.role_dfa8b6:has(div[aria-label="Remove Role"]):hover {
+.role_dfa8b6:has(.roleRemoveButtonCanRemove_dfa8b6):hover {
     padding-left: 14px;
 }
 .roleRemoveIcon_dfa8b6 {
@@ -2576,9 +2576,12 @@ body {
 	background: transparent;
 	box-shadow: var(--shadow);
 }
-.topRow__34940, .bottomRowAction__34940, .permissionItemContainer__3f11f {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+.topRow__34940, .innerBottomRowAction__34940, .permissionItemContainer__3f11f {
+	background: var(--second-color);
     color: var(--text-standard) !important;
+}
+.innerBottomRowAction__34940:hover {
+	background: var(--main-color);
 }
 .container__3a5a1 {
 	padding-top: 4px;
@@ -2594,7 +2597,7 @@ body {
 }
 .header__3a5a1 {
 	margin: 0 12px;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: var(--second-color);
     color: var(--text-standard) !important;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
@@ -2609,11 +2612,14 @@ body {
 	box-shadow: var(--shadow);
 }
 .modInfoItem__96c0b {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: var(--second-color);
     color: var(--text-standard) !important;
 }
 .headerTrailing__8a031, .headerTrailingSpacer__8a031 {
 	margin-top: -8px;
+}
+.role__48c1c {
+	background: transparent !important;
 }
 
 /* emote, gif, sticker picker */
