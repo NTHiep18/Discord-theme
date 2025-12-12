@@ -295,14 +295,14 @@ body {
 	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
 }
-.popover_f84418 {
+.container__040f0 .popover_f84418 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	overflow: hidden;
 	outline: none;
-	border: none;
+	border: none !important;
 	padding: 0;
 }
 .nonMediaMosaicItem__06ab4 {
