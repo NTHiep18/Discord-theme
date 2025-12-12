@@ -2693,7 +2693,7 @@ body {
 .emojiPicker_c0e32c .scrollerBase_d125d2 {
 	scrollbar-width: none;
 }
-.wrapper__14245 {
+.categorySection_c656ac {
 	background: var(--second-color);
     box-shadow: var(--shadow);
     border-radius: 8px;
@@ -2701,9 +2701,9 @@ body {
 	margin-right: 4px;
 	margin-bottom: 4px;
 	transition: 300ms ease-in-out;
-	&:hover {
-		background: var(--main-color);
-	}
+}
+.wrapper__14245 {
+	background: transparent;
 }
 .emojiListRow_fc7141 {
 	padding-left: 4px;
