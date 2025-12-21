@@ -1368,9 +1368,9 @@ body {
 ._63ed30c16c7151f2-pronouns,
 ._63ed30c16c7151f2-userTagUsername, .listRow__9d78f,
 .guildNick_aafe31, .c4eb81cf68103ccf-discordIcon, ._9d78f306fb3bc112-emptyText,
-.text-xs\/semibold_cf4812, .text-xs\/medium_cf4812, .text-xs\/normal_cf4812,
-.text-sm\/normal_cf4812, .text-sm\/medium_cf4812, .heading-xl\/bold_cf4812, .heading-sm\/semibold_cf4812,
-.heading-lg\/bold_cf4812, .text-md\/semibold_cf4812 {
+.cf48127484dbde85-text-xs/semibold, .cf48127484dbde85-text-xs/medium, .cf48127484dbde85-text-xs/normal,
+.cf48127484dbde85-text-sm/normal, .cf48127484dbde85-text-sm/medium, .cf48127484dbde85-heading-xl/bold, .cf48127484dbde85-heading-sm/semibold,
+.cf48127484dbde85-heading-lg/bold, .cf48127484dbde85-text-md/semibold {
 	color: var(--text-standard) !important;
 }
 .activity__5be3e path {
