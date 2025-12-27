@@ -492,7 +492,7 @@ body {
     color: var(--text-standard);
     line-height: 1.25rem;
 }
-.f75fb00fb7356cbe-chatContent ._740174f3d6a2c8fe-channelTextArea {
+._740174f3d6a2c8fe-channelTextArea {
 	background: transparent;
 	border-radius: 8px;
 	margin-bottom: 0px;
@@ -1344,6 +1344,7 @@ body {
 .fccfdf3cfff21921-expandButton, .fccfdf3cfff21921-collapseButton {
 	padding: 2px 5px;
 	height: 20px;
+	color: var(--text-standard);
 	background: var(--second-color);
 	border: none;
 	box-shadow: var(--shadow);
@@ -1368,7 +1369,7 @@ body {
 ._63ed30c16c7151f2-pronouns,
 ._63ed30c16c7151f2-userTagUsername, .listRow__9d78f,
 .guildNick_aafe31, .c4eb81cf68103ccf-discordIcon, ._9d78f306fb3bc112-emptyText,
-.cf48127484dbde85-text-xs\/semibold, .cf48127484dbde85-text-xs\/medium .cf48127484dbde85-text-xs\/normal,
+.cf48127484dbde85-text-xs\/semibold, .cf48127484dbde85-text-xs\/medium, .cf48127484dbde85-text-xs\/normal,
 .cf48127484dbde85-text-sm\/normal, .cf48127484dbde85-text-sm\/medium, .cf48127484dbde85-heading-sm\/semibold,
 .cf48127484dbde85-heading-xl\/bold, 
 .cf48127484dbde85-heading-lg\/bold,
@@ -1484,6 +1485,9 @@ body {
 }
 .d28e107656edce18-avatar {
 	top: 12px;
+}
+.e8b59c4b335dd2fc-buttonContainer {
+	background: transparent;
 }
 ._201d5e8a3c09670a-button, .a22cb0c66246f5d3-button {
 	background: var(--second-color) !important;
