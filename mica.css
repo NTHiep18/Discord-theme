@@ -131,7 +131,7 @@ body {
 	display: none;
 }
 
-/* BetterDiscord message boxes */
+/* BetterDiscord styling */
 #bd-notifications-root>* {
 	padding: 4px !important;
 }
@@ -150,6 +150,26 @@ body {
 	background: transparent !important;
 	box-shadow: none !important;
 	border-top: 1px solid var(--shadow-color);
+}
+.bd-store-card {
+	background: var(--second-color);
+	border: none;
+	box-shadow: var(--shadow);
+}
+.bd-addon-store-card {
+	background: var(--second-color) !important;
+	box-shadow: var(--shadow);
+	&:hover {
+		background: var(--main-color) !important;
+	}
+	& .bd-addon-store-card-tag {
+		background: var(--second-color);
+		border: none;
+		box-shadow: var(--shadow);
+	}
+}
+.bd-install-modal-items {
+	background: var(--second-color);
 }
 /* Main chat */
 .f75fb00fb7356cbe-content, .f75fb00fb7356cbe-subtitleContainer {
@@ -2705,7 +2725,7 @@ body {
     border-radius: 8px;
     backdrop-filter: blur(var(--mica-filter));
 	margin-right: 4px;
-	margin-bottom: 4px;
+	margin-bottom: 8px;
 	transition: 300ms ease-in-out;
 }
 ._14245bb948377a25-wrapper {
