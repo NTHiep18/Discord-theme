@@ -10,7 +10,8 @@
 
     /* coloring */
     --main-color: #5865F1; /* Main color */
-    --second-color: rgb(90, 120, 240, .2); /* for background */
+    --second-color: rgb(90, 120, 240, .4); /* for background */
+	--subtle-color: rgb(90, 120, 240, .2); /* for subtle background that doesn't need to pop out */
 
     /* App background */
     --background-overlay: rgba(0, 0, 0, .6); /* A filter layer between the background image and the main Discord functions */
@@ -157,15 +158,18 @@ body {
 	box-shadow: var(--shadow);
 }
 .bd-addon-store-card {
-	background: var(--second-color) !important;
+	background: var(--subtle-color) !important;
 	box-shadow: var(--shadow);
+	transition: background-color 300ms ease-in-out !important;
+	transform: none !important;
 	&:hover {
-		background: var(--main-color) !important;
+		background: var(--second-color) !important;
 	}
 	& .bd-addon-store-card-tag {
-		background: var(--second-color);
+		background: var(--main-color);
 		border: none;
 		box-shadow: var(--shadow);
+		border-radius: 4px;
 	}
 }
 .bd-install-modal-items {
@@ -520,7 +524,7 @@ body {
 }
 ._740174f3d6a2c8fe-channelTextArea:before {
 	transition: 300ms ease-in-out;
-	background: transparent !important;
+	background: var(--subtle-color) !important;
 	border-radius: 8px;
 	position: absolute;
 	content: '';
@@ -973,7 +977,7 @@ body {
 }
 ._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-link {
 	box-shadow: var(--shadow);
-	background: transparent;
+	background: var(--subtle-color);
 }
 ._2ea32c412048f708-modeSelected ._2ea32c412048f708-link {
 	background: var(--second-color) !important;
@@ -2175,12 +2179,15 @@ body {
 	width: 100% !important;
 	padding-right: 8px !important;
 	& .f369dba7416c67f0-mainCard {
-		background: none;
-		box-shadow: none !important;
-		border-radius: 12px;
+		border: none !important;
+		transition: 300ms ease-in-out;
+		background: var(--subtle-color);
+		box-shadow:  var(--shadow) !important;	
 		&:hover {
-			background: var(--second-color);
-			box-shadow: var(--shadow);
+			background-color: var(--second-color);
+		}
+		&.faa96b2163f6a142-isOpen {
+			background-color: var(--second-color);
 		}
 	}
 }
@@ -2245,19 +2252,6 @@ body {
 .f369dba7416c67f0-tagListInner:last-child {
 	margin-right: 4px;
 }
-.f369dba7416c67f0-mainCard {
-	border: none !important;
-	transition: 300ms ease-in-out;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	box-shadow:  var(--shadow) !important;	
-	&:hover {
-		background-color: var(--second-color) !important;
-	}
-	&.faa96b2163f6a142-isOpen {
-		background-color: var(--second-color) !important;
-	}
-}
-
 ._5b40bdd67543ba35-spine {
 	width: 16px !important;
     height: 16px !important;
