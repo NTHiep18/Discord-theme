@@ -254,7 +254,7 @@ body {
 	padding-bottom: 0;
 	margin: 0;
 	left: auto !important;
-	width: 400px;
+	width: fit-content;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	min-height: 0;
