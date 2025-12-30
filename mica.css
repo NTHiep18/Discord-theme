@@ -2178,18 +2178,6 @@ body {
 .f369dba7416c67f0-headerRow {
 	width: 100% !important;
 	padding-right: 8px !important;
-	& .f369dba7416c67f0-mainCard {
-		border: none !important;
-		transition: 300ms ease-in-out;
-		background: var(--subtle-color);
-		box-shadow:  var(--shadow) !important;	
-		&:hover {
-			background-color: var(--second-color);
-		}
-		&.faa96b2163f6a142-isOpen {
-			background-color: var(--second-color);
-		}
-	}
 }
 .f369dba7416c67f0-matchingPostsRow {
 	background: none;
@@ -2197,6 +2185,18 @@ body {
 }
 .f369dba7416c67f0-tagsContainer {
 	padding-top: 12px;
+}
+.f369dba7416c67f0-mainCard {
+	border: none !important;
+	transition: 300ms ease-in-out;
+	background: var(--subtle-color);
+	box-shadow:  var(--shadow) !important;	
+	&:hover {
+		background-color: var(--second-color);
+	}
+	&.faa96b2163f6a142-isOpen {
+		background-color: var(--second-color);
+	}
 }
 ._01ae244280823725-resizeHandle {
 	border-bottom-left-radius: 8px !important;
