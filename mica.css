@@ -420,8 +420,8 @@ body {
 }
 
 /* main chat loading */
-._6c79861fd96f56b1-wrapper, .fc817765600a960a-wrapper {
-	background: transparent !important;
+._6c79861fd96f56b1-wrapper, .fc817765600a960a-wrapper, .d852db00c0588eb9-wrapper {
+	background: transparent;
 }
 .f75fb00fb7356cbe-chatContent:not(:has(._5126c0cd07f243a0-messageListItem)):before {
     content: '';
@@ -429,8 +429,8 @@ body {
     inset: 0;
     z-index: 5;
     display: flex;
-	background: linear-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .1),  transparent, rgb(from var(--mica-color) r g b / .1),  transparent);
-    background-size: 200% 200%;
+	background: linear-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .2),  transparent, rgb(from var(--mica-color) r g b / .2),  transparent) !important;
+    background-size: 200% 200% !important;
     animation: loading-wave 3s ease-in-out infinite;
 }
 @keyframes loading-wave {
@@ -899,6 +899,9 @@ body {
 	border: none;
 	height: 40px;
 	padding: 12px;
+}
+._0d0f9ddd12a3ace3-progressContainer {
+	background: var(--second-color);
 }
 .c69b6db0641110f6-containerDefault:not(:last-child) {
 	margin-bottom: 1px;
@@ -2153,9 +2156,8 @@ body {
 }
 .f369dba7416c67f0-list, .f369dba7416c67f0-grid {
 	border-radius: 8px;
-    margin: 8px 0;
 	scrollbar-width: none;
-	padding: 0 8px !important;
+	padding: 8px !important;
 }
 .f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen {
 	margin-right: 20px;
@@ -2185,6 +2187,9 @@ body {
 }
 .f369dba7416c67f0-tagsContainer {
 	padding-top: 12px;
+}
+.f369dba7416c67f0-sortDropdown {
+	margin-bottom: 0;
 }
 .f369dba7416c67f0-mainCard {
 	border: none !important;
@@ -2230,12 +2235,14 @@ body {
 }
 .f369dba7416c67f0-list .f369dba7416c67f0-header {
 	margin-top: 0;
+	border-radius: 12px;
 }
 .f369dba7416c67f0-divider {
 	margin: 0 4px;
 }
 .f369dba7416c67f0-tagList {
 	overflow: visible;
+	height: unset;
 	&.a2c9e80f6531ccc2-pill {
 		background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 		border: none !important;
@@ -2245,9 +2252,6 @@ body {
 			background: var(--second-color) !important;
 		}
 	}
-}
-.f369dba7416c67f0-tagsButton {
-	margin-bottom: 6px;
 }
 .f369dba7416c67f0-tagListInner:last-child {
 	margin-right: 4px;
