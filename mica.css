@@ -1499,18 +1499,24 @@ body {
 	box-shadow: var(--shadow);
 }
 ._1fed1dd06c7aabf7-accountProfileCard {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: var(--subtle-color);
 	border-radius: 8px;
 	box-shadow: var(--shadow);
 	& ._68edb95846a37624-mask circle {
-		cy: 100;
+		display: none;
 	}
 }
 ._1fed1dd06c7aabf7-userInfo {
-	padding-left: 160px;
+	padding: 16px;
 	& ._1fed1dd06c7aabf7-avatar {
-	top: 60px;
-}
+		position: relative;
+		inset-inline-start: 0;
+		top: 0;
+		margin-right: 40px;
+	}
+	& > :last-child {
+		margin-left: auto;
+	}
 }
 ._1fed1dd06c7aabf7-background, ._1fed1dd06c7aabf7-fieldList {
 	background: transparent;
