@@ -53,7 +53,7 @@
 	background: var(--background-overlay) !important;
 }
 ._960e4207cea8323e-bg, ._160d8e55254637e5-app, ._2637a2609f343032-container, ._5e434347c823b592-sidebar, ._5e434347c823b592-guilds, ._37e49614b9f110a9-container, .content__37e49, .f75fb00fb7356cbe-chat,
-.c8ffbb79449f399c-container, ._7641b507c6cdbb10-container, .f75fb00fb7356cbe-content,
+.c8ffbb79449f399c-container, .f75fb00fb7356cbe-content,
 ._99e7cad8d4c55236-scroller, ._133bf5eea8e33a34-container,  ._7d20cf18f8a2784c-container, 
 .c8ffbb79449f399c-members, .statusBubble_a82ccc, .statusBubble_af9888, .e6b7699ce8339e1c-privateChannels, ._133bf5eea8e33a34-tabBody, .f75fb00fb7356cbe-chatContent,
 ._960e4207cea8323e-layer, ._01ae244280823725-container {
@@ -334,7 +334,7 @@ body {
 	right: 4px;
 }
 ._5126c0cd07f243a0-message:hover, ._5126c0cd07f243a0-message._5126c0cd07f243a0-selected {
-	background: rgb(255, 255, 255, .03) !important;
+	background: rgb(255, 255, 255, .02) !important;
 }
 .c19a557985eb7793-buttonContainer .popoverReactionHoverBar_f84418,
 .c19a557985eb7793-buttonContainer .popoverReactionHoverBar_f84418:hover {
@@ -449,7 +449,7 @@ body {
 ._4d95d73152192cf9-container,
 ._752971923a1e6683-markup code {
 	border: none !important;
-	background: var(--second-color) !important;
+	background: var(--subtle-color) !important;
 	box-shadow: var(--shadow);
 	border-radius: 4px !important;
 }
@@ -965,9 +965,9 @@ body {
 ._29444ba32c7fbeab-collapsed ._29444ba32c7fbeab-name:after {
 	background-position: 100%;
 }
-._2ea32c412048f708-name {
-	opacity: 0.85;
+._2ea32c412048f708-linkTop ._2ea32c412048f708-name {
 	padding: 4px;
+	font-size: 16px;
 }
 ._2ea32c412048f708-wrapper._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-link ._2ea32c412048f708-linkTop ._2ea32c412048f708-name {
 	text-shadow: none;
@@ -1633,7 +1633,7 @@ body {
 	background-color: var(--main-color);
 }
 ._55c999adcf6db265-container, ._02a39cb2980ceaaf-searchResult {
-	background: var(--second-color) !important;
+	background: var(--subtle-color) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px !important;
 	box-shadow: var(--shadow) !important;
@@ -2402,14 +2402,14 @@ body {
 	border: none !important;
 }
 ._957962c2bd49881b-container {
-	background: var(--second-color);
+	background: var(--subtle-color);
 	border: none !important;
 	box-shadow: var(--shadow) !important;
 	padding-right: 0;
 	border-radius: 8px;
 }
 ._427f0273a157ab7a-channel {
-	background: var(--second-color);
+	background: var(--subtle-color);
 	box-shadow: var(--shadow);
 }
 .ab66419eae73260f-headerTabs {
@@ -2473,7 +2473,7 @@ body {
 	background: transparent !important;
 }
 .e8b59c4b335dd2fc-messageGroupWrapper {
-	background: var(--second-color) !important;
+	background: var(--subtle-color) !important;
 	box-shadow: var(--shadow);
 	border-radius: 8px !important;
 	margin-bottom: 8px !important;
@@ -2641,6 +2641,7 @@ body {
 }
 ._8a031a135bfcb9ba-headerTrailing, ._8a031a135bfcb9ba-headerTrailingSpacer {
 	margin-top: -8px;
+	margin-right: -8px;
 }
 ._48c1c0768f2a2421-role {
 	background: transparent !important;
