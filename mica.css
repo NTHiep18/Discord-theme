@@ -53,7 +53,7 @@
 	background: var(--background-overlay) !important;
 }
 ._960e4207cea8323e-bg, ._160d8e55254637e5-app, ._2637a2609f343032-container, ._5e434347c823b592-sidebar, ._5e434347c823b592-guilds, ._37e49614b9f110a9-container, .content__37e49, .f75fb00fb7356cbe-chat,
-.c8ffbb79449f399c-container, .f75fb00fb7356cbe-content,
+.c8ffbb79449f399c-container, .f75fb00fb7356cbe-content,  ._7641b507c6cdbb10-container,
 ._99e7cad8d4c55236-scroller, ._133bf5eea8e33a34-container,  ._7d20cf18f8a2784c-container, 
 .c8ffbb79449f399c-members, .statusBubble_a82ccc, .statusBubble_af9888, .e6b7699ce8339e1c-privateChannels, ._133bf5eea8e33a34-tabBody, .f75fb00fb7356cbe-chatContent,
 ._960e4207cea8323e-layer, ._01ae244280823725-container {
@@ -73,7 +73,7 @@ body {
 
 /* Add mica effect */
 ._44df51b030bd5ece-wrapper, ._3fde7e375925af75-toast, ._5e434347c823b592-sidebar:before, ._5e434347c823b592-base ._9293f6b2fc12398a-container,
-.f75fb00fb7356cbe-chatContent:before, ._7641b507c6cdbb10-container:before, .c8ffbb79449f399c-container:before, .a9e7064fdee8e9b0-searchResultsWrap, .f1c5c9823fbd3ef8-container, ._7641b507c6cdbb10-container,
+.f75fb00fb7356cbe-chatContent:before, ._7641b507c6cdbb10-container:before, .c8ffbb79449f399c-container:before, .a9e7064fdee8e9b0-searchResultsWrap, .f1c5c9823fbd3ef8-container,
 ._133bf5eea8e33a34-peopleColumn, ._133bf5eea8e33a34-nowPlayingColumn, .tag_f369db, .f369dba7416c67f0-sortDropdown, .f369dba7416c67f0-tagsButton,
 .f369dba7416c67f0-container, .a5700d36f7c29ded-chatHeaderBar, .modal__9a792, ._921c50dc4baa4b4f-authBox, .faf9c0f0be1b8685-didRender:before, .dcc822f5d1a23123-list, ._8a031a135bfcb9ba-container {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -193,6 +193,7 @@ body {
 .group-spacing-16 ._5126c0cd07f243a0-groupStart {
     margin-top: 0;
 	padding-top: 4px;
+	overflow: visible;
 }
 .c19a557985eb7793-messageContent {
 	overflow: visible !important;
@@ -525,7 +526,7 @@ body {
     line-height: 1.25rem;
 }
 ._740174f3d6a2c8fe-channelTextArea {
-	background: transparent;
+	background: transparent !important;
 	border-radius: 8px;
 	margin-bottom: 0px;
 	border: none;
@@ -1282,6 +1283,7 @@ body {
 	border-radius: 6px;
 	margin: 0 !important;
 	justify-content: center;
+	box-sizing: border-box;
 }
 .aa8da23faa27393c-item:hover {
 	background: transparent !important;
@@ -1300,25 +1302,21 @@ body {
 	padding-right: 8px;
 }
 ._62dd31d5e86f2841-container {
-	background: var(--second-color);
+	background: var(--subtle-color);
 	border-radius: 8px;
 	box-shadow: var(--shadow);
 }
-.note_a24910 {
-	margin: 0;
+._25a50cb542dde118-tagListContainer {
+	gap: 6px;
 }
-.userPopoutInner_c69a7b {
-	background: var(--background-image) !important;
+._25a50cb542dde118-tag {
+	border: none;
+	background: var(--subtle-color);
+	box-shadow: var(--shadow);
+	border-radius: 4px;
 }
-.topSection_b9fccc {
-	margin-top: 24px;
-}
-.profileBanner_f0f36c, .popoutBannerPremium_c3e427 {
-	background: transparent !important;
-	-webkit-mask: none;
-}
-.avatarPositionNormal_f89da9, .avatarPositionPremiumBanner_f89da9 {
-	top: 28px;
+._39b322c2a73a9168-card {
+	background: var(--subtle-color);
 }
 .fccfdf3cfff21921-root, .fccfdf3cfff21921-root {
 	gap: 6px;
@@ -2313,12 +2311,12 @@ body {
 	border-bottom: 1px solid var(--shadow-color);
 }
 ._49fc18ba07c5025f-root ._6764bd76e0340219-container {
-	background: var(--second-color) !important;
+	background: var(--subtle-color);
 	box-shadow: var(--shadow);
 	border: none !important;
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: var(--main-color) !important;
+		background: var(--second-color);
 	}
 }
 .c441f0072c3e8827-list {
@@ -2590,14 +2588,11 @@ body {
 }
 .bc663cf6190ce9ad-layer .d125d22cdfd32cfe-scrollerBase {
 	scrollbar-width: none;
+	margin: 0;
 }
-.content_ca6911 {
-	margin-bottom: 0;
-}
-.banReasonOtherClickable__837b7m {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-    color: var(--text-standard) !important;
-    border-radius: 8px;
+._37bfcf3d457db7a9-tabPanelScroller {
+	padding-top: 4px;
+	margin-top: 4px;
 }
 ._656be05658eed04d-sidebarContainer {
 	margin-left: 0;
