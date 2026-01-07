@@ -1593,38 +1593,38 @@ body {
 }
 
 /* Search box */
-._974928fe84ca9647-search {
+.c322aadb96ff59c9-search {
 	background: transparent !important;
 	border: none !important;
 	border-radius: 6px !important;
 	transition: 300ms !important;
 	width: 40px;
-	&._974928fe84ca9647-open {
+	&.c322aadb96ff59c9-open {
 		background: var(--second-color) !important;
 		box-shadow: var(--shadow);
 		width: 200px;
 		margin-right: 8px
 	}
 }
-._974928fe84ca9647-search .DraftEditor-root {
+.c322aadb96ff59c9-search .DraftEditor-root {
 	padding: 0 !important;
 	font-size: 16px;
 	flex: 0;
 }
-._974928fe84ca9647-open .DraftEditor-root {
+.c322aadb96ff59c9-open .DraftEditor-root {
 	flex: 1;
 }
-._974928fe84ca9647-search .DraftEditor-root .public-DraftEditor-content, ._974928fe84ca9647-search .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.c322aadb96ff59c9-search .DraftEditor-root .public-DraftEditor-content, .c322aadb96ff59c9-search .DraftEditor-root .public-DraftEditorPlaceholder-root {
 	/* padding: 0; */
 	scrollbar-width: none;
 }
-._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-searchBar {
 	background: none;
 	border: none;
 	width: auto;
 	height: 28px;
 }
-._974928fe84ca9647-searchBar ._974928fe84ca9647-icon {
+.c322aadb96ff59c9-searchBar .c322aadb96ff59c9-icon {
 	width: 32px;
 	height: 32px;
 	display: flex;
@@ -1638,13 +1638,19 @@ body {
 .icon_fea832 {
 	cursor: pointer;
 }
-._974928fe84ca9647-searchBar:focus-within {
+.c322aadb96ff59c9-searchBar:focus-within {
 	background: var(--second-color);
 }
 .bd818628221af7aa-searchAnswer, .bd818628221af7aa-searchFilter {
 	background-color: var(--main-color);
 }
-._55c999adcf6db265-container, ._02a39cb2980ceaaf-searchResult {
+.b6544fb09f373e60-container {
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow);
+	border: none !important;
+}
+._80bf8435713f6adb-searchResult {
 	background: var(--subtle-color) !important;
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px !important;
