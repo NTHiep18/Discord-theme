@@ -92,7 +92,7 @@ body {
 	inset: 0;
 }
 ._41ed70e52483df6d-pageBody:before {
-	position: aboslute;
+	position: absolute;
 	content: '';
 	inset: 0;
 }
@@ -187,7 +187,7 @@ body {
 	border: none;
 	border: 1px solid var(--shadow-color);
 	&:hover {
-		background: var(--second-color);
+		background: var(--second-color) !important;
 	}
 }
 
@@ -2833,12 +2833,26 @@ body {
 
 /* image view */
 .d3a6f0de39ff36e9-carouselModal {
-	bottom: 0;
-	top: 0;
 	transform: translateY(-50%) !important;
 	height: fit-content;
-	padding: 12px;
+	padding: 24px;
+	margin: auto;
 }
 .e035781d3e5b07da-mediaArea {
 	grid-row-start: 2;
+}
+.cc1819cb49c2d109-actionButtons {
+	background: none;
+	border: none;
+}
+.aec7abc73c126bc0-button {
+	background: var(--subtle-color);
+	width: 30px;
+	height: 30px;
+	&:hover {
+		background: var(--second-color);
+	}
+}
+.aec7abc73c126bc0-buttonInner {
+	border: none;
 }
