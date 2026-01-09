@@ -2402,7 +2402,7 @@ body {
 .b49891f8a231dbff-reactionTooltip {
 	background: transparent;
 	box-shadow: none;
-	padding: 12px;
+	padding: 12px !important;
 }
 ._5bc6a0adc149eda0-caret {
     display:none;
