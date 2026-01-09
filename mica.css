@@ -1141,7 +1141,7 @@ body {
 	}
 }
 ._9c3bea41fd465666-profile {
-	background: transparent;
+	background: transparent !important;
 	outline: none;
 	box-shadow: none;
 	border-radius: 0;
@@ -2863,11 +2863,12 @@ body {
 .cc1819cb49c2d109-actionButtons {
 	background: none;
 	border: none;
-	padding: 5px;
+	align-self: start;
 }
 ._6088c3df6d10c76d-closeButton {
-	align-self: center;
-	background: var(--ssecond-color);
+	align-self: start;
+	justify-self: end;
+	background: var(--second-color);
 	box-shadow: var(--shadow);
 	width: 30px;
 	height: 30px;
