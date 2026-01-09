@@ -2068,6 +2068,26 @@ body {
 		scrollbar-width: none;
 	}
 }
+.c8ffbb79449f399c-membersGroup {
+	display: flex;
+	color: var(--main-color);
+	&:before {
+		content: "";
+		height: 2px;
+		flex-grow: 1;
+		transition: all .3s ease-in-out;
+		background: linear-gradient(to left, currentcolor, transparent 50%) 100% / 200% 100%;
+		margin: 7px 5px 7px 0;
+	}
+	&:after {
+		content: "";
+		height: 2px;
+		flex-grow: 1;
+		transition: all .3s ease-in-out;
+		background: linear-gradient(to right, currentcolor, transparent 50%) 0% / 200% 100%;
+		margin: 7px 0 7px 5px;
+	}
+}
 ._5d473ecff348c314-member {
 	margin-left: 0;
 	background: transparent;
@@ -2198,7 +2218,7 @@ body {
 .f369dba7416c67f0-list, .f369dba7416c67f0-grid {
 	border-radius: 8px;
 	scrollbar-width: none;
-	padding: 8px !important;
+	padding: 12px !important;
 }
 .f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen {
 	margin-right: 20px;
@@ -2349,7 +2369,7 @@ body {
 	}
 }
 .c441f0072c3e8827-list {
-	padding: 0 6px !important;
+	padding: 0 12px !important;
 	margin: 0 6px;
 	border-radius: 8px;
 }
@@ -2506,7 +2526,7 @@ body {
 }
 .e8b59c4b335dd2fc-messagesPopoutWrap .d125d22cdfd32cfe-scrollerBase {
 	scrollbar-width: none;
-	padding: 16px !important;
+	padding: 12px !important;
 }
 .e8b59c4b335dd2fc-header {
 	border: none !important;
@@ -2514,14 +2534,15 @@ body {
 	background: transparent !important;
 }
 .e8b59c4b335dd2fc-messageGroupWrapper {
-	background: var(--subtle-color) !important;
+	background: var(--subtle-color);
 	box-shadow: var(--shadow);
-	border-radius: 8px !important;
-	margin-bottom: 8px !important;
+	border-radius: 8px;
+	margin: 0 0 0 12px;
 	border: none !important;
 	padding: 8px 0;
 	& .c19a557985eb7793-wrapper {
 		padding-top: 0 !important;
+		padding-bottom: 0 !important;
 	}
 }
 .e8b59c4b335dd2fc-footer {
@@ -2546,6 +2567,7 @@ body {
 .d9c8822889d1d4a1-header, .d9c8822889d1d4a1-container {
 	background: transparent;
 	border: none;
+	padding: 0 12px;
 }
 .d98031d9a3e08b09-browser, ._8a031a135bfcb9ba-container {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
@@ -2833,10 +2855,10 @@ body {
 
 /* image view */
 .d3a6f0de39ff36e9-carouselModal {
-	transform: translateY(-50%) !important;
 	height: fit-content;
 	padding: 24px;
 	margin: auto;
+	width: fit-content;
 }
 .e035781d3e5b07da-mediaArea {
 	grid-row-start: 2;
@@ -2844,15 +2866,20 @@ body {
 .cc1819cb49c2d109-actionButtons {
 	background: none;
 	border: none;
+	padding: 5px;
 }
-.aec7abc73c126bc0-button {
-	background: var(--subtle-color);
+._6088c3df6d10c76d-closeButton {
+	align-self: center;
+	background: var(--ssecond-color);
+	box-shadow: var(--shadow);
 	width: 30px;
 	height: 30px;
 	&:hover {
-		background: var(--second-color);
+		background: var(--main-color);
 	}
 }
 .aec7abc73c126bc0-buttonInner {
 	border: none;
+	height: 30px;
+	width: 30px;
 }
