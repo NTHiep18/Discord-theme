@@ -351,10 +351,10 @@ body {
 	box-shadow: var(--shadow);
 }
 ._0ccaee68b77c7469-file, .cf09d85aafe7e124-wrapperAudio {	
-	background: var(--second-color) !important;
+	background: var(--subtle-color);
 	border: none;
 	border-radius: 8px;
-	box-shadow: var(--shadow) !important;
+	box-shadow: var(--shadow);
 }
 ._040f07d21e1fb0d6-container .f84418acfdbdfe54-popover {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -369,6 +369,16 @@ body {
 ._06ab41fd2ef7af3f-nonMediaMosaicItem {
 	top: 4px;
 	right: 4px;
+}
+._06ab41fd2ef7af3f-hoverButtonGroup {
+	box-shadow: var(--shadow);
+	background: transparent;
+	& ._06ab41fd2ef7af3f-hoverButton {
+		background: var(--second-color);
+		&:hover {
+			background: var(--main-color);
+		}
+	}
 }
 ._5126c0cd07f243a0-message:hover, ._5126c0cd07f243a0-message._5126c0cd07f243a0-selected {
 	background: rgb(255, 255, 255, .02) !important;
