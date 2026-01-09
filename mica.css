@@ -1460,7 +1460,7 @@ body {
 	fill: var(--main-color);
 }
 ._5be3ef42f92174b2-body {
-	padding: 16px 12px 8px;
+	padding: 16px 12px 8px !important;
 }
 ._5be3ef42f92174b2-footer {
 	padding: 0 12px 12px;
