@@ -470,13 +470,13 @@ body {
 ._6c79861fd96f56b1-wrapper, .fc817765600a960a-wrapper, .d852db00c0588eb9-wrapper {
 	background: transparent;
 }
-.f75fb00fb7356cbe-chatContent:not(:has(._5126c0cd07f243a0-messageListItem)):before {
+._36d072eab2b2e737-messagesWrapper:not(:has(._5126c0cd07f243a0-messageListItem)):before {
     content: '';
 	position: absolute;
     inset: 0;
     z-index: 5;
     display: flex;
-	background: linear-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .2),  transparent, rgb(from var(--mica-color) r g b / .2),  transparent) !important;
+	background: linear-gradient(135deg, transparent,  rgb(from var(--mica-color) r g b / .2),  transparent, rgb(from var(--mica-color) r g b / .2),  transparent);
     background-size: 200% 200% !important;
     animation: loading-wave 3s ease-in-out infinite;
 }
