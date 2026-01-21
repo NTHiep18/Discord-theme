@@ -1367,53 +1367,52 @@ body {
 .af81925d9be830f2-root {
 	gap: 6px;
 }
-.dfa8b6b94cddb191-role {
+.af3987915705da59-role {
 	z-index: 2;
 	position: relative;
 	background: none !important;
 	border: none;
 	padding: 0;
 	height: 20px;
+	min-height: 20px;
 }
-.dfa8b6b94cddb191-role>:first-child {
+.af3987915705da59-role>:first-child {
 	margin: 0px;
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	left: 0;
 }
-.dfa8b6b94cddb191-roleRemoveButton {
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-}
-.dfa8b6b94cddb191-roleCircle {
+
+.af3987915705da59-roleCircle {
 	border-radius: 4px;
 	width: 100%;
 	height: 20px;
 	margin: 0 8px 0 0;
 	box-shadow: var(--shadow);
 }
-.dfa8b6b94cddb191-roleName {
+.af3987915705da59-roleName {
 	overflow: hidden;
 	z-index: 2;
-	margin: 2px !important;
-}
-.dfa8b6b94cddb191-role .b0dfc2ed9c57037d-overflow {
+	padding: 2px 4px;
 	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.4), 1px -1px 2px rgb(0, 0, 0, 0.4), -1px 1px 2px rgb(0, 0, 0, 0.4), -1px -1px 2px rgb(0, 0, 0, 0.4);
-	padding: 4px;
-	margin-right: 0;
 }
-.dfa8b6b94cddb191-role:has(.dfa8b6b94cddb191-roleRemoveButtonCanRemove):hover {
+.af3987915705da59-roleRemoveButton {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	display: none;
+}
+.af3987915705da59-hasRemoveButton:hover {
     padding-left: 14px;
+	& .af3987915705da59-roleRemoveButton {
+		display: block;
+	}
 }
-.dfa8b6b94cddb191-roleRemoveIcon {
-    left: 10px;
-	top: calc(50%);
-}
-.dfa8b6b94cddb191-roleIcon {
-    margin: 0 0 0 4px;
+.af3987915705da59-roleIcon {
+    margin: 0 4px 0 0;
 	position: relative;
 	z-index: 2;
 }
