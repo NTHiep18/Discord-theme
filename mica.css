@@ -1399,6 +1399,7 @@ body {
 	margin: 0;
 	left: 0;
 	box-shadow: var(--shadow);
+	z-index: -1;
 }
 .af3987915705da59-roleName {
 	overflow: hidden;
@@ -1417,7 +1418,7 @@ body {
 }
 .af3987915705da59-hasRemoveButton:hover {
     padding-left: 14px;
-	& .af3987915705da59-roleRemoveButton {
+	& .af3987915705da59-removeButton {
 		display: block;
 		& svg {
 			margin-top: 4px;
