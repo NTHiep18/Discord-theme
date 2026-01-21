@@ -1366,7 +1366,7 @@ body {
 }
 .af3987915705da59-listContentsInteractive {
 	gap: 6px;
-	& > :last-child {
+	& > .af3987915705da59-role {
 		justify-self: center;
 		padding: 2px 4px;
 		height: 20px;
@@ -1375,7 +1375,7 @@ body {
 		border: none;
 		box-shadow: var(--shadow);
 		box-sizing: border-box;
-		border-radius: 6px;
+		border-radius: 4px;
 		transition: 300ms ease-in-out;
 		&:hover {
 			background: var(--main-color);
@@ -1429,7 +1429,7 @@ body {
 	position: relative;
 	z-index: 2;
 }
-.af3987915705da59-expandButton, .af3987915705da59-collapseButton {
+.af3987915705da59-expandButton {
 	justify-self: center;
 	padding: 2px 4px;
 	height: 20px;
@@ -1438,7 +1438,7 @@ body {
 	border: none;
 	box-shadow: var(--shadow);
 	box-sizing: border-box;
-	border-radius: 6px;
+	border-radius: 4px;
 	transition: 300ms ease-in-out;
 	&:hover {
 		background: var(--main-color);
