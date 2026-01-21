@@ -1361,11 +1361,26 @@ body {
 ._39b322c2a73a9168-card {
 	background: var(--subtle-color);
 }
-.fccfdf3cfff21921-root, .fccfdf3cfff21921-root {
-	gap: 6px;
-}
 .af81925d9be830f2-root {
 	gap: 6px;
+}
+.af3987915705da59-listContentsInteractive {
+	gap: 6px;
+	& > :last-child {
+		justify-self: center;
+		padding: 2px 4px;
+		height: 20px;
+		color: var(--text-standard);
+		background: var(--second-color);
+		border: none;
+		box-shadow: var(--shadow);
+		box-sizing: border-box;
+		border-radius: 6px;
+		transition: 300ms ease-in-out;
+		&:hover {
+			background: var(--main-color);
+		}
+	}
 }
 .af3987915705da59-role {
 	z-index: 2;
@@ -1377,10 +1392,12 @@ body {
 	min-height: 20px;
 }
 ._4f569b8941af22d1-roleCircle {
+	position: absolute;
 	border-radius: 4px;
 	width: 100%;
-	height: 20px;
-	margin: 0 8px 0 0;
+	height: 100%;
+	margin: 0;
+	left: 0;
 	box-shadow: var(--shadow);
 }
 .af3987915705da59-roleName {
@@ -1402,6 +1419,9 @@ body {
     padding-left: 14px;
 	& .af3987915705da59-roleRemoveButton {
 		display: block;
+		& svg {
+			margin-top: 4px;
+		}
 	}
 }
 .af3987915705da59-roleIcon {
