@@ -1366,8 +1366,8 @@ body {
 }
 .af3987915705da59-listContentsInteractive {
 	gap: 6px;
-	& > .af3987915705da59-role {
-		justify-self: center;
+	& > .af3987915705da59-role, .af3987915705da59-addButton {
+		justify-content: center;
 		padding: 2px 4px;
 		height: 20px;
 		color: var(--text-standard);
@@ -1430,20 +1430,18 @@ body {
 	position: relative;
 	z-index: 2;
 }
-.af3987915705da59-expandButton {
-	justify-self: center;
-	padding: 2px 4px;
+.b82947f00c464d81-roleRow {
+	position: relative;
 	height: 20px;
-	color: var(--text-standard);
-	background: var(--second-color);
-	border: none;
-	box-shadow: var(--shadow);
-	box-sizing: border-box;
-	border-radius: 4px;
-	transition: 300ms ease-in-out;
-	&:hover {
-		background: var(--main-color);
+	width: fit-content;
+	padding: 0 6px;
+	& > ._4f569b8941af22d1-roleCircle + div {
+		z-index: 1;
 	}
+}
+._50e22d8b0c6ff6cb-container {
+	background: transparent;
+	border: none;
 }
 ._7d7f78b99d0a7581-button {
 	height: 20px;
@@ -1868,10 +1866,10 @@ body {
 }
 
 /* new unread bar */
-._7aaec78b97ff00f7-top {
+._629e4c86564a4ee7-unreadTop, ._7aaec78b97ff00f7-top {
 	top: 8px;
 }
-._629e4c86564a4ee7-unreadBottom {
+._629e4c86564a4ee7-unreadBottom, ._7aaec78b97ff00f7-bottom {
 	bottom: 4px;
 }
 ._7aaec78b97ff00f7-bar, ._3b95d7d910416e54-bar {
@@ -2250,8 +2248,8 @@ body {
 }
 
 /* Gallery and channel thread list */
-._5808f3d86030cee1-container {
-	padding-left: 0;
+._76f047ded9fef6d4-popout {
+	margin-left: 0;
 	background: transparent;
 }
 .f369dba7416c67f0-list>div:first-child {
