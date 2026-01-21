@@ -74,7 +74,7 @@ body {
 /* Add mica effect */
 ._44df51b030bd5ece-wrapper, ._3fde7e375925af75-toast, ._5e434347c823b592-sidebar:before, ._5e434347c823b592-base ._9293f6b2fc12398a-container,
 .f75fb00fb7356cbe-chatContent:before, ._7641b507c6cdbb10-container:before, ._41ed70e52483df6d-pageBody:before, .c8ffbb79449f399c-container:before, .a98f3b020416ad54-searchResultsWrap, .f1c5c9823fbd3ef8-container,
-._133bf5eea8e33a34-peopleColumn, ._133bf5eea8e33a34-nowPlayingColumn, .tag_f369db, .f369dba7416c67f0-sortDropdown, .f369dba7416c67f0-tagsButton,
+._133bf5eea8e33a34-peopleColumn, ._133bf5eea8e33a34-nowPlayingColumn, .tag_f369db, .f369dba7416c67f0-sortDropdown,
 .f369dba7416c67f0-container, .a5700d36f7c29ded-chatHeaderBar, .modal__9a792, ._921c50dc4baa4b4f-authBox, .faf9c0f0be1b8685-didRender:before, .dcc822f5d1a23123-list, ._8a031a135bfcb9ba-container {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
@@ -1868,18 +1868,19 @@ body {
 
 /* new unread bar */
 ._7aaec78b97ff00f7-top {
-	top: 8px !important;
+	top: 8px;
 }
-._7aaec78b97ff00f7-bottom:not(:has(._7aaec78b97ff00f7-emptyBar)) {
-	bottom: 20px !important;
-	overflow: visible;
+._629e4c86564a4ee7-unreadBottom {
+	bottom: 4px;
 }
 ._7aaec78b97ff00f7-bar, ._3b95d7d910416e54-bar {
 	background: var(--second-color) !important;
 	border-radius: 4px;
 	margin: 0 !important;
 	box-shadow: var(--shadow);
-	border: none !important;
+	border: none;
+	width: 100px;
+	justify-self: center;
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
 	&:hover {
@@ -2248,7 +2249,7 @@ body {
 }
 
 /* Gallery and channel thread list */
-.faf9c0f0be1b8685-didRender>div:first-child {
+._5808f3d86030cee1-container {
 	padding-left: 0;
 	background: transparent;
 }
@@ -2577,7 +2578,7 @@ body {
 	background: var(--subtle-color);
 	box-shadow: var(--shadow);
 	border-radius: 8px;
-	margin: 0 0 0 12px;
+	margin: 0 0 12px;
 	border: none !important;
 	padding: 8px 0;
 	& .c19a557985eb7793-wrapper {
