@@ -369,6 +369,7 @@ body {
 ._06ab41fd2ef7af3f-nonMediaMosaicItem {
 	top: 4px;
 	right: 4px;
+	outline: none;
 }
 ._06ab41fd2ef7af3f-hoverButtonGroup {
 	box-shadow: var(--shadow);
