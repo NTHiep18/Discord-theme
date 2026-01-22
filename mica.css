@@ -136,6 +136,9 @@ body {
 .eb40697790f5b161-characterBackground .eb40697790f5b161-artwork {
 	display: none;
 }
+._44df51b030bd5ece-wrapper {
+	border: none;
+}
 
 /* BetterDiscord styling */
 #bd-notifications-root>* {
@@ -164,9 +167,8 @@ body {
 }
 .bd-addon-store-card {
 	background: var(--subtle-color) !important;
-	box-shadow: var(--shadow);
+	box-shadow: var(--shadow) !important;
 	transition: background-color 300ms ease-in-out !important;
-	transform: none !important;
 	&:hover {
 		background: var(--second-color) !important;
 	}
@@ -346,7 +348,7 @@ body {
 ._623de82e76ad7f82-embedFull {
 	border: none !important;
 	border-left: 4px solid var(--main-color) !important;
-	background: var(--subtle-color) !important;
+	background: var(--second-color) !important;
 	width: fit-content;
 	box-shadow: var(--shadow);
 }
@@ -497,7 +499,7 @@ body {
 ._4d95d73152192cf9-container,
 ._752971923a1e6683-markup code {
 	border: none !important;
-	background: var(--subtle-color) !important;
+	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	border-radius: 4px !important;
 }
@@ -1431,13 +1433,16 @@ body {
 	position: relative;
 	z-index: 2;
 }
-.b82947f00c464d81-roleRow {
-	position: relative;
-	height: 20px;
-	width: fit-content;
-	padding: 0 6px;
-	& > ._4f569b8941af22d1-roleCircle + div {
-		z-index: 1;
+.c1e9c47c23f12ca3-label:has(..b82947f00c464d81-roleRow) {
+	padding: 6px 0;
+	& .b82947f00c464d81-roleRow {
+		position: relative;
+		height: 20px;
+		width: fit-content;
+		padding: 0 6px;
+		& > ._4f569b8941af22d1-roleCircle + div {
+			z-index: 1;
+		}
 	}
 }
 ._50e22d8b0c6ff6cb-container {
@@ -2920,6 +2925,7 @@ body {
 	box-shadow: var(--shadow);
 	width: 30px;
 	height: 30px;
+	border-radius: 6px;
 	&:hover {
 		background: var(--main-color);
 	}
