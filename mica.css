@@ -1433,13 +1433,13 @@ body {
 	position: relative;
 	z-index: 2;
 }
-.c1e9c47c23f12ca3-label:has(..b82947f00c464d81-roleRow) {
+.c1e9c47c23f12ca3-label:has(.b82947f00c464d81-roleRow) {
 	padding: 6px 0;
 	& .b82947f00c464d81-roleRow {
 		position: relative;
 		height: 20px;
 		width: fit-content;
-		padding: 0 6px;
+		padding: 2 4px;
 		& > ._4f569b8941af22d1-roleCircle + div {
 			z-index: 1;
 		}
