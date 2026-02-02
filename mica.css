@@ -1845,9 +1845,10 @@ body {
 }
 
 .layer__960e4 .wrapper_ef3116 {
-    background: transparent;
     box-shadow: none;
 	margin-bottom: 0;
+	mask: none;
+	-webkit-mask: none;
 	& .scrollerBase_d125d2 {
 		scrollbar-width: none;
 	}
@@ -1861,8 +1862,8 @@ body {
 	border: none;
 	border-radius: 24px;
 }
-.wrapper_cc5dd2 {
-	border-radius: 24px;
+:not(.folderGroupBackground__48112) .wrapper_cc5dd2 {
+	border-radius: 20px;
 	overflow: hidden;
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
@@ -1891,7 +1892,6 @@ body {
 	margin: 0 !important;
 	box-shadow: var(--shadow);
 	border: none;
-	width: 100px;
 	justify-self: center;
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
@@ -2937,8 +2937,26 @@ body {
 		background: var(--main-color);
 	}
 }
+.button_aec7ab {
+	background: var(--second-color);
+	box-shadow: var(--shadow);
+	width: 30px;
+	height: 30px;
+	border-radius: 6px;
+	backdrop-filter: blur(var(--mica-filter));
+	&:hover {
+		background: var(--main-color);
+	}
+}
 .buttonInner_aec7ab {
 	border: none;
 	height: 30px;
 	width: 30px;
+}
+.gallery_d75751, .nav_b2eddf {
+	visibility: hidden;
+	}
+.carouselModal_d3a6f0:hover .gallery_d75751,
+.carouselModal_d3a6f0:hover .nav_b2eddf {
+	visibility: visible;
 }
