@@ -2941,6 +2941,11 @@ body {
 	padding: 24px;
 	margin: auto;
 	width: fit-content;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	border-radius: 8px;
+	backdrop-filter: blur(var(--mica-filter));
+	box-shadow: var(--shadow);
+	border: none !important;
 }
 .mediaArea_e03578 {
 	grid-row-start: 2;
