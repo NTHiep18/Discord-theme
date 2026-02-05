@@ -1525,7 +1525,7 @@ body {
 	border: none;
 	box-shadow: none;
 	&:before {
-		position: aboslute;
+		position: absolute;
 		content: "";
 		inset: 0;
 		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
