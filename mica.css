@@ -19,6 +19,7 @@
 	--background-position: center;
 	--shadow-color: rgb(0, 0, 0, .6); /* Color of box-shadow */
 	--shadow: 2px 2px 2px 1px var(--shadow-color);
+	--border-color: rgb(120, 160, 240, .4);
 
     /* Channel color */
     --channel-unread: #ffffff; /* Color of channels with new unread messages */
@@ -80,6 +81,7 @@ body {
 	backdrop-filter: blur(var(--mica-filter));
 	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
+	border: 1px solid var(--border-color) !important;
 }
 .sidebar__5e434:before {
 	position: absolute;
@@ -590,6 +592,7 @@ body {
 .channelTextArea__74017:focus-within:before {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow) !important;
+	border: 1px solid var(--border-color);
 }
 .channelTextArea__74017
 .channelBottomBarArea_f75fb0 .channelTextArea__74017 {
@@ -709,7 +712,6 @@ body {
     height: 40px;
     min-height: 40px;
 	padding: 0;
-	border: none !important;
 	z-index: 0;
 }
 .container__9293f .topic__6ec1a {
@@ -1990,7 +1992,7 @@ body {
     box-shadow: var(--shadow);
     border-radius: 8px;
     overflow: hidden;
-	border: none !important;
+	border: 1px solid var(--border-color);
 }
 .menu_c1e9c4:before {
 	position: absolute;
