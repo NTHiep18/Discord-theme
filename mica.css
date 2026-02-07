@@ -209,6 +209,7 @@ body {
 	&:hover {
 		background: var(--second-color) !important;
 	}
+}
 
 /* Main chat */
 .content_f75fb0, .subtitleContainer_f75fb0 {
@@ -1266,7 +1267,7 @@ body {
 .outer_ab8609:before,
 .outer_ab8609:after {
     background: var(--second-color) !important;
-	border: none !important;
+	border: 1px solid var(--border-color);
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
@@ -2553,7 +2554,7 @@ body {
 }
 .container__95796 {
 	background: var(--subtle-color);
-	border: none !important;
+	border: 1px solid var(--border-color);
 	box-shadow: var(--shadow) !important;
 	padding-right: 0;
 	border-radius: 8px;
