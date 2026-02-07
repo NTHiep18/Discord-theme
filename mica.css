@@ -201,11 +201,17 @@ body {
 .channelRow_e4503a {
 	background: var(--subtle-color);
 	border: none;
-	border: 1px solid var(--shadow-color);
+	border-left: 1px solid var(--border-color);
+	border-right: 1px solid var(--border-color);
+	&.lastChannel_e4503a {
+		border-bottom: 1px solid var(--border-color);
+	}
+	&.firstChannel_e4503a {
+		border-top: 1px solid var(--border-color);
+	}
 	&:hover {
 		background: var(--second-color) !important;
 	}
-}
 
 /* Main chat */
 .content_f75fb0, .subtitleContainer_f75fb0 {
@@ -1538,7 +1544,7 @@ body {
 		border-radius: 8px;
 		backdrop-filter: blur(var(--mica-filter));
 		box-shadow: var(--shadow);
-		border: none !important;
+		border: 1px solid var(--border-color);
 	}
 }
 .content_e9e3ed,
@@ -2944,11 +2950,11 @@ body {
 	padding: 24px;
 	margin: auto;
 	width: fit-content;
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	border-radius: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
-	border: none !important;
+	border: 1px solid var(--border-color) !important;
 }
 .mediaArea_e03578 {
 	grid-row-start: 2;
