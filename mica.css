@@ -1162,7 +1162,6 @@ body {
 }
 .outer_c0bea0 {
 	background: var(--background-image) var(--background-position) / cover no-repeat fixed  !important;
-	border: 1px solid var(--border-color);
 	padding: 0 !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
@@ -1175,11 +1174,12 @@ body {
 		display: block;
 		position: absolute;
 		content: "";
-		height: 100% !important;
-		width: 100% !important;
+		inset: 0;
 		background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 		backdrop-filter: blur(var(--mica-filter));
 		border-radius: 8px;
+		border: 1px solid var(--border-color);
+		box-sizing: border-box;
 	}
 }
 .profile__9c3be {
