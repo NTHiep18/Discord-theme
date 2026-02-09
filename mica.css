@@ -1065,7 +1065,7 @@ body {
 .modeSelected__2ea32 .link__2ea32 {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
-	border: 1px solid var(--border-color);
+	outline: 1px solid var(--border-color);
 }
 .modeSelected__2ea32:hover .link__2ea32 {
 	background: var(--main-color) !important;
