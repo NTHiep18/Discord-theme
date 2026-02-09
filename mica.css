@@ -1382,8 +1382,9 @@ body {
 	justify-content: center;
 	box-sizing: border-box;
 	height: 28px;
-	line-height: 28px;
+	line-height: 26px;
 	display: flex;
+	border: 1px solid transparent;
 }
 .item_aa8da2:hover {
 	background: var(--subtle-color);
