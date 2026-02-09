@@ -972,14 +972,27 @@ body {
 	left: 1px;
 }
 .bannerVisible_f37cb1 {
-	& .headerEllipseBackdrop_f37cb1, .headerEllipseForeground_f37cb1 {
+	background: transparent;
+	& .headerEllipseBackdrop_f37cb1, .headerEllipseForeground_f37cb1, .headerGlass_f37cb1 {
 		display: none;
 	}
+	& .headerContent_f37cb1 {
+		background: var(--second-color);
+		border-radius: 4px;
+		backdrop-filter: blur(var(--mica-filter));
+		gap: 0;
+		overflow: hidden;
+	}
+}
+.guildDropdown_f37cb1:hover, .inviteButton_f37cb1:hover {
+	background: var(--main-color);
+	border-radius: 0;
 }
 .container_f37cb1 .header_f37cb1 {
 	border: none;
 	height: 40px;
 	padding: 12px;
+	background: transparent;
 }
 .progressContainer__0d0f9 {
 	background: var(--second-color);
@@ -1055,7 +1068,8 @@ body {
 	box-sizing: border-box;
 }
 .linkTop__2ea32 {
-	gap: 0;
+	gap: 8px;
+	height: 100%;
 	align-items: center;
 	& .name__2ea32 {
 		font-size: 16px;
@@ -1187,8 +1201,9 @@ body {
 	gap: 0 !important;
 	padding: 0 !important;
 	border: 1px solid var(--border-color);
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
+	border-radius: 8px;
 	&:before {
 		display: block;
 		position: absolute;
@@ -1224,6 +1239,7 @@ body {
 		background: var(--second-color) !important;
 		box-shadow: var(--shadow);
 		border-radius: 8px;
+		border: 1px solid var(--border-color);
 	}
 }
 :not(.hasLeading__0f084) > .input__0ed4f {
@@ -1351,14 +1367,14 @@ body {
 	background: transparent;
 	flex-grow: 1;
 	flex-basis: 0;
-	text-align: center;
-	border: 1px solid transparent;
 	color: var(--text-standard) !important;
-	padding: 4px 0;
+	padding: 0;
 	border-radius: 6px;
-	margin: 0 !important;
 	justify-content: center;
 	box-sizing: border-box;
+	height: 28px;
+	line-height: 28px;
+	display: flex;
 }
 .item_aa8da2:hover {
 	background: var(--subtle-color);
@@ -1368,7 +1384,7 @@ body {
 	color: var(--text-standard);
 	background: var(--second-color);
 	box-shadow: var(--shadow);
-	border: 1px solid var(--border-color);
+	border: 1px solid var(--border-color) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
 		background: var(--main-color);
@@ -2721,9 +2737,6 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	& .inner_c0bea0 {
 		background: transparent !important;
-		&:before {
-			background: transparent;
-		}
 	}
 }
 .footer__49fc1 {
