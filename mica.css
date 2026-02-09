@@ -2372,7 +2372,7 @@ body {
 .tagList_f369db {
 	overflow: visible;
 	height: unset;
-}p
+}
 .pill_a2c9e8 {
 	background: var(--subtle-color);
 	border: none !important;
@@ -2409,7 +2409,7 @@ body {
 .sortDropdown_f369db {
 	margin-bottom: 0;
 }
-:not(header_f369db).mainCard_f369db {
+:not(.header_f369db).mainCard_f369db {
 	border: 1px solid var(--border-color);
 	transition: 300ms ease-in-out;
 	background: var(--subtle-color);
