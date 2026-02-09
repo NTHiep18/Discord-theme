@@ -261,7 +261,7 @@ body {
 	left: -64px !important;
 }
 /* Server tag */
-.clanTagChiplet_c19a55 {
+.clanTagChiplet_c19a55, .guildTagContainer__63ed3 {
 	background: var(--second-color);
 	border: 1px solid var(--border-color);
 	padding: 1px 2px;
@@ -1002,8 +1002,19 @@ body {
 		border-radius: 0 8px 0 0;
 	}
 }
+.container__0d0f9 {
+	margin-left: 0;
+	padding-top: 12px;
+}
 .progressContainer__0d0f9 {
+	background: var(--subtle-color);
+	& .progress__0d0f9 {
+		inset: 1px;
+	}
+}
+.container__0d0f9:hover .progressContainer__0d0f9 {
 	background: var(--second-color);
+	transition: 300ms ease-in-out;
 }
 .containerDefault_c69b6d:not(:last-child) {
 	margin-bottom: 1px;
@@ -1074,6 +1085,9 @@ body {
 	transition: background 300ms ease-in-out;
 	height: 32px;
 	box-sizing: border-box;
+}
+.content__65844 {
+	height: 100%;
 }
 .linkTop__2ea32 {
 	gap: 8px;
@@ -1239,7 +1253,7 @@ body {
 	background-color: transparent !important;
 }
 .hasLeading__0f084 {
-	border: none !important;
+	border: none;
 	outline: none !important; 
 	background: transparent;
 	transition: 300ms ease-in-out;
@@ -1377,7 +1391,7 @@ body {
 	flex-grow: 1;
 	flex-basis: 0;
 	color: var(--text-standard) !important;
-	padding: 0;
+	padding: 0 !important;
 	border-radius: 6px;
 	justify-content: center;
 	box-sizing: border-box;
