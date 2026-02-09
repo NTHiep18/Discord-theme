@@ -261,10 +261,10 @@ body {
 	left: -64px !important;
 }
 /* Server tag */
-.clanTagChiplet_c19a55, .guildTag__63ed3 {
+.clanTagChiplet_c19a55 {
 	background: var(--second-color);
-	border: none;
-	padding: 2px;
+	border: 1px solid var(--border-color);
+	padding: 1px 2px;
 	border-radius: 4px;
 	box-shadow: var(--shadow);
 	transition: 300ms ease-in-out;
@@ -276,7 +276,10 @@ body {
 	line-height: 12px !important;
 }
 .container_d3846c {
-	box-shadow: none;
+	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
+	backdrop-filter: blur(var(--mica-filter));
+	border: 1px solid var(--border-color);
+	box-shadow: var(--shadow);
 	border-radius: 8px;
 	&: .container_dca174 {
 		background: transparent;
@@ -295,11 +298,11 @@ body {
 	gap: 6px 8px;
 }
 .trait_a2b4d3 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
-	border: none;
+	background: var(--second-color);
+	border: 1px solid var(--border-color);
 	box-shadow: var(--shadow);
 	border-radius: 4px;
-	padding: 2px 4px;
+	padding: 1px 4px;
 }
 /* Jump bar */
 .chatContent_f75fb0 .newMessagesBar__0f481,
@@ -307,14 +310,13 @@ body {
 	border: 1px solid var(--border-color);
 	height: 24px;
 	background: var(--second-color);
-	padding-bottom: 0;
+	padding: 0 4px;
 	margin: 0;
 	left: auto !important;
 	width: fit-content;
 	box-shadow: var(--shadow);
 	border-radius: 4px;
 	min-height: 0;
-	padding-left: 8px;
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
 	&:hover {
@@ -977,7 +979,7 @@ body {
 		display: none;
 	}
 	& .headerContent_f37cb1 {
-		background: var(--second-color);
+		background: var(--subtle-color);
 		border-radius: 4px;
 		backdrop-filter: blur(var(--mica-filter));
 		gap: 0;
@@ -990,9 +992,15 @@ body {
 }
 .container_f37cb1 .header_f37cb1 {
 	border: none;
-	height: 40px;
-	padding: 12px;
+	height: 32px;
+	padding: 0px;
 	background: transparent;
+	& .guildDropdown_f37cb1 {
+		flex-grow: 1;
+	}
+	& .inviteButton_f37cb1 {
+		border-radius: 0 8px 0 0;
+	}
 }
 .progressContainer__0d0f9 {
 	background: var(--second-color);
@@ -1364,6 +1372,7 @@ body {
 	}
 }
 .top_aa8da2 .item_aa8da2 {
+	margin: 0 !important;
 	background: transparent;
 	flex-grow: 1;
 	flex-basis: 0;
@@ -1970,7 +1979,7 @@ body {
 	box-shadow: var(--shadow);
 	border: 1px solid var(--border-color);
 	justify-self: center;
-	padding: 3px 4px;
+	padding: 2px 4px;
 	backdrop-filter: blur(var(--mica-filter));
 	transition: 300ms ease-in-out;
 	&:hover {
