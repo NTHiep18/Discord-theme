@@ -826,6 +826,7 @@ body {
 }
 .panels__5e434 button.button__67645 {
 	border-radius: 0;
+	border: none;
 	height: 36px;
 	min-width: 36px;
 	background-color: var(--second-color) !important;
@@ -1048,13 +1049,15 @@ body {
 .link__2ea32 {
 	border-radius: 4px;
 	padding: 0 !important;
-	border: none;
+	border: 1px solid transparent;
 	transition: background 300ms ease-in-out;
+	height: 32px;
 }
 .linkTop__2ea32 {
 	gap: 0;
+	align-items: center;
 	& .name__2ea32 {
-		padding: 4px 8px;
+		padding: 3px 8px;
 		font-size: 16px;
 	}
 }
@@ -1349,9 +1352,9 @@ body {
 	flex-grow: 1;
 	flex-basis: 0;
 	text-align: center;
-	border: none;
+	border: 1px solid transparent;
 	color: var(--text-standard) !important;
-	line-height: 1.25rem;
+	line-height: calc(26 - 2px);
 	padding: 4px 0;
 	border-radius: 6px;
 	margin: 0 !important;
