@@ -172,8 +172,10 @@ body {
 	background: var(--subtle-color) !important;
 	box-shadow: var(--shadow) !important;
 	transition: background-color 300ms ease-in-out !important;
+	border: 1px solid var(--border-color);
 	&:hover {
 		background: var(--second-color) !important;
+		transform: none !important;
 	}
 	& .bd-addon-store-card-tag {
 		background: var(--main-color);
@@ -340,6 +342,8 @@ body {
 	& .button_a22cb0 {
 		background: transparent !important;
 		box-shadow: none;
+		border: none;
+		backdrop-filter: none;
 	}
 }
 .barButtonAlt__0f481, .sm_a22cb0 .buttonChildrenWrapper_a22cb0 {
@@ -965,6 +969,26 @@ body {
     margin-left: 6px;
     background-color: var(--channel-color);
 }
+
+.guildDropdown_f37cb1:hover, .inviteButton_f37cb1:hover {
+	background: var(--main-color);
+	border-radius: 0;
+}
+.container_f37cb1 .header_f37cb1 {
+	border: none;
+	height: 32px;
+	padding: 0px;
+	background: transparent;
+	width: calc(100% - 2px);
+	top: 1px;
+	left: 1px;
+	& .guildDropdown_f37cb1 {
+		flex-grow: 1;
+	}
+	& .inviteButton_f37cb1 {
+		border-radius: 0 8px 0 0;
+	}
+}
 .animatedContainer_f37cb1 {
 	border-radius: 8px;
 	top: 1px;
@@ -980,26 +1004,10 @@ body {
 	}
 	& .headerContent_f37cb1 {
 		background: var(--subtle-color);
-		border-radius: 4px;
+		border-radius: 8px;
 		backdrop-filter: blur(var(--mica-filter));
-		gap: 0;
+		gap: 4px;
 		overflow: hidden;
-	}
-}
-.guildDropdown_f37cb1:hover, .inviteButton_f37cb1:hover {
-	background: var(--main-color);
-	border-radius: 0;
-}
-.container_f37cb1 .header_f37cb1 {
-	border: none;
-	height: 32px;
-	padding: 0px;
-	background: transparent;
-	& .guildDropdown_f37cb1 {
-		flex-grow: 1;
-	}
-	& .inviteButton_f37cb1 {
-		border-radius: 0 8px 0 0;
 	}
 }
 .container__0d0f9 {
@@ -1257,7 +1265,7 @@ body {
 	border: none;
 	outline: none !important; 
 	background: transparent;
-	transition: 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
 	&:focus-within {
 		background: var(--second-color) !important;
 		box-shadow: var(--shadow);
