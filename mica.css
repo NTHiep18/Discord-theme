@@ -1606,6 +1606,7 @@ body {
 		backdrop-filter: blur(var(--mica-filter));
 		box-shadow: var(--shadow);
 		border: 1px solid var(--border-color);
+		z-index: -1;
 	}
 }
 .content_e9e3ed,
@@ -1622,6 +1623,9 @@ body {
 .sidebar__409aa {
 	padding: 8px;
 	border: none;
+	& .fixedContent__409aa {
+		padding: 0 4px;
+	}
 }
 .empty__99e7c {
 	fill: var(--second-color);
@@ -2528,7 +2532,7 @@ body {
 .container__6764b {
 	background: var(--subtle-color);
 	box-shadow: var(--shadow);
-	border: none !important;
+	border: 1px solid var(--border-color);
 	transition: 300ms ease-in-out;
 	&:hover {
 		background: var(--second-color);
