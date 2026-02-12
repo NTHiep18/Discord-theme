@@ -2067,6 +2067,7 @@ body {
     overflow: hidden;
 	border: 1px solid var(--border-color);
 	animation: dropdown 100ms ease-in-out;
+	transform-origin: top;
 }
 @keyframes dropdown {
 	from {
@@ -2121,6 +2122,7 @@ body {
 	border-radius: 4px;
 	box-shadow: var(--shadow);
 	width: 40px;
+	1px solid var(--border-color);
 	transition: 300ms ease-in-out;
 	&:hover {
 		background-color: var(--main-color);
@@ -2283,6 +2285,7 @@ body {
 	box-shadow: var(--shadow);
 	background: var(--second-color);
 	line-height: 12px;
+	border: 1px solid var(--border-color);
 }
 .content__908e2:before {
 	display: none;
