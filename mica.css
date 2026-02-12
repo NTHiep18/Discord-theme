@@ -2626,22 +2626,8 @@ body {
 .container_a54d1d {
 	padding: 0;
 }
-.messagesPopoutWrap_e8b59c {
-	background: transparent !important;	
-	border: none;
-	box-shadow: none;
-	&:before {
-		position: absolute;
-		content: "";
-		inset: 0;
-		background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
-		box-shadow: var(--shadow) !important;
-		backdrop-filter: blur(var(--mica-filter));
-		border: 1px solid var(--border-color);
-	}
-}
-.messages__1ccd1 {
-	background: transparent !important;	
+.messagesPopoutWrap_e8b59c, .messages__1ccd1 {
+	background: transparent;	
 	border: none;
 	box-shadow: none;
 }
@@ -2656,7 +2642,7 @@ body {
 	background: var(--subtle-color);
 	box-shadow: var(--shadow);
 	border-radius: 8px;
-	margin-top: 12px;
+	margin-top: 16px;
 	border: 1px solid var(--border-color);
 }
 .headerTabs_ab6641 {
