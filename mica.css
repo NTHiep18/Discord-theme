@@ -1099,11 +1099,12 @@ body {
 	height: 100%;
 }
 .linkTop__2ea32 {
-	gap: 8px;
+	gap: 0px;
 	height: 100%;
 	align-items: center;
 	& .name__2ea32 {
 		font-size: 16px;
+		padding: 0 8px;
 	}
 }
 .wrapper__2ea32:hover .link__2ea32 {
