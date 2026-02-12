@@ -88,10 +88,13 @@ body {
 	content: '';
 	inset: 0 0 0 64px;
 }
-.chatContent_f75fb0:before {
-	position: absolute;
-	content: '';
-	inset: 0;
+.chatContent_f75fb0 {
+	margin-right: 20px;
+	&:before {
+		position: absolute;
+		content: '';
+		inset: 0;
+	}
 }
 .pageBody__41ed7:before {
 	position: absolute;
@@ -2234,7 +2237,6 @@ body {
 .container_c8ffbb, .container__7641b {
 	position: relative;
 	border: none !important;
-	margin-left: 20px;
 }
 .membersGroup_c8ffbb {
 	display: flex;
