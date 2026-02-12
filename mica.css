@@ -2066,6 +2066,17 @@ body {
     border-radius: 8px;
     overflow: hidden;
 	border: 1px solid var(--border-color);
+	animation: dropdown 100ms ease-in-out;
+}
+@keyframes dropdown {
+	from {
+		opacity: 0;
+		transform: scaleY(0);
+	}
+	to {
+		opacity: 1;
+		transform: scaleY(1);
+	}
 }
 .menu_c1e9c4:before {
 	position: absolute;
@@ -2692,6 +2703,7 @@ body {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	transition: 300ms ease-in-out;
+	border: 1px solid var(--border-color);
 	&:hover {
 		background: var(--main-color) !important;
 	}
@@ -2702,7 +2714,7 @@ body {
 	padding: 12px !important;
 }
 .header_e8b59c {
-	border-bottom: 1px solid var(--border-color);
+	border-bottom: none;
 	padding: 16px 16px 8px !important;
 	background: transparent !important;
 }
