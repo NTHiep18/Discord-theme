@@ -2122,7 +2122,7 @@ body {
 	border-radius: 4px;
 	box-shadow: var(--shadow);
 	width: 40px;
-	1px solid var(--border-color);
+	border: 1px solid var(--border-color);
 	transition: 300ms ease-in-out;
 	&:hover {
 		background-color: var(--main-color);
@@ -2370,9 +2370,10 @@ body {
 /* Spoilers */
 .spoilerMarkdownContent__299eb {
     border-radius: 4px;
-	padding: 1px 4px;
+	padding: 0px 3px;
 	background: var(--subtle-color);
 	box-shadow: var(--shadow);
+	border: 1px solid var(--border-color);
 	&.hidden__299eb {
 		background-color: var(--second-color);
 	}
