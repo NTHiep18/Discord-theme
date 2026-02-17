@@ -799,10 +799,10 @@ body {
 	padding: 0;
 	gap: 0;
 	overflow: hidden;
-	border-radius: 0 0 8px 8px;
+	border-radius: 0;
 }
 .panels__5e434 .connection_e131a9 {
-	border-radius: 8px 8px 0 0;
+	border-radius: 0;
 	overflow: hidden;
 }
 .panels__5e434 .accountPopoutButtonWrapper__37e49 {
@@ -1190,6 +1190,8 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
+	border: 1px solid var(--border-color);
+	border-radius: 8px;
 }
 .previewContainer__6da2d {
 	background: transparent;
@@ -1694,9 +1696,6 @@ body {
 }
 .header__5a2c6 {
 	min-height: auto;
-}
-.avatar_d28e10 {
-	top: 12px;
 }
 .buttonContainer_e8b59c {
 	background: transparent;
@@ -2578,7 +2577,7 @@ body {
 }
 
 /* tooltips */
-.tooltip_c36707, .tooltip__4e35b {
+.tooltip_c36707, .tooltip__4e35b, .reactionTooltip_b49891 {
 	border-radius: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
@@ -2589,8 +2588,6 @@ body {
 	overflow: hidden;
 }
 .reactionTooltip_b49891 {
-	background: transparent;
-	box-shadow: none;
 	padding: 12px !important;
 }
 .caret__5bc6a {
