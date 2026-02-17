@@ -79,7 +79,7 @@ body {
 .container_f369db, .chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .list_dcc822 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
-	border-radius: 8px;
+	border-radius: 12px;
 	box-shadow: var(--shadow) !important;
 	border: 1px solid var(--border-color) !important;
 }
@@ -459,9 +459,17 @@ body {
 	margin-right: 8px;
 }
 .container__0be77, .container_f69538 {
-	background: var(--subtle-color);
+	background: var(--second-color);
 	border: none;
 	box-shadow: var(--shadow);
+}
+.answerInner__4c520 {
+	background: var(--second-color);
+	box-shadow: var(--shadow) !important;
+	outline: none;
+	&.currentlyVoting__4c520.selected__4c520 {
+		outline: 1px solid var(--border-color);
+	}
 }
 .chat_f02135:before {
 	display: none;
@@ -772,14 +780,13 @@ body {
 }
 .panels__5e434 {
 	grid-area: userPanel;
-	border-radius: 8px !important;
+	border-radius: 6px !important;
 	margin: 0;
 	min-width: 216px !important;
 	border: 1px solid var(--border-color);
 	background: transparent !important;
 	box-shadow: var(--shadow);
 	bottom: 12px;
-	left: 12px;
 	left: 12px;
 	width: calc(100% - 24px);
 	position: relative !important;
@@ -1602,6 +1609,7 @@ body {
 	background: transparent;
 	border: none;
 	box-shadow: none;
+	border-radius: 8px;
 	&:before {
 		position: absolute;
 		content: "";
@@ -2592,6 +2600,7 @@ body {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
+	border: 1px solid var(--border-color);
 }
 .layer__59d0d .guildSection_d5cd2d {
 	background: transparent;
