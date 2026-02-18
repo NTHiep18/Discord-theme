@@ -487,6 +487,7 @@ body {
 
 /* Main chat scrollbar */
 .scroller__36d07.scrollerBase_d125d2 {
+	scrollbar-width: auto;
     &::-webkit-scrollbar {
 		width: 8px;
     }
