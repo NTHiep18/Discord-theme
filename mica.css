@@ -159,6 +159,7 @@ body {
     backdrop-filter: blur(var(--mica-filter));
 	box-shadow: var(--shadow);
 	border-radius: 8px !important;
+	border: 1px solid var(--border-color);
 }
 .bd-modal-footer {
 	background: transparent !important;
