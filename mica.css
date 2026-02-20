@@ -836,7 +836,7 @@ body {
 	gap: 0;
 }
 .container__37e49:hover .buttons__37e49 {
-    width: 148px;
+    width: 128px;
 }
 .panels__5e434 button.button__67645 {
 	border-radius: 0;
@@ -851,7 +851,7 @@ body {
 		background-color: var(--main-color) !important;
 	}
 }
-.panels__5e434 button.buttonChevron__37e49 {
+.panels__5e434 button.buttonChevron__5e764 {
 	border-radius: 0;
 	height: 36px;
 	min-width: 20px;
@@ -1677,6 +1677,7 @@ body {
 	background: var(--subtle-color);
 	border-radius: 8px;
 	box-shadow: var(--shadow);
+	border: 1px solid var(--border-color);
 	& .mask__68edb circle {
 		display: none;
 	}
