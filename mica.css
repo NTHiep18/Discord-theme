@@ -481,6 +481,11 @@ body {
 .container__5e208 {
 	overflow: visible;
 }
+.container__60fa3 {
+	background: var(--subtle-color);
+	border: 1px solid var(--border-color);
+	box-shadow: var(--shadow);
+}
 .chatGradientBase__36d07 {
 	display: none;
 }
