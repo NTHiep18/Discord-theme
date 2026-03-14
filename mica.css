@@ -732,6 +732,10 @@ body {
 	right: 20px;
 	border-left: 1px solid var(--border-color);
 	z-index: 100;
+	& .clickable__81391 {
+		width: 32px;
+		height: 32px;
+	}
 } 
 .winButtons_c38106 {
 	gap: 0;
