@@ -341,7 +341,7 @@ body {
 	top: 12px;
 }
 .chatContent_f75fb0 .jumpToPresentBar__0f481 {
-	right: 16px;
+	right: 12px;
 	bottom: 8px;
 	padding: 0;
 	& .button_a22cb0 {
@@ -354,6 +354,9 @@ body {
 .barButtonAlt__0f481, .sm_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: 4px;
 	background: transparent;
+}
+.barButtonBase__0f481 {
+	line-height: 24px;
 }
 .toast__3fde7 {
 	border-radius: 8px;
@@ -1582,7 +1585,8 @@ body {
 .heading-lg\/bold_cf4812, 
 .heading-md\/medium_cf4812,
 .text-md\/semibold_cf4812 {
-	color: var(--text-standard) !important; 
+	color: var(--text-standard) !important;
+	line-height: unset;
 }
 .activity__5be3e path {
 	fill: var(--text-standard) !important;
