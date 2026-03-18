@@ -1871,10 +1871,10 @@ body {
 	border: none;
 }
 .searchResult__80bf8 {
-	background: rgb(from var(--mica-color) r g b / var(--mica-filter));
+	background: var(--subtle-color)1;
 	border-radius: 8px;
 	box-shadow: var(--shadow);
-	border: none;
+	border: 1px solid var(--border-color);
 }
 .option__56fec:hover {
 	background: var(--main-color);
