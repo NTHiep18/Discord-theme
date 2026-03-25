@@ -1605,6 +1605,9 @@ body {
 		padding-left: 0
 	}
 }
+.note_eb110a {
+	margin-top: 4px;
+}
 .menus_ce8328 {
 	gap: 0;
 	& .menuItem_ce8328:after {
@@ -1871,7 +1874,7 @@ body {
 	border: none;
 }
 .searchResult__80bf8 {
-	background: var(--subtle-color)1;
+	background: var(--subtle-color);
 	border-radius: 8px;
 	box-shadow: var(--shadow);
 	border: 1px solid var(--border-color);
@@ -1933,6 +1936,7 @@ body {
 .content_f75fb0 .searchResultsWrap_a98f3b {
 	border-left: none;
 	margin-left: 20px;
+	overflow: visible;
 }
 .pageButton_c15210 {
 	min-height: 28px;
