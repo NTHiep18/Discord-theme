@@ -1120,6 +1120,7 @@ body {
 	transition: background 300ms ease-in-out;
 	height: 32px;
 	box-sizing: border-box;
+	outline: 1px solid transparent;
 }
 .content__65844 {
 	height: 100%;
@@ -1140,7 +1141,7 @@ body {
 .modeSelected__2ea32 .link__2ea32 {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
-	outline: 1px solid var(--border-color);
+	outline-color: var(--border-color);
 }
 .modeSelected__2ea32:hover .link__2ea32 {
 	background: var(--main-color) !important;
@@ -1414,7 +1415,7 @@ body {
 }
 .item_aa8da2 {
 	transition: background 300ms ease-in-out !important;
-	color: var(--channel-color) !important;
+	color: var(--color-standard) !important;
 	font-size: 16px !important;
 	min-height: 0 !important;
 	&:after {
@@ -2222,14 +2223,14 @@ body {
 	overflow: visible;
 }
 .searchBar__5ec2f {
-	margin: 12px 16px;
+	margin: 12px;
 }
 .channel__972a0 {
 	margin: 8px;
 }
 .peopleListItem_cc6179 {
 	border-top: 1px solid var(--text-faded) !important;
-	margin: 0 20px !important;
+	margin: 0 12px !important;
 	padding: 0 10px;
 }
 .peopleListItem_cc6179:hover, .peopleListItem_cc6179.active_cc6179 {
@@ -2237,26 +2238,30 @@ body {
 	padding-left: 15px;
 	border-radius: 0;
 }
-.actionButton_f8fa06, .actionButton_f8fa06.highlight_f8fa06, .emptyCard__7e549 {
+.actionButton_f8fa06, .emptyCard__7e549 {
 	background: none;
 	box-shadow: none;
+	border: 1px solid transparent;
 }
-.peopleListItem_cc6179:hover .actionButton_f8fa06, .actionButton_f8fa06.highlight_f8fa06,
+.peopleListItem_cc6179:hover .actionButton_f8fa06,
 .peopleListItem_cc6179:hover .emptyCard__7e549 {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	transition: 300ms ease-in-out;
-	border: 1px solid var(--border-color);
+	border-color: var(--border-color);
 	&:hover {
 		background: var(--main-color) !important;
 	}
 }
 .title__1472a {
 	color: var(--text-standard);
+	margin: 12px;
 }
-.interactive_bf202d:hover {
-	background: var(--subtle-color);
+.interactive_bf202d {
 	border: 1px solid var(--transparent);
+	&:hover {
+		background: var(--subtle-color);
+	}
 }
 .selected_bf202d {
 	background: var(--second-color) !important;
