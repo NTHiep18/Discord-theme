@@ -1442,12 +1442,12 @@ body {
 }
 .selected_aa8da2.item_aa8da2 {
 	color: var(--text-standard);
-	background: var(--second-color);
+	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	border: 1px solid var(--border-color) !important;
 	transition: 300ms ease-in-out;
 	&:hover {
-		background: var(--main-color);
+		background: var(--main-color) !important;
 	}
 }
 .tabBarPanel__37bfc {
@@ -2221,12 +2221,15 @@ body {
 	border: none !important;
 	overflow: visible;
 }
+.searchBar__5ec2f {
+	margin: 12px 16px;
+}
 .channel__972a0 {
 	margin: 8px;
 }
 .peopleListItem_cc6179 {
 	border-top: 1px solid var(--text-faded) !important;
-	margin: 0 20px 0 30px !important;
+	margin: 0 20px !important;
 	padding: 0 10px;
 }
 .peopleListItem_cc6179:hover, .peopleListItem_cc6179.active_cc6179 {
@@ -2243,6 +2246,7 @@ body {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow);
 	transition: 300ms ease-in-out;
+	border: 1px solid var(--border-color);
 	&:hover {
 		background: var(--main-color) !important;
 	}
@@ -2250,12 +2254,14 @@ body {
 .title__1472a {
 	color: var(--text-standard);
 }
-.interactive_bf202d:hover, .interactive_bf202d:focus-within {
-	background: none;
+.interactive_bf202d:hover {
+	background: var(--subtle-color);
+	border: 1px solid var(--transparent);
 }
 .selected_bf202d {
 	background: var(--second-color) !important;
 	background-position: 100%;
+	border-color: var(--border-color);
 	transition: 300ms ease-in-out;
 	box-shadow: var(--shadow);
 	&:hover {
