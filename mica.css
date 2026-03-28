@@ -781,6 +781,9 @@ body {
 		padding: 4px;
 	}
 }
+.threadSidebarOpen_f75fb0v .toolbar__9293f {
+	padding-right: 0;
+}
 .search__49676 {
 	margin: 0;
 }
@@ -1253,7 +1256,7 @@ body {
 	backdrop-filter: none !important;
 }
 .outer_c0bea0 {
-	background: var(--background-image) var(--background-position) / cover no-repeat fixed  !important;
+	background: var(--background-image) cover no-repeat fixed  !important;
 	padding: 0 !important;
 	border-radius: 8px !important;
 	box-shadow: var(--shadow);
@@ -1804,25 +1807,26 @@ body {
 
 /* Search box */
 .search_c322aa {
-	background: transparent !important;
-	border: none !important;
-	border-radius: 6px !important;
-	transition: 300ms !important;
+	background: transparent;
+	border: none;
+	border-radius: 4px;
+	transition: 300ms;
 	width: 40px;
 	&.open_c322aa {
-		background: var(--second-color) !important;
+		background: var(--second-color);
 		box-shadow: var(--shadow);
 		width: 200px;
-		margin-right: 8px
+		margin-right: 8px;
 	}
 }
 .search_c322aa .DraftEditor-root {
-	padding: 0  4px!important;
+	padding: 0;
 	font-size: 16px;
 	flex: 0;
 }
 .open_c322aa .DraftEditor-root {
 	flex: 1;
+	padding: 0 4px;
 }
 .search_c322aa .DraftEditor-root .public-DraftEditor-content, .search_c322aa .DraftEditor-root .public-DraftEditorPlaceholder-root {
 	scrollbar-width: none;
@@ -1832,6 +1836,7 @@ body {
 	border: none;
 	width: auto;
 	height: 28px;
+	border-radius: 4px;
 }
 .searchBar_c322aa .icon_c322aa {
 	width: 32px;
