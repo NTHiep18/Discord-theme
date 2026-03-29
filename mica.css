@@ -1812,7 +1812,7 @@ body {
 /* Search box */
 .search_c322aa {
 	background: transparent;
-	border: none;
+	border: 1px solid transparent;
 	border-radius: 4px;
 	transition: 300ms;
 	width: 40px;
@@ -1821,6 +1821,7 @@ body {
 		box-shadow: var(--shadow);
 		width: 200px;
 		margin-right: 8px;
+		border-color: var(--border-color);
 	}
 }
 .search_c322aa .DraftEditor-root {
@@ -1855,9 +1856,6 @@ body {
 }
 .icon_fea832 {
 	cursor: pointer;
-}
-.searchBar_c322aa:focus-within {
-	background: var(--second-color);
 }
 .searchAnswer_bd8186, .searchFilter_bd8186 {
 	background-color: var(--main-color);
