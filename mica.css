@@ -468,15 +468,19 @@ body {
 }
 .container__0be77, .container_f69538 {
 	background: var(--second-color);
-	border: none;
+	border: 1px solid var(--border-color);
 	box-shadow: var(--shadow);
 }
 .answerInner__4c520 {
-	background: var(--second-color);
+	background: var(--subtle-color);
 	box-shadow: var(--shadow) !important;
 	outline: none;
+	border: 1px solid var(--border-color);
 	&.currentlyVoting__4c520.selected__4c520 {
-		outline: 1px solid var(--border-color);
+		background: var(--second-color);
+	}
+	&.victoryStyle_a1443c {
+		background: var(--main-color);
 	}
 }
 .chat_f02135:before {
