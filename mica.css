@@ -2354,6 +2354,7 @@ body {
 }
 .member__5d473 {
 	margin-left: 0;
+	border-radius: 0;
 	background: transparent;
 }
 /* Auto hide member list */
@@ -2364,7 +2365,7 @@ body {
 .container_c8ffbb:hover, .membersWrap_c8ffbb:not(.container_c8ffbb > .membersWrap_c8ffbb):hover {
 	width: 240px;
 }
-.membersWrap_c8ffbb, .membersWrap_c8ffbb {
+.membersWrap_c8ffbb {
 	min-width: 0;
 	width: inherit;
 }
