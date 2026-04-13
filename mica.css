@@ -2244,9 +2244,10 @@ body {
 	margin: 8px;
 }
 .peopleListItem_cc6179 {
-	border-top: 1px solid var(--text-faded) !important;
+	border-top: 1px solid var(--subtle-color) !important;
 	margin: 0 12px !important;
 	padding: 0 10px;
+	border-radius: 0;
 }
 .peopleListItem_cc6179:hover, .peopleListItem_cc6179.active_cc6179 {
 	background: transparent;
