@@ -1297,7 +1297,12 @@ body {
 	border-radius: 0;
 }
 .overlay_c0bea0 {
-	background-color: transparent !important;
+	background-color: var(--subtle-color);
+	border: 1px solid var(--border-color);
+	box-shadow: var(--shadow);
+	border-radius: 6px;
+	padding: 6px;
+	backdrop-filter: none;
 }
 .hasLeading__0f084 {
 	border: none;
@@ -1400,9 +1405,6 @@ body {
     box-shadow: var(--shadow) !important;
 	padding: 0;
 	backdrop-filter: blur(var(--mica-filter));
-}
-.card__39ec2 {
-	padding: 0;
 }
 .profileBody__9c3be {
 	gap: 8px;
@@ -1584,7 +1586,7 @@ body {
 	color: var(--channel-color) !important;
 }
 .pronouns__63ed3, .dotSpacer__63ed3,
-.userTagUsername__63ed3, .listRow__9d78f, .secondary_a22cb0, .platformUrlIcon__9bfb9,
+.userTagUsername__26b1f, .listRow__9d78f, .secondary_a22cb0, .platformUrlIcon__9bfb9,
 .guildNick_aafe31, .discordIcon_c4eb81, .emptyText__9d78f,
 .text-xs\/semibold_cf4812, .text-xs\/medium_cf4812, .text-xs\/normal_cf4812,
 .text-xxs\/medium_cf4812,
@@ -1596,8 +1598,11 @@ body {
 	color: var(--text-standard) !important;
 	line-height: unset;
 }
-.activity__5be3e path {
+.activity__5be3e path, .badgeContainer__635ed path {
 	fill: var(--text-standard) !important;
+}
+.row__89036, .row__0a95c {
+	color: var(--text-standard) !important;
 }
 .profileAppConnections__9c3be {
 	gap: 8px;
@@ -2143,11 +2148,6 @@ body {
 	}
 }
 
-/* loading circle */
-.loadingPopout__58f1c {
-	background: transparent;
-}
-
 /* Right click menu */
 .menu_c1e9c4, .layerContainer__59d0d .container__3dde2 {
 	background-color: rgb(from var(--mica-color) r g b / var(--mica-opacity));
@@ -2488,6 +2488,8 @@ body {
 /* Gallery and channel thread list */
 .popout__76f04 {
 	margin-left: 0;
+	padding: 8px;
+	gap: 4px;
 }
 .list_f369db>div:first-child {
 	padding: 0 !important;
