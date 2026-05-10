@@ -915,10 +915,6 @@ body {
 .menus_ce8328 {
 	gap: 4px;
 }
-.menuOverlay_ce8328 {
-	padding: 4px 6px;
-	overflow: visible;
-}
 .menuDivider_ce8328 {
 	height: 0;
 	margin: 6px;
@@ -1646,6 +1642,8 @@ body {
 .menuOverlay_ce8328 {
 	padding: 0;
 	overflow: visible;
+	background: transparent;
+	border-radius: 0;
 }
 
 /* Setting menu */
@@ -2694,7 +2692,7 @@ body {
 }
 
 /* tooltips */
-.tooltip_c36707, .tooltip__4e35b, .reactionTooltip_b49891 {
+.tooltip_c36707, .tooltip__4e35b, .reactionTooltip_bbcccb {
 	border-radius: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
@@ -2704,8 +2702,25 @@ body {
 	box-shadow: var(--shadow);
 	overflow: hidden;
 }
-.reactionTooltip_b49891 {
+.tooltip__4e35b, .guildTooltipWrapper_b1f768 {
+	max-width: none;
+}
+.reactionTooltip_bbcccb {
 	padding: 12px !important;
+}
+.reactionEmojiDetailsClickable__5a408 {
+	background: var(--second-color) !important;
+	box-shadow: var(--shadow);
+	border: 1px solid var(--border-color);
+	&:hover {
+		background: var(--main-color) !important;
+	}
+	& > .text-sm\/normal_cf4812 {
+		line-height: 16px;
+	}
+	& > .reactionEmojiDetailsArrow__5a408 {
+		margin-top: 0;
+	}
 }
 .caret__5bc6a {
     display:none;
