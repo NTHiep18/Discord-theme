@@ -2790,9 +2790,6 @@ body {
 		backdrop-filter: blur(var(--mica-filter));
 	}
 }
-.recentMentionsPopout__95796 .scrollerBase_d125d2 {
-	padding: 16px !important;
-}
 .container_a54d1d {
 	padding: 0;
 }
@@ -2820,7 +2817,7 @@ body {
 	gap: 4px;
 }
 .header_ab6641 {
-	padding: 8px 16px;
+	padding: 12px;
 	border-bottom: none;
 }
 .tabBar_ab6641 {
@@ -2891,6 +2888,8 @@ body {
 	border: none !important;
 	padding: 4px !important;
 	transition: 300ms ease-in-out;
+	left: 8px;
+	top: 8px;
 	&:hover {
 		background: var(--main-color) !important;
 	}
