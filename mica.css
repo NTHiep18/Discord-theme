@@ -1718,27 +1718,6 @@ body {
 .bar_a562c8 {
 	box-shadow: var(--shadow);
 }
-.accountProfileCard_a27e58 {
-	background: var(--subtle-color);
-	border-radius: 8px;
-	box-shadow: var(--shadow);
-	border: 1px solid var(--border-color);
-	& .mask__68edb circle {
-		display: none;
-	}
-}
-.userInfo_a27e58 {
-	padding: 16px;
-	& .avatar_a27e58 {
-		position: relative;
-		inset-inline-start: 0;
-		top: -8px;
-		margin-right: 20px;
-	}
-	& > :last-child {
-		margin-left: auto;
-	}
-}
 .background_a27e58, .fieldList_a27e58 {
 	background: transparent;
 }
