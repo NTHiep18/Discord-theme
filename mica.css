@@ -1292,7 +1292,7 @@ body {
 .user-profile-modal-v2 :where(.banner__68edb) {
 	border-radius: 0;
 }
-:not(.menuOverlay_c0bea0).overlay_c0bea0 {
+:not(.menuOverlay_ce8328).overlay_c0bea0 {
 	background-color: var(--subtle-color);
 	border: 1px solid var(--border-color);
 	box-shadow: var(--shadow);
