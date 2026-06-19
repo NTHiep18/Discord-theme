@@ -79,7 +79,7 @@ body {
 .container_f369db, .chatHeaderBar_a5700d, .modal__9a792, .authBox__921c5, .list_dcc822 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity)) !important;
 	backdrop-filter: blur(var(--mica-filter));
-	border-radius: 12px;
+	border-radius: 8px;
 	box-shadow: var(--shadow) !important;
 	border: 1px solid var(--border-color) !important;
 }
@@ -267,6 +267,7 @@ body {
 .cozy_c19a55 .timestamp_c19a55 {
 	left: -64px !important;
 }
+
 /* Server tag */
 .clanTagChiplet_c19a55, .guildTagContainer__63ed3 {
 	background: var(--second-color);
@@ -615,14 +616,13 @@ body {
 }
 .channelTextArea__74017 {
 	background: transparent !important;
-	border-radius: 8px;
 	margin-bottom: 0px;
 	border: none;
 }
 .channelTextArea__74017:before {
 	transition: 300ms ease-in-out;
 	background: var(--subtle-color) !important;
-	border-radius: 8px;
+	border-radius: 4px;
 	position: absolute;
 	content: '';
 	inset: 0;
@@ -805,7 +805,7 @@ body {
 }
 .panels__5e434 {
 	grid-area: userPanel;
-	border-radius: 6px !important;
+	border-radius: 4px !important;
 	margin: 0;
 	min-width: 216px !important;
 	border: 1px solid var(--border-color);
@@ -1629,7 +1629,7 @@ body {
 	}
 	& .menuItemInner_ce8328 {
 		border-radius: 4px;
-		padding: 6px 8px;
+		padding: 0;
 		border: 1px solid transparent;
 		transition: 300ms ease-in-out;
 		&:hover {
