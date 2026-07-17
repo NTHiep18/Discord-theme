@@ -790,6 +790,8 @@ body {
 }
 .search__49676 {
 	margin: 0;
+	min-width: 32px;
+	width: unset;
 }
 
 .iconWrapper__9293f {
@@ -1805,7 +1807,7 @@ body {
 	border: 1px solid transparent;
 	border-radius: 4px;
 	transition: 300ms;
-	width: 40px;
+	width: 32px;
 	&.open_c322aa {
 		background: var(--second-color);
 		box-shadow: var(--shadow);
