@@ -772,8 +772,8 @@ body {
 .base__5e434 .children__9293f:after {
 	width: 1px;
 	height: 32px;
-	top: 4px;
-	background: var(--text-faded);
+	top: 3px;
+	background: var(--border-color);
 }
 .divider__9293f {
 	background: var(--text-standard);
@@ -835,6 +835,7 @@ body {
 }
 .panels__5e434 .accountPopoutButtonWrapper__37e49 {
     width: 100%;
+	height: 100%;
     transition: 300ms;
 	margin-right: 0;
 	border-radius: 0;
@@ -844,6 +845,9 @@ body {
 		transition: 300ms;
 		border-radius: 0;	
 	}
+}
+.panels__5e434 .panelTitleContainer__37e49 {
+	padding-bottom: 1px;
 }
 .panels__5e434 .voiceButtonsContainer_e131a9 {
 	margin-left: 0;
@@ -1721,7 +1725,7 @@ body {
 .header__5a2c6 {
 	min-height: auto;
 }
-.buttonContainer_e8b59c {
+.buttonContainer__432f4 {
 	background: transparent;
 }
 .button__201d5, .button_a22cb0 {
@@ -2672,7 +2676,7 @@ body {
 }
 
 /* tooltips */
-.tooltip_c36707, .tooltip__4e35b, .reactionTooltip_bbcccb {
+.tooltip_c36707, .tooltip_fa450d, .reactionTooltip_bbcccb {
 	border-radius: 8px;
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	backdrop-filter: blur(var(--mica-filter));
@@ -2682,7 +2686,7 @@ body {
 	box-shadow: var(--shadow);
 	overflow: hidden;
 }
-.tooltip__4e35b, .guildTooltipWrapper_b1f768 {
+.tooltip_fa450d, .guildTooltipWrapper_b1f768 {
 	max-width: none;
 }
 .reactionTooltip_bbcccb {
@@ -2750,7 +2754,7 @@ body {
 		backdrop-filter: blur(var(--mica-filter));
 		z-index: -1;
 	}
-	& .messagesPopoutWrap_e8b59c {
+	& .messagesPopoutWrap__432f4 {
 		background: transparent;	
 		border: none;
 		box-shadow: none;
@@ -2759,7 +2763,7 @@ body {
 		}
 	}
 }
-.messagesPopoutWrap_e8b59c {
+.messagesPopoutWrap__432f4 {
 	background: rgb(from var(--mica-color) r g b / var(--mica-opacity));
 	box-shadow: var(--shadow);
 	border: 1px solid var(--border-color);
@@ -2835,15 +2839,15 @@ body {
 }
 
 /* pin */
-.messagesPopoutWrap_e8b59c .scrollerBase_d125d2 {
+.messagesPopoutWrap__432f4 .scrollerBase_d125d2 {
 	padding: 12px !important;
 }
-.header_e8b59c {
+.header__432f4 {
 	border-bottom: none;
 	padding: 16px 16px 8px !important;
 	background: transparent !important;
 }
-.messageGroupWrapper_e8b59c {
+.messageGroupWrapper__432f4 {
 	background: var(--subtle-color);
 	box-shadow: var(--shadow);
 	border-radius: 8px;
@@ -2855,13 +2859,13 @@ body {
 		padding-bottom: 0 !important;
 	}
 }
-.footer_e8b59c {
+.footer__432f4 {
 	background: transparent;
 }
-.actionButtons_e8b59c {
+.actionButtons__432f4 {
 	right: 8px;
 }
-.jumpButton_e8b59c, .button__06eda, .jumpMessageButton__95796, .jumpButton_ed0c8c {
+.jumpButton__432f4, .button__06eda, .jumpMessageButton__95796, .jumpButton_ed0c8c {
 	background: var(--second-color) !important;
 	box-shadow: var(--shadow) !important;
 	border-radius: 4px;
